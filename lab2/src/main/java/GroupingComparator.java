@@ -1,2 +1,2 @@
-public class GroupingComparatorClass {
+public class GroupingComparator {
 }
