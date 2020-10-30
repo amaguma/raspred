@@ -7,6 +7,6 @@ import java.io.IOException;
 public class AirportMapper extends Mapper<LongWritable, Text, AirportWritable, Text> {
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        String[] line = value.toString().split()
+        String[] columns = value.toString().split()
     }
 }
