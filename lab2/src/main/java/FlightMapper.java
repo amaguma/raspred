@@ -11,11 +11,11 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
         String[] columns = value.toString().split(",");
         if (key.get() > 0) {
             int id = Integer.parseInt(columns[14]);
-            float delay = Float.parseFloat(columns[18]);
+            double delay = Double.parseDouble(columns[18]);
             if (delay == 0) {
                 return;
             }
-            context.write(new AirportWritable(id, 1), new Text());
+            context.write(new AirportWritable(id, 1), new Text(columns[18]));
         }
     }
 }
