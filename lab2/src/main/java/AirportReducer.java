@@ -27,6 +27,6 @@ public class AirportReducer extends Reducer<AirportWritable, Text, NullWritable,
             }
         }
         sum /= count;
-        context.write(new Text(airportName + " " + String.format("%f %f %f", min, sum, max)));
+        context.write(airportName, new Text(" " + String.format("%f %f %f", min, sum, max)));
     }
 }
