@@ -14,8 +14,8 @@ public class AirportReducer extends Reducer<AirportWritable, Text, IntWritable, 
         double min = Double.MAX_VALUE;
         double count = 0;
         double sum = 0;
-
-
-        while()
+        while(iterator.hasNext()) {
+            
+        }
     }
 }
