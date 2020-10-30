@@ -95,7 +95,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="795" />
     <option name="y" value="47" />
     <option name="width" value="1132" />
@@ -169,12 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604091641347</updated>
-      <workItem from="1604091645349" duration="3347000" />
+      <workItem from="1604091645349" duration="3847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3347000" />
+    <option name="totallyTimeSpent" value="3847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="636" y="38" width="905" height="832" extended-state="0" />
