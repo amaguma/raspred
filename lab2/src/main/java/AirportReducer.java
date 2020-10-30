@@ -18,7 +18,7 @@ public class AirportReducer extends Reducer<AirportWritable, Text, IntWritable, 
             double delay = Double.parseDouble(iterator.next().toString());
             sum += delay;
             count++;
-            
+            if (delay )
         }
     }
 }
