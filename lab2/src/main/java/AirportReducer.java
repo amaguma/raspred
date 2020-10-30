@@ -1,2 +1,2 @@
-public class AirportReducer {
+public class AirportReducer extends  {
 }
