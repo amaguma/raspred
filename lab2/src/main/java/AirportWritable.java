@@ -7,5 +7,9 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
     private int indicator;
 
 
-    public 
+    public AirportWritable () {}
+
+    public AirportWritable(int id, int indicator) {
+        
+    }
 }
