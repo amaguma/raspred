@@ -19,6 +19,6 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
     }
 
     public void write(DataOutput dataOutput) throws IOException {
-
+        dataOutput.writeInt(this.id);
     }
 }
