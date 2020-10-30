@@ -5,6 +5,7 @@ public class Join {
         if (args.length != 3) {
             System.exit(-1);
         }
-        Job job = 
+        Job job = Job.getInstance();
+        
     }
 }
