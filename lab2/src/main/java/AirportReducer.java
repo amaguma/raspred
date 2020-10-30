@@ -12,6 +12,10 @@ public class AirportReducer extends Reducer<AirportWritable, Text, IntWritable, 
         String airportName = iterator.next().toString();
         double max = Double.MIN_VALUE;
         double min = Double.MAX_VALUE;
+        double count = 0;
+        double sum = 0;
+
+
         while()
     }
 }
