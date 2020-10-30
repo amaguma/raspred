@@ -48,7 +48,7 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
     }
 
     @Override
-    public int compareTo(AirportWritable el) {
-        int 
+    public int compareTo(AirportWritable obj) {
+        int result = id.compareTo(obj.id)
     }
 }
