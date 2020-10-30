@@ -8,6 +8,8 @@ public class GroupingComparator extends WritableComparator {
     }
 
     @Override
-    public int compare(WritableComparable w1)
+    public int compare(WritableComparable w1, WritableComparable w2) {
+        
+    }
 
 }
