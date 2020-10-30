@@ -1,2 +1,2 @@
-public class GroupingComparator {
+public class GroupingComparator extends  {
 }
