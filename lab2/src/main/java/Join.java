@@ -6,6 +6,6 @@ public class Join {
             System.exit(-1);
         }
         Job job = Job.getInstance();
-        job.setJarByClass();
+        job.setJarByClass(Join);
     }
 }
