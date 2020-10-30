@@ -18,7 +18,12 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
         this.indicator = indicator;
     }
 
+    @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(id);
+        dataOutput.writeInt(indicator);
     }
+
+    @Override
+    public void read()
 }
