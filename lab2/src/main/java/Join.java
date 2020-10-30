@@ -7,6 +7,7 @@ public class Join {
         }
         Job job = Job.getInstance();
         job.setJarByClass(Join.class);
-        job.setJobName("Airport");
+        job.setJobName("Airport join");
+        
     }
 }
