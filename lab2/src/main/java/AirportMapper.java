@@ -11,7 +11,8 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritable, T
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String[] columns = value.toString().split(",");
         if (key.get() > 0) {
-            
+            int id = Integer.parseInt(columns[0].replaceAll("\"",""));
+            awKey.setId(id);
         }
     }
 }
