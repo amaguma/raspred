@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import org.apache.hadoop.mapreduce.Mapper;
 
-public class AirportMapper {
+public class AirportMapper extends Mapper {
 }
