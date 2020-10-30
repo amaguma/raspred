@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1659004-7daf-4ff5-b71c-142d36c98e64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" afterDir="false" />
-    </list>
+    <list default="true" id="d1659004-7daf-4ff5-b71c-142d36c98e64" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,10 +60,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportPartitioner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="102">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +113,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="371" />
     <option name="y" value="68" />
     <option name="width" value="1318" />
@@ -188,15 +187,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604091641347</updated>
-      <workItem from="1604091645349" duration="6041000" />
+      <workItem from="1604091645349" duration="6285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6041000" />
+    <option name="totallyTimeSpent" value="6285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="55" width="1054" height="832" extended-state="1" />
+    <frame x="297" y="55" width="1054" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -295,10 +294,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
