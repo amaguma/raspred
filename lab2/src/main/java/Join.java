@@ -1,3 +1,3 @@
 public class Join {
-    public static 
+    public static void main
 }
