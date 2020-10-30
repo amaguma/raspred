@@ -49,6 +49,18 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
 
     @Override
     public int compareTo(AirportWritable obj) {
-        int result = id.compareTo(obj.id);
+        if (this.id - obj.id != 0) {
+            return this.id - obj.id;
+        }
+        if (indicator == 1) {
+            if (obj.indicator == 0) {
+                return 1;
+            }
+        } else {
+            if (obj.indicator == 1) {
+                return -1;
+            }
+        }
+        return 0;
     }
 }
