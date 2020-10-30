@@ -25,5 +25,6 @@ public class AirportReducer extends Reducer<AirportWritable, Text, IntWritable, 
                 max = delay;
             }
         }
+        sum /= count;
     }
 }
