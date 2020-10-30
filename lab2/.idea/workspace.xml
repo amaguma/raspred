@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1659004-7daf-4ff5-b71c-142d36c98e64" name="Default Changelist" comment="" />
+    <list default="true" id="d1659004-7daf-4ff5-b71c-142d36c98e64" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/GroupingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GroupingComparator.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,14 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportPartitioner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GroupingComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -102,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GroupingComparator.java" />
       </list>
     </option>
   </component>
@@ -186,15 +198,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604091641347</updated>
-      <workItem from="1604091645349" duration="7229000" />
+      <workItem from="1604091645349" duration="7509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7229000" />
+    <option name="totallyTimeSpent" value="7509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="55" width="1054" height="832" extended-state="0" />
+    <frame x="297" y="55" width="1054" height="832" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -293,11 +305,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GroupingComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
