@@ -10,6 +10,9 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
     public AirportWritable () {}
 
     public AirportWritable(int id, int indicator) {
-        
+        this.id = id;
+        this.indicator = indicator;
     }
+
+    
 }
