@@ -4,7 +4,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class FlightMapper extends Mapper<LongWritable, Text, AirportMapper, Text> {
+public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Text> {
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
@@ -15,7 +15,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportMapper, Text
             if (delay == 0) {
                 return;
             }
-            context.write(new AirportMapper(id, ));
+            context.write(new AirportWritable(id, 1), new Text());
         }
     }
 }
