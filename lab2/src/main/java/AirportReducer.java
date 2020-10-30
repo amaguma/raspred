@@ -26,5 +26,6 @@ public class AirportReducer extends Reducer<AirportWritable, Text, IntWritable, 
             }
         }
         sum /= count;
+        context.write();
     }
 }
