@@ -1,3 +1,4 @@
+import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
 public class GroupingComparator extends WritableComparator {
@@ -7,6 +8,6 @@ public class GroupingComparator extends WritableComparator {
     }
 
     @Override
-    public int compare(WritableComparator)
+    public int compare(WritableComparable )
 
 }
