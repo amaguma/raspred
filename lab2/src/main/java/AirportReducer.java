@@ -10,7 +10,7 @@ public class AirportReducer extends Reducer<AirportWritable, Text, Text, Text> {
     @Override
     protected void reduce(AirportWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iterator = values.iterator();
-        String airportName = iterator.next().toString();
+        Text airportName = iterator.next();
         double max = Double.MIN_VALUE;
         double min = Double.MAX_VALUE;
         double count = 0;
