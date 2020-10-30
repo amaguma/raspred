@@ -8,7 +8,7 @@ import java.util.Iterator;
 public class AirportReducer extends Reducer<AirportWritable, Text, IntWritable, Text> {
     @Override
     protected void reduce(AirportWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-        Iterator<Text> iterator = 
-        String airportName =
+        Iterator<Text> iterator = values.iterator();
+        String airportName = 
     }
 }
