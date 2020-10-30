@@ -9,6 +9,6 @@ public class AirportReducer extends Reducer<AirportWritable, Text, IntWritable, 
     @Override
     protected void reduce(AirportWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iterator = values.iterator();
-        String airportName = 
+        String airportName = iterator.next()
     }
 }
