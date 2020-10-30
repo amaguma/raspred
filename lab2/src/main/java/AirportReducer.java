@@ -7,6 +7,7 @@ import java.io.IOException;
 public class AirportReducer extends Reducer<AirportWritable, Text, IntWritable, Text> {
     @Override
     protected void reduce(AirportWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-        String airportName = 
+        
+        String airportName =
     }
 }
