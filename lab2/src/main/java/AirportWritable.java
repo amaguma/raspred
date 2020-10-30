@@ -1,5 +1,9 @@
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
+import org.apache.hadoop.io.WritableUtils;
+
+import java.io.DataOutput;
+import java.io.IOException;
 
 public class AirportWritable implements Writable, WritableComparable<AirportWritable> {
 
@@ -14,5 +18,7 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
         this.indicator = indicator;
     }
 
-    
+    public void write(DataOutput dataOutput) throws IOException {
+        WritableUtils
+    }
 }
