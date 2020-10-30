@@ -47,5 +47,8 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
         this.indicator = indicator;
     }
 
-    
+    @Override
+    public int compareTo(AirportWritable el) {
+        int 
+    }
 }
