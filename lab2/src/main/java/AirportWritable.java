@@ -31,5 +31,13 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
         indicator = dataInput.readInt();
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     
 }
