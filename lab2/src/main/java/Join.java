@@ -16,6 +16,6 @@ public class Join {
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, FlightMapper.class);
 
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
-        
+        job.setPartitionerClass();
     }
 }
