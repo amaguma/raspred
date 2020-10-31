@@ -35,18 +35,6 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getIndicator() {
-        return indicator;
-    }
-
-    public void setIndicator(int indicator) {
-        this.indicator = indicator;
-    }
-
     @Override
     public int compareTo(AirportWritable obj) {
         if (this.id - obj.id != 0) {
