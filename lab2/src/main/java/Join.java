@@ -1,6 +1,7 @@
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 
 public class Join {
     public static void main(String[] args) throws Exception {
@@ -10,6 +11,6 @@ public class Join {
         Job job = Job.getInstance();
         job.setJarByClass(Join.class);
         job.setJobName("Airport join");
-        MultipleInputs.addInputPath(job, new Path(args[0]), );
+        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, CallsJoinMapper.class);
     }
 }
