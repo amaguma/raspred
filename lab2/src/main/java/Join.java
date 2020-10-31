@@ -1,4 +1,5 @@
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
@@ -19,7 +20,10 @@ public class Join {
         job.setPartitionerClass(AirportPartitioner.class);
         job.setGroupingComparatorClass(GroupingComparator.class);
         job.setReducerClass(AirportReducer.class);
-        job.setOutputKeyClass(AirportWritable.class);
-        
+        job.setMapOutputKeyClass(AirportWritable.class);
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(Text.class);
+        job.
+
     }
 }
