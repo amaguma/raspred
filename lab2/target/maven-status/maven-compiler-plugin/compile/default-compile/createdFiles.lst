@@ -1,7 +1,7 @@
 AirportPartitioner.class
-Join.class
 AirportWritable.class
 FlightMapper.class
 AirportMapper.class
 AirportReducer.class
+App.class
 GroupingComparator.class
