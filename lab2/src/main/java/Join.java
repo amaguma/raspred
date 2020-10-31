@@ -21,9 +21,10 @@ public class Join {
         job.setGroupingComparatorClass(GroupingComparator.class);
         job.setReducerClass(AirportReducer.class);
         job.setMapOutputKeyClass(AirportWritable.class);
+
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
-        job.
-
+        job.setNumReduceTasks(2);
+        System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
