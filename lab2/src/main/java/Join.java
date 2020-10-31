@@ -11,6 +11,8 @@ public class Join {
         Job job = Job.getInstance();
         job.setJarByClass(Join.class);
         job.setJobName("Airport join");
-        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, CallsJoinMapper.class);
+        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportMapper.class);
+        MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, FlightMapper.class);
+        
     }
 }
