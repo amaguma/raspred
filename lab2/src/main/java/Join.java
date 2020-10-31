@@ -1,3 +1,4 @@
+import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 
@@ -9,6 +10,6 @@ public class Join {
         Job job = Job.getInstance();
         job.setJarByClass(Join.class);
         job.setJobName("Airport join");
-        MultipleInputs.addInputPath(job, );
+        MultipleInputs.addInputPath(job, new Path(args[0]), );
     }
 }
