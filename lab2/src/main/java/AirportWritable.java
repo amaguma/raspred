@@ -14,7 +14,7 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
 
     public AirportWritable () {}
 
-    public AirportWritable(int id, Indicator indicator) {
+    public AirportWritable(int id, Indicator type) {
         this.id = id;
         this.type = type;
     }
