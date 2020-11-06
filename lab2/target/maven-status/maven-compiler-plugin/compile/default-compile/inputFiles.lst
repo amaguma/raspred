@@ -1,7 +1,8 @@
-D:\uni_study\parallel program\raspred\lab2\src\main\java\App.java
-D:\uni_study\parallel program\raspred\lab2\src\main\java\GroupingComparator.java
-D:\uni_study\parallel program\raspred\lab2\src\main\java\AirportMapper.java
-D:\uni_study\parallel program\raspred\lab2\src\main\java\AirportPartitioner.java
-D:\uni_study\parallel program\raspred\lab2\src\main\java\FlightMapper.java
-D:\uni_study\parallel program\raspred\lab2\src\main\java\AirportWritable.java
-D:\uni_study\parallel program\raspred\lab2\src\main\java\AirportReducer.java
+D:\uni_study\parallel program\raspred\lab2\src\main\java\amaguma\AirportWritable.java
+D:\uni_study\parallel program\raspred\lab2\src\main\java\amaguma\FlightMapper.java
+D:\uni_study\parallel program\raspred\lab2\src\main\java\amaguma\AirportMapper.java
+D:\uni_study\parallel program\raspred\lab2\src\main\java\amaguma\GroupingComparator.java
+D:\uni_study\parallel program\raspred\lab2\src\main\java\amaguma\AirportPartitioner.java
+D:\uni_study\parallel program\raspred\lab2\src\main\java\amaguma\AirportReducer.java
+D:\uni_study\parallel program\raspred\lab2\src\main\java\amaguma\Tools.java
+D:\uni_study\parallel program\raspred\lab2\src\main\java\amaguma\App.java

@@ -9,10 +9,10 @@ public class Tools {
     }
 
     public static boolean checkEmptiness(String strId, String strDelay) {
-        if (strId.equals("") && strDelay.equals("")) {
-            return true;
-        } else {
+        if (!strId.equals("") && !strDelay.equals("")) {
             return false;
+        } else {
+            return true;
         }
     }
 

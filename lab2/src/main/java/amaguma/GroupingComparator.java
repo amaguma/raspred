@@ -1,6 +1,5 @@
 package amaguma;
 
-import amaguma.AirportWritable;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
