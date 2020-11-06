@@ -11,12 +11,10 @@ QUARTER - квартал
 MONTH - месяц
 DAY_OF_MONTH — день месяца
 DAY_OF_WEEK - день недели
-FL_DATE
-- дата перелета
+FL_DATE - дата перелета
 UNIQUE_CARRIER — ID авиакомпании
 AIRLINE_ID — ID авиакомпании в классификации US DOT
-CARRIER
-- ID авиакомпании в классификации IATA
+CARRIER - ID авиакомпании в классификации IATA
 TAIL_NUM
 FL_NUM — ID рейса
 ORIGIN_AIRPORT_ID - ID авиапорта
