@@ -19,5 +19,5 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
         }
     }
 
-    private 
+    private boolean check
 }
