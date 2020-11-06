@@ -8,11 +8,15 @@ public class CsvTools {
         return value.toString().split(",");
     }
 
-    public  boolean checkEmptiness(String strId, String strDelay) {
+    public static boolean checkEmptiness(String strId, String strDelay) {
         if (strId.equals("") && strDelay.equals("")) {
             return true;
         } else {
             return false;
         }
+    }
+
+    public static String replaceSlashes(String str) {
+        return str.replaceAll("\"", "");
     }
 }

@@ -12,15 +12,11 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritable, T
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        String[] columns = value.toString().split(",");
+        String[] columns = CsvTools.separatedComma(value);
         if (key.get() > 0) {
-            int id = Integer.parseInt(replaceSlashes(columns[AIRPORT_ID], "\"", ""));
-            String name = replaceSlashes(columns[DESCRIPTION], "\"","");
+            int id = Integer.parseInt(CsvTools.replaceSlashes(columns[AIRPORT_ID]));
+            String name = CsvTools.replaceSlashes(columns[DESCRIPTION]);
             context.write(new AirportWritable(id, AirportWritable.Indicator.AIRPORT), new Text(name));
         }
-    }
-
-    private String replaceSlashes(String str, String regex, String replacement) {
-        return str.replaceAll(regex, replacement);
     }
 }

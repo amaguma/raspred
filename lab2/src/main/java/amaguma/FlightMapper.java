@@ -15,7 +15,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
         String[] columns = CsvTools.separatedComma(value);
 
         if (key.get() > 0) {
-            if (!checkEmptiness(columns[AIRPORT_ID], columns[DELAY])) {
+            if (!CsvTools.checkEmptiness(columns[AIRPORT_ID], columns[DELAY])) {
                 int id = Integer.parseInt(columns[AIRPORT_ID]);
                 double delayTime = Double.parseDouble(columns[DELAY]);
                 if (delayTime != 0) {
