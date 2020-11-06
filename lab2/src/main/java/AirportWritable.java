@@ -9,14 +9,14 @@ import java.io.IOException;
 public class AirportWritable implements Writable, WritableComparable<AirportWritable> {
 
     private int id;
-    private int indicator;
+    private Indicator type;
 
 
     public AirportWritable () {}
 
-    public AirportWritable(int id, int indicator) {
+    public AirportWritable(int id, Indicator indicator) {
         this.id = id;
-        this.indicator = indicator;
+        this.type = type;
     }
 
     @Override
