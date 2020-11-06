@@ -10,12 +10,14 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        String[] raceInfo = value.toString().split(",");
+        String[] columns = value.toString().split(",");
         if (key.get() > 0) {
-            if () {
+            if (!columns[AIRPORT_ID].equals("") && !columns[DELAY].equals("")) {
                 int id = Integer.parseInt(columns[AIRPORT_ID]);
                 context.write(new AirportWritable(id, AirportWritable.Indicator.FLIGHT), new Text(columns[DELAY]));
             }
         }
     }
+
+    private 
 }
