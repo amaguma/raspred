@@ -54,7 +54,7 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
 
     public enum Indicator {
         AIRPORT,
-        
+        FLIGHT
     }
 }
 
