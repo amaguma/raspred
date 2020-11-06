@@ -14,7 +14,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
         if (key.get() > 0) {
             if (columns[DELAY].trim().length() != 0) {
                 int id = Integer.parseInt(columns[AIRPORT_ID]);
-                context.write(new AirportWritable(id, 1), new Text(columns[DELAY]));
+                context.write(new AirportWritable(id, AirportWritable.Indicator.FLIGHT), new Text(columns[DELAY]));
             }
         }
     }
