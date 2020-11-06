@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class AirportMapper extends Mapper<LongWritable, Text, AirportWritable, Text> {
     private static final int AIRPORT_ID = 0;
-    private static final int DELAY = 1;
+    private static final int DESCRIPTION = 1;
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
