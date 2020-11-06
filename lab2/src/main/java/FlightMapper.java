@@ -20,6 +20,11 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
     }
 
     private boolean checkEmptiness(String strId, String strDelay) {
-
+        if (strId.equals("") && strDelay.equals("")) {
+            return true;
+        } else {
+            return false;
+        }
+        return (strId.equals("") && strDelay.equals("")) : true ? false;
     }
 }
