@@ -12,7 +12,9 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritable, T
         if (key.get() > 0) {
             int id = Integer.parseInt(columns[0].replaceAll("\"",""));
             String name = columns[1].replaceAll("\"","");
-            context.write(new AirportWritable(id, 0), new Text(name));
+            context.write(new AirportWritable(id, AirportWritable.Indicator.AIRPORT), new Text(name));
         }
     }
+
+    private void 
 }
