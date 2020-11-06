@@ -22,7 +22,7 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
     @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(id);
-        dataOutput.writeInt();
+        dataOutput.writeInt(type == Indicator.FLIGHT ? 1 : 0);
     }
 
     @Override
