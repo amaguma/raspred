@@ -4,7 +4,7 @@ import org.apache.hadoop.io.Text;
 
 public class CsvTools {
 
-    private String[] separatedComma(Text value) {
+    public static String[] separatedComma(Text value) {
         return value.toString().split(",");
     }
 }
