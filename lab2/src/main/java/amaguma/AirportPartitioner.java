@@ -1,3 +1,5 @@
+package amaguma;
+
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;
 

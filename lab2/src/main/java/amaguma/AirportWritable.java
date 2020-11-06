@@ -1,3 +1,5 @@
+package amaguma;
+
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
 
