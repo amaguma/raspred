@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1659004-7daf-4ff5-b71c-142d36c98e64" name="Default Changelist" comment="" />
+    <list default="true" id="d1659004-7daf-4ff5-b71c-142d36c98e64" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tools.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +69,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="85">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -259,7 +264,7 @@
       <updated>1604091641347</updated>
       <workItem from="1604091645349" duration="12535000" />
       <workItem from="1604148114659" duration="9356000" />
-      <workItem from="1604695533096" duration="3215000" />
+      <workItem from="1604695533096" duration="3484000" />
     </task>
     <task id="LOCAL-00001" summary="lab2">
       <created>1604155855105</created>
@@ -279,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25106000" />
+    <option name="totallyTimeSpent" value="25375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
@@ -420,8 +425,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
