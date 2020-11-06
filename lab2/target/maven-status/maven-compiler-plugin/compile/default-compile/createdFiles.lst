@@ -1,7 +1,9 @@
-AirportPartitioner.class
-AirportWritable.class
-FlightMapper.class
-AirportMapper.class
-AirportReducer.class
-App.class
-GroupingComparator.class
+amaguma\AirportMapper.class
+amaguma\AirportPartitioner.class
+amaguma\AirportReducer.class
+amaguma\App.class
+amaguma\Tools.class
+amaguma\AirportWritable.class
+amaguma\FlightMapper.class
+amaguma\GroupingComparator.class
+amaguma\AirportWritable$Indicator.class
