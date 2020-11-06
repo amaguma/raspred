@@ -12,10 +12,10 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        String[] columns = CsvTools.separatedComma(value);
+        String[] columns = Tools.separatedComma(value);
 
         if (key.get() > 0) {
-            if (!CsvTools.checkEmptiness(columns[AIRPORT_ID], columns[DELAY])) {
+            if (!Tools.checkEmptiness(columns[AIRPORT_ID], columns[DELAY])) {
                 int id = Integer.parseInt(columns[AIRPORT_ID]);
                 double delayTime = Double.parseDouble(columns[DELAY]);
                 if (delayTime != 0) {
