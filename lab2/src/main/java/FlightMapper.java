@@ -12,7 +12,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String[] columns = value.toString().split(",");
         if (key.get() > 0) {
-            if (!columns[AIRPORT_ID].equals("") && !columns[DELAY].equals("")) {
+            if (!checkEmptiness(columns[AIRPORT_ID], columns[DELAY])) {
                 int id = Integer.parseInt(columns[AIRPORT_ID]);
                 context.write(new AirportWritable(id, AirportWritable.Indicator.FLIGHT), new Text(columns[DELAY]));
             }
@@ -25,6 +25,5 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
         } else {
             return false;
         }
-        return (strId.equals("") && strDelay.equals("")) ? : true  false;
     }
 }
