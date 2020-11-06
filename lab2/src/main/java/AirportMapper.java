@@ -16,5 +16,5 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritable, T
         }
     }
 
-    private void replaceSlashes(String regex, )
+    private void replaceSlashes(String regex, String )
 }
