@@ -11,6 +11,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String[] columns = Tools.
+                
         if (key.get() > 0) {
             if (!checkEmptiness(columns[AIRPORT_ID], columns[DELAY])) {
                 int id = Integer.parseInt(columns[AIRPORT_ID]);
