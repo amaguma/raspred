@@ -25,6 +25,6 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
         } else {
             return false;
         }
-        return (strId.equals("") && strDelay.equals("")) : true ? false;
+        return (strId.equals("") && strDelay.equals("")) ? : true  false;
     }
 }
