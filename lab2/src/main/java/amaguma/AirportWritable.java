@@ -42,7 +42,7 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
         if (this.id - obj.id != 0) {
             return this.id - obj.id;
         }
-        if (type == Indicator.FLIGHT) {
+        if (this.type == Indicator.FLIGHT) {
             if (obj.type == Indicator.AIRPORT) {
                 return 1;
             }
