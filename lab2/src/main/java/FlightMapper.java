@@ -19,5 +19,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
         }
     }
 
-    private boolean check
+    private boolean checkEmptiness(String strId, String strDelay) {
+
+    }
 }
