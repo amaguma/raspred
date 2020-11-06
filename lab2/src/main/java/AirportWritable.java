@@ -28,7 +28,7 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
     @Override
     public void readFields(DataInput dataInput) throws IOException {
         id = dataInput.readInt();
-        type = dataInput.readInt() == 1;
+        type = dataInput.readInt() == 1 ? Indicator.FLIGHT;
     }
 
     public int getId() {
