@@ -52,3 +52,5 @@ public class AirportWritable implements Writable, WritableComparable<AirportWrit
         return 0;
     }
 }
+
+Enum 
