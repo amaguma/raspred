@@ -12,10 +12,10 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritable, T
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        String[] columns = Tools.separatedComma(value);
+        String[] columns = Tools.separationComma(value);
         if (key.get() > 0) {
-            int id = Integer.parseInt(Tools.replaceSlashes(columns[AIRPORT_ID]));
-            String name = Tools.replaceSlashes(columns[DESCRIPTION]);
+            int id = Integer.parseInt(Tools.replaceQuote(columns[AIRPORT_ID]));
+            String name = Tools.replaceQuote(columns[DESCRIPTION]);
             context.write(new AirportWritable(id, AirportWritable.Indicator.AIRPORT), new Text(name));
         }
     }

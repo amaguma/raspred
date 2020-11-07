@@ -12,10 +12,9 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritable, Te
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        String[] columns = Tools.separatedComma(value);
-
+        String[] columns = Tools.separationComma(value);
         if (key.get() > 0) {
-            if (!Tools.checkEmptiness(columns[AIRPORT_ID], columns[DELAY])) {
+            if (!columns[AIRPORT_ID].isEmpty() && !columns[DELAY].isEmpty()) {
                 int id = Integer.parseInt(columns[AIRPORT_ID]);
                 double timeDelay = Double.parseDouble(columns[DELAY]);
                 if (timeDelay != 0) {
