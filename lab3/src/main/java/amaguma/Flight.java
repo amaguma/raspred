@@ -18,4 +18,10 @@ public class Flight {
     public String getDepartureId() {
         return this.departureId;
     }
+
+    public String getDestinationId() {
+        return this.destinationId;
+    }
+
+    
 }
