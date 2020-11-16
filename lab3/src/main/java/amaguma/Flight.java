@@ -23,5 +23,7 @@ public class Flight {
         return this.destinationId;
     }
 
-    public()
+    public boolean isCancelled() {
+        return this.isCancelled;
+    }
 }
