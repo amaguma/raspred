@@ -23,6 +23,10 @@ public class Flight {
         return this.destinationId;
     }
 
+    public double getDelay() {
+        return this.delay;
+    }
+
     public boolean isCancelled() {
         return this.isCancelled;
     }
