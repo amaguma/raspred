@@ -15,5 +15,7 @@ public class Flight {
         this.isCancelled = isCancelled;
     }
 
-    
+    public String getDepartureId() {
+        return this.departureId;
+    }
 }
