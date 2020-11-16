@@ -6,5 +6,7 @@ public class Flight {
     private double delay;
     private boolean isCancelled;
 
-    
+    public Flight() {};
+
+    public Flight()
 }
