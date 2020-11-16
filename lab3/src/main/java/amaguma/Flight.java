@@ -8,5 +8,12 @@ public class Flight {
 
     public Flight() {};
 
-    public Flight()
+    public Flight(String departureId, String destinationId, double delay, boolean isCancelled) {
+        this.departureId = departureId;
+        this.destinationId = destinationId;
+        this.delay = delay;
+        this.isCancelled = isCancelled;
+    }
+
+    
 }
