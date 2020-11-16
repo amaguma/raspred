@@ -1,6 +1,8 @@
 package amaguma;
 
-public class Flight {
+import scala.Serializable;
+
+public class Flight implements Serializable {
     private String departureId;
     private String destinationId;
     private double delay;
