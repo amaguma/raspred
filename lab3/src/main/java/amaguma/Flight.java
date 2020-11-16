@@ -2,15 +2,15 @@ package amaguma;
 
 import scala.Serializable;
 
-public class Airport implements Serializable {
+public class Flight implements Serializable {
     private String departureId;
     private String destinationId;
     private double delay;
     private boolean isCancelled;
 
-    public Airport() {}
+    public Flight() {}
 
-    public Airport(String departureId, String destinationId, double delay, boolean isCancelled) {
+    public Flight(String departureId, String destinationId, double delay, boolean isCancelled) {
         this.departureId = departureId;
         this.destinationId = destinationId;
         this.delay = delay;
