@@ -11,7 +11,7 @@ public class Application {
     }
 
     public static JavaRDD<String> removeQuotes(JavaRDD<String> file) {
-        return file.map(str -> str.replaceAll())
+        return file.map(str -> str.replaceAll("\"", ""));
     }
 
     public static void main(String[] args) {
@@ -26,5 +26,6 @@ public class Application {
         JavaRDD<String> airports = sc.textFile(args[1]);
         removeHeader(flights);
         removeHeader(airports);
+        
     }
 }
