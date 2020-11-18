@@ -32,7 +32,7 @@ public class Application {
                 .mapToPair(str -> {
                     int ind = str.indexOf(",");
                     String airportId = str.substring(0, ind);
-                    String name = str.substring(1, )
+                    String name = str.substring(ind + 1);
                 });
     }
 }
