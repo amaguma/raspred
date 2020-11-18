@@ -68,12 +68,14 @@ public class Application {
                         Flight flight = iterator.next();
                         if (flight.getDelay() > 0) {
                             delayedFlights++;
-                            maxDelay = 
+                            maxDelay = Double.max(maxDelay, flight.getDelay());
+                        } else {
+                            maxDelay = 0;
                         }
                         if (flight.isCancelled()) {
                             cancelledFlights++;
                         }
-
+                            
                     }
                 });
     }
