@@ -76,6 +76,7 @@ public class Application {
                         countFlights++;
                     }
                     return new Tuple2(maxDelay, getPersentage(delayedFlights + cancelledFlights, countFlights ));
-                });
+                })
+                .map()
     }
 }
