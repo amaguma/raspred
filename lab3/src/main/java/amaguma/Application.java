@@ -40,5 +40,7 @@ public class Application {
                     return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
                 });
         final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportData.collectAsMap());
+
+        JavaPairRDD
     }
 }
