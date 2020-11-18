@@ -45,7 +45,7 @@ public class Application {
                 .map(str -> str.split(","))
                 .map(str -> {
                    String departureId = str[11];
-                   
+                   String destinationId = str[14];
                 });
     }
 }
