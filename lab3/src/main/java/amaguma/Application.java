@@ -48,7 +48,8 @@ public class Application {
                    String destinationId = str[14];
                    double delay = str[18].isEmpty() ? 0 : Double.parseDouble(str[18]);
                    boolean isCancelled = str[19].isEmpty();
-                   Tuple2<String, String> names = 
+                   Tuple2<String, String> names = new Tuple2<>(departureId, destinationId);
+                   
                 });
     }
 }
