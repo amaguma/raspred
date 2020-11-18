@@ -61,7 +61,7 @@ public class Application {
                 .mapValues(item -> {
                     Iterator<Flight> iterator = item.iterator();
                     double maxDelay = Double.MIN_VALUE;
-                    double cancelledFlights
+                    double cancelledFlights = 0;
                     double delayedFlights = 0;
                 });
     }
