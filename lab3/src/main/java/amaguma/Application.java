@@ -10,6 +10,8 @@ public class Application {
         return file.filter(str -> str.equals(file.first()));
     }
 
+    public static 
+
     public static void main(String[] args) {
         if (args.length != 3) {
             System.exit(-1);
