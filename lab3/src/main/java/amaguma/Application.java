@@ -43,13 +43,13 @@ public class Application {
 
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
                 .map(str -> str.split(","))
-                .map(str -> {
+                .mapToPair(str -> {
                    String departureId = str[11];
                    String destinationId = str[14];
                    double delay = str[18].isEmpty() ? 0 : Double.parseDouble(str[18]);
                    boolean isCancelled = str[19].isEmpty();
-                   Tuple2<String, String> names = new Tuple2<>(departureId, destinationId);
-                   
+                   return new Tuple2<>(new Tuple2<>(departureId, destinationId),
+                           new Flight(departureId, destinationId, delay, isCancelled));
                 });
     }
 }
