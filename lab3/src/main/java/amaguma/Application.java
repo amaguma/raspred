@@ -44,7 +44,7 @@ public class Application {
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
                 .map(str -> str.split(","))
                 .map(str -> {
-                   String departureId
+                   String departureId = str[]
                 });
     }
 }
