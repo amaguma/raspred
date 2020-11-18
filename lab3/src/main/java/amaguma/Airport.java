@@ -1,4 +1,6 @@
 package amaguma;
 
-public class Airport implements  {
+import scala.Serializable;
+
+public class Airport implements Serializable {
 }
