@@ -7,6 +7,8 @@ import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.broadcast.Broadcast;
 import scala.Tuple2;
 
+import java.util.Map;
+
 public class Application {
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
@@ -37,6 +39,6 @@ public class Application {
                     String name = str.substring(ind + 1);
                     return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
                 });
-        final Broadcast
+        final Broadcast<Map<>>
     }
 }
