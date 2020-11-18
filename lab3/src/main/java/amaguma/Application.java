@@ -34,7 +34,7 @@ public class Application {
                     int ind = str.indexOf(",");
                     String airportId = str.substring(0, ind);
                     String name = str.substring(ind + 1);
-                    return new Tuple2<>()
+                    return new Tuple2<>(airportId, )
                 });
     }
 }
