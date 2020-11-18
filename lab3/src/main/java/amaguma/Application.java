@@ -55,7 +55,7 @@ public class Application {
         flightsData
                 .groupByKey()
                 .mapValues(item -> {
-                    Iterator<Flight>  
+                    Iterator<Flight> iterator =  
                 });
     }
 }
