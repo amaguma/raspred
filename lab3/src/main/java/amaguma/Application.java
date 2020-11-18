@@ -46,6 +46,7 @@ public class Application {
                 .map(str -> {
                    String departureId = str[11];
                    String destinationId = str[14];
+                   double delay 
                 });
     }
 }
