@@ -44,7 +44,9 @@ public class Application {
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
                 .map(str -> str.split(","))
                 .map(str -> {
-                   if (str[19].equals("1.00"))
+                   if (str[19].equals("1.00")) {
+                       
+                   }
                 });
     }
 }
