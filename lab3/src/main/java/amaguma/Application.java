@@ -60,7 +60,7 @@ public class Application {
                 .groupByKey()
                 .mapValues(item -> {
                     Iterator<Flight> iterator = item.iterator();
-                    double maxDelay = Double.MIN_VALUE;
+                    double maxDelay = 0;
                     double cancelledFlights = 0;
                     double delayedFlights = 0;
                     double countFlights = 0;
@@ -69,8 +69,6 @@ public class Application {
                         if (flight.getDelay() > 0) {
                             delayedFlights++;
                             maxDelay = Double.max(maxDelay, flight.getDelay());
-                        } else {
-                            maxDelay = 0;
                         }
                         if (flight.isCancelled()) {
                             cancelledFlights++;
