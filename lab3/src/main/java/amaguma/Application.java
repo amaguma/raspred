@@ -10,7 +10,7 @@ public class Application {
         return file.filter(str -> str.equals(file.first()));
     }
 
-    public static 
+    public static JavaRDD<String> remove
 
     public static void main(String[] args) {
         if (args.length != 3) {
