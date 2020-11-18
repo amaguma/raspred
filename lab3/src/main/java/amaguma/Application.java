@@ -76,6 +76,7 @@ public class Application {
                             cancelledFlights++;
                         }
                     }
+                    return new Tuple2()
                 });
     }
 }
