@@ -20,7 +20,7 @@ public class Application {
         return file.map(str -> str.replaceAll("\"", ""));
     }
 
-    public 
+    public static double
 
     public static void main(String[] args) {
         if (args.length != 3) {
