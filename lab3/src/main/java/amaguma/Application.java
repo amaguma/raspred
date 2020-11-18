@@ -39,6 +39,6 @@ public class Application {
                     String name = str.substring(ind + 1);
                     return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
                 });
-        final Broadcast<Map<String, Airport>> broadcast = 
+        final Broadcast<Map<String, Airport>> broadcast = sc.broadcast()
     }
 }
