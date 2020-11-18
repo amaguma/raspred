@@ -53,5 +53,6 @@ public class Application {
                 });
         flightsData
                 .groupByKey()
+                .mapValues()
     }
 }
