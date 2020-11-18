@@ -20,6 +20,8 @@ public class Application {
         return file.map(str -> str.replaceAll("\"", ""));
     }
 
+    public 
+
     public static void main(String[] args) {
         if (args.length != 3) {
             System.exit(-1);
@@ -57,7 +59,7 @@ public class Application {
                 .mapValues(item -> {
                     Iterator<Flight> iterator = item.iterator();
                     double maxDelay = Double.MIN_VALUE;
-                    
+
                 });
     }
 }
