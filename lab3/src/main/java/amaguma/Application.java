@@ -65,6 +65,7 @@ public class Application {
                     double delayedFlights = 0;
                     double countFlights = 0;
                     while (iterator.hasNext()) {
+                        Flight flight = iterator.next();
                         
                     }
                 });
