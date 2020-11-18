@@ -66,7 +66,13 @@ public class Application {
                     double countFlights = 0;
                     while (iterator.hasNext()) {
                         Flight flight = iterator.next();
-                        if (flight.getDelay())
+                        if (flight.getDelay() > 0) {
+                            delayedFlights++;
+                        }
+                        if (flight.isCancelled()) {
+                            cancelledFlights++;
+                        }
+                        
                     }
                 });
     }
