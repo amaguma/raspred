@@ -75,12 +75,13 @@ public class Application {
                         }
                         countFlights++;
                     }
-                    return new Tuple2(maxDelay, getPersentage(delayedFlights + cancelledFlights, countFlights ));
+                    return new Tuple2<>(maxDelay, getPersentage(delayedFlights + cancelledFlights, countFlights ));
                 })
                 .map(item -> {
                     String departureAirportName = broadcast.value().get(item._1._1).getName();
                     String destinationAirportName = broadcast.value().get(item._1._2).getName();
-                    return new Tuple2(new Tuple2<>(departureAirportName, destinationAirportName), item._2)
+                    return new Tuple2<>(new Tuple2<>(departureAirportName, destinationAirportName), item._2);
                 })
+                .saveAsTextFile();
     }
 }
