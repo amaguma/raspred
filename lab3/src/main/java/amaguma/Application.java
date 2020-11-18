@@ -29,8 +29,7 @@ public class Application {
         removeHeader(airports);
 
         JavaPairRDD<String, Airport>  airportData = airports
-                .map(s -> s.split(","))
-                .mapToPair(s -> {
+                .mapToPair(str -> {
                     
                 });
     }
