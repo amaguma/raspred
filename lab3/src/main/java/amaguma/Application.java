@@ -21,7 +21,7 @@ public class Application {
     }
 
     public static double getPersentage (double piece, double whole) {
-        return 
+        return piece / whole * 100;
     }
 
     public static void main(String[] args) {
@@ -61,7 +61,7 @@ public class Application {
                 .mapValues(item -> {
                     Iterator<Flight> iterator = item.iterator();
                     double maxDelay = Double.MIN_VALUE;
-
+                    
                 });
     }
 }
