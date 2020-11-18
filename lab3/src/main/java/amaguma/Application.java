@@ -6,7 +6,7 @@ import org.apache.spark.api.java.JavaSparkContext;
 
 public class Application {
 
-    public static JavaRDD<String> 
+    public static JavaRDD<String> removeHeader(JavaRDD<String> )
 
     public static void main(String[] args) {
         if (args.length != 3) {
