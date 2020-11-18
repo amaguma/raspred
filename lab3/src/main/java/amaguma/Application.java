@@ -48,7 +48,7 @@ public class Application {
                    String destinationId = str[14];
                    double delay = str[18].isEmpty() ? 0 : Double.parseDouble(str[18]);
                    boolean isCancelled = str[19].isEmpty();
-                   return 
+                   return new Tuple2<>()Flight(departureId, destinationId, delay, isCancelled)
                 });
     }
 }
