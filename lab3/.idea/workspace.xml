@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="321ab811-4968-44e7-ac59-8c614a8c4995" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/amaguma/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amaguma/Application.java" afterDir="false" />
-    </list>
+    <list default="true" id="321ab811-4968-44e7-ac59-8c614a8c4995" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -183,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605535566708</updated>
-      <workItem from="1605535573816" duration="6050000" />
+      <workItem from="1605535573816" duration="6290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6050000" />
+    <option name="totallyTimeSpent" value="6290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
