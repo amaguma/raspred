@@ -1,6 +1,7 @@
 package amaguma;
 
 import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
@@ -26,6 +27,7 @@ public class Application {
         JavaRDD<String> airports = sc.textFile(args[1]);
         removeHeader(flights);
         removeHeader(airports);
-        
+
+        JavaPairRDD<>
     }
 }
