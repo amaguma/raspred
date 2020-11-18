@@ -11,7 +11,7 @@ public class Application {
     }
 
     public static JavaRDD<String> removeQuotes(JavaRDD<String> file) {
-        return file.map(str -> )
+        return file.map(str -> str.replaceAll())
     }
 
     public static void main(String[] args) {
