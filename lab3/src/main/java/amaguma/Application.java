@@ -7,6 +7,7 @@ import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.broadcast.Broadcast;
 import scala.Tuple2;
 
+import java.util.Iterator;
 import java.util.Map;
 
 public class Application {
@@ -53,6 +54,8 @@ public class Application {
                 });
         flightsData
                 .groupByKey()
-                .mapValues()
+                .mapValues(item -> {
+                    Iterator<Flight>  
+                });
     }
 }
