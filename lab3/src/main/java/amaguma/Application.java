@@ -32,15 +32,15 @@ public class Application {
         removeHeader(flights);
         removeHeader(airports);
 
-        JavaPairRDD<String, Airport>  airportData = airports
+        JavaPairRDD<String, Airport>  airportsData = airports
                 .mapToPair(str -> {
                     int ind = str.indexOf(",");
                     String airportId = str.substring(0, ind);
                     String name = str.substring(ind + 1);
                     return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
                 });
-        final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportData.collectAsMap());
+        final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportsData.collectAsMap());
 
-        JavaPairRDD<Tuple2<String, String>, Flight> flightsData = 
+        JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights.mapToPair()
     }
 }
