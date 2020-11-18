@@ -63,6 +63,8 @@ public class Application {
                     double maxDelay = Double.MIN_VALUE;
                     double cancelledFlights = 0;
                     double delayedFlights = 0;
+                    double countFlights = 0;
+                    
                 });
     }
 }
