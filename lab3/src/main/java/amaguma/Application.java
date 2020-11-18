@@ -82,6 +82,6 @@ public class Application {
                     String destinationAirportName = broadcast.value().get(item._1._2).getName();
                     return new Tuple2<>(new Tuple2<>(departureAirportName, destinationAirportName), item._2);
                 })
-                .saveAsTextFile();
+                .saveAsTextFile("result");
     }
 }
