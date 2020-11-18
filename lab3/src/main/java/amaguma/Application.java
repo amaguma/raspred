@@ -32,6 +32,6 @@ public class Application {
                 .map(s -> s.split(","))
                 .mapToPair(s -> {
                     
-                })
+                });
     }
 }
