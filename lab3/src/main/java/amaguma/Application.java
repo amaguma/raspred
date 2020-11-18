@@ -47,7 +47,7 @@ public class Application {
                    String departureId = str[11];
                    String destinationId = str[14];
                    double delay = str[18].isEmpty() ? 0 : Double.parseDouble(str[18]);
-                   
+                   boolean isCancelled 
                 });
     }
 }
