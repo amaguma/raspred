@@ -7,7 +7,7 @@ import org.apache.spark.api.java.JavaSparkContext;
 public class Application {
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
-        
+        return file.filter()
     }
 
     public static void main(String[] args) {
