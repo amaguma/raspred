@@ -9,6 +9,6 @@ public class Application {
             System.exit(-1);
         }
 
-        SparkConf conf = new SparkConf()
+        SparkConf conf = new SparkConf().setAppName("lab3");
     }
 }
