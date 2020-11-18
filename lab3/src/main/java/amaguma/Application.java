@@ -80,7 +80,7 @@ public class Application {
                 .map(item -> {
                     String departureAirportName = broadcast.value().get(item._1._1).getName();
                     String destinationAirportName = broadcast.value().get(item._1._2).getName();
-                    return new Tuple2(new Tuple2<>(departureAirportName, destinationAirportName), )
+                    return new Tuple2(new Tuple2<>(departureAirportName, destinationAirportName), item._2)
                 })
     }
 }
