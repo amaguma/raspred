@@ -28,6 +28,6 @@ public class Application {
         removeHeader(flights);
         removeHeader(airports);
 
-        JavaPairRDD<String, Airport>  airportData = 
+        JavaPairRDD<String, Airport>  airportData = airports.map()
     }
 }
