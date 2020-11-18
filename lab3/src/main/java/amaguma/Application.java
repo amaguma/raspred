@@ -56,6 +56,7 @@ public class Application {
                 .groupByKey()
                 .mapValues(item -> {
                     Iterator<Flight> iterator = item.iterator();
+                    double maxDelay = Double.MIN_VALUE;
                     
                 });
     }
