@@ -64,7 +64,9 @@ public class Application {
                     double cancelledFlights = 0;
                     double delayedFlights = 0;
                     double countFlights = 0;
-                    
+                    while (iterator.hasNext()) {
+                        
+                    }
                 });
     }
 }
