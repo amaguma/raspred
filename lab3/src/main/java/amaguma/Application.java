@@ -31,7 +31,7 @@ public class Application {
         JavaPairRDD<String, Airport>  airportData = airports
                 .mapToPair(str -> {
                     int ind = str.indexOf(",");
-                    int 
+                    String airportId 
                 });
     }
 }
