@@ -51,5 +51,7 @@ public class Application {
                    return new Tuple2<>(new Tuple2<>(departureId, destinationId),
                            new Flight(departureId, destinationId, delay, isCancelled));
                 });
+        flightsData
+                .groupByKey()
     }
 }
