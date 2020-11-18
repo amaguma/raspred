@@ -20,7 +20,9 @@ public class Application {
         return file.map(str -> str.replaceAll("\"", ""));
     }
 
-    public static double getPersentage (double )
+    public static double getPersentage (double piece, double whole) {
+        return 
+    }
 
     public static void main(String[] args) {
         if (args.length != 3) {
