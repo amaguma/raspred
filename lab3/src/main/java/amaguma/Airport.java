@@ -1,4 +1,4 @@
 package amaguma;
 
-public class Airport {
+public class Airport implements  {
 }
