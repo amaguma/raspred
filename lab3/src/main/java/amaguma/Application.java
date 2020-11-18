@@ -78,7 +78,7 @@ public class Application {
                     return new Tuple2(maxDelay, getPersentage(delayedFlights + cancelledFlights, countFlights ));
                 })
                 .map(item -> {
-                    String departureAirportName = broadcast.value()
+                    String departureAirportName = broadcast.value().get(item)
                 })
     }
 }
