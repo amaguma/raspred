@@ -11,6 +11,8 @@ public class Application {
         }
 
         SparkConf conf = new SparkConf().setAppName("lab3");
-        JavaSparkContext sc = 
+        JavaSparkContext sc = new JavaSparkContext(conf);
+
+        
     }
 }
