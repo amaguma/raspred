@@ -6,6 +6,8 @@ import org.apache.spark.api.java.JavaSparkContext;
 
 public class Application {
 
+    public 
+
     public static void main(String[] args) {
         if (args.length != 3) {
             System.exit(-1);
