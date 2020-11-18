@@ -75,7 +75,6 @@ public class Application {
                         if (flight.isCancelled()) {
                             cancelledFlights++;
                         }
-                            
                     }
                 });
     }
