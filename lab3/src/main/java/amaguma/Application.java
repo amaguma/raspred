@@ -30,6 +30,8 @@ public class Application {
 
         JavaPairRDD<String, Airport>  airportData = airports
                 .map(s -> s.split(","))
-                .mapToPair()
+                .mapToPair(s -> {
+                    
+                })
     }
 }
