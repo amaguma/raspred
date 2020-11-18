@@ -75,8 +75,9 @@ public class Application {
                         if (flight.isCancelled()) {
                             cancelledFlights++;
                         }
+                        countFlights++;
                     }
-                    return new Tuple2()
+                    return new Tuple2(maxDelay, getPersentage(delayedFlights + cancelledFlights, countFlights ));
                 });
     }
 }
