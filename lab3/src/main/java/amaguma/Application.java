@@ -41,6 +41,6 @@ public class Application {
                 });
         final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportData.collectAsMap());
 
-        JavaPairRDD
+        JavaPairRDD<Tuple2<>>
     }
 }
