@@ -27,10 +27,10 @@ public class Application {
         SparkConf conf = new SparkConf().setAppName("lab3");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> flights = sc.textFile(args[0]);
-        JavaRDD<String> airports = sc.textFile(args[1]);
-        removeHeader(flights);
-        removeHeader(airports);
+        JavaRDD<String> flights = removeQuotes(removeHeader(sc.textFile(args[0])));
+        JavaRDD<String> airports = removeQuotes(removeHeader(sc.textFile(args[1])));
+
+
 
         JavaPairRDD<String, Airport>  airportsData = airports
                 .mapToPair(str -> {
