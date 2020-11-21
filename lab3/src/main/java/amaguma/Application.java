@@ -16,6 +16,7 @@ public class Application {
     private static final int DESTINATION_AIRPORT_ID = 14;
     private static final int TIME_DELAY = 18;
     private static final int ZERO_DELAY = 0;
+    private static final int IS_CANCELLED = 0;
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
         return file.filter(str -> str.equals(file.first()));
