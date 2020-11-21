@@ -12,6 +12,8 @@ import java.util.Map;
 
 public class Application {
 
+    
+
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
         return file.filter(str -> str.equals(file.first()));
     }
