@@ -15,6 +15,7 @@ public class Application {
     private static final int DEPARTURE_AIRPORT_ID = 11;
     private static final int DESTINATION_AIRPORT_ID = 14;
     private static final int TIME_DELAY = 18;
+    private static final int ZERO_DELAY = 0;
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
         return file.filter(str -> str.equals(file.first()));
@@ -55,7 +56,7 @@ public class Application {
                 .mapToPair(str -> {
                    String departureId = str[DEPARTURE_AIRPORT_ID];
                    String destinationId = str[DESTINATION_AIRPORT_ID];
-                   double delay = str[TIME_DELAY].isEmpty() ? 0 : Double.parseDouble(str[TIME_DELAY]);
+                   double delay = str[TIME_DELAY].isEmpty() ? ZERO_DELAY : Double.parseDouble(str[TIME_DELAY]);
                    boolean isCancelled = str[19].isEmpty();
                    return new Tuple2<>(new Tuple2<>(departureId, destinationId),
                            new Flight(departureId, destinationId, delay, isCancelled));
