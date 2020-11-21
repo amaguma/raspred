@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class Application {
 
-    private static final int 
+    private static final int DEPARTURE_AIRPORT_ID = 
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
         return file.filter(str -> str.equals(file.first()));
