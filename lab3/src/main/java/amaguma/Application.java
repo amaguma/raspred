@@ -17,7 +17,7 @@ public class Application {
     private static final int TIME_DELAY = 18;
     private static final int ZERO_DELAY = 0;
     private static final int IS_CANCELLED_ID = 19;
-    private static final String DELIMETR = 19;
+    private static final String DELIMITER = ",";
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
         return file.filter(str -> str.equals(file.first()));
@@ -46,7 +46,7 @@ public class Application {
 
         JavaPairRDD<String, Airport>  airportsData = airports
                 .mapToPair(str -> {
-                    int ind = str.indexOf(",");
+                    int ind = str.indexOf(DELIMITER);
                     String airportId = str.substring(0, ind);
                     String name = str.substring(ind + 1);
                     return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
@@ -54,7 +54,7 @@ public class Application {
         final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportsData.collectAsMap());
 
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
-                .map(str -> str.split(","))
+                .map(str -> str.split(DELIMITER))
                 .mapToPair(str -> {
                    String departureId = str[DEPARTURE_AIRPORT_ID];
                    String destinationId = str[DESTINATION_AIRPORT_ID];
