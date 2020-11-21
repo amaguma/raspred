@@ -18,6 +18,7 @@ public class Application {
     private static final int ZERO_DELAY = 0;
     private static final int IS_CANCELLED_ID = 19;
     private static final String DELIMITER = ",";
+    private static final String  = "\"";
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
         return file.filter(str -> str.equals(file.first()));
