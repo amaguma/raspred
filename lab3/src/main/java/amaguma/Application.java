@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class Application {
 
-    private static final int DEPARTURE_AIRPORT_ID = 
+    private static final int DEPARTURE_AIRPORT_ID = 11;
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
         return file.filter(str -> str.equals(file.first()));
@@ -51,7 +51,7 @@ public class Application {
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
                 .map(str -> str.split(","))
                 .mapToPair(str -> {
-                   String departureId = str[11];
+                   String departureId = str[DEPARTURE_AIRPORT_ID];
                    String destinationId = str[14];
                    double delay = str[18].isEmpty() ? 0 : Double.parseDouble(str[18]);
                    boolean isCancelled = str[19].isEmpty();
