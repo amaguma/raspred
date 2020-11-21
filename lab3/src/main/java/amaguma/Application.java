@@ -18,14 +18,14 @@ public class Application {
     private static final int ZERO_DELAY = 0;
     private static final int IS_CANCELLED_ID = 19;
     private static final String DELIMITER = ",";
-    private static final String  = "\"";
+    private static final String QUOTE = "\"";
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
         return file.filter(str -> str.equals(file.first()));
     }
 
     public static JavaRDD<String> removeQuotes(JavaRDD<String> file) {
-        return file.map(str -> str.replaceAll("\"", ""));
+        return file.map(str -> str.replaceAll(QUOTE, ""));
     }
 
     public static double getPersentage (double piece, double whole) {
