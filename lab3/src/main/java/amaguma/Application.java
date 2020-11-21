@@ -22,7 +22,7 @@ public class Application {
     private static final String RESULT_PATH = "/home/eumar/output";
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
-        return file.filter(str -> str.equals(file.first()));
+        return file.filter(str -> !str.equals(file.first()));
     }
 
     public static JavaRDD<String> removeQuotes(JavaRDD<String> file) {
@@ -34,9 +34,6 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        if (args.length != 3) {
-            System.exit(-1);
-        }
 
         SparkConf conf = new SparkConf().setAppName("lab3");
         JavaSparkContext sc = new JavaSparkContext(conf);
