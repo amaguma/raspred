@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f1b4bd1-a412-4840-b222-8e988de4384c" name="Default Changelist" comment="" />
+    <list default="true" id="3f1b4bd1-a412-4840-b222-8e988de4384c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/amaguma/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amaguma/Application.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,10 +64,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/amaguma/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="85">
+              <caret line="40" column="69" lean-forward="true" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
                 <element signature="e#1102#1103#0" expanded="true" />
                 <element signature="e#1144#1145#0" expanded="true" />
               </folding>
@@ -182,15 +186,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606054695499</updated>
-      <workItem from="1606054700616" duration="1633000" />
+      <workItem from="1606054700616" duration="3676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1633000" />
+    <option name="totallyTimeSpent" value="3676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -268,10 +273,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/amaguma/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="40" column="69" lean-forward="true" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
             <element signature="e#1102#1103#0" expanded="true" />
             <element signature="e#1144#1145#0" expanded="true" />
           </folding>

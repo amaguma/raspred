@@ -25,8 +25,8 @@ public class Application {
         return file.filter(str -> !str.equals(file.first()));
     }
 
-    public static JavaRDD<String> removeQuotes(JavaRDD<String> file) {
-        return file.map(str -> str.replaceAll(QUOTE, ""));
+    public static String removeQuotes(String str) {
+        return str.replace(QUOTE, "");
     }
 
     public static double getPersentage (double piece, double whole) {
@@ -38,22 +38,22 @@ public class Application {
         SparkConf conf = new SparkConf().setAppName("lab3");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> flights = removeQuotes(removeHeader(sc.textFile(args[0])));
-        JavaRDD<String> airports = removeQuotes(removeHeader(sc.textFile(args[1])));
+        JavaRDD<String> flights = removeHeader(sc.textFile(args[0]));
+        JavaRDD<String> airports = removeHeader(sc.textFile(args[1]));
 
 
 
         JavaPairRDD<String, Airport>  airportsData = airports
+                .map(str -> str.split(DELIMITER))
                 .mapToPair(str -> {
-                    int ind = str.indexOf(DELIMITER);
-                    String airportId = str.substring(0, ind);
-                    String name = str.substring(ind + 1);
+
+                    String airportId = removeQuotes(str[0]);
+                    String name = removeQuotes(str[1]);
                     return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
                 });
         final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportsData.collectAsMap());
 
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
-                //.map(str -> str.split(DELIMITER))
                 .mapToPair(str -> {
                     String[] columns = str.split(DELIMITER);
                     String departureId = columns[DEPARTURE_AIRPORT_ID];
