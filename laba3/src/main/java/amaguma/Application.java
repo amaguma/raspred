@@ -45,16 +45,15 @@ public class Application {
 
 
 
-        JavaPairRDD<String, Airport>  airportsData = airports
-                .map(str -> str.split(DELIMITER))
+        JavaPairRDD<String, String>  airportsData = airports
                 .mapToPair(str -> {
-
-                    String airportId = removeQuotes(str[ID]);
-                    String name = removeQuotes(str[NAME]);
-                    return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
+                    String[] columns = str.split(DELIMITER);
+                    String airportId = removeQuotes(columns[ID]);
+                    String name = removeQuotes(columns[NAME]);
+                    return new Tuple2<>(airportId, name);
                 });
-        
-        final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportsData.collectAsMap());
+        Map<String, String> airpotsMap = airportsData.collectAsMap();
+        final Broadcast<Map<String, String>> broadcast = sc.broadcast(airpotsMap);
 
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
                 .mapToPair(str -> {
@@ -88,8 +87,8 @@ public class Application {
                     return new Tuple2<>(maxDelay, getPersentage(delayedFlights + cancelledFlights, countFlights ));
                 })
                 .map(item -> {
-                    String departureAirportName = broadcast.value().get(item._1._1).getName();
-                    String destinationAirportName = broadcast.value().get(item._1._2).getName();
+                    String departureAirportName = broadcast.value().get(item._1._1);
+                    String destinationAirportName = broadcast.value().get(item._1._2);
                     return new Tuple2<>(new Tuple2<>(departureAirportName, destinationAirportName), item._2);
                 })
                 .saveAsTextFile(RESULT_PATH);
