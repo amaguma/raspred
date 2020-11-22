@@ -18,6 +18,7 @@ public class Application {
     private static final int ZERO_DELAY = 0;
     private static final int IS_CANCELLED_ID = 19;
     private static final int ID = 0;
+    private static final int NAME = 1;
     private static final String DELIMITER = ",";
     private static final String QUOTE = "\"";
     private static final String RESULT_PATH = "/home/eumar/output";
@@ -48,8 +49,8 @@ public class Application {
                 .map(str -> str.split(DELIMITER))
                 .mapToPair(str -> {
 
-                    String airportId = removeQuotes(str[0]);
-                    String name = removeQuotes(str[1]);
+                    String airportId = removeQuotes(str[ID]);
+                    String name = removeQuotes(str[NAME]);
                     return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
                 });
         final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportsData.collectAsMap());
