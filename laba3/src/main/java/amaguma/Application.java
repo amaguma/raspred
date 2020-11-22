@@ -17,6 +17,7 @@ public class Application {
     private static final int TIME_DELAY = 18;
     private static final int ZERO_DELAY = 0;
     private static final int IS_CANCELLED_ID = 19;
+    private static final int ID = 0;
     private static final String DELIMITER = ",";
     private static final String QUOTE = "\"";
     private static final String RESULT_PATH = "/home/eumar/output";
