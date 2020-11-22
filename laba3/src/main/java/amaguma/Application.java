@@ -53,6 +53,7 @@ public class Application {
                     String name = removeQuotes(str[NAME]);
                     return new Tuple2<>(airportId, new Airport(name, Integer.parseInt(airportId)));
                 });
+        
         final Broadcast<Map<String, Airport>> broadcast = sc.broadcast(airportsData.collectAsMap());
 
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
