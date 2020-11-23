@@ -23,7 +23,7 @@ public class Application {
     private static final String QUOTE = "\"";
     private static final String RESULT_PATH = "/home/eumar/output";
 
-    public static JavaRDD<String> removeHeader(JavaRDD<String> file) {
+    public static JavaRDD<String> removeHeader(JavaRDD<String> file){
         return file.filter(str -> !str.equals(file.first()));
     }
 
@@ -42,8 +42,6 @@ public class Application {
 
         JavaRDD<String> flights = removeHeader(sc.textFile(args[0]));
         JavaRDD<String> airports = removeHeader(sc.textFile(args[1]));
-
-
 
         JavaPairRDD<String, String>  airportsData = airports
                 .mapToPair(str -> {
