@@ -89,7 +89,8 @@ public class Application {
                 .map(item -> {
                     String departureAirportName = broadcast.value().get(item._1._1);
                     String destinationAirportName = broadcast.value().get(item._1._2);
-                    return new Tuple2<>(new Tuple2<>(departureAirportName, destinationAirportName), item._2);
+                    String output = departureAirportName + "\t" + destinationAirportName + "\t" + item._2;
+                    return output;
                 })
                 .saveAsTextFile(RESULT_PATH);
     }
