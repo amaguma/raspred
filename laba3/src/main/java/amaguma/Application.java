@@ -21,7 +21,7 @@ public class Application {
     private static final int NAME = 1;
     private static final String DELIMITER = ",";
     private static final String QUOTE = "\"";
-    private static final String RESULT_PATH = "/home/eumar/output";
+    private static final String RESULT_PATH = "output";
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file){
         return file.filter(str -> !str.equals(file.first()));
@@ -40,8 +40,9 @@ public class Application {
         SparkConf conf = new SparkConf().setAppName("lab3");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> flights = removeHeader(sc.textFile(args[0]));
-        JavaRDD<String> airports = removeHeader(sc.textFile(args[1]));
+        JavaRDD<String> airports = removeHeader(sc.textFile(args[0]));
+        JavaRDD<String> flights = removeHeader(sc.textFile(args[1]));
+
 
         JavaPairRDD<String, String>  airportsData = airports
                 .mapToPair(str -> {
