@@ -24,7 +24,8 @@ public class Application {
     private static final String RESULT_PATH = "output";
 
     public static JavaRDD<String> removeHeader(JavaRDD<String> file){
-        return file.filter(str -> !str.equals(file.first()));
+        String firstline = file.first();
+        return file.filter(str -> !str.equals(firstline));
     }
 
     public static String removeQuotes(String str) {
