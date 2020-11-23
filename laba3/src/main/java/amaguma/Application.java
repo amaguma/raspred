@@ -52,8 +52,7 @@ public class Application {
                     String name = removeQuotes(columns[NAME]);
                     return new Tuple2<>(airportId, name);
                 });
-        Map<String, String> airpotsMap = airportsData.collectAsMap();
-        final Broadcast<Map<String, String>> broadcast = sc.broadcast(airpotsMap);
+        final Broadcast<Map<String, String>> broadcast = sc.broadcast(airportsData.collectAsMap());
 
         JavaPairRDD<Tuple2<String, String>, Flight> flightsData = flights
                 .mapToPair(str -> {
@@ -84,12 +83,13 @@ public class Application {
                         }
                         countFlights++;
                     }
-                    return new Tuple2<>(maxDelay, getPersentage(delayedFlights + cancelledFlights, countFlights ));
+                    String output = "maxDelay: " + maxDelay + "\n" + "late and canceled flights: " + getPersentage(delayedFlights + cancelledFlights, countFlights) + "%";
+                    return output;
                 })
                 .map(item -> {
                     String departureAirportName = broadcast.value().get(item._1._1);
                     String destinationAirportName = broadcast.value().get(item._1._2);
-                    String output = departureAirportName + "\t" + destinationAirportName + "\t" + item._2;
+                    String output = departureAirportName + "\t" + "->" + "\t" + destinationAirportName + "\t" + "->" + "\t" + item._2;
                     return output;
                 })
                 .saveAsTextFile(RESULT_PATH);
