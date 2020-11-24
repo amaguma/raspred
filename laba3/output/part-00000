@@ -1,0 +1,1990 @@
+Dallas/Fort Worth	->	Beaumont/Port Arthur	maxDelay: 36.0		percentage of late + canceled flights: 66.66666666666666%
+Memphis	->	Los Angeles	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Akron	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	San Jose	maxDelay: 54.0		percentage of late + canceled flights: 36.36363636363637%
+Chicago	->	Cedar Rapids/Iowa City	maxDelay: 148.0		percentage of late + canceled flights: 57.14285714285714%
+Tampa	->	Nashville	maxDelay: 1.0		percentage of late + canceled flights: 10.0%
+Raleigh/Durham	->	Cleveland	maxDelay: 85.0		percentage of late + canceled flights: 50.0%
+Miami	->	Philadelphia	maxDelay: 99.0		percentage of late + canceled flights: 48.148148148148145%
+Richmond	->	Chicago	maxDelay: 432.0		percentage of late + canceled flights: 65.0%
+Charlotte	->	Detroit	maxDelay: 96.0		percentage of late + canceled flights: 25.64102564102564%
+New York	->	Philadelphia	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	Ponce	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Bozeman	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas	->	Chicago	maxDelay: 91.0		percentage of late + canceled flights: 47.82608695652174%
+Milwaukee	->	Atlanta	maxDelay: 131.0		percentage of late + canceled flights: 28.57142857142857%
+Denver	->	Cleveland	maxDelay: 63.0		percentage of late + canceled flights: 50.0%
+Dallas/Fort Worth	->	Louisville	maxDelay: 96.0		percentage of late + canceled flights: 66.66666666666666%
+Dallas/Fort Worth	->	San Angelo	maxDelay: 35.0		percentage of late + canceled flights: 42.857142857142854%
+Houston	->	Chicago	maxDelay: 75.0		percentage of late + canceled flights: 55.55555555555556%
+Phoenix	->	New Orleans	maxDelay: 24.0		percentage of late + canceled flights: 33.33333333333333%
+Tampa	->	Latrobe	maxDelay: 94.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Valparaiso	maxDelay: 22.0		percentage of late + canceled flights: 20.0%
+Manchester	->	Orlando	maxDelay: 12.0		percentage of late + canceled flights: 16.666666666666664%
+Baltimore	->	Las Vegas	maxDelay: 167.0		percentage of late + canceled flights: 20.0%
+Washington	->	West Palm Beach/Palm Beach	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Dallas	maxDelay: 95.0		percentage of late + canceled flights: 42.10526315789473%
+Chicago	->	Cleveland	maxDelay: 28.0		percentage of late + canceled flights: 26.666666666666668%
+Denver	->	Spokane	maxDelay: 58.0		percentage of late + canceled flights: 46.15384615384615%
+Memphis	->	Chicago	maxDelay: 36.0		percentage of late + canceled flights: 80.0%
+Atlanta	->	Tucson	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Pensacola	maxDelay: 24.0		percentage of late + canceled flights: 54.54545454545454%
+Houston	->	Hayden	maxDelay: 18.0		percentage of late + canceled flights: 66.66666666666666%
+Seattle	->	San Antonio	maxDelay: 27.0		percentage of late + canceled flights: 28.57142857142857%
+Atlanta	->	Oakland	maxDelay: 23.0		percentage of late + canceled flights: 100.0%
+Charlotte Amalie	->	San Juan	maxDelay: 131.0		percentage of late + canceled flights: 42.857142857142854%
+Pittsburgh	->	Chicago	maxDelay: 34.0		percentage of late + canceled flights: 38.46153846153847%
+Richmond	->	Washington	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Oklahoma City	maxDelay: 21.0		percentage of late + canceled flights: 66.66666666666666%
+Houston	->	Colorado Springs	maxDelay: 224.0		percentage of late + canceled flights: 50.0%
+Tallahassee	->	Dallas/Fort Worth	maxDelay: 34.0		percentage of late + canceled flights: 33.33333333333333%
+Tulsa	->	Miami	maxDelay: 7.0		percentage of late + canceled flights: 100.0%
+Moline	->	Chicago	maxDelay: 25.0		percentage of late + canceled flights: 25.0%
+Newark	->	Fayetteville	maxDelay: 6.0		percentage of late + canceled flights: 33.33333333333333%
+Valparaiso	->	Houston	maxDelay: 70.0		percentage of late + canceled flights: 28.57142857142857%
+Oklahoma City	->	Phoenix	maxDelay: 79.0		percentage of late + canceled flights: 50.0%
+Midland/Odessa	->	Dallas/Fort Worth	maxDelay: 118.0		percentage of late + canceled flights: 44.44444444444444%
+Tampa	->	Austin	maxDelay: 8.0		percentage of late + canceled flights: 25.0%
+Dallas	->	El Paso	maxDelay: 41.0		percentage of late + canceled flights: 33.33333333333333%
+Portland	->	Baltimore	maxDelay: 148.0		percentage of late + canceled flights: 40.0%
+Honolulu	->	Houston	maxDelay: 9.0		percentage of late + canceled flights: 60.0%
+Charleston	->	Charlotte	maxDelay: 8.0		percentage of late + canceled flights: 20.0%
+San Francisco	->	Seattle	maxDelay: 77.0		percentage of late + canceled flights: 23.61111111111111%
+Chicago	->	Tampa	maxDelay: 197.0		percentage of late + canceled flights: 47.82608695652174%
+Reno	->	Chicago	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Antonio	->	Atlanta	maxDelay: 105.0		percentage of late + canceled flights: 32.0%
+Austin	->	Boston	maxDelay: 7.0		percentage of late + canceled flights: 66.66666666666666%
+Tulsa	->	Phoenix	maxDelay: 21.0		percentage of late + canceled flights: 16.666666666666664%
+Islip	->	Orlando	maxDelay: 68.0		percentage of late + canceled flights: 37.5%
+Fort Myers	->	Boston	maxDelay: 170.0		percentage of late + canceled flights: 42.10526315789473%
+Houston	->	Boise	maxDelay: 14.0		percentage of late + canceled flights: 66.66666666666666%
+Newark	->	San Juan	maxDelay: 209.0		percentage of late + canceled flights: 50.0%
+Duluth	->	Minneapolis	maxDelay: 58.0		percentage of late + canceled flights: 28.57142857142857%
+Sacramento	->	Portland	maxDelay: 138.0		percentage of late + canceled flights: 63.63636363636363%
+Nashville	->	Minneapolis	maxDelay: 90.0		percentage of late + canceled flights: 57.14285714285714%
+Chicago	->	San Francisco	maxDelay: 275.0		percentage of late + canceled flights: 54.385964912280706%
+Fort Lauderdale	->	Washington	maxDelay: 65.0		percentage of late + canceled flights: 23.809523809523807%
+Moline	->	Dallas/Fort Worth	maxDelay: 31.0		percentage of late + canceled flights: 11.11111111111111%
+Washington	->	Miami	maxDelay: 49.0		percentage of late + canceled flights: 46.15384615384615%
+Dallas/Fort Worth	->	Huntsville	maxDelay: 69.0		percentage of late + canceled flights: 42.857142857142854%
+Hays	->	Denver	maxDelay: 16.0		percentage of late + canceled flights: 40.0%
+Houston	->	Newark	maxDelay: 167.0		percentage of late + canceled flights: 25.0%
+Detroit	->	Des Moines	maxDelay: 21.0		percentage of late + canceled flights: 100.0%
+Dallas/Fort Worth	->	Meridian	maxDelay: 12.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Newark	maxDelay: 141.0		percentage of late + canceled flights: 41.17647058823529%
+Mobile	->	Houston	maxDelay: 142.0		percentage of late + canceled flights: 58.82352941176471%
+Salt Lake City	->	Las Vegas	maxDelay: 132.0		percentage of late + canceled flights: 26.666666666666668%
+Rhinelander	->	Minneapolis	maxDelay: 23.0		percentage of late + canceled flights: 83.33333333333334%
+Minneapolis	->	Dayton	maxDelay: 44.0		percentage of late + canceled flights: 33.33333333333333%
+Baltimore	->	San Diego	maxDelay: 37.0		percentage of late + canceled flights: 20.0%
+Washington	->	Knoxville	maxDelay: 14.0		percentage of late + canceled flights: 100.0%
+Atlanta	->	Gainesville	maxDelay: 86.0		percentage of late + canceled flights: 52.94117647058824%
+Houston	->	Louisville	maxDelay: 5.0		percentage of late + canceled flights: 60.0%
+Detroit	->	Manchester	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Francisco	->	Burbank	maxDelay: 66.0		percentage of late + canceled flights: 58.333333333333336%
+Orlando	->	New York	maxDelay: 156.0		percentage of late + canceled flights: 52.5%
+Kahului	->	Los Angeles	maxDelay: 298.0		percentage of late + canceled flights: 23.333333333333332%
+Denver	->	Baltimore	maxDelay: 310.0		percentage of late + canceled flights: 42.857142857142854%
+Salt Lake City	->	Chicago	maxDelay: 79.0		percentage of late + canceled flights: 45.0%
+San Francisco	->	Raleigh/Durham	maxDelay: 165.0		percentage of late + canceled flights: 100.0%
+Portland	->	Salt Lake City	maxDelay: 51.0		percentage of late + canceled flights: 37.5%
+Dallas	->	Denver	maxDelay: 28.0		percentage of late + canceled flights: 14.285714285714285%
+San Diego	->	Baltimore	maxDelay: 56.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Hancock/Houghton	maxDelay: 69.0		percentage of late + canceled flights: 83.33333333333334%
+Harlingen/San Benito	->	Houston	maxDelay: 13.0		percentage of late + canceled flights: 22.22222222222222%
+Providence	->	Detroit	maxDelay: 43.0		percentage of late + canceled flights: 71.42857142857143%
+New York	->	Jacksonville	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Burlington	->	Chicago	maxDelay: 62.0		percentage of late + canceled flights: 33.33333333333333%
+Minneapolis	->	Anchorage	maxDelay: 58.0		percentage of late + canceled flights: 60.0%
+Chicago	->	Nashville	maxDelay: 391.0		percentage of late + canceled flights: 36.666666666666664%
+Elmira/Corning	->	Detroit	maxDelay: 12.0		percentage of late + canceled flights: 27.27272727272727%
+Philadelphia	->	Detroit	maxDelay: 95.0		percentage of late + canceled flights: 20.0%
+Dallas/Fort Worth	->	Abilene	maxDelay: 76.0		percentage of late + canceled flights: 41.66666666666667%
+Portland	->	San Francisco	maxDelay: 93.0		percentage of late + canceled flights: 27.027027027027028%
+Islip	->	Fort Lauderdale	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Antonio	->	Los Angeles	maxDelay: 86.0		percentage of late + canceled flights: 20.0%
+Denver	->	Chicago	maxDelay: 101.0		percentage of late + canceled flights: 37.5%
+Dallas/Fort Worth	->	Fort Myers	maxDelay: 96.0		percentage of late + canceled flights: 33.33333333333333%
+Washington	->	Fort Lauderdale	maxDelay: 254.0		percentage of late + canceled flights: 45.0%
+San Antonio	->	Minneapolis	maxDelay: 3.0		percentage of late + canceled flights: 25.0%
+Indianapolis	->	Fort Myers	maxDelay: 38.0		percentage of late + canceled flights: 75.0%
+New York	->	Rochester	maxDelay: 39.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Nashville	maxDelay: 75.0		percentage of late + canceled flights: 58.82352941176471%
+Atlanta	->	Portland	maxDelay: 1.0		percentage of late + canceled flights: 50.0%
+Kona	->	Phoenix	maxDelay: 2.0		percentage of late + canceled flights: 25.0%
+Lexington	->	Chicago	maxDelay: 68.0		percentage of late + canceled flights: 47.05882352941176%
+Atlanta	->	San Jose	maxDelay: 11.0		percentage of late + canceled flights: 50.0%
+Charlottesville	->	Atlanta	maxDelay: 44.0		percentage of late + canceled flights: 37.5%
+Denver	->	Amarillo	maxDelay: 21.0		percentage of late + canceled flights: 50.0%
+Flint	->	Minneapolis	maxDelay: 79.0		percentage of late + canceled flights: 33.33333333333333%
+San Francisco	->	Chicago	maxDelay: 72.0		percentage of late + canceled flights: 57.14285714285714%
+Portland	->	Burbank	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Milwaukee	->	Detroit	maxDelay: 191.0		percentage of late + canceled flights: 26.666666666666668%
+Atlanta	->	Tulsa	maxDelay: 43.0		percentage of late + canceled flights: 29.411764705882355%
+San Luis Obispo	->	Phoenix	maxDelay: 47.0		percentage of late + canceled flights: 37.5%
+Colorado Springs	->	Chicago	maxDelay: 313.0		percentage of late + canceled flights: 100.0%
+Oakland	->	Chicago	maxDelay: 19.0		percentage of late + canceled flights: 40.0%
+San Francisco	->	Newark	maxDelay: 236.0		percentage of late + canceled flights: 44.44444444444444%
+Washington	->	Boston	maxDelay: 159.0		percentage of late + canceled flights: 46.15384615384615%
+Austin	->	Chicago	maxDelay: 60.0		percentage of late + canceled flights: 60.0%
+Atlanta	->	Des Moines	maxDelay: 46.0		percentage of late + canceled flights: 50.0%
+Myrtle Beach	->	Atlanta	maxDelay: 206.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	New York	maxDelay: 90.0		percentage of late + canceled flights: 68.42105263157895%
+Kansas City	->	Houston	maxDelay: 75.0		percentage of late + canceled flights: 31.25%
+Houston	->	Detroit	maxDelay: 164.0		percentage of late + canceled flights: 47.61904761904761%
+Omaha	->	St. Louis	maxDelay: 4.0		percentage of late + canceled flights: 14.285714285714285%
+Dallas/Fort Worth	->	Detroit	maxDelay: 142.0		percentage of late + canceled flights: 60.86956521739131%
+Dallas/Fort Worth	->	New York	maxDelay: 12.0		percentage of late + canceled flights: 75.0%
+Richmond	->	Miami	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+El Paso	->	Houston	maxDelay: 66.0		percentage of late + canceled flights: 42.857142857142854%
+Los Angeles	->	Cincinnati	maxDelay: 8.0		percentage of late + canceled flights: 20.0%
+Denver	->	Miami	maxDelay: 66.0		percentage of late + canceled flights: 52.63157894736842%
+Spokane	->	Seattle	maxDelay: 348.0		percentage of late + canceled flights: 44.0%
+Pittsburgh	->	Dallas/Fort Worth	maxDelay: 90.0		percentage of late + canceled flights: 33.33333333333333%
+Phoenix	->	Reno	maxDelay: 71.0		percentage of late + canceled flights: 46.666666666666664%
+Asheville	->	Atlanta	maxDelay: 220.0		percentage of late + canceled flights: 15.789473684210526%
+Dallas/Fort Worth	->	Seattle	maxDelay: 137.0		percentage of late + canceled flights: 29.629629629629626%
+Columbia	->	Atlanta	maxDelay: 186.0		percentage of late + canceled flights: 36.36363636363637%
+Orlando	->	Chicago	maxDelay: 94.0		percentage of late + canceled flights: 43.90243902439025%
+Tampa	->	Atlanta	maxDelay: 43.0		percentage of late + canceled flights: 23.91304347826087%
+Minneapolis	->	Brainerd	maxDelay: 6.0		percentage of late + canceled flights: 25.0%
+Jacksonville	->	Philadelphia	maxDelay: 2.0		percentage of late + canceled flights: 50.0%
+Minneapolis	->	St. Louis	maxDelay: 47.0		percentage of late + canceled flights: 35.294117647058826%
+El Paso	->	Las Vegas	maxDelay: 155.0		percentage of late + canceled flights: 60.0%
+Fayetteville	->	Atlanta	maxDelay: 85.0		percentage of late + canceled flights: 22.22222222222222%
+Baltimore	->	Los Angeles	maxDelay: 10.0		percentage of late + canceled flights: 16.666666666666664%
+Traverse City	->	Detroit	maxDelay: 20.0		percentage of late + canceled flights: 50.0%
+Philadelphia	->	Dallas/Fort Worth	maxDelay: 313.0		percentage of late + canceled flights: 40.0%
+Washington	->	Los Angeles	maxDelay: 37.0		percentage of late + canceled flights: 25.0%
+Fresno	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Richmond	->	Boston	maxDelay: 40.0		percentage of late + canceled flights: 50.0%
+Washington	->	Jacksonville	maxDelay: 6.0		percentage of late + canceled flights: 100.0%
+Chicago	->	Roanoke	maxDelay: 109.0		percentage of late + canceled flights: 100.0%
+Kahului	->	San Francisco	maxDelay: 198.0		percentage of late + canceled flights: 46.15384615384615%
+Tyler	->	Houston	maxDelay: 54.0		percentage of late + canceled flights: 16.666666666666664%
+Chicago	->	Oakland	maxDelay: 69.0		percentage of late + canceled flights: 66.66666666666666%
+Charlotte	->	Buffalo	maxDelay: 12.0		percentage of late + canceled flights: 57.14285714285714%
+Long Beach	->	Oakland	maxDelay: 31.0		percentage of late + canceled flights: 33.33333333333333%
+Palm Springs	->	Los Angeles	maxDelay: 74.0		percentage of late + canceled flights: 58.82352941176471%
+Atlanta	->	Scranton/Wilkes-Barre	maxDelay: 11.0		percentage of late + canceled flights: 50.0%
+Detroit	->	Rochester	maxDelay: 109.0		percentage of late + canceled flights: 50.0%
+Denver	->	Gunnison	maxDelay: 154.0		percentage of late + canceled flights: 66.66666666666666%
+Oklahoma City	->	Dallas/Fort Worth	maxDelay: 86.0		percentage of late + canceled flights: 41.66666666666667%
+Charlotte Amalie	->	Philadelphia	maxDelay: 13.0		percentage of late + canceled flights: 60.0%
+West Palm Beach/Palm Beach	->	Charlotte	maxDelay: 78.0		percentage of late + canceled flights: 52.94117647058824%
+Chicago	->	Jacksonville	maxDelay: 70.0		percentage of late + canceled flights: 20.0%
+Cincinnati	->	Boston	maxDelay: 46.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Fort Myers	maxDelay: 119.0		percentage of late + canceled flights: 35.8974358974359%
+San Antonio	->	Tampa	maxDelay: 2.0		percentage of late + canceled flights: 50.0%
+Los Angeles	->	West Palm Beach/Palm Beach	maxDelay: 10.0		percentage of late + canceled flights: 100.0%
+Lafayette	->	Denver	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Seattle	->	Omaha	maxDelay: 140.0		percentage of late + canceled flights: 33.33333333333333%
+St. George	->	Denver	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Albuquerque	->	Dallas/Fort Worth	maxDelay: 27.0		percentage of late + canceled flights: 50.0%
+Long Beach	->	Boston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Richmond	->	Fort Lauderdale	maxDelay: 44.0		percentage of late + canceled flights: 33.33333333333333%
+Kansas City	->	Atlanta	maxDelay: 160.0		percentage of late + canceled flights: 21.21212121212121%
+Dallas	->	Nashville	maxDelay: 33.0		percentage of late + canceled flights: 28.57142857142857%
+Hayden	->	San Francisco	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Richmond	->	Atlanta	maxDelay: 35.0		percentage of late + canceled flights: 17.647058823529413%
+Houston	->	Laredo	maxDelay: 172.0		percentage of late + canceled flights: 42.857142857142854%
+Newark	->	South Bend	maxDelay: 139.0		percentage of late + canceled flights: 100.0%
+Harrisburg	->	Detroit	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Tampa	->	Memphis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Des Moines	->	Las Vegas	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Gulfport/Biloxi	->	Houston	maxDelay: 107.0		percentage of late + canceled flights: 16.666666666666664%
+Phoenix	->	San Jose	maxDelay: 110.0		percentage of late + canceled flights: 54.166666666666664%
+Charlotte	->	Indianapolis	maxDelay: 37.0		percentage of late + canceled flights: 9.090909090909092%
+New York	->	Dallas/Fort Worth	maxDelay: 1.0		percentage of late + canceled flights: 33.33333333333333%
+Minneapolis	->	Sacramento	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Seattle	->	Fresno	maxDelay: 3.0		percentage of late + canceled flights: 33.33333333333333%
+Charleston/Dunbar	->	Atlanta	maxDelay: 47.0		percentage of late + canceled flights: 33.33333333333333%
+Miami	->	Boston	maxDelay: 77.0		percentage of late + canceled flights: 45.45454545454545%
+New York	->	Louisville	maxDelay: 51.0		percentage of late + canceled flights: 55.55555555555556%
+Washington	->	Indianapolis	maxDelay: 7.0		percentage of late + canceled flights: 40.0%
+Grand Rapids	->	Baltimore	maxDelay: 4.0		percentage of late + canceled flights: 20.0%
+Flint	->	Orlando	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Savannah	->	Chicago	maxDelay: 61.0		percentage of late + canceled flights: 60.0%
+Las Vegas	->	Portland	maxDelay: 185.0		percentage of late + canceled flights: 41.935483870967744%
+Washington	->	Philadelphia	maxDelay: 70.0		percentage of late + canceled flights: 50.0%
+New York	->	Miami	maxDelay: 175.0		percentage of late + canceled flights: 52.77777777777778%
+San Juan	->	Charlotte	maxDelay: 13.0		percentage of late + canceled flights: 14.285714285714285%
+Boston	->	Tampa	maxDelay: 144.0		percentage of late + canceled flights: 60.0%
+Newark	->	Los Angeles	maxDelay: 146.0		percentage of late + canceled flights: 35.714285714285715%
+Orlando	->	Bloomington/Normal	maxDelay: 81.0		percentage of late + canceled flights: 50.0%
+Nashville	->	Charleston	maxDelay: 2.0		percentage of late + canceled flights: 16.666666666666664%
+Minneapolis	->	Fayetteville	maxDelay: 10.0		percentage of late + canceled flights: 66.66666666666666%
+Anchorage	->	San Francisco	maxDelay: 38.0		percentage of late + canceled flights: 100.0%
+Oklahoma City	->	Los Angeles	maxDelay: 9.0		percentage of late + canceled flights: 25.0%
+Colorado Springs	->	Houston	maxDelay: 22.0		percentage of late + canceled flights: 22.22222222222222%
+Greensboro/High Point	->	Atlanta	maxDelay: 31.0		percentage of late + canceled flights: 15.789473684210526%
+Newark	->	Las Vegas	maxDelay: 29.0		percentage of late + canceled flights: 27.77777777777778%
+Seattle	->	Houston	maxDelay: 120.0		percentage of late + canceled flights: 55.55555555555556%
+San Jose	->	Honolulu	maxDelay: 17.0		percentage of late + canceled flights: 60.0%
+Fort Lauderdale	->	Seattle	maxDelay: 7.0		percentage of late + canceled flights: 100.0%
+Eagle	->	Houston	maxDelay: 44.0		percentage of late + canceled flights: 100.0%
+Newark	->	Santa Ana	maxDelay: 20.0		percentage of late + canceled flights: 25.0%
+Oklahoma City	->	Chicago	maxDelay: 265.0		percentage of late + canceled flights: 72.72727272727273%
+Baltimore	->	Birmingham	maxDelay: 96.0		percentage of late + canceled flights: 57.14285714285714%
+Milwaukee	->	Minneapolis	maxDelay: 19.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Detroit	maxDelay: 167.0		percentage of late + canceled flights: 54.54545454545454%
+Fort Lauderdale	->	Boston	maxDelay: 21.0		percentage of late + canceled flights: 23.809523809523807%
+Santa Ana	->	San Jose	maxDelay: 43.0		percentage of late + canceled flights: 38.46153846153847%
+Atlanta	->	Shreveport	maxDelay: 61.0		percentage of late + canceled flights: 18.75%
+Charlotte	->	West Palm Beach/Palm Beach	maxDelay: 14.0		percentage of late + canceled flights: 31.57894736842105%
+Myrtle Beach	->	Atlantic City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+St. Louis	->	Houston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Minneapolis	->	Nashville	maxDelay: 20.0		percentage of late + canceled flights: 27.27272727272727%
+Atlanta	->	El Paso	maxDelay: 16.0		percentage of late + canceled flights: 33.33333333333333%
+Houston	->	Jackson	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Portland	->	Minneapolis	maxDelay: 42.0		percentage of late + canceled flights: 22.22222222222222%
+Atlanta	->	West Palm Beach/Palm Beach	maxDelay: 20.0		percentage of late + canceled flights: 24.137931034482758%
+Denver	->	Durango	maxDelay: 122.0		percentage of late + canceled flights: 25.0%
+Nashville	->	Los Angeles	maxDelay: 41.0		percentage of late + canceled flights: 22.22222222222222%
+Seattle	->	Baltimore	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Reno	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Flint	->	Las Vegas	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Kahului	->	Portland	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Aguadilla	->	New York	maxDelay: 2.0		percentage of late + canceled flights: 25.0%
+Austin	->	Atlanta	maxDelay: 95.0		percentage of late + canceled flights: 48.148148148148145%
+Chicago	->	Trenton	maxDelay: 95.0		percentage of late + canceled flights: 100.0%
+Fort Wayne	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Hartford	->	Tampa	maxDelay: 21.0		percentage of late + canceled flights: 22.22222222222222%
+Hayden	->	Denver	maxDelay: 158.0		percentage of late + canceled flights: 100.0%
+Las Vegas	->	Flint	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Aspen	->	San Francisco	maxDelay: 14.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Houston	maxDelay: 143.0		percentage of late + canceled flights: 24.324324324324326%
+Nashville	->	San Antonio	maxDelay: 62.0		percentage of late + canceled flights: 25.0%
+Cincinnati	->	Atlanta	maxDelay: 4.0		percentage of late + canceled flights: 6.25%
+Houston	->	San Juan	maxDelay: 18.0		percentage of late + canceled flights: 25.0%
+Wichita	->	Dallas/Fort Worth	maxDelay: 468.0		percentage of late + canceled flights: 14.285714285714285%
+San Jose	->	Kahului	maxDelay: 111.0		percentage of late + canceled flights: 28.57142857142857%
+Dallas/Fort Worth	->	Montrose/Delta	maxDelay: 38.0		percentage of late + canceled flights: 100.0%
+Paducah	->	Chicago	maxDelay: 297.0		percentage of late + canceled flights: 28.57142857142857%
+Portland	->	Phoenix	maxDelay: 126.0		percentage of late + canceled flights: 15.384615384615385%
+Washington	->	West Palm Beach/Palm Beach	maxDelay: 107.0		percentage of late + canceled flights: 50.0%
+New York	->	Denver	maxDelay: 107.0		percentage of late + canceled flights: 45.0%
+New York	->	Chicago	maxDelay: 182.0		percentage of late + canceled flights: 33.33333333333333%
+Rochester	->	Chicago	maxDelay: 117.0		percentage of late + canceled flights: 54.54545454545454%
+Harrisburg	->	Atlanta	maxDelay: 31.0		percentage of late + canceled flights: 71.42857142857143%
+Deadhorse	->	Barrow	maxDelay: 306.0		percentage of late + canceled flights: 70.0%
+Oakland	->	Honolulu	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Raleigh/Durham	maxDelay: 18.0		percentage of late + canceled flights: 66.66666666666666%
+Kansas City	->	Dallas/Fort Worth	maxDelay: 97.0		percentage of late + canceled flights: 42.857142857142854%
+Springfield	->	Atlanta	maxDelay: 135.0		percentage of late + canceled flights: 54.54545454545454%
+Syracuse	->	Newark	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Burbank	maxDelay: 192.0		percentage of late + canceled flights: 42.857142857142854%
+Birmingham	->	Dallas/Fort Worth	maxDelay: 68.0		percentage of late + canceled flights: 33.33333333333333%
+Detroit	->	Memphis	maxDelay: 2.0		percentage of late + canceled flights: 100.0%
+Huntsville	->	Denver	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Omaha	->	Chicago	maxDelay: 135.0		percentage of late + canceled flights: 52.63157894736842%
+Phoenix	->	Louisville	maxDelay: 42.0		percentage of late + canceled flights: 33.33333333333333%
+Tampa	->	Pittsburgh	maxDelay: 12.0		percentage of late + canceled flights: 50.0%
+Savannah	->	New York	maxDelay: 55.0		percentage of late + canceled flights: 33.33333333333333%
+Phoenix	->	Kansas City	maxDelay: 226.0		percentage of late + canceled flights: 68.42105263157895%
+Orlando	->	Syracuse	maxDelay: 78.0		percentage of late + canceled flights: 66.66666666666666%
+Chicago	->	Grand Rapids	maxDelay: 122.0		percentage of late + canceled flights: 37.93103448275862%
+New York	->	Nashville	maxDelay: 30.0		percentage of late + canceled flights: 33.33333333333333%
+Houston	->	Shreveport	maxDelay: 52.0		percentage of late + canceled flights: 38.46153846153847%
+Baltimore	->	Atlanta	maxDelay: 228.0		percentage of late + canceled flights: 26.31578947368421%
+Chicago	->	Little Rock	maxDelay: 10.0		percentage of late + canceled flights: 33.33333333333333%
+El Paso	->	Atlanta	maxDelay: 4.0		percentage of late + canceled flights: 16.666666666666664%
+Salt Lake City	->	Grand Junction	maxDelay: 4.0		percentage of late + canceled flights: 50.0%
+White Plains	->	Fort Myers	maxDelay: 62.0		percentage of late + canceled flights: 33.33333333333333%
+Anchorage	->	Seattle	maxDelay: 138.0		percentage of late + canceled flights: 26.41509433962264%
+Minneapolis	->	Rhinelander	maxDelay: 49.0		percentage of late + canceled flights: 33.33333333333333%
+Newark	->	San Diego	maxDelay: 13.0		percentage of late + canceled flights: 33.33333333333333%
+Fort Lauderdale	->	Pittsburgh	maxDelay: 94.0		percentage of late + canceled flights: 60.0%
+Harlingen/San Benito	->	Houston	maxDelay: 5.0		percentage of late + canceled flights: 8.333333333333332%
+San Diego	->	Chicago	maxDelay: 25.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Albuquerque	maxDelay: 120.0		percentage of late + canceled flights: 50.0%
+San Jose	->	Seattle	maxDelay: 189.0		percentage of late + canceled flights: 30.0%
+Denver	->	Jacksonville	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Detroit	maxDelay: 116.0		percentage of late + canceled flights: 30.76923076923077%
+Denver	->	Tucson	maxDelay: 80.0		percentage of late + canceled flights: 55.55555555555556%
+Great Falls	->	Denver	maxDelay: 38.0		percentage of late + canceled flights: 57.14285714285714%
+Chicago	->	Eau Claire	maxDelay: 264.0		percentage of late + canceled flights: 57.14285714285714%
+Seattle	->	Washington	maxDelay: 19.0		percentage of late + canceled flights: 20.0%
+Hartford	->	Fort Myers	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Eagle	->	Newark	maxDelay: 90.0		percentage of late + canceled flights: 60.0%
+San Antonio	->	Dallas	maxDelay: 47.0		percentage of late + canceled flights: 35.714285714285715%
+Santa Fe	->	Denver	maxDelay: 95.0		percentage of late + canceled flights: 50.0%
+Portland	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Richmond	->	Minneapolis	maxDelay: 100.0		percentage of late + canceled flights: 66.66666666666666%
+Louisville	->	Washington	maxDelay: 4.0		percentage of late + canceled flights: 50.0%
+Miami	->	Baltimore	maxDelay: 17.0		percentage of late + canceled flights: 36.36363636363637%
+Burbank	->	Seattle	maxDelay: 120.0		percentage of late + canceled flights: 36.36363636363637%
+Denver	->	Austin	maxDelay: 56.0		percentage of late + canceled flights: 37.5%
+Amarillo	->	Denver	maxDelay: 171.0		percentage of late + canceled flights: 71.42857142857143%
+Dallas/Fort Worth	->	Philadelphia	maxDelay: 336.0		percentage of late + canceled flights: 35.294117647058826%
+Los Angeles	->	Honolulu	maxDelay: 151.0		percentage of late + canceled flights: 53.06122448979592%
+Charlottesville	->	New York	maxDelay: 113.0		percentage of late + canceled flights: 33.33333333333333%
+St. George	->	Salt Lake City	maxDelay: 213.0		percentage of late + canceled flights: 33.33333333333333%
+San Diego	->	Phoenix	maxDelay: 70.0		percentage of late + canceled flights: 25.581395348837212%
+Los Angeles	->	Kansas City	maxDelay: 37.0		percentage of late + canceled flights: 16.666666666666664%
+Houston	->	Fort Lauderdale	maxDelay: 60.0		percentage of late + canceled flights: 30.76923076923077%
+Denver	->	Oakland	maxDelay: 66.0		percentage of late + canceled flights: 27.77777777777778%
+Salt Lake City	->	New York	maxDelay: 395.0		percentage of late + canceled flights: 46.15384615384615%
+Charlotte	->	Atlanta	maxDelay: 105.0		percentage of late + canceled flights: 38.88888888888889%
+San Francisco	->	Bozeman	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Phoenix	maxDelay: 154.0		percentage of late + canceled flights: 58.82352941176471%
+Dallas/Fort Worth	->	St. Louis	maxDelay: 141.0		percentage of late + canceled flights: 44.0%
+Dallas/Fort Worth	->	Norfolk	maxDelay: 53.0		percentage of late + canceled flights: 66.66666666666666%
+Austin	->	San Diego	maxDelay: 18.0		percentage of late + canceled flights: 75.0%
+Jacksonville	->	Houston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Miami	->	Gainesville	maxDelay: 3.0		percentage of late + canceled flights: 16.666666666666664%
+Pueblo	->	Denver	maxDelay: 57.0		percentage of late + canceled flights: 50.0%
+San Juan	->	Tampa	maxDelay: 161.0		percentage of late + canceled flights: 46.15384615384615%
+Jamestown	->	Denver	maxDelay: 74.0		percentage of late + canceled flights: 33.33333333333333%
+Cincinnati	->	St. Louis	maxDelay: 79.0		percentage of late + canceled flights: 33.33333333333333%
+New York	->	Los Angeles	maxDelay: 176.0		percentage of late + canceled flights: 29.565217391304348%
+Grand Rapids	->	Fort Myers	maxDelay: 4.0		percentage of late + canceled flights: 33.33333333333333%
+St. Louis	->	San Francisco	maxDelay: 5.0		percentage of late + canceled flights: 14.285714285714285%
+Petersburg	->	Wrangell	maxDelay: 31.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	San Francisco	maxDelay: 55.0		percentage of late + canceled flights: 14.285714285714285%
+Las Vegas	->	Wichita	maxDelay: 31.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Champaign/Urbana	maxDelay: 129.0		percentage of late + canceled flights: 63.1578947368421%
+Austin	->	Charlotte	maxDelay: 88.0		percentage of late + canceled flights: 100.0%
+Ontario	->	Houston	maxDelay: 3.0		percentage of late + canceled flights: 33.33333333333333%
+Omaha	->	Chicago	maxDelay: 34.0		percentage of late + canceled flights: 28.57142857142857%
+Dallas/Fort Worth	->	Kahului	maxDelay: 261.0		percentage of late + canceled flights: 50.0%
+Oklahoma City	->	Minneapolis	maxDelay: 14.0		percentage of late + canceled flights: 20.0%
+Kansas City	->	San Diego	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Corpus Christi	maxDelay: 89.0		percentage of late + canceled flights: 36.84210526315789%
+Spokane	->	Phoenix	maxDelay: 31.0		percentage of late + canceled flights: 25.0%
+Sacramento	->	Dallas/Fort Worth	maxDelay: 716.0		percentage of late + canceled flights: 40.0%
+Los Angeles	->	Wichita	maxDelay: 138.0		percentage of late + canceled flights: 100.0%
+Houston	->	Charleston/Dunbar	maxDelay: 17.0		percentage of late + canceled flights: 100.0%
+Milwaukee	->	Cincinnati	maxDelay: 6.0		percentage of late + canceled flights: 66.66666666666666%
+Memphis	->	Tampa	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Greensboro/High Point	->	Dallas/Fort Worth	maxDelay: 89.0		percentage of late + canceled flights: 44.44444444444444%
+Newark	->	Indianapolis	maxDelay: 35.0		percentage of late + canceled flights: 61.53846153846154%
+St. Louis	->	Kansas City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Washington	->	Cincinnati	maxDelay: 68.0		percentage of late + canceled flights: 100.0%
+Tampa	->	San Antonio	maxDelay: 33.0		percentage of late + canceled flights: 80.0%
+Trenton	->	Atlanta	maxDelay: 32.0		percentage of late + canceled flights: 66.66666666666666%
+Mission/McAllen/Edinburg	->	Dallas/Fort Worth	maxDelay: 381.0		percentage of late + canceled flights: 33.33333333333333%
+Cleveland	->	Los Angeles	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Huntsville	maxDelay: 19.0		percentage of late + canceled flights: 50.0%
+Providence	->	Newark	maxDelay: 101.0		percentage of late + canceled flights: 14.285714285714285%
+St. Louis	->	Cincinnati	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas/Fort Worth	->	Bismarck/Mandan	maxDelay: 90.0		percentage of late + canceled flights: 100.0%
+Chicago	->	Fort Myers	maxDelay: 98.0		percentage of late + canceled flights: 27.27272727272727%
+Charleston	->	Houston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Gulfport/Biloxi	->	Dallas/Fort Worth	maxDelay: 12.0		percentage of late + canceled flights: 50.0%
+Chicago	->	St. Louis	maxDelay: 229.0		percentage of late + canceled flights: 40.0%
+Los Angeles	->	Tucson	maxDelay: 53.0		percentage of late + canceled flights: 50.0%
+Houston	->	Nashville	maxDelay: 123.0		percentage of late + canceled flights: 38.46153846153847%
+Honolulu	->	Los Angeles	maxDelay: 185.0		percentage of late + canceled flights: 22.727272727272727%
+Fort Lauderdale	->	St. Louis	maxDelay: 22.0		percentage of late + canceled flights: 25.0%
+San Jose	->	Kona	maxDelay: 9.0		percentage of late + canceled flights: 100.0%
+Chicago	->	Erie	maxDelay: 70.0		percentage of late + canceled flights: 50.0%
+Richmond	->	New York	maxDelay: 130.0		percentage of late + canceled flights: 71.42857142857143%
+Baltimore	->	Little Rock	maxDelay: 114.0		percentage of late + canceled flights: 50.0%
+Denver	->	West Palm Beach/Palm Beach	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Washington	->	Charlotte	maxDelay: 263.0		percentage of late + canceled flights: 42.857142857142854%
+Indianapolis	->	Newark	maxDelay: 48.0		percentage of late + canceled flights: 46.666666666666664%
+Newark	->	Aguadilla	maxDelay: 109.0		percentage of late + canceled flights: 50.0%
+Palm Springs	->	Portland	maxDelay: 9.0		percentage of late + canceled flights: 33.33333333333333%
+Dallas	->	Amarillo	maxDelay: 41.0		percentage of late + canceled flights: 22.22222222222222%
+San Francisco	->	Crescent City	maxDelay: 138.0		percentage of late + canceled flights: 50.0%
+Boston	->	Las Vegas	maxDelay: 79.0		percentage of late + canceled flights: 28.57142857142857%
+Boston	->	Buffalo	maxDelay: 5.0		percentage of late + canceled flights: 14.285714285714285%
+Wichita	->	Los Angeles	maxDelay: 11.0		percentage of late + canceled flights: 33.33333333333333%
+Latrobe	->	Fort Lauderdale	maxDelay: 11.0		percentage of late + canceled flights: 33.33333333333333%
+Phoenix	->	Oklahoma City	maxDelay: 42.0		percentage of late + canceled flights: 83.33333333333334%
+Pittsburgh	->	Tampa	maxDelay: 106.0		percentage of late + canceled flights: 40.0%
+San Francisco	->	Cincinnati	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Seattle	->	Hayden	maxDelay: 20.0		percentage of late + canceled flights: 50.0%
+Latrobe	->	Tampa	maxDelay: 31.0		percentage of late + canceled flights: 50.0%
+Philadelphia	->	Raleigh/Durham	maxDelay: 61.0		percentage of late + canceled flights: 28.57142857142857%
+Chicago	->	Newark	maxDelay: 27.0		percentage of late + canceled flights: 28.57142857142857%
+Washington	->	Cleveland	maxDelay: 13.0		percentage of late + canceled flights: 14.285714285714285%
+Los Angeles	->	Orlando	maxDelay: 26.0		percentage of late + canceled flights: 30.434782608695656%
+Sioux Falls	->	Minneapolis	maxDelay: 65.0		percentage of late + canceled flights: 38.46153846153847%
+Rochester	->	Chicago	maxDelay: 117.0		percentage of late + canceled flights: 33.33333333333333%
+Nashville	->	Jacksonville	maxDelay: 95.0		percentage of late + canceled flights: 33.33333333333333%
+Portland	->	Ontario	maxDelay: 60.0		percentage of late + canceled flights: 28.57142857142857%
+Huntsville	->	Atlanta	maxDelay: 59.0		percentage of late + canceled flights: 35.714285714285715%
+Saginaw/Bay City/Midland	->	Atlanta	maxDelay: 30.0		percentage of late + canceled flights: 100.0%
+Kahului	->	Oakland	maxDelay: 156.0		percentage of late + canceled flights: 33.33333333333333%
+Kahului	->	Bellingham	maxDelay: 3.0		percentage of late + canceled flights: 33.33333333333333%
+Charlotte Amalie	->	Miami	maxDelay: 46.0		percentage of late + canceled flights: 25.0%
+Detroit	->	Providence	maxDelay: 79.0		percentage of late + canceled flights: 40.0%
+Kahului	->	Phoenix	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas/Fort Worth	->	Miami	maxDelay: 102.0		percentage of late + canceled flights: 52.77777777777778%
+Denver	->	Pittsburgh	maxDelay: 57.0		percentage of late + canceled flights: 66.66666666666666%
+San Diego	->	Boston	maxDelay: 25.0		percentage of late + canceled flights: 33.33333333333333%
+Miami	->	Christiansted	maxDelay: 12.0		percentage of late + canceled flights: 40.0%
+Chicago	->	Fargo	maxDelay: 89.0		percentage of late + canceled flights: 66.66666666666666%
+Lubbock	->	Las Vegas	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New Orleans	->	Dallas	maxDelay: 72.0		percentage of late + canceled flights: 31.57894736842105%
+Amarillo	->	Dallas/Fort Worth	maxDelay: 44.0		percentage of late + canceled flights: 38.46153846153847%
+Houston	->	Aspen	maxDelay: 96.0		percentage of late + canceled flights: 14.285714285714285%
+San Juan	->	Washington	maxDelay: 37.0		percentage of late + canceled flights: 100.0%
+Orlando	->	Washington	maxDelay: 172.0		percentage of late + canceled flights: 33.33333333333333%
+Pittsburgh	->	Fort Lauderdale	maxDelay: 29.0		percentage of late + canceled flights: 60.0%
+Fort Myers	->	New York	maxDelay: 68.0		percentage of late + canceled flights: 40.0%
+Los Angeles	->	Bend/Redmond	maxDelay: 2.0		percentage of late + canceled flights: 50.0%
+Tampa	->	Denver	maxDelay: 80.0		percentage of late + canceled flights: 31.25%
+Fort Lauderdale	->	New Orleans	maxDelay: 155.0		percentage of late + canceled flights: 28.57142857142857%
+Houston	->	Richmond	maxDelay: 81.0		percentage of late + canceled flights: 50.0%
+Columbus	->	New York	maxDelay: 78.0		percentage of late + canceled flights: 31.25%
+Midland/Odessa	->	Houston	maxDelay: 248.0		percentage of late + canceled flights: 37.03703703703704%
+Salt Lake City	->	Cedar City	maxDelay: 15.0		percentage of late + canceled flights: 40.0%
+Houston	->	Pittsburgh	maxDelay: 10.0		percentage of late + canceled flights: 75.0%
+New York	->	Sarasota/Bradenton	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Honolulu	->	Dallas/Fort Worth	maxDelay: 70.0		percentage of late + canceled flights: 71.42857142857143%
+Chicago	->	Richmond	maxDelay: 175.0		percentage of late + canceled flights: 53.84615384615385%
+Houston	->	Baltimore	maxDelay: 31.0		percentage of late + canceled flights: 25.0%
+Newark	->	Montrose/Delta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Manchester	->	New York	maxDelay: 270.0		percentage of late + canceled flights: 20.0%
+Oklahoma City	->	Houston	maxDelay: 50.0		percentage of late + canceled flights: 40.0%
+Dallas	->	St. Louis	maxDelay: 103.0		percentage of late + canceled flights: 31.57894736842105%
+Houston	->	Tyler	maxDelay: 18.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	San Diego	maxDelay: 56.0		percentage of late + canceled flights: 17.391304347826086%
+Savannah	->	Boston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Charlotte	maxDelay: 224.0		percentage of late + canceled flights: 60.0%
+Hibbing	->	Minneapolis	maxDelay: 2.0		percentage of late + canceled flights: 20.0%
+Chicago	->	Charleston	maxDelay: 37.0		percentage of late + canceled flights: 66.66666666666666%
+Ketchikan	->	Seattle	maxDelay: 118.0		percentage of late + canceled flights: 27.27272727272727%
+Milwaukee	->	Denver	maxDelay: 90.0		percentage of late + canceled flights: 45.0%
+El Paso	->	Denver	maxDelay: 138.0		percentage of late + canceled flights: 44.44444444444444%
+San Francisco	->	Medford	maxDelay: 41.0		percentage of late + canceled flights: 30.76923076923077%
+Los Angeles	->	San Antonio	maxDelay: 68.0		percentage of late + canceled flights: 33.33333333333333%
+International Falls	->	Hibbing	maxDelay: 18.0		percentage of late + canceled flights: 33.33333333333333%
+Moab	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fort Lauderdale	->	Columbus	maxDelay: 50.0		percentage of late + canceled flights: 50.0%
+New York	->	Austin	maxDelay: 194.0		percentage of late + canceled flights: 25.0%
+Minneapolis	->	Washington	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Orlando	->	San Antonio	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	San Juan	maxDelay: 166.0		percentage of late + canceled flights: 27.906976744186046%
+Honolulu	->	Lihue	maxDelay: 28.0		percentage of late + canceled flights: 38.88888888888889%
+Chicago	->	Des Moines	maxDelay: 88.0		percentage of late + canceled flights: 28.57142857142857%
+Miami	->	Key West	maxDelay: 3.0		percentage of late + canceled flights: 10.0%
+Trenton	->	Fort Lauderdale	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Francisco	->	Los Angeles	maxDelay: 130.0		percentage of late + canceled flights: 30.508474576271187%
+Dallas	->	Orlando	maxDelay: 6.0		percentage of late + canceled flights: 50.0%
+Dallas/Fort Worth	->	Mission/McAllen/Edinburg	maxDelay: 126.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Saginaw/Bay City/Midland	maxDelay: 62.0		percentage of late + canceled flights: 54.54545454545454%
+Moline	->	Detroit	maxDelay: 86.0		percentage of late + canceled flights: 50.0%
+Houston	->	Fort Myers	maxDelay: 11.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Colorado Springs	maxDelay: 123.0		percentage of late + canceled flights: 75.0%
+Dallas/Fort Worth	->	Oakland	maxDelay: 18.0		percentage of late + canceled flights: 33.33333333333333%
+New York	->	Miami	maxDelay: 207.0		percentage of late + canceled flights: 40.67796610169492%
+Minneapolis	->	Wichita	maxDelay: 29.0		percentage of late + canceled flights: 33.33333333333333%
+Jacksonville	->	Nashville	maxDelay: 18.0		percentage of late + canceled flights: 40.0%
+Oklahoma City	->	Salt Lake City	maxDelay: 3.0		percentage of late + canceled flights: 25.0%
+Miami	->	New York	maxDelay: 99.0		percentage of late + canceled flights: 43.75%
+Charleston	->	Nashville	maxDelay: 96.0		percentage of late + canceled flights: 66.66666666666666%
+Tampa	->	Grand Rapids	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	Chicago	maxDelay: 128.0		percentage of late + canceled flights: 41.66666666666667%
+Madison	->	Dallas/Fort Worth	maxDelay: 339.0		percentage of late + canceled flights: 64.28571428571429%
+Rochester	->	Atlanta	maxDelay: 30.0		percentage of late + canceled flights: 37.5%
+Albany	->	Detroit	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas/Fort Worth	->	Orlando	maxDelay: 42.0		percentage of late + canceled flights: 40.476190476190474%
+Las Vegas	->	Phoenix	maxDelay: 160.0		percentage of late + canceled flights: 29.166666666666668%
+Portland	->	Anchorage	maxDelay: 3.0		percentage of late + canceled flights: 20.0%
+San Francisco	->	Fresno	maxDelay: 82.0		percentage of late + canceled flights: 63.63636363636363%
+Williston	->	Minneapolis	maxDelay: 25.0		percentage of late + canceled flights: 54.54545454545454%
+Philadelphia	->	Denver	maxDelay: 56.0		percentage of late + canceled flights: 38.88888888888889%
+San Diego	->	Austin	maxDelay: 41.0		percentage of late + canceled flights: 100.0%
+Richmond	->	Orlando	maxDelay: 6.0		percentage of late + canceled flights: 40.0%
+Nome	->	Kotzebue	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Kahului	maxDelay: 98.0		percentage of late + canceled flights: 33.33333333333333%
+Jacksonville	->	New York	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Baltimore	->	St. Louis	maxDelay: 118.0		percentage of late + canceled flights: 36.36363636363637%
+Phoenix	->	Houston	maxDelay: 63.0		percentage of late + canceled flights: 50.0%
+Tampa	->	Boston	maxDelay: 184.0		percentage of late + canceled flights: 44.44444444444444%
+Atlanta	->	Jacksonville/Camp Lejeune	maxDelay: 33.0		percentage of late + canceled flights: 45.45454545454545%
+Pittsburgh	->	Las Vegas	maxDelay: 55.0		percentage of late + canceled flights: 25.0%
+Salt Lake City	->	Phoenix	maxDelay: 79.0		percentage of late + canceled flights: 19.565217391304348%
+Chicago	->	Syracuse	maxDelay: 110.0		percentage of late + canceled flights: 50.0%
+Dallas/Fort Worth	->	Savannah	maxDelay: 34.0		percentage of late + canceled flights: 33.33333333333333%
+Hayden	->	Los Angeles	maxDelay: 106.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Raleigh/Durham	maxDelay: 94.0		percentage of late + canceled flights: 34.78260869565217%
+Wichita	->	Houston	maxDelay: 20.0		percentage of late + canceled flights: 57.14285714285714%
+Minneapolis	->	Grand Forks	maxDelay: 7.0		percentage of late + canceled flights: 50.0%
+Jacksonville	->	Atlanta	maxDelay: 98.0		percentage of late + canceled flights: 34.61538461538461%
+San Francisco	->	Baltimore	maxDelay: 5.0		percentage of late + canceled flights: 100.0%
+Akron	->	Tampa	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Washington	->	Newark	maxDelay: 68.0		percentage of late + canceled flights: 30.76923076923077%
+Tulsa	->	Salt Lake City	maxDelay: 7.0		percentage of late + canceled flights: 33.33333333333333%
+Cleveland	->	Houston	maxDelay: 22.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	Jacksonville	maxDelay: 83.0		percentage of late + canceled flights: 33.33333333333333%
+Miami	->	Houston	maxDelay: 116.0		percentage of late + canceled flights: 37.5%
+Reno	->	San Diego	maxDelay: 14.0		percentage of late + canceled flights: 22.22222222222222%
+New Orleans	->	Atlanta	maxDelay: 292.0		percentage of late + canceled flights: 27.500000000000004%
+Dallas/Fort Worth	->	Omaha	maxDelay: 23.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	Palm Springs	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Salt Lake City	->	Fargo	maxDelay: 1.0		percentage of late + canceled flights: 50.0%
+Fort Myers	->	Pittsburgh	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Lubbock	maxDelay: 58.0		percentage of late + canceled flights: 42.857142857142854%
+Chicago	->	Anchorage	maxDelay: 22.0		percentage of late + canceled flights: 100.0%
+Trenton	->	West Palm Beach/Palm Beach	maxDelay: 132.0		percentage of late + canceled flights: 100.0%
+New York	->	Washington	maxDelay: 118.0		percentage of late + canceled flights: 60.0%
+Chattanooga	->	Dallas/Fort Worth	maxDelay: 44.0		percentage of late + canceled flights: 33.33333333333333%
+Atlanta	->	Baton Rouge	maxDelay: 200.0		percentage of late + canceled flights: 40.909090909090914%
+Atlanta	->	San Juan	maxDelay: 53.0		percentage of late + canceled flights: 33.33333333333333%
+Oakland	->	Austin	maxDelay: 10.0		percentage of late + canceled flights: 75.0%
+Sioux City	->	Chicago	maxDelay: 133.0		percentage of late + canceled flights: 33.33333333333333%
+Miami	->	Denver	maxDelay: 91.0		percentage of late + canceled flights: 55.55555555555556%
+Minneapolis	->	Flint	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Salt Lake City	->	Moab	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Diego	->	Charlotte	maxDelay: 17.0		percentage of late + canceled flights: 42.857142857142854%
+Providence	->	Washington	maxDelay: 46.0		percentage of late + canceled flights: 33.33333333333333%
+Washington	->	Las Vegas	maxDelay: 20.0		percentage of late + canceled flights: 22.22222222222222%
+Charlotte	->	Nashville	maxDelay: 10.0		percentage of late + canceled flights: 33.33333333333333%
+Washington	->	Columbus	maxDelay: 89.0		percentage of late + canceled flights: 66.66666666666666%
+New York	->	New Orleans	maxDelay: 11.0		percentage of late + canceled flights: 33.33333333333333%
+Atlanta	->	Key West	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas/Fort Worth	->	Fort Lauderdale	maxDelay: 107.0		percentage of late + canceled flights: 37.03703703703704%
+Denver	->	Bakersfield	maxDelay: 96.0		percentage of late + canceled flights: 66.66666666666666%
+Allentown/Bethlehem/Easton	->	Atlanta	maxDelay: 20.0		percentage of late + canceled flights: 16.666666666666664%
+Fort Lauderdale	->	Charlotte	maxDelay: 11.0		percentage of late + canceled flights: 16.666666666666664%
+San Diego	->	Houston	maxDelay: 79.0		percentage of late + canceled flights: 60.0%
+Milwaukee	->	Kansas City	maxDelay: 26.0		percentage of late + canceled flights: 40.0%
+Atlanta	->	Brunswick	maxDelay: 187.0		percentage of late + canceled flights: 22.22222222222222%
+San Francisco	->	Washington	maxDelay: 104.0		percentage of late + canceled flights: 40.0%
+Kansas City	->	Charlotte	maxDelay: 24.0		percentage of late + canceled flights: 42.857142857142854%
+Tucson	->	Houston	maxDelay: 238.0		percentage of late + canceled flights: 41.66666666666667%
+Charlotte	->	Albany	maxDelay: 15.0		percentage of late + canceled flights: 40.0%
+St. Louis	->	Washington	maxDelay: 33.0		percentage of late + canceled flights: 20.0%
+Kalispell	->	Denver	maxDelay: 115.0		percentage of late + canceled flights: 80.0%
+Houston	->	Indianapolis	maxDelay: 5.0		percentage of late + canceled flights: 25.0%
+Lihue	->	Kahului	maxDelay: 11.0		percentage of late + canceled flights: 46.15384615384615%
+Albuquerque	->	San Francisco	maxDelay: 41.0		percentage of late + canceled flights: 66.66666666666666%
+Flint	->	Atlanta	maxDelay: 7.0		percentage of late + canceled flights: 10.0%
+Orlando	->	Providence	maxDelay: 83.0		percentage of late + canceled flights: 42.10526315789473%
+St. Louis	->	Tampa	maxDelay: 57.0		percentage of late + canceled flights: 66.66666666666666%
+Billings	->	Salt Lake City	maxDelay: 11.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Columbia	maxDelay: 72.0		percentage of late + canceled flights: 40.0%
+Trenton	->	St. Augustine	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Nashville	->	Philadelphia	maxDelay: 48.0		percentage of late + canceled flights: 75.0%
+New York	->	New Orleans	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	St. Cloud	maxDelay: 76.0		percentage of late + canceled flights: 40.0%
+Nashville	->	San Diego	maxDelay: 7.0		percentage of late + canceled flights: 25.0%
+New York	->	West Palm Beach/Palm Beach	maxDelay: 104.0		percentage of late + canceled flights: 30.76923076923077%
+Omaha	->	Phoenix	maxDelay: 3.0		percentage of late + canceled flights: 28.57142857142857%
+Los Angeles	->	Kahului	maxDelay: 272.0		percentage of late + canceled flights: 29.411764705882355%
+Orlando	->	Fort Lauderdale	maxDelay: 237.0		percentage of late + canceled flights: 42.857142857142854%
+Colorado Springs	->	Denver	maxDelay: 199.0		percentage of late + canceled flights: 22.727272727272727%
+Dallas/Fort Worth	->	Lawton/Fort Sill	maxDelay: 45.0		percentage of late + canceled flights: 38.46153846153847%
+Washington	->	Jacksonville	maxDelay: 17.0		percentage of late + canceled flights: 33.33333333333333%
+Atlanta	->	San Francisco	maxDelay: 66.0		percentage of late + canceled flights: 22.22222222222222%
+Los Angeles	->	Fort Lauderdale	maxDelay: 72.0		percentage of late + canceled flights: 64.28571428571429%
+Chicago	->	Rochester	maxDelay: 163.0		percentage of late + canceled flights: 40.0%
+Albuquerque	->	Houston	maxDelay: 18.0		percentage of late + canceled flights: 37.5%
+Santa Ana	->	Houston	maxDelay: 18.0		percentage of late + canceled flights: 20.0%
+Dallas	->	San Diego	maxDelay: 10.0		percentage of late + canceled flights: 28.57142857142857%
+Atlantic City	->	Tampa	maxDelay: 54.0		percentage of late + canceled flights: 33.33333333333333%
+Dayton	->	Baltimore	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Jacksonville	->	Charlotte	maxDelay: 54.0		percentage of late + canceled flights: 38.095238095238095%
+Hartford	->	Charlotte	maxDelay: 171.0		percentage of late + canceled flights: 33.33333333333333%
+Washington	->	Detroit	maxDelay: 43.0		percentage of late + canceled flights: 50.0%
+Denver	->	Springfield	maxDelay: 223.0		percentage of late + canceled flights: 60.0%
+Grand Rapids	->	Tampa	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Raleigh/Durham	->	Houston	maxDelay: 126.0		percentage of late + canceled flights: 60.0%
+Philadelphia	->	Indianapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Jose	->	Lihue	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Diego	->	Seattle	maxDelay: 84.0		percentage of late + canceled flights: 24.137931034482758%
+Houston	->	Boston	maxDelay: 116.0		percentage of late + canceled flights: 30.0%
+Dallas/Fort Worth	->	Washington	maxDelay: 31.0		percentage of late + canceled flights: 55.55555555555556%
+Denver	->	Sacramento	maxDelay: 110.0		percentage of late + canceled flights: 37.5%
+Phoenix	->	Sacramento	maxDelay: 66.0		percentage of late + canceled flights: 50.0%
+Barrow	->	Fairbanks	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Memphis	->	Charlotte	maxDelay: 196.0		percentage of late + canceled flights: 53.84615384615385%
+Chicago	->	Tucson	maxDelay: 138.0		percentage of late + canceled flights: 40.0%
+Akron	->	Boston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Columbus	->	Orlando	maxDelay: 13.0		percentage of late + canceled flights: 25.0%
+New York	->	Akron	maxDelay: 38.0		percentage of late + canceled flights: 37.5%
+Lihue	->	Denver	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Philadelphia	->	Nashville	maxDelay: 80.0		percentage of late + canceled flights: 100.0%
+Duluth	->	Chicago	maxDelay: 16.0		percentage of late + canceled flights: 50.0%
+Kalispell	->	Minneapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Akron	->	Chicago	maxDelay: 23.0		percentage of late + canceled flights: 62.5%
+Dallas/Fort Worth	->	Atlanta	maxDelay: 174.0		percentage of late + canceled flights: 32.0%
+Chicago	->	New York	maxDelay: 151.0		percentage of late + canceled flights: 41.333333333333336%
+Denver	->	Dallas	maxDelay: 59.0		percentage of late + canceled flights: 44.44444444444444%
+Washington	->	San Francisco	maxDelay: 61.0		percentage of late + canceled flights: 26.08695652173913%
+Atlanta	->	Greer	maxDelay: 149.0		percentage of late + canceled flights: 28.57142857142857%
+Louisville	->	Newark	maxDelay: 41.0		percentage of late + canceled flights: 20.0%
+San Diego	->	Tucson	maxDelay: 62.0		percentage of late + canceled flights: 50.0%
+Nashville	->	Washington	maxDelay: 65.0		percentage of late + canceled flights: 11.11111111111111%
+Ontario	->	Salt Lake City	maxDelay: 133.0		percentage of late + canceled flights: 20.0%
+Los Angeles	->	Palm Springs	maxDelay: 67.0		percentage of late + canceled flights: 46.666666666666664%
+Bristol/Johnson City/Kingsport	->	Atlanta	maxDelay: 35.0		percentage of late + canceled flights: 50.0%
+Pittsburgh	->	Chicago	maxDelay: 291.0		percentage of late + canceled flights: 40.0%
+Portland	->	Newark	maxDelay: 2.0		percentage of late + canceled flights: 33.33333333333333%
+Philadelphia	->	Las Vegas	maxDelay: 147.0		percentage of late + canceled flights: 35.714285714285715%
+San Francisco	->	Phoenix	maxDelay: 58.0		percentage of late + canceled flights: 30.952380952380953%
+Atlanta	->	Charlottesville	maxDelay: 102.0		percentage of late + canceled flights: 42.857142857142854%
+Los Angeles	->	Boise	maxDelay: 76.0		percentage of late + canceled flights: 37.5%
+Houston	->	Phoenix	maxDelay: 135.0		percentage of late + canceled flights: 57.89473684210527%
+Chicago	->	Madison	maxDelay: 251.0		percentage of late + canceled flights: 53.333333333333336%
+New York	->	Savannah	maxDelay: 23.0		percentage of late + canceled flights: 50.0%
+Denver	->	Dallas/Fort Worth	maxDelay: 302.0		percentage of late + canceled flights: 50.0%
+Los Angeles	->	Las Vegas	maxDelay: 193.0		percentage of late + canceled flights: 34.78260869565217%
+Minneapolis	->	Santa Ana	maxDelay: 5.0		percentage of late + canceled flights: 10.0%
+Denver	->	Santa Fe	maxDelay: 22.0		percentage of late + canceled flights: 25.0%
+Detroit	->	Burlington	maxDelay: 144.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Madison	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Spokane	->	Boise	maxDelay: 102.0		percentage of late + canceled flights: 22.22222222222222%
+Akron	->	Fort Myers	maxDelay: 9.0		percentage of late + canceled flights: 66.66666666666666%
+New York	->	Las Vegas	maxDelay: 80.0		percentage of late + canceled flights: 31.03448275862069%
+Phoenix	->	San Antonio	maxDelay: 42.0		percentage of late + canceled flights: 75.0%
+Denver	->	Raleigh/Durham	maxDelay: 9.0		percentage of late + canceled flights: 33.33333333333333%
+Pittsburgh	->	Fort Myers	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Eagle	maxDelay: 3.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Monroe	maxDelay: 161.0		percentage of late + canceled flights: 15.384615384615385%
+Dallas/Fort Worth	->	Charleston/Dunbar	maxDelay: 12.0		percentage of late + canceled flights: 100.0%
+Las Vegas	->	Tampa	maxDelay: 30.0		percentage of late + canceled flights: 100.0%
+Fort Lauderdale	->	Washington	maxDelay: 60.0		percentage of late + canceled flights: 80.0%
+Las Vegas	->	Santa Ana	maxDelay: 63.0		percentage of late + canceled flights: 20.0%
+Valparaiso	->	Atlanta	maxDelay: 37.0		percentage of late + canceled flights: 31.57894736842105%
+Miami	->	Los Angeles	maxDelay: 218.0		percentage of late + canceled flights: 33.33333333333333%
+Fort Lauderdale	->	Minneapolis	maxDelay: 57.0		percentage of late + canceled flights: 22.22222222222222%
+New York	->	Fort Lauderdale	maxDelay: 269.0		percentage of late + canceled flights: 34.146341463414636%
+Tampa	->	Louisville	maxDelay: 7.0		percentage of late + canceled flights: 50.0%
+Orlando	->	Grand Rapids	maxDelay: 141.0		percentage of late + canceled flights: 57.14285714285714%
+Houston	->	Jacksonville	maxDelay: 66.0		percentage of late + canceled flights: 66.66666666666666%
+Brainerd	->	International Falls	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Panama City	maxDelay: 19.0		percentage of late + canceled flights: 11.11111111111111%
+Killeen	->	Houston	maxDelay: 16.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Washington	maxDelay: 3.0		percentage of late + canceled flights: 20.0%
+Washington	->	San Juan	maxDelay: 131.0		percentage of late + canceled flights: 50.0%
+Oakland	->	Santa Ana	maxDelay: 50.0		percentage of late + canceled flights: 41.66666666666667%
+Minneapolis	->	Indianapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Kona	->	Portland	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Tampa	->	Chicago	maxDelay: 43.0		percentage of late + canceled flights: 69.23076923076923%
+Flagstaff	->	Phoenix	maxDelay: 197.0		percentage of late + canceled flights: 41.66666666666667%
+Eagle	->	Chicago	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	Sacramento	maxDelay: 10.0		percentage of late + canceled flights: 50.0%
+Orlando	->	San Francisco	maxDelay: 50.0		percentage of late + canceled flights: 14.285714285714285%
+Houston	->	Orlando	maxDelay: 77.0		percentage of late + canceled flights: 45.83333333333333%
+Louisville	->	Houston	maxDelay: 8.0		percentage of late + canceled flights: 33.33333333333333%
+Fort Myers	->	Columbus	maxDelay: 294.0		percentage of late + canceled flights: 50.0%
+Newark	->	St. Louis	maxDelay: 23.0		percentage of late + canceled flights: 43.75%
+Minneapolis	->	Cedar Rapids/Iowa City	maxDelay: 206.0		percentage of late + canceled flights: 75.0%
+Seattle	->	Los Angeles	maxDelay: 65.0		percentage of late + canceled flights: 52.72727272727272%
+Dallas	->	New York	maxDelay: 103.0		percentage of late + canceled flights: 34.61538461538461%
+Lihue	->	Seattle	maxDelay: 49.0		percentage of late + canceled flights: 33.33333333333333%
+New York	->	Charlottesville	maxDelay: 104.0		percentage of late + canceled flights: 57.14285714285714%
+Oakland	->	Chicago	maxDelay: 1.0		percentage of late + canceled flights: 33.33333333333333%
+Chattanooga	->	Detroit	maxDelay: 40.0		percentage of late + canceled flights: 25.0%
+Dallas/Fort Worth	->	Austin	maxDelay: 123.0		percentage of late + canceled flights: 53.48837209302325%
+San Francisco	->	Redding	maxDelay: 134.0		percentage of late + canceled flights: 44.44444444444444%
+San Diego	->	Boise	maxDelay: 52.0		percentage of late + canceled flights: 100.0%
+Detroit	->	Elmira/Corning	maxDelay: 48.0		percentage of late + canceled flights: 36.36363636363637%
+Salt Lake City	->	Honolulu	maxDelay: 3.0		percentage of late + canceled flights: 16.666666666666664%
+Charlotte	->	Denver	maxDelay: 66.0		percentage of late + canceled flights: 44.44444444444444%
+Atlanta	->	Lexington	maxDelay: 136.0		percentage of late + canceled flights: 52.63157894736842%
+White Plains	->	Tampa	maxDelay: 20.0		percentage of late + canceled flights: 50.0%
+Norfolk	->	Washington	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Los Angeles	->	Atlanta	maxDelay: 44.0		percentage of late + canceled flights: 47.05882352941176%
+Denver	->	Sioux Falls	maxDelay: 165.0		percentage of late + canceled flights: 66.66666666666666%
+Bend/Redmond	->	Salt Lake City	maxDelay: 8.0		percentage of late + canceled flights: 20.0%
+San Juan	->	Orlando	maxDelay: 88.0		percentage of late + canceled flights: 43.333333333333336%
+Kansas City	->	Salt Lake City	maxDelay: 22.0		percentage of late + canceled flights: 20.0%
+Fayetteville	->	New York	maxDelay: 159.0		percentage of late + canceled flights: 50.0%
+Boston	->	Cincinnati	maxDelay: 1.0		percentage of late + canceled flights: 100.0%
+White Plains	->	West Palm Beach/Palm Beach	maxDelay: 87.0		percentage of late + canceled flights: 80.0%
+Anchorage	->	Honolulu	maxDelay: 9.0		percentage of late + canceled flights: 50.0%
+Oklahoma City	->	Denver	maxDelay: 97.0		percentage of late + canceled flights: 25.0%
+Atlanta	->	Greensboro/High Point	maxDelay: 27.0		percentage of late + canceled flights: 39.130434782608695%
+Dallas/Fort Worth	->	Cincinnati	maxDelay: 128.0		percentage of late + canceled flights: 47.82608695652174%
+Newark	->	Des Moines	maxDelay: 21.0		percentage of late + canceled flights: 100.0%
+Newark	->	New Orleans	maxDelay: 151.0		percentage of late + canceled flights: 42.857142857142854%
+Minneapolis	->	Dallas/Fort Worth	maxDelay: 104.0		percentage of late + canceled flights: 40.0%
+Boston	->	Atlanta	maxDelay: 134.0		percentage of late + canceled flights: 48.717948717948715%
+New York	->	Washington	maxDelay: 43.0		percentage of late + canceled flights: 62.5%
+Detroit	->	Evansville	maxDelay: 17.0		percentage of late + canceled flights: 12.5%
+Bozeman	->	Houston	maxDelay: 75.0		percentage of late + canceled flights: 100.0%
+Phoenix	->	Portland	maxDelay: 123.0		percentage of late + canceled flights: 61.29032258064516%
+Washington	->	Akron	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Los Angeles	->	Milwaukee	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Hayden	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Cleveland	->	New York	maxDelay: 25.0		percentage of late + canceled flights: 33.33333333333333%
+Tucson	->	Las Vegas	maxDelay: 52.0		percentage of late + canceled flights: 28.57142857142857%
+St. Louis	->	Detroit	maxDelay: 18.0		percentage of late + canceled flights: 37.5%
+Newark	->	Grand Rapids	maxDelay: 32.0		percentage of late + canceled flights: 25.0%
+Tulsa	->	Dallas/Fort Worth	maxDelay: 27.0		percentage of late + canceled flights: 33.33333333333333%
+Arcata/Eureka	->	San Francisco	maxDelay: 167.0		percentage of late + canceled flights: 50.0%
+Santa Ana	->	Sacramento	maxDelay: 116.0		percentage of late + canceled flights: 41.17647058823529%
+Seattle	->	Las Vegas	maxDelay: 144.0		percentage of late + canceled flights: 51.162790697674424%
+Boise	->	Salt Lake City	maxDelay: 53.0		percentage of late + canceled flights: 27.27272727272727%
+Jacksonville	->	Baltimore	maxDelay: 39.0		percentage of late + canceled flights: 77.77777777777779%
+Laramie	->	Denver	maxDelay: 200.0		percentage of late + canceled flights: 14.285714285714285%
+Pittsburgh	->	Philadelphia	maxDelay: 47.0		percentage of late + canceled flights: 57.14285714285714%
+Houston	->	Des Moines	maxDelay: 46.0		percentage of late + canceled flights: 42.857142857142854%
+Louisville	->	Chicago	maxDelay: 207.0		percentage of late + canceled flights: 53.84615384615385%
+Chicago	->	Albuquerque	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+West Palm Beach/Palm Beach	->	Baltimore	maxDelay: 123.0		percentage of late + canceled flights: 50.0%
+Norfolk	->	Miami	maxDelay: 35.0		percentage of late + canceled flights: 33.33333333333333%
+San Francisco	->	Anchorage	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Tucson	->	San Francisco	maxDelay: 85.0		percentage of late + canceled flights: 40.0%
+Phoenix	->	San Diego	maxDelay: 49.0		percentage of late + canceled flights: 36.734693877551024%
+Los Angeles	->	Sacramento	maxDelay: 74.0		percentage of late + canceled flights: 53.70370370370371%
+Palm Springs	->	Salt Lake City	maxDelay: 6.0		percentage of late + canceled flights: 33.33333333333333%
+Washington	->	New York	maxDelay: 31.0		percentage of late + canceled flights: 8.333333333333332%
+Los Angeles	->	Anchorage	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Las Vegas	->	Nashville	maxDelay: 15.0		percentage of late + canceled flights: 37.5%
+Boise	->	Spokane	maxDelay: 37.0		percentage of late + canceled flights: 25.0%
+Austin	->	Las Vegas	maxDelay: 11.0		percentage of late + canceled flights: 37.5%
+Minneapolis	->	Kalamazoo	maxDelay: 1.0		percentage of late + canceled flights: 50.0%
+Kansas City	->	Minneapolis	maxDelay: 6.0		percentage of late + canceled flights: 12.5%
+Oakland	->	Spokane	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	Portland	maxDelay: 21.0		percentage of late + canceled flights: 50.0%
+Mobile	->	Chicago	maxDelay: 61.0		percentage of late + canceled flights: 66.66666666666666%
+San Francisco	->	Bend/Redmond	maxDelay: 98.0		percentage of late + canceled flights: 57.14285714285714%
+Denver	->	Dayton	maxDelay: 10.0		percentage of late + canceled flights: 16.666666666666664%
+Washington	->	Oklahoma City	maxDelay: 35.0		percentage of late + canceled flights: 100.0%
+Atlanta	->	Salt Lake City	maxDelay: 26.0		percentage of late + canceled flights: 13.333333333333334%
+Kalamazoo	->	Chicago	maxDelay: 156.0		percentage of late + canceled flights: 36.36363636363637%
+Washington	->	Kansas City	maxDelay: 3.0		percentage of late + canceled flights: 20.0%
+Los Angeles	->	Houston	maxDelay: 111.0		percentage of late + canceled flights: 46.42857142857143%
+Miami	->	New Orleans	maxDelay: 4.0		percentage of late + canceled flights: 25.0%
+Denver	->	Rock Springs	maxDelay: 138.0		percentage of late + canceled flights: 42.857142857142854%
+Detroit	->	White Plains	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fort Myers	->	Atlantic City	maxDelay: 51.0		percentage of late + canceled flights: 33.33333333333333%
+New York	->	Dallas/Fort Worth	maxDelay: 98.0		percentage of late + canceled flights: 38.46153846153847%
+Fort Myers	->	Houston	maxDelay: 24.0		percentage of late + canceled flights: 20.0%
+New York	->	Knoxville	maxDelay: 24.0		percentage of late + canceled flights: 66.66666666666666%
+Houston	->	Midland/Odessa	maxDelay: 12.0		percentage of late + canceled flights: 14.285714285714285%
+Norfolk	->	Newark	maxDelay: 220.0		percentage of late + canceled flights: 25.0%
+Hayden	->	Newark	maxDelay: 87.0		percentage of late + canceled flights: 100.0%
+Sacramento	->	Ontario	maxDelay: 30.0		percentage of late + canceled flights: 33.33333333333333%
+Monterey	->	Phoenix	maxDelay: 1.0		percentage of late + canceled flights: 20.0%
+Denver	->	Lincoln	maxDelay: 123.0		percentage of late + canceled flights: 62.5%
+Chicago	->	Sioux City	maxDelay: 18.0		percentage of late + canceled flights: 20.0%
+Cleveland	->	Minneapolis	maxDelay: 20.0		percentage of late + canceled flights: 42.857142857142854%
+Honolulu	->	Guam	maxDelay: 22.0		percentage of late + canceled flights: 100.0%
+Austin	->	Orlando	maxDelay: 36.0		percentage of late + canceled flights: 35.714285714285715%
+Green Bay	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+St. Louis	->	Tulsa	maxDelay: 29.0		percentage of late + canceled flights: 50.0%
+San Antonio	->	Nashville	maxDelay: 212.0		percentage of late + canceled flights: 42.857142857142854%
+Detroit	->	Los Angeles	maxDelay: 320.0		percentage of late + canceled flights: 47.82608695652174%
+Cleveland	->	Hartford	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Newark	->	Milwaukee	maxDelay: 50.0		percentage of late + canceled flights: 50.0%
+Kahului	->	Seattle	maxDelay: 42.0		percentage of late + canceled flights: 40.0%
+New York	->	Kansas City	maxDelay: 44.0		percentage of late + canceled flights: 14.285714285714285%
+Portland	->	Long Beach	maxDelay: 8.0		percentage of late + canceled flights: 14.285714285714285%
+Las Vegas	->	Cincinnati	maxDelay: 17.0		percentage of late + canceled flights: 20.0%
+Aspen	->	Denver	maxDelay: 88.0		percentage of late + canceled flights: 22.22222222222222%
+Tucson	->	Los Angeles	maxDelay: 78.0		percentage of late + canceled flights: 31.818181818181817%
+Minneapolis	->	Salt Lake City	maxDelay: 14.0		percentage of late + canceled flights: 16.666666666666664%
+Tallahassee	->	Miami	maxDelay: 5.0		percentage of late + canceled flights: 20.0%
+Detroit	->	Alpena	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Antonio	->	Philadelphia	maxDelay: 2.0		percentage of late + canceled flights: 50.0%
+Akron	->	Detroit	maxDelay: 74.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Tampa	maxDelay: 48.0		percentage of late + canceled flights: 29.6875%
+Baltimore	->	Fort Lauderdale	maxDelay: 140.0		percentage of late + canceled flights: 44.44444444444444%
+New Orleans	->	San Diego	maxDelay: 55.0		percentage of late + canceled flights: 66.66666666666666%
+Fresno	->	Denver	maxDelay: 132.0		percentage of late + canceled flights: 83.33333333333334%
+Las Vegas	->	Chicago	maxDelay: 76.0		percentage of late + canceled flights: 55.00000000000001%
+Detroit	->	Austin	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+St. Cloud	->	Chicago	maxDelay: 140.0		percentage of late + canceled flights: 60.0%
+Portland	->	Boston	maxDelay: 20.0		percentage of late + canceled flights: 25.0%
+Tampa	->	Los Angeles	maxDelay: 36.0		percentage of late + canceled flights: 50.0%
+Nashville	->	Panama City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Atlanta	->	Green Bay	maxDelay: 73.0		percentage of late + canceled flights: 75.0%
+Chicago	->	Milwaukee	maxDelay: 215.0		percentage of late + canceled flights: 45.0%
+Orlando	->	Pittsburgh	maxDelay: 24.0		percentage of late + canceled flights: 38.46153846153847%
+Little Rock	->	Chicago	maxDelay: 8.0		percentage of late + canceled flights: 50.0%
+Houston	->	Chicago	maxDelay: 33.0		percentage of late + canceled flights: 17.647058823529413%
+Sacramento	->	Honolulu	maxDelay: 17.0		percentage of late + canceled flights: 100.0%
+Trenton	->	Orlando	maxDelay: 306.0		percentage of late + canceled flights: 50.0%
+Des Moines	->	Chicago	maxDelay: 40.0		percentage of late + canceled flights: 11.11111111111111%
+Islip	->	Baltimore	maxDelay: 45.0		percentage of late + canceled flights: 58.333333333333336%
+Los Angeles	->	Phoenix	maxDelay: 150.0		percentage of late + canceled flights: 55.55555555555556%
+Dallas/Fort Worth	->	Memphis	maxDelay: 171.0		percentage of late + canceled flights: 22.22222222222222%
+Long Beach	->	Salt Lake City	maxDelay: 67.0		percentage of late + canceled flights: 33.33333333333333%
+Houston	->	West Palm Beach/Palm Beach	maxDelay: 28.0		percentage of late + canceled flights: 75.0%
+Portland	->	Chicago	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Lawton/Fort Sill	->	Dallas/Fort Worth	maxDelay: 67.0		percentage of late + canceled flights: 41.66666666666667%
+Hartford	->	Denver	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Evansville	->	Chicago	maxDelay: 149.0		percentage of late + canceled flights: 44.44444444444444%
+Orlando	->	Latrobe	maxDelay: 27.0		percentage of late + canceled flights: 66.66666666666666%
+New York	->	Oakland	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Newark	->	Jackson	maxDelay: 56.0		percentage of late + canceled flights: 100.0%
+Oakland	->	Kahului	maxDelay: 73.0		percentage of late + canceled flights: 33.33333333333333%
+Sacramento	->	Houston	maxDelay: 30.0		percentage of late + canceled flights: 22.22222222222222%
+Dickinson	->	Denver	maxDelay: 22.0		percentage of late + canceled flights: 16.666666666666664%
+Minneapolis	->	Williston	maxDelay: 51.0		percentage of late + canceled flights: 54.54545454545454%
+Detroit	->	Buffalo	maxDelay: 96.0		percentage of late + canceled flights: 66.66666666666666%
+Nashville	->	Denver	maxDelay: 42.0		percentage of late + canceled flights: 50.0%
+Pellston	->	Detroit	maxDelay: 221.0		percentage of late + canceled flights: 50.0%
+San Francisco	->	Monterey	maxDelay: 186.0		percentage of late + canceled flights: 61.53846153846154%
+Boston	->	Dallas/Fort Worth	maxDelay: 1201.0		percentage of late + canceled flights: 29.166666666666668%
+New York	->	Nashville	maxDelay: 70.0		percentage of late + canceled flights: 27.27272727272727%
+Atlanta	->	Rochester	maxDelay: 8.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Pueblo	maxDelay: 59.0		percentage of late + canceled flights: 50.0%
+Houston	->	Oakland	maxDelay: 128.0		percentage of late + canceled flights: 50.0%
+San Diego	->	New Orleans	maxDelay: 59.0		percentage of late + canceled flights: 66.66666666666666%
+State College	->	Chicago	maxDelay: 125.0		percentage of late + canceled flights: 66.66666666666666%
+Cincinnati	->	Denver	maxDelay: 121.0		percentage of late + canceled flights: 60.0%
+Atlanta	->	Kalamazoo	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Charlotte	->	San Juan	maxDelay: 28.0		percentage of late + canceled flights: 57.14285714285714%
+Baltimore	->	Rochester	maxDelay: 64.0		percentage of late + canceled flights: 50.0%
+Minneapolis	->	Hartford	maxDelay: 25.0		percentage of late + canceled flights: 37.5%
+Dallas/Fort Worth	->	Grand Junction	maxDelay: 14.0		percentage of late + canceled flights: 16.666666666666664%
+Seattle	->	Jackson	maxDelay: 320.0		percentage of late + canceled flights: 100.0%
+Reno	->	Las Vegas	maxDelay: 46.0		percentage of late + canceled flights: 50.0%
+Houston	->	Brownsville	maxDelay: 51.0		percentage of late + canceled flights: 50.0%
+Denver	->	Fayetteville	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Santa Ana	->	Dallas	maxDelay: 63.0		percentage of late + canceled flights: 75.0%
+Los Angeles	->	San Luis Obispo	maxDelay: 123.0		percentage of late + canceled flights: 26.31578947368421%
+Charlotte	->	San Francisco	maxDelay: 97.0		percentage of late + canceled flights: 42.10526315789473%
+Spokane	->	Minneapolis	maxDelay: 23.0		percentage of late + canceled flights: 12.5%
+Salt Lake City	->	Casper	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Cedar Rapids/Iowa City	->	Minneapolis	maxDelay: 1.0		percentage of late + canceled flights: 25.0%
+Philadelphia	->	West Palm Beach/Palm Beach	maxDelay: 121.0		percentage of late + canceled flights: 40.909090909090914%
+Los Angeles	->	Santa Maria	maxDelay: 22.0		percentage of late + canceled flights: 20.0%
+Rock Springs	->	Salt Lake City	maxDelay: 6.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Phoenix	maxDelay: 210.0		percentage of late + canceled flights: 31.746031746031743%
+Boston	->	Denver	maxDelay: 107.0		percentage of late + canceled flights: 52.38095238095239%
+Washington	->	Nashville	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Pittsburgh	->	San Francisco	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Omaha	->	Las Vegas	maxDelay: 251.0		percentage of late + canceled flights: 50.0%
+Atlantic City	->	Orlando	maxDelay: 173.0		percentage of late + canceled flights: 55.55555555555556%
+Phoenix	->	Burbank	maxDelay: 158.0		percentage of late + canceled flights: 68.75%
+Myrtle Beach	->	New York	maxDelay: 93.0		percentage of late + canceled flights: 50.0%
+San Francisco	->	Fort Lauderdale	maxDelay: 29.0		percentage of late + canceled flights: 42.857142857142854%
+Baltimore	->	New Orleans	maxDelay: 39.0		percentage of late + canceled flights: 30.0%
+Wichita	->	Atlanta	maxDelay: 16.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Orlando	maxDelay: 48.0		percentage of late + canceled flights: 55.00000000000001%
+Birmingham	->	Las Vegas	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Miami	->	St. Louis	maxDelay: 34.0		percentage of late + canceled flights: 83.33333333333334%
+Salt Lake City	->	Boise	maxDelay: 74.0		percentage of late + canceled flights: 55.55555555555556%
+Houston	->	Palm Springs	maxDelay: 12.0		percentage of late + canceled flights: 50.0%
+Cincinnati	->	New York	maxDelay: 223.0		percentage of late + canceled flights: 50.0%
+Manchester	->	Newark	maxDelay: 19.0		percentage of late + canceled flights: 25.0%
+Chicago	->	St. Louis	maxDelay: 46.0		percentage of late + canceled flights: 36.84210526315789%
+Ontario	->	Dallas/Fort Worth	maxDelay: 48.0		percentage of late + canceled flights: 50.0%
+Baltimore	->	Nashville	maxDelay: 44.0		percentage of late + canceled flights: 33.33333333333333%
+San Antonio	->	San Francisco	maxDelay: 34.0		percentage of late + canceled flights: 66.66666666666666%
+Fort Lauderdale	->	Indianapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Cincinnati	->	Orlando	maxDelay: 196.0		percentage of late + canceled flights: 30.0%
+Dallas/Fort Worth	->	Waco	maxDelay: 74.0		percentage of late + canceled flights: 52.94117647058824%
+Austin	->	Newark	maxDelay: 7.0		percentage of late + canceled flights: 60.0%
+Albuquerque	->	Dallas	maxDelay: 69.0		percentage of late + canceled flights: 75.0%
+Atlanta	->	Buffalo	maxDelay: 17.0		percentage of late + canceled flights: 50.0%
+Las Vegas	->	Denver	maxDelay: 106.0		percentage of late + canceled flights: 38.775510204081634%
+Denver	->	Reno	maxDelay: 86.0		percentage of late + canceled flights: 31.25%
+Cincinnati	->	Fort Myers	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Newark	->	Cleveland	maxDelay: 120.0		percentage of late + canceled flights: 46.666666666666664%
+Salt Lake City	->	Portland	maxDelay: 19.0		percentage of late + canceled flights: 33.33333333333333%
+Salt Lake City	->	Atlanta	maxDelay: 229.0		percentage of late + canceled flights: 11.538461538461538%
+Salt Lake City	->	Rapid City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Omaha	maxDelay: 56.0		percentage of late + canceled flights: 38.46153846153847%
+Atlanta	->	Denver	maxDelay: 49.0		percentage of late + canceled flights: 28.26086956521739%
+Seattle	->	Spokane	maxDelay: 60.0		percentage of late + canceled flights: 25.925925925925924%
+Chicago	->	Memphis	maxDelay: 101.0		percentage of late + canceled flights: 50.0%
+Austin	->	Phoenix	maxDelay: 122.0		percentage of late + canceled flights: 29.411764705882355%
+Madison	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Savannah	->	Houston	maxDelay: 106.0		percentage of late + canceled flights: 20.0%
+Houston	->	Oklahoma City	maxDelay: 37.0		percentage of late + canceled flights: 30.0%
+Jackson	->	Chicago	maxDelay: 37.0		percentage of late + canceled flights: 20.0%
+Portland	->	Palm Springs	maxDelay: 4.0		percentage of late + canceled flights: 33.33333333333333%
+Evansville	->	Atlanta	maxDelay: 54.0		percentage of late + canceled flights: 33.33333333333333%
+Seattle	->	Honolulu	maxDelay: 190.0		percentage of late + canceled flights: 55.55555555555556%
+New Orleans	->	Charlotte	maxDelay: 21.0		percentage of late + canceled flights: 57.14285714285714%
+Philadelphia	->	San Francisco	maxDelay: 69.0		percentage of late + canceled flights: 18.75%
+Pittsburgh	->	Houston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Phoenix	->	Yuma	maxDelay: 24.0		percentage of late + canceled flights: 53.333333333333336%
+Newark	->	Washington	maxDelay: 41.0		percentage of late + canceled flights: 69.23076923076923%
+Nashville	->	Cincinnati	maxDelay: 44.0		percentage of late + canceled flights: 50.0%
+Washington	->	Nashville	maxDelay: 17.0		percentage of late + canceled flights: 100.0%
+Denver	->	Madison	maxDelay: 92.0		percentage of late + canceled flights: 50.0%
+Seattle	->	Albuquerque	maxDelay: 32.0		percentage of late + canceled flights: 50.0%
+Columbus	->	New York	maxDelay: 126.0		percentage of late + canceled flights: 16.666666666666664%
+Dallas/Fort Worth	->	Indianapolis	maxDelay: 144.0		percentage of late + canceled flights: 57.14285714285714%
+Bethel	->	Anchorage	maxDelay: 24.0		percentage of late + canceled flights: 16.666666666666664%
+Charleston	->	Houston	maxDelay: 4.0		percentage of late + canceled flights: 14.285714285714285%
+Salt Lake City	->	Washington	maxDelay: 28.0		percentage of late + canceled flights: 20.0%
+Kona	->	Oakland	maxDelay: 120.0		percentage of late + canceled flights: 66.66666666666666%
+Adak Island	->	Anchorage	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Philadelphia	->	Pittsburgh	maxDelay: 10.0		percentage of late + canceled flights: 57.14285714285714%
+Saginaw/Bay City/Midland	->	Detroit	maxDelay: 4.0		percentage of late + canceled flights: 50.0%
+Austin	->	Denver	maxDelay: 160.0		percentage of late + canceled flights: 53.333333333333336%
+Dallas	->	Tampa	maxDelay: 14.0		percentage of late + canceled flights: 33.33333333333333%
+Minneapolis	->	Cleveland	maxDelay: 151.0		percentage of late + canceled flights: 63.63636363636363%
+Buffalo	->	Boston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Nashville	->	Baltimore	maxDelay: 76.0		percentage of late + canceled flights: 46.666666666666664%
+Houston	->	New York	maxDelay: 138.0		percentage of late + canceled flights: 62.5%
+Kansas City	->	Houston	maxDelay: 171.0		percentage of late + canceled flights: 16.666666666666664%
+Denver	->	Bozeman	maxDelay: 182.0		percentage of late + canceled flights: 80.0%
+San Antonio	->	Chicago	maxDelay: 55.0		percentage of late + canceled flights: 50.0%
+Santa Maria	->	Los Angeles	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	San Jose	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	Syracuse	maxDelay: 92.0		percentage of late + canceled flights: 33.33333333333333%
+Houston	->	Grand Rapids	maxDelay: 53.0		percentage of late + canceled flights: 100.0%
+Minneapolis	->	Fort Lauderdale	maxDelay: 54.0		percentage of late + canceled flights: 50.0%
+Little Rock	->	Phoenix	maxDelay: 9.0		percentage of late + canceled flights: 50.0%
+Springfield	->	Dallas/Fort Worth	maxDelay: 207.0		percentage of late + canceled flights: 60.86956521739131%
+New Orleans	->	Kansas City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Seattle	->	San Diego	maxDelay: 46.0		percentage of late + canceled flights: 42.857142857142854%
+Charleston	->	Baltimore	maxDelay: 80.0		percentage of late + canceled flights: 40.0%
+Jackson/Vicksburg	->	Houston	maxDelay: 464.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Memphis	maxDelay: 56.0		percentage of late + canceled flights: 28.000000000000004%
+Orlando	->	Washington	maxDelay: 23.0		percentage of late + canceled flights: 40.0%
+Evansville	->	Detroit	maxDelay: 10.0		percentage of late + canceled flights: 12.5%
+Dallas	->	Oakland	maxDelay: 14.0		percentage of late + canceled flights: 28.57142857142857%
+Denver	->	Boston	maxDelay: 158.0		percentage of late + canceled flights: 60.0%
+Washington	->	Minneapolis	maxDelay: 45.0		percentage of late + canceled flights: 66.66666666666666%
+San Francisco	->	Milwaukee	maxDelay: 12.0		percentage of late + canceled flights: 100.0%
+Denver	->	Cody	maxDelay: 25.0		percentage of late + canceled flights: 100.0%
+Indianapolis	->	Orlando	maxDelay: 84.0		percentage of late + canceled flights: 30.76923076923077%
+Rapid City	->	Denver	maxDelay: 11.0		percentage of late + canceled flights: 66.66666666666666%
+Harrisburg	->	Chicago	maxDelay: 73.0		percentage of late + canceled flights: 28.57142857142857%
+Hartford	->	Washington	maxDelay: 5.0		percentage of late + canceled flights: 16.666666666666664%
+Syracuse	->	Chicago	maxDelay: 109.0		percentage of late + canceled flights: 53.333333333333336%
+New Orleans	->	Fort Lauderdale	maxDelay: 33.0		percentage of late + canceled flights: 44.44444444444444%
+Baton Rouge	->	Dallas/Fort Worth	maxDelay: 174.0		percentage of late + canceled flights: 60.86956521739131%
+Fort Myers	->	Washington	maxDelay: 11.0		percentage of late + canceled flights: 50.0%
+Tulsa	->	Newark	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Atlanta	->	Myrtle Beach	maxDelay: 8.0		percentage of late + canceled flights: 11.11111111111111%
+Manchester	->	Chicago	maxDelay: 8.0		percentage of late + canceled flights: 25.0%
+San Diego	->	New York	maxDelay: 72.0		percentage of late + canceled flights: 40.0%
+Fargo	->	Denver	maxDelay: 301.0		percentage of late + canceled flights: 33.33333333333333%
+Cleveland	->	Denver	maxDelay: 13.0		percentage of late + canceled flights: 14.285714285714285%
+Phoenix	->	Chicago	maxDelay: 88.0		percentage of late + canceled flights: 57.89473684210527%
+Washington	->	Phoenix	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Los Angeles	->	Salt Lake City	maxDelay: 165.0		percentage of late + canceled flights: 40.35087719298245%
+San Francisco	->	San Diego	maxDelay: 145.0		percentage of late + canceled flights: 32.72727272727273%
+Madison	->	Minneapolis	maxDelay: 81.0		percentage of late + canceled flights: 50.0%
+Seattle	->	St. Louis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Salt Lake City	->	St. George	maxDelay: 9.0		percentage of late + canceled flights: 27.27272727272727%
+Baltimore	->	Salt Lake City	maxDelay: 29.0		percentage of late + canceled flights: 37.5%
+Washington	->	Houston	maxDelay: 220.0		percentage of late + canceled flights: 30.76923076923077%
+Long Beach	->	New York	maxDelay: 31.0		percentage of late + canceled flights: 100.0%
+Houston	->	San Diego	maxDelay: 10.0		percentage of late + canceled flights: 28.57142857142857%
+Bakersfield	->	Houston	maxDelay: 7.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Albuquerque	maxDelay: 50.0		percentage of late + canceled flights: 33.33333333333333%
+Asheville	->	Chicago	maxDelay: 17.0		percentage of late + canceled flights: 100.0%
+Panama City	->	Atlanta	maxDelay: 387.0		percentage of late + canceled flights: 11.76470588235294%
+Savannah	->	Atlanta	maxDelay: 132.0		percentage of late + canceled flights: 19.047619047619047%
+Detroit	->	Newark	maxDelay: 185.0		percentage of late + canceled flights: 47.82608695652174%
+Christiansted	->	Charlotte	maxDelay: 22.0		percentage of late + canceled flights: 100.0%
+Aguadilla	->	Newark	maxDelay: 105.0		percentage of late + canceled flights: 100.0%
+Seattle	->	Minneapolis	maxDelay: 33.0		percentage of late + canceled flights: 25.0%
+Atlanta	->	San Antonio	maxDelay: 23.0		percentage of late + canceled flights: 26.923076923076923%
+Detroit	->	Hartford	maxDelay: 96.0		percentage of late + canceled flights: 50.0%
+Dallas/Fort Worth	->	Champaign/Urbana	maxDelay: 27.0		percentage of late + canceled flights: 66.66666666666666%
+Portland	->	Los Angeles	maxDelay: 2.0		percentage of late + canceled flights: 12.5%
+Chicago	->	Washington	maxDelay: 74.0		percentage of late + canceled flights: 39.285714285714285%
+Washington	->	Raleigh/Durham	maxDelay: 24.0		percentage of late + canceled flights: 100.0%
+Atlanta	->	Jackson/Vicksburg	maxDelay: 97.0		percentage of late + canceled flights: 40.0%
+Fargo	->	Minneapolis	maxDelay: 35.0		percentage of late + canceled flights: 20.0%
+Denver	->	Fresno	maxDelay: 57.0		percentage of late + canceled flights: 83.33333333333334%
+Houston	->	Austin	maxDelay: 138.0		percentage of late + canceled flights: 58.333333333333336%
+New Orleans	->	Detroit	maxDelay: 155.0		percentage of late + canceled flights: 50.0%
+Eagle	->	Dallas/Fort Worth	maxDelay: 25.0		percentage of late + canceled flights: 22.22222222222222%
+Newport News/Williamsburg	->	Atlanta	maxDelay: 27.0		percentage of late + canceled flights: 46.15384615384615%
+Daytona Beach	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Honolulu	->	Pago Pago	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Minneapolis	->	Raleigh/Durham	maxDelay: 41.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Kansas City	maxDelay: 95.0		percentage of late + canceled flights: 42.42424242424242%
+Raleigh/Durham	->	Boston	maxDelay: 59.0		percentage of late + canceled flights: 27.27272727272727%
+Dallas/Fort Worth	->	Knoxville	maxDelay: 239.0		percentage of late + canceled flights: 71.42857142857143%
+Honolulu	->	Seattle	maxDelay: 80.0		percentage of late + canceled flights: 29.411764705882355%
+Orlando	->	Norfolk	maxDelay: 2.0		percentage of late + canceled flights: 50.0%
+Las Vegas	->	Dallas	maxDelay: 86.0		percentage of late + canceled flights: 30.76923076923077%
+Boston	->	Washington	maxDelay: 21.0		percentage of late + canceled flights: 27.27272727272727%
+Las Vegas	->	Houston	maxDelay: 73.0		percentage of late + canceled flights: 20.833333333333336%
+New Orleans	->	Nashville	maxDelay: 9.0		percentage of late + canceled flights: 9.090909090909092%
+New York	->	Richmond	maxDelay: 16.0		percentage of late + canceled flights: 57.14285714285714%
+Indianapolis	->	Washington	maxDelay: 12.0		percentage of late + canceled flights: 50.0%
+San Francisco	->	Miami	maxDelay: 170.0		percentage of late + canceled flights: 50.0%
+Detroit	->	Tulsa	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Bloomington/Normal	->	Dallas/Fort Worth	maxDelay: 23.0		percentage of late + canceled flights: 33.33333333333333%
+Orlando	->	Minneapolis	maxDelay: 20.0		percentage of late + canceled flights: 28.57142857142857%
+Akron	->	Denver	maxDelay: 4.0		percentage of late + canceled flights: 20.0%
+Palm Springs	->	Houston	maxDelay: 28.0		percentage of late + canceled flights: 66.66666666666666%
+Atlanta	->	Rochester	maxDelay: 60.0		percentage of late + canceled flights: 45.45454545454545%
+Houston	->	Corpus Christi	maxDelay: 41.0		percentage of late + canceled flights: 55.55555555555556%
+Boston	->	Chicago	maxDelay: 21.0		percentage of late + canceled flights: 20.0%
+Phoenix	->	Houston	maxDelay: 147.0		percentage of late + canceled flights: 29.166666666666668%
+Fort Lauderdale	->	Chicago	maxDelay: 146.0		percentage of late + canceled flights: 35.714285714285715%
+Sacramento	->	Atlanta	maxDelay: 66.0		percentage of late + canceled flights: 60.0%
+Chicago	->	Lincoln	maxDelay: 1.0		percentage of late + canceled flights: 12.5%
+Atlanta	->	Cedar Rapids/Iowa City	maxDelay: 72.0		percentage of late + canceled flights: 25.0%
+Salt Lake City	->	Santa Ana	maxDelay: 36.0		percentage of late + canceled flights: 23.076923076923077%
+Omaha	->	Denver	maxDelay: 93.0		percentage of late + canceled flights: 26.666666666666668%
+San Juan	->	Miami	maxDelay: 89.0		percentage of late + canceled flights: 40.909090909090914%
+Dallas	->	Phoenix	maxDelay: 19.0		percentage of late + canceled flights: 40.0%
+Chicago	->	Denver	maxDelay: 94.0		percentage of late + canceled flights: 40.909090909090914%
+Orlando	->	Columbus	maxDelay: 25.0		percentage of late + canceled flights: 46.666666666666664%
+Colorado Springs	->	Salt Lake City	maxDelay: 11.0		percentage of late + canceled flights: 33.33333333333333%
+Salt Lake City	->	Colorado Springs	maxDelay: 12.0		percentage of late + canceled flights: 33.33333333333333%
+Tulsa	->	Houston	maxDelay: 114.0		percentage of late + canceled flights: 44.44444444444444%
+Chicago	->	Green Bay	maxDelay: 113.0		percentage of late + canceled flights: 53.84615384615385%
+Cincinnati	->	New York	maxDelay: 63.0		percentage of late + canceled flights: 100.0%
+Wrangell	->	Ketchikan	maxDelay: 15.0		percentage of late + canceled flights: 25.0%
+Amarillo	->	Houston	maxDelay: 74.0		percentage of late + canceled flights: 75.0%
+Knoxville	->	Newark	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Salt Lake City	->	Ontario	maxDelay: 21.0		percentage of late + canceled flights: 18.181818181818183%
+Columbia	->	Washington	maxDelay: 153.0		percentage of late + canceled flights: 37.5%
+Dallas/Fort Worth	->	Durango	maxDelay: 40.0		percentage of late + canceled flights: 50.0%
+Norfolk	->	New York	maxDelay: 59.0		percentage of late + canceled flights: 83.33333333333334%
+Birmingham	->	Orlando	maxDelay: 1.0		percentage of late + canceled flights: 33.33333333333333%
+Seattle	->	Colorado Springs	maxDelay: 73.0		percentage of late + canceled flights: 66.66666666666666%
+Houston	->	Cleveland	maxDelay: 66.0		percentage of late + canceled flights: 33.33333333333333%
+Grand Rapids	->	Detroit	maxDelay: 28.0		percentage of late + canceled flights: 50.0%
+Fort Lauderdale	->	Orlando	maxDelay: 4.0		percentage of late + canceled flights: 16.666666666666664%
+Orlando	->	Dayton	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Miami	maxDelay: 52.0		percentage of late + canceled flights: 39.285714285714285%
+Charlotte Amalie	->	Newark	maxDelay: 65.0		percentage of late + canceled flights: 100.0%
+Peoria	->	Atlanta	maxDelay: 11.0		percentage of late + canceled flights: 14.285714285714285%
+Washington	->	Providence	maxDelay: 95.0		percentage of late + canceled flights: 57.14285714285714%
+Mosinee	->	Chicago	maxDelay: 88.0		percentage of late + canceled flights: 66.66666666666666%
+Detroit	->	Greer	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Albany	->	Baltimore	maxDelay: 12.0		percentage of late + canceled flights: 33.33333333333333%
+Atlanta	->	Orlando	maxDelay: 77.0		percentage of late + canceled flights: 39.39393939393939%
+Houston	->	Kansas City	maxDelay: 86.0		percentage of late + canceled flights: 46.15384615384615%
+Atlanta	->	Pittsburgh	maxDelay: 368.0		percentage of late + canceled flights: 32.25806451612903%
+Washington	->	Orlando	maxDelay: 129.0		percentage of late + canceled flights: 24.0%
+Lafayette	->	Atlanta	maxDelay: 19.0		percentage of late + canceled flights: 28.57142857142857%
+Charleston	->	New York	maxDelay: 168.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Mobile	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas	->	Wichita	maxDelay: 69.0		percentage of late + canceled flights: 50.0%
+Reno	->	Houston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Newark	->	Eagle	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Shreveport	->	Denver	maxDelay: 14.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Las Vegas	maxDelay: 98.0		percentage of late + canceled flights: 35.294117647058826%
+Hancock/Houghton	->	Chicago	maxDelay: 128.0		percentage of late + canceled flights: 33.33333333333333%
+Birmingham	->	Baltimore	maxDelay: 23.0		percentage of late + canceled flights: 16.666666666666664%
+Bakersfield	->	San Francisco	maxDelay: 10.0		percentage of late + canceled flights: 14.285714285714285%
+Los Angeles	->	Jackson	maxDelay: 24.0		percentage of late + canceled flights: 75.0%
+Houston	->	Seattle	maxDelay: 123.0		percentage of late + canceled flights: 53.333333333333336%
+Little Rock	->	Dallas/Fort Worth	maxDelay: 38.0		percentage of late + canceled flights: 41.66666666666667%
+Aguadilla	->	Fort Lauderdale	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Albany	->	Chicago	maxDelay: 6.0		percentage of late + canceled flights: 28.57142857142857%
+Fort Myers	->	Cincinnati	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Islip	->	West Palm Beach/Palm Beach	maxDelay: 19.0		percentage of late + canceled flights: 50.0%
+Savannah	->	Dallas/Fort Worth	maxDelay: 24.0		percentage of late + canceled flights: 55.55555555555556%
+El Paso	->	Houston	maxDelay: 169.0		percentage of late + canceled flights: 36.84210526315789%
+Bellingham	->	Honolulu	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Los Angeles	maxDelay: 116.0		percentage of late + canceled flights: 38.70967741935484%
+Baltimore	->	Albany	maxDelay: 103.0		percentage of late + canceled flights: 43.75%
+Louisville	->	Las Vegas	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Detroit	->	Fort Myers	maxDelay: 100.0		percentage of late + canceled flights: 28.000000000000004%
+Chicago	->	Providence	maxDelay: 77.0		percentage of late + canceled flights: 60.0%
+Chicago	->	Kalamazoo	maxDelay: 100.0		percentage of late + canceled flights: 41.66666666666667%
+Shreveport	->	Atlanta	maxDelay: 81.0		percentage of late + canceled flights: 36.84210526315789%
+Akron	->	Orlando	maxDelay: 4.0		percentage of late + canceled flights: 33.33333333333333%
+Minneapolis	->	Orlando	maxDelay: 91.0		percentage of late + canceled flights: 37.5%
+Albany	->	Atlanta	maxDelay: 38.0		percentage of late + canceled flights: 37.5%
+Burbank	->	Denver	maxDelay: 373.0		percentage of late + canceled flights: 40.0%
+Oklahoma City	->	Houston	maxDelay: 40.0		percentage of late + canceled flights: 25.0%
+Raleigh/Durham	->	Minneapolis	maxDelay: 2.0		percentage of late + canceled flights: 25.0%
+Norfolk	->	Baltimore	maxDelay: 23.0		percentage of late + canceled flights: 36.36363636363637%
+Sacramento	->	Salt Lake City	maxDelay: 165.0		percentage of late + canceled flights: 21.428571428571427%
+Atlanta	->	Lincoln	maxDelay: 5.0		percentage of late + canceled flights: 33.33333333333333%
+Springfield	->	Dallas/Fort Worth	maxDelay: 53.0		percentage of late + canceled flights: 50.0%
+Eagle	->	Miami	maxDelay: 13.0		percentage of late + canceled flights: 100.0%
+Portland	->	Kona	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Los Angeles	->	Memphis	maxDelay: 8.0		percentage of late + canceled flights: 25.0%
+Portland	->	Houston	maxDelay: 18.0		percentage of late + canceled flights: 60.0%
+Monroe	->	Dallas/Fort Worth	maxDelay: 26.0		percentage of late + canceled flights: 22.22222222222222%
+Chicago	->	Lansing	maxDelay: 47.0		percentage of late + canceled flights: 83.33333333333334%
+Charlotte	->	Trenton	maxDelay: 18.0		percentage of late + canceled flights: 100.0%
+Billings	->	Denver	maxDelay: 60.0		percentage of late + canceled flights: 22.22222222222222%
+San Jose	->	Phoenix	maxDelay: 107.0		percentage of late + canceled flights: 29.03225806451613%
+Atlanta	->	Houston	maxDelay: 118.0		percentage of late + canceled flights: 54.54545454545454%
+Atlantic City	->	Myrtle Beach	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Redding	->	San Francisco	maxDelay: 130.0		percentage of late + canceled flights: 30.0%
+Washington	->	Minneapolis	maxDelay: 23.0		percentage of late + canceled flights: 11.11111111111111%
+Atlanta	->	Boston	maxDelay: 164.0		percentage of late + canceled flights: 34.375%
+Dallas/Fort Worth	->	Tulsa	maxDelay: 140.0		percentage of late + canceled flights: 30.434782608695656%
+Charlotte	->	San Antonio	maxDelay: 23.0		percentage of late + canceled flights: 40.0%
+Missoula	->	Minneapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Cleveland	->	San Francisco	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fresno	->	Dallas/Fort Worth	maxDelay: 958.0		percentage of late + canceled flights: 75.0%
+Houston	->	Cincinnati	maxDelay: 59.0		percentage of late + canceled flights: 83.33333333333334%
+Chicago	->	Manhattan/Ft. Riley	maxDelay: 45.0		percentage of late + canceled flights: 33.33333333333333%
+Orlando	->	Chicago	maxDelay: 47.0		percentage of late + canceled flights: 31.57894736842105%
+Atlanta	->	Indianapolis	maxDelay: 132.0		percentage of late + canceled flights: 41.66666666666667%
+Burlington	->	New York	maxDelay: 34.0		percentage of late + canceled flights: 22.22222222222222%
+Denver	->	Omaha	maxDelay: 115.0		percentage of late + canceled flights: 77.27272727272727%
+Chicago	->	Indianapolis	maxDelay: 262.0		percentage of late + canceled flights: 45.83333333333333%
+Los Angeles	->	Charlotte	maxDelay: 29.0		percentage of late + canceled flights: 81.25%
+Reno	->	Minneapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Newark	->	Norfolk	maxDelay: 14.0		percentage of late + canceled flights: 14.285714285714285%
+New York	->	Charleston	maxDelay: 198.0		percentage of late + canceled flights: 25.0%
+Burlington	->	Detroit	maxDelay: 117.0		percentage of late + canceled flights: 57.14285714285714%
+Denver	->	San Antonio	maxDelay: 167.0		percentage of late + canceled flights: 70.0%
+Salt Lake City	->	Idaho Falls	maxDelay: 103.0		percentage of late + canceled flights: 25.0%
+Houston	->	Baltimore	maxDelay: 60.0		percentage of late + canceled flights: 50.0%
+Raleigh/Durham	->	St. Louis	maxDelay: 11.0		percentage of late + canceled flights: 50.0%
+Pittsburgh	->	Phoenix	maxDelay: 16.0		percentage of late + canceled flights: 42.857142857142854%
+Rochester	->	Minneapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Minneapolis	->	Houston	maxDelay: 140.0		percentage of late + canceled flights: 50.0%
+Dallas	->	Lubbock	maxDelay: 17.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Las Vegas	maxDelay: 126.0		percentage of late + canceled flights: 35.08771929824561%
+Barrow	->	Anchorage	maxDelay: 3.0		percentage of late + canceled flights: 25.0%
+Tampa	->	Atlantic City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Indianapolis	->	Chicago	maxDelay: 292.0		percentage of late + canceled flights: 51.85185185185185%
+Dallas/Fort Worth	->	Cleveland	maxDelay: 118.0		percentage of late + canceled flights: 69.23076923076923%
+Houston	->	Little Rock	maxDelay: 91.0		percentage of late + canceled flights: 33.33333333333333%
+Lansing	->	Minneapolis	maxDelay: 143.0		percentage of late + canceled flights: 20.0%
+Honolulu	->	Newark	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Harlingen/San Benito	->	Austin	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Cincinnati	->	Tampa	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Francisco	->	Dallas	maxDelay: 90.0		percentage of late + canceled flights: 91.66666666666666%
+Minneapolis	->	Richmond	maxDelay: 28.0		percentage of late + canceled flights: 100.0%
+Austin	->	San Jose	maxDelay: 3.0		percentage of late + canceled flights: 20.0%
+Detroit	->	Tampa	maxDelay: 76.0		percentage of late + canceled flights: 25.806451612903224%
+Chicago	->	Manchester	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fort Lauderdale	->	Raleigh/Durham	maxDelay: 6.0		percentage of late + canceled flights: 44.44444444444444%
+Philadelphia	->	Jacksonville	maxDelay: 35.0		percentage of late + canceled flights: 25.0%
+Dallas/Fort Worth	->	San Francisco	maxDelay: 139.0		percentage of late + canceled flights: 41.86046511627907%
+San Francisco	->	Oklahoma City	maxDelay: 147.0		percentage of late + canceled flights: 100.0%
+Newark	->	Seattle	maxDelay: 20.0		percentage of late + canceled flights: 21.428571428571427%
+Indianapolis	->	San Francisco	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Charlotte	->	Miami	maxDelay: 98.0		percentage of late + canceled flights: 45.45454545454545%
+Atlanta	->	Phoenix	maxDelay: 38.0		percentage of late + canceled flights: 22.22222222222222%
+Cincinnati	->	Houston	maxDelay: 14.0		percentage of late + canceled flights: 25.0%
+Los Angeles	->	Houston	maxDelay: 39.0		percentage of late + canceled flights: 72.72727272727273%
+Phoenix	->	Cincinnati	maxDelay: 31.0		percentage of late + canceled flights: 33.33333333333333%
+Scranton/Wilkes-Barre	->	Chicago	maxDelay: 18.0		percentage of late + canceled flights: 66.66666666666666%
+Anchorage	->	Adak Island	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Bloomington/Normal	maxDelay: 55.0		percentage of late + canceled flights: 62.5%
+Seattle	->	Juneau	maxDelay: 51.0		percentage of late + canceled flights: 25.0%
+Denver	->	Fort Lauderdale	maxDelay: 39.0		percentage of late + canceled flights: 18.75%
+Sacramento	->	Minneapolis	maxDelay: 15.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	Seattle	maxDelay: 81.0		percentage of late + canceled flights: 50.0%
+Albuquerque	->	Chicago	maxDelay: 105.0		percentage of late + canceled flights: 100.0%
+Miami	->	Charlotte Amalie	maxDelay: 119.0		percentage of late + canceled flights: 50.0%
+Bakersfield	->	Denver	maxDelay: 64.0		percentage of late + canceled flights: 50.0%
+Dallas	->	Los Angeles	maxDelay: 77.0		percentage of late + canceled flights: 38.095238095238095%
+Chicago	->	Minneapolis	maxDelay: 153.0		percentage of late + canceled flights: 56.25%
+Chicago	->	Fayetteville	maxDelay: 119.0		percentage of late + canceled flights: 68.18181818181817%
+Buffalo	->	Washington	maxDelay: 20.0		percentage of late + canceled flights: 25.0%
+Providence	->	Fort Lauderdale	maxDelay: 23.0		percentage of late + canceled flights: 25.0%
+Kansas City	->	Orlando	maxDelay: 21.0		percentage of late + canceled flights: 42.857142857142854%
+Chicago	->	Jackson/Vicksburg	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New Orleans	->	Austin	maxDelay: 34.0		percentage of late + canceled flights: 50.0%
+Columbus	->	Fort Lauderdale	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Las Vegas	->	Fort Lauderdale	maxDelay: 29.0		percentage of late + canceled flights: 36.36363636363637%
+Baltimore	->	Islip	maxDelay: 72.0		percentage of late + canceled flights: 21.428571428571427%
+Detroit	->	Richmond	maxDelay: 2.0		percentage of late + canceled flights: 33.33333333333333%
+Fort Myers	->	Atlanta	maxDelay: 73.0		percentage of late + canceled flights: 23.333333333333332%
+Dallas/Fort Worth	->	Boston	maxDelay: 53.0		percentage of late + canceled flights: 39.130434782608695%
+Detroit	->	Escanaba	maxDelay: 245.0		percentage of late + canceled flights: 33.33333333333333%
+Las Vegas	->	Houston	maxDelay: 110.0		percentage of late + canceled flights: 50.0%
+Houston	->	Killeen	maxDelay: 20.0		percentage of late + canceled flights: 50.0%
+Cleveland	->	Fort Myers	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Phoenix	maxDelay: 240.0		percentage of late + canceled flights: 35.0%
+Medford	->	Denver	maxDelay: 13.0		percentage of late + canceled flights: 33.33333333333333%
+Miami	->	Raleigh/Durham	maxDelay: 66.0		percentage of late + canceled flights: 40.0%
+Houston	->	Albuquerque	maxDelay: 26.0		percentage of late + canceled flights: 26.666666666666668%
+Albuquerque	->	Los Angeles	maxDelay: 15.0		percentage of late + canceled flights: 41.17647058823529%
+Montrose/Delta	->	Los Angeles	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Champaign/Urbana	->	Dallas/Fort Worth	maxDelay: 17.0		percentage of late + canceled flights: 33.33333333333333%
+Detroit	->	Raleigh/Durham	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fort Lauderdale	->	Aguadilla	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+St. Louis	->	Newark	maxDelay: 191.0		percentage of late + canceled flights: 47.05882352941176%
+New Orleans	->	St. Louis	maxDelay: 4.0		percentage of late + canceled flights: 25.0%
+Orlando	->	Raleigh/Durham	maxDelay: 81.0		percentage of late + canceled flights: 42.857142857142854%
+Eugene	->	San Francisco	maxDelay: 88.0		percentage of late + canceled flights: 28.57142857142857%
+Las Vegas	->	Detroit	maxDelay: 12.0		percentage of late + canceled flights: 10.526315789473683%
+Atlanta	->	Springfield	maxDelay: 49.0		percentage of late + canceled flights: 20.0%
+Roanoke	->	Washington	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	Birmingham	maxDelay: 57.0		percentage of late + canceled flights: 60.0%
+Orlando	->	Wilmington	maxDelay: 5.0		percentage of late + canceled flights: 50.0%
+Denver	->	Kalispell	maxDelay: 77.0		percentage of late + canceled flights: 100.0%
+Montrose/Delta	->	Chicago	maxDelay: 10.0		percentage of late + canceled flights: 50.0%
+Dallas	->	Houston	maxDelay: 197.0		percentage of late + canceled flights: 47.61904761904761%
+Oakland	->	Baltimore	maxDelay: 3.0		percentage of late + canceled flights: 50.0%
+New York	->	Salt Lake City	maxDelay: 120.0		percentage of late + canceled flights: 37.5%
+Knoxville	->	Denver	maxDelay: 99.0		percentage of late + canceled flights: 50.0%
+Las Vegas	->	Reno	maxDelay: 51.0		percentage of late + canceled flights: 25.0%
+San Diego	->	Dallas/Fort Worth	maxDelay: 213.0		percentage of late + canceled flights: 33.33333333333333%
+Fort Lauderdale	->	San Juan	maxDelay: 86.0		percentage of late + canceled flights: 25.0%
+Montrose/Delta	->	Denver	maxDelay: 10.0		percentage of late + canceled flights: 42.857142857142854%
+San Diego	->	San Francisco	maxDelay: 283.0		percentage of late + canceled flights: 37.5%
+West Palm Beach/Palm Beach	->	Houston	maxDelay: 16.0		percentage of late + canceled flights: 33.33333333333333%
+Syracuse	->	New York	maxDelay: 14.0		percentage of late + canceled flights: 100.0%
+Seattle	->	Austin	maxDelay: 8.0		percentage of late + canceled flights: 75.0%
+Tampa	->	White Plains	maxDelay: 78.0		percentage of late + canceled flights: 33.33333333333333%
+Las Vegas	->	Oklahoma City	maxDelay: 73.0		percentage of late + canceled flights: 62.5%
+Newark	->	Austin	maxDelay: 23.0		percentage of late + canceled flights: 28.57142857142857%
+Minneapolis	->	Billings	maxDelay: 38.0		percentage of late + canceled flights: 25.0%
+El Paso	->	San Antonio	maxDelay: 47.0		percentage of late + canceled flights: 44.44444444444444%
+Houston	->	Los Angeles	maxDelay: 30.0		percentage of late + canceled flights: 16.666666666666664%
+Phoenix	->	Durango	maxDelay: 16.0		percentage of late + canceled flights: 37.5%
+Rhinelander	->	Iron Mountain/Kingsfd	maxDelay: 69.0		percentage of late + canceled flights: 33.33333333333333%
+Salt Lake City	->	Gillette	maxDelay: 17.0		percentage of late + canceled flights: 33.33333333333333%
+Charleston	->	Dallas/Fort Worth	maxDelay: 64.0		percentage of late + canceled flights: 50.0%
+San Diego	->	San Jose	maxDelay: 116.0		percentage of late + canceled flights: 58.620689655172406%
+Escanaba	->	Detroit	maxDelay: 514.0		percentage of late + canceled flights: 40.0%
+Houston	->	Tulsa	maxDelay: 19.0		percentage of late + canceled flights: 28.57142857142857%
+Charlotte	->	Richmond	maxDelay: 41.0		percentage of late + canceled flights: 23.076923076923077%
+Mobile	->	Dallas/Fort Worth	maxDelay: 81.0		percentage of late + canceled flights: 25.0%
+New York	->	Norfolk	maxDelay: 16.0		percentage of late + canceled flights: 66.66666666666666%
+Dallas/Fort Worth	->	Colorado Springs	maxDelay: 38.0		percentage of late + canceled flights: 66.66666666666666%
+Denver	->	Palm Springs	maxDelay: 74.0		percentage of late + canceled flights: 80.0%
+Chicago	->	Huntsville	maxDelay: 154.0		percentage of late + canceled flights: 100.0%
+Denver	->	St. Louis	maxDelay: 146.0		percentage of late + canceled flights: 50.0%
+San Francisco	->	Pasco/Kennewick/Richland	maxDelay: 115.0		percentage of late + canceled flights: 66.66666666666666%
+Newark	->	Louisville	maxDelay: 113.0		percentage of late + canceled flights: 75.0%
+Orlando	->	Dallas	maxDelay: 19.0		percentage of late + canceled flights: 14.285714285714285%
+El Paso	->	Dallas/Fort Worth	maxDelay: 26.0		percentage of late + canceled flights: 45.45454545454545%
+Atlantic City	->	Fort Lauderdale	maxDelay: 16.0		percentage of late + canceled flights: 22.22222222222222%
+Knoxville	->	Dallas/Fort Worth	maxDelay: 167.0		percentage of late + canceled flights: 60.0%
+Salt Lake City	->	Seattle	maxDelay: 65.0		percentage of late + canceled flights: 34.48275862068966%
+Detroit	->	Las Vegas	maxDelay: 105.0		percentage of late + canceled flights: 37.5%
+Detroit	->	Peoria	maxDelay: 217.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Grand Junction	maxDelay: 39.0		percentage of late + canceled flights: 20.0%
+Atlanta	->	Charlotte Amalie	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Buffalo	->	Fort Lauderdale	maxDelay: 38.0		percentage of late + canceled flights: 33.33333333333333%
+New Orleans	->	Phoenix	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Baltimore	->	Miami	maxDelay: 31.0		percentage of late + canceled flights: 44.44444444444444%
+Orlando	->	Indianapolis	maxDelay: 137.0		percentage of late + canceled flights: 36.36363636363637%
+Atlanta	->	Gulfport/Biloxi	maxDelay: 19.0		percentage of late + canceled flights: 26.666666666666668%
+Detroit	->	Huntsville	maxDelay: 51.0		percentage of late + canceled flights: 50.0%
+Sacramento	->	San Francisco	maxDelay: 132.0		percentage of late + canceled flights: 57.14285714285714%
+Atlanta	->	Chicago	maxDelay: 98.0		percentage of late + canceled flights: 47.61904761904761%
+Denver	->	Jackson	maxDelay: 107.0		percentage of late + canceled flights: 81.81818181818183%
+San Diego	->	Los Angeles	maxDelay: 462.0		percentage of late + canceled flights: 45.614035087719294%
+Hayden	->	Washington	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Fort Myers	maxDelay: 36.0		percentage of late + canceled flights: 22.22222222222222%
+Houston	->	Washington	maxDelay: 45.0		percentage of late + canceled flights: 42.857142857142854%
+Greer	->	Atlanta	maxDelay: 115.0		percentage of late + canceled flights: 29.166666666666668%
+Charlotte	->	Memphis	maxDelay: 14.0		percentage of late + canceled flights: 18.181818181818183%
+Oklahoma City	->	Las Vegas	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Minneapolis	->	Reno	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Kansas City	maxDelay: 236.0		percentage of late + canceled flights: 53.57142857142857%
+Albuquerque	->	New York	maxDelay: 24.0		percentage of late + canceled flights: 50.0%
+Indianapolis	->	Charlotte	maxDelay: 60.0		percentage of late + canceled flights: 50.0%
+St. Louis	->	Houston	maxDelay: 115.0		percentage of late + canceled flights: 25.0%
+Houston	->	Albuquerque	maxDelay: 67.0		percentage of late + canceled flights: 38.46153846153847%
+Tampa	->	Raleigh/Durham	maxDelay: 54.0		percentage of late + canceled flights: 45.45454545454545%
+Cedar Rapids/Iowa City	->	Chicago	maxDelay: 157.0		percentage of late + canceled flights: 57.692307692307686%
+New York	->	Boston	maxDelay: 150.0		percentage of late + canceled flights: 42.857142857142854%
+Allentown/Bethlehem/Easton	->	Chicago	maxDelay: 30.0		percentage of late + canceled flights: 100.0%
+Cleveland	->	Washington	maxDelay: 89.0		percentage of late + canceled flights: 57.14285714285714%
+Chicago	->	Houston	maxDelay: 63.0		percentage of late + canceled flights: 41.17647058823529%
+Colorado Springs	->	Los Angeles	maxDelay: 144.0		percentage of late + canceled flights: 66.66666666666666%
+Indianapolis	->	New York	maxDelay: 203.0		percentage of late + canceled flights: 66.66666666666666%
+Kahului	->	Anchorage	maxDelay: 23.0		percentage of late + canceled flights: 50.0%
+Nashville	->	Newark	maxDelay: 69.0		percentage of late + canceled flights: 31.25%
+Detroit	->	Cleveland	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Boston	->	Phoenix	maxDelay: 196.0		percentage of late + canceled flights: 53.84615384615385%
+St. Louis	->	Charlotte	maxDelay: 69.0		percentage of late + canceled flights: 40.0%
+Montrose/Delta	->	Houston	maxDelay: 27.0		percentage of late + canceled flights: 66.66666666666666%
+Tulsa	->	Detroit	maxDelay: 7.0		percentage of late + canceled flights: 50.0%
+Pittsburgh	->	Baltimore	maxDelay: 25.0		percentage of late + canceled flights: 30.0%
+San Jose	->	Salt Lake City	maxDelay: 84.0		percentage of late + canceled flights: 27.77777777777778%
+Las Vegas	->	Spokane	maxDelay: 17.0		percentage of late + canceled flights: 14.285714285714285%
+Erie	->	Chicago	maxDelay: 135.0		percentage of late + canceled flights: 66.66666666666666%
+Houston	->	Boston	maxDelay: 67.0		percentage of late + canceled flights: 42.857142857142854%
+San Diego	->	Oakland	maxDelay: 47.0		percentage of late + canceled flights: 33.33333333333333%
+Greer	->	Baltimore	maxDelay: 3.0		percentage of late + canceled flights: 33.33333333333333%
+Las Vegas	->	Washington	maxDelay: 10.0		percentage of late + canceled flights: 14.285714285714285%
+Lubbock	->	Dallas/Fort Worth	maxDelay: 156.0		percentage of late + canceled flights: 50.0%
+St. Augustine	->	Washington	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Valdosta	->	Atlanta	maxDelay: 90.0		percentage of late + canceled flights: 50.0%
+Dallas/Fort Worth	->	Santa Fe	maxDelay: 36.0		percentage of late + canceled flights: 83.33333333333334%
+Pago Pago	->	Honolulu	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Des Moines	->	Minneapolis	maxDelay: 98.0		percentage of late + canceled flights: 20.0%
+San Francisco	->	San Antonio	maxDelay: 129.0		percentage of late + canceled flights: 100.0%
+Philadelphia	->	Los Angeles	maxDelay: 88.0		percentage of late + canceled flights: 38.095238095238095%
+Palm Springs	->	Chicago	maxDelay: 58.0		percentage of late + canceled flights: 66.66666666666666%
+Salt Lake City	->	Helena	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas/Fort Worth	->	Baltimore	maxDelay: 86.0		percentage of late + canceled flights: 60.0%
+Chicago	->	Eagle	maxDelay: 64.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	Little Rock	maxDelay: 205.0		percentage of late + canceled flights: 72.22222222222221%
+Grand Junction	->	Denver	maxDelay: 58.0		percentage of late + canceled flights: 37.5%
+Lihue	->	San Diego	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Tucson	->	Atlanta	maxDelay: 5.0		percentage of late + canceled flights: 11.11111111111111%
+Colorado Springs	->	Dallas/Fort Worth	maxDelay: 375.0		percentage of late + canceled flights: 50.0%
+Boston	->	Long Beach	maxDelay: 1.0		percentage of late + canceled flights: 50.0%
+Columbus	->	Atlanta	maxDelay: 80.0		percentage of late + canceled flights: 44.44444444444444%
+Milwaukee	->	Fort Myers	maxDelay: 60.0		percentage of late + canceled flights: 20.0%
+New York	->	Manchester	maxDelay: 94.0		percentage of late + canceled flights: 50.0%
+Pensacola	->	Dallas/Fort Worth	maxDelay: 41.0		percentage of late + canceled flights: 42.857142857142854%
+Kansas City	->	Phoenix	maxDelay: 17.0		percentage of late + canceled flights: 26.666666666666668%
+Charlotte	->	Los Angeles	maxDelay: 17.0		percentage of late + canceled flights: 11.76470588235294%
+Chicago	->	Minneapolis	maxDelay: 140.0		percentage of late + canceled flights: 56.00000000000001%
+Charlotte	->	St. Louis	maxDelay: 7.0		percentage of late + canceled flights: 40.0%
+Oklahoma City	->	Detroit	maxDelay: 187.0		percentage of late + canceled flights: 50.0%
+Mission/McAllen/Edinburg	->	Houston	maxDelay: 46.0		percentage of late + canceled flights: 43.47826086956522%
+Houston	->	New York	maxDelay: 331.0		percentage of late + canceled flights: 57.14285714285714%
+St. Louis	->	San Antonio	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Amarillo	->	Dallas	maxDelay: 32.0		percentage of late + canceled flights: 27.27272727272727%
+Chicago	->	Birmingham	maxDelay: 26.0		percentage of late + canceled flights: 50.0%
+New York	->	Tampa	maxDelay: 179.0		percentage of late + canceled flights: 33.33333333333333%
+Newark	->	Jacksonville	maxDelay: 32.0		percentage of late + canceled flights: 44.44444444444444%
+Atlanta	->	Portland	maxDelay: 5.0		percentage of late + canceled flights: 25.0%
+Washington	->	New York	maxDelay: 64.0		percentage of late + canceled flights: 32.35294117647059%
+Cincinnati	->	Phoenix	maxDelay: 7.0		percentage of late + canceled flights: 33.33333333333333%
+Reno	->	Salt Lake City	maxDelay: 12.0		percentage of late + canceled flights: 12.5%
+Charlotte	->	Philadelphia	maxDelay: 181.0		percentage of late + canceled flights: 47.05882352941176%
+Detroit	->	Allentown/Bethlehem/Easton	maxDelay: 17.0		percentage of late + canceled flights: 16.666666666666664%
+Minneapolis	->	Appleton	maxDelay: 7.0		percentage of late + canceled flights: 33.33333333333333%
+Dallas	->	Santa Ana	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Juan	->	New York	maxDelay: 156.0		percentage of late + canceled flights: 34.04255319148936%
+Indianapolis	->	Kansas City	maxDelay: 6.0		percentage of late + canceled flights: 25.0%
+Dallas/Fort Worth	->	El Paso	maxDelay: 140.0		percentage of late + canceled flights: 38.46153846153847%
+Columbus	->	Atlanta	maxDelay: 85.0		percentage of late + canceled flights: 32.0%
+Atlanta	->	Louisville	maxDelay: 46.0		percentage of late + canceled flights: 35.0%
+Honolulu	->	Kona	maxDelay: 59.0		percentage of late + canceled flights: 31.666666666666664%
+Dallas/Fort Worth	->	Pensacola	maxDelay: 176.0		percentage of late + canceled flights: 60.0%
+Burbank	->	San Francisco	maxDelay: 93.0		percentage of late + canceled flights: 21.428571428571427%
+New York	->	Houston	maxDelay: 134.0		percentage of late + canceled flights: 40.0%
+Chicago	->	Portland	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Charlotte	->	Seattle	maxDelay: 28.0		percentage of late + canceled flights: 33.33333333333333%
+Tampa	->	Indianapolis	maxDelay: 8.0		percentage of late + canceled flights: 50.0%
+Orlando	->	Ponce	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Rochester	->	Orlando	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+West Palm Beach/Palm Beach	->	Islip	maxDelay: 59.0		percentage of late + canceled flights: 44.44444444444444%
+Columbus	->	Los Angeles	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Huntsville	->	Chicago	maxDelay: 60.0		percentage of late + canceled flights: 50.0%
+San Francisco	->	Palm Springs	maxDelay: 76.0		percentage of late + canceled flights: 54.83870967741935%
+Orlando	->	Louisville	maxDelay: 22.0		percentage of late + canceled flights: 33.33333333333333%
+Los Angeles	->	Monterey	maxDelay: 32.0		percentage of late + canceled flights: 37.5%
+Seattle	->	Milwaukee	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Los Angeles	->	Baltimore	maxDelay: 21.0		percentage of late + canceled flights: 33.33333333333333%
+Washington	->	Chicago	maxDelay: 22.0		percentage of late + canceled flights: 66.66666666666666%
+Charlotte	->	Newark	maxDelay: 82.0		percentage of late + canceled flights: 37.2093023255814%
+Charleston	->	Chicago	maxDelay: 36.0		percentage of late + canceled flights: 75.0%
+Oakland	->	Ontario	maxDelay: 72.0		percentage of late + canceled flights: 33.33333333333333%
+Manchester	->	Baltimore	maxDelay: 84.0		percentage of late + canceled flights: 47.05882352941176%
+Baltimore	->	Charleston	maxDelay: 30.0		percentage of late + canceled flights: 27.27272727272727%
+Atlanta	->	State College	maxDelay: 3.0		percentage of late + canceled flights: 100.0%
+West Palm Beach/Palm Beach	->	Detroit	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Detroit	->	Jacksonville	maxDelay: 64.0		percentage of late + canceled flights: 50.0%
+St. Louis	->	Fort Myers	maxDelay: 17.0		percentage of late + canceled flights: 12.5%
+Salt Lake City	->	Vernal	maxDelay: 19.0		percentage of late + canceled flights: 50.0%
+Rochester	->	New York	maxDelay: 24.0		percentage of late + canceled flights: 40.0%
+Las Vegas	->	Boston	maxDelay: 38.0		percentage of late + canceled flights: 28.57142857142857%
+Seattle	->	Orlando	maxDelay: 5.0		percentage of late + canceled flights: 50.0%
+Hartford	->	Chicago	maxDelay: 152.0		percentage of late + canceled flights: 41.66666666666667%
+Chicago	->	Oklahoma City	maxDelay: 31.0		percentage of late + canceled flights: 25.0%
+Cleveland	->	Washington	maxDelay: 24.0		percentage of late + canceled flights: 15.384615384615385%
+Chicago	->	Wichita	maxDelay: 186.0		percentage of late + canceled flights: 50.0%
+Los Angeles	->	Colorado Springs	maxDelay: 36.0		percentage of late + canceled flights: 83.33333333333334%
+Las Vegas	->	Omaha	maxDelay: 41.0		percentage of late + canceled flights: 50.0%
+San Diego	->	Atlanta	maxDelay: 40.0		percentage of late + canceled flights: 33.33333333333333%
+Washington	->	Dallas/Fort Worth	maxDelay: 22.0		percentage of late + canceled flights: 14.285714285714285%
+San Francisco	->	Sun Valley/Hailey/Ketchum	maxDelay: 27.0		percentage of late + canceled flights: 66.66666666666666%
+Chicago	->	Tulsa	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Baltimore	maxDelay: 475.0		percentage of late + canceled flights: 59.09090909090909%
+Memphis	->	Detroit	maxDelay: 8.0		percentage of late + canceled flights: 100.0%
+Rochester	->	Newark	maxDelay: 3.0		percentage of late + canceled flights: 33.33333333333333%
+Fargo	->	Chicago	maxDelay: 191.0		percentage of late + canceled flights: 60.0%
+Kansas City	->	Albuquerque	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Lihue	->	San Jose	maxDelay: 142.0		percentage of late + canceled flights: 20.0%
+Dallas/Fort Worth	->	San Antonio	maxDelay: 150.0		percentage of late + canceled flights: 42.22222222222222%
+Newark	->	Minneapolis	maxDelay: 62.0		percentage of late + canceled flights: 30.76923076923077%
+Manchester	->	Detroit	maxDelay: 17.0		percentage of late + canceled flights: 33.33333333333333%
+Spokane	->	Denver	maxDelay: 58.0		percentage of late + canceled flights: 25.0%
+Mobile	->	Atlanta	maxDelay: 213.0		percentage of late + canceled flights: 36.36363636363637%
+Los Angeles	->	Montrose/Delta	maxDelay: 137.0		percentage of late + canceled flights: 100.0%
+Phoenix	->	Omaha	maxDelay: 42.0		percentage of late + canceled flights: 40.0%
+Detroit	->	Kansas City	maxDelay: 165.0		percentage of late + canceled flights: 18.181818181818183%
+San Francisco	->	Bakersfield	maxDelay: 89.0		percentage of late + canceled flights: 50.0%
+Los Angeles	->	Austin	maxDelay: 28.0		percentage of late + canceled flights: 68.42105263157895%
+Milwaukee	->	Orlando	maxDelay: 43.0		percentage of late + canceled flights: 50.0%
+Portland	->	Las Vegas	maxDelay: 74.0		percentage of late + canceled flights: 40.909090909090914%
+Pittsburgh	->	Nashville	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Buffalo	->	Phoenix	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Cleveland	maxDelay: 326.0		percentage of late + canceled flights: 60.46511627906976%
+Green Bay	->	Minneapolis	maxDelay: 253.0		percentage of late + canceled flights: 16.666666666666664%
+Baltimore	->	Dallas/Fort Worth	maxDelay: 73.0		percentage of late + canceled flights: 40.0%
+Santa Ana	->	Denver	maxDelay: 136.0		percentage of late + canceled flights: 43.75%
+Rochester	->	Atlanta	maxDelay: 78.0		percentage of late + canceled flights: 66.66666666666666%
+Austin	->	Washington	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas/Fort Worth	->	Tallahassee	maxDelay: 55.0		percentage of late + canceled flights: 66.66666666666666%
+Louisville	->	Atlanta	maxDelay: 98.0		percentage of late + canceled flights: 25.0%
+Newark	->	Chicago	maxDelay: 213.0		percentage of late + canceled flights: 47.61904761904761%
+Charlotte	->	Kansas City	maxDelay: 107.0		percentage of late + canceled flights: 58.333333333333336%
+San Francisco	->	Dallas/Fort Worth	maxDelay: 118.0		percentage of late + canceled flights: 57.446808510638306%
+Santa Barbara	->	San Francisco	maxDelay: 155.0		percentage of late + canceled flights: 25.0%
+Fort Lauderdale	->	Charlotte Amalie	maxDelay: 18.0		percentage of late + canceled flights: 66.66666666666666%
+Salt Lake City	->	Reno	maxDelay: 6.0		percentage of late + canceled flights: 23.076923076923077%
+Las Vegas	->	San Antonio	maxDelay: 24.0		percentage of late + canceled flights: 36.36363636363637%
+Louisville	->	Tampa	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Minneapolis	->	Milwaukee	maxDelay: 14.0		percentage of late + canceled flights: 12.5%
+Sacramento	->	Denver	maxDelay: 96.0		percentage of late + canceled flights: 31.57894736842105%
+Minneapolis	->	Detroit	maxDelay: 7.0		percentage of late + canceled flights: 5.88235294117647%
+San Francisco	->	Lihue	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Diego	->	Portland	maxDelay: 114.0		percentage of late + canceled flights: 21.73913043478261%
+Miami	->	Dallas/Fort Worth	maxDelay: 66.0		percentage of late + canceled flights: 26.47058823529412%
+Los Angeles	->	Oakland	maxDelay: 91.0		percentage of late + canceled flights: 30.0%
+Casper	->	Denver	maxDelay: 412.0		percentage of late + canceled flights: 27.27272727272727%
+Portland	->	Tucson	maxDelay: 29.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Valdosta	maxDelay: 50.0		percentage of late + canceled flights: 25.0%
+Minneapolis	->	Memphis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Raleigh/Durham	->	Hartford	maxDelay: 53.0		percentage of late + canceled flights: 50.0%
+Washington	->	Buffalo	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Las Vegas	->	Charlotte	maxDelay: 13.0		percentage of late + canceled flights: 18.75%
+Newark	->	Raleigh/Durham	maxDelay: 10.0		percentage of late + canceled flights: 66.66666666666666%
+Denver	->	San Diego	maxDelay: 106.0		percentage of late + canceled flights: 57.14285714285714%
+Albuquerque	->	Atlanta	maxDelay: 41.0		percentage of late + canceled flights: 50.0%
+New York	->	Cincinnati	maxDelay: 92.0		percentage of late + canceled flights: 100.0%
+Columbus	->	Chicago	maxDelay: 107.0		percentage of late + canceled flights: 53.84615384615385%
+Orlando	->	Houston	maxDelay: 149.0		percentage of late + canceled flights: 37.5%
+Boston	->	Houston	maxDelay: 43.0		percentage of late + canceled flights: 83.33333333333334%
+Meridian	->	Dallas/Fort Worth	maxDelay: 1.0		percentage of late + canceled flights: 33.33333333333333%
+Montgomery	->	Dallas/Fort Worth	maxDelay: 122.0		percentage of late + canceled flights: 55.55555555555556%
+Albany	->	Charlotte	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Pocatello	->	Salt Lake City	maxDelay: 5.0		percentage of late + canceled flights: 16.666666666666664%
+Los Angeles	->	St. Louis	maxDelay: 21.0		percentage of late + canceled flights: 29.411764705882355%
+Atlanta	->	Richmond	maxDelay: 32.0		percentage of late + canceled flights: 19.047619047619047%
+Las Vegas	->	Dallas/Fort Worth	maxDelay: 715.0		percentage of late + canceled flights: 34.883720930232556%
+Newark	->	Buffalo	maxDelay: 83.0		percentage of late + canceled flights: 50.0%
+Tampa	->	New Orleans	maxDelay: 16.0		percentage of late + canceled flights: 18.181818181818183%
+New York	->	Raleigh/Durham	maxDelay: 56.0		percentage of late + canceled flights: 38.88888888888889%
+Richmond	->	Dallas/Fort Worth	maxDelay: 10.0		percentage of late + canceled flights: 50.0%
+Louisville	->	Chicago	maxDelay: 48.0		percentage of late + canceled flights: 14.285714285714285%
+Honolulu	->	Denver	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Burlington	->	Atlanta	maxDelay: 4.0		percentage of late + canceled flights: 50.0%
+Fargo	->	Salt Lake City	maxDelay: 5.0		percentage of late + canceled flights: 50.0%
+Boston	->	New Orleans	maxDelay: 28.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	Tampa	maxDelay: 26.0		percentage of late + canceled flights: 38.46153846153847%
+Charlotte	->	Fort Lauderdale	maxDelay: 15.0		percentage of late + canceled flights: 34.48275862068966%
+Chicago	->	Albany	maxDelay: 31.0		percentage of late + canceled flights: 50.0%
+San Francisco	->	Sacramento	maxDelay: 135.0		percentage of late + canceled flights: 59.09090909090909%
+Minneapolis	->	Dickinson	maxDelay: 12.0		percentage of late + canceled flights: 16.666666666666664%
+Atlanta	->	Montgomery	maxDelay: 60.0		percentage of late + canceled flights: 20.0%
+Rapid City	->	Chicago	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Allentown/Bethlehem/Easton	maxDelay: 13.0		percentage of late + canceled flights: 50.0%
+Milwaukee	->	Washington	maxDelay: 75.0		percentage of late + canceled flights: 37.5%
+Kahului	->	Dallas/Fort Worth	maxDelay: 14.0		percentage of late + canceled flights: 66.66666666666666%
+Kansas City	->	Detroit	maxDelay: 15.0		percentage of late + canceled flights: 25.0%
+Salt Lake City	->	Pocatello	maxDelay: 5.0		percentage of late + canceled flights: 42.857142857142854%
+Tulsa	->	Houston	maxDelay: 68.0		percentage of late + canceled flights: 14.285714285714285%
+Little Rock	->	Denver	maxDelay: 10.0		percentage of late + canceled flights: 25.0%
+Boston	->	Houston	maxDelay: 96.0		percentage of late + canceled flights: 61.53846153846154%
+St. Louis	->	Seattle	maxDelay: 48.0		percentage of late + canceled flights: 66.66666666666666%
+Oakland	->	Houston	maxDelay: 18.0		percentage of late + canceled flights: 66.66666666666666%
+Chicago	->	Fort Wayne	maxDelay: 129.0		percentage of late + canceled flights: 38.095238095238095%
+Anchorage	->	Minneapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Islip	->	Tampa	maxDelay: 85.0		percentage of late + canceled flights: 25.0%
+Dallas	->	Fort Lauderdale	maxDelay: 35.0		percentage of late + canceled flights: 25.0%
+Kalispell	->	Salt Lake City	maxDelay: 165.0		percentage of late + canceled flights: 20.0%
+Atlanta	->	Los Angeles	maxDelay: 64.0		percentage of late + canceled flights: 34.375%
+San Francisco	->	Ontario	maxDelay: 57.0		percentage of late + canceled flights: 44.44444444444444%
+Houston	->	Charleston	maxDelay: 16.0		percentage of late + canceled flights: 60.0%
+Seattle	->	Ontario	maxDelay: 15.0		percentage of late + canceled flights: 28.57142857142857%
+Indianapolis	->	Detroit	maxDelay: 32.0		percentage of late + canceled flights: 50.0%
+Denver	->	Knoxville	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Scranton/Wilkes-Barre	->	Detroit	maxDelay: 122.0		percentage of late + canceled flights: 40.0%
+Dallas/Fort Worth	->	Wichita Falls	maxDelay: 200.0		percentage of late + canceled flights: 45.45454545454545%
+Denver	->	St. George	maxDelay: 27.0		percentage of late + canceled flights: 33.33333333333333%
+St. Louis	->	Denver	maxDelay: 58.0		percentage of late + canceled flights: 45.0%
+Deadhorse	->	Anchorage	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Baltimore	->	Chicago	maxDelay: 123.0		percentage of late + canceled flights: 70.0%
+Gulfport/Biloxi	->	Atlanta	maxDelay: 22.0		percentage of late + canceled flights: 16.666666666666664%
+New Orleans	->	Orlando	maxDelay: 48.0		percentage of late + canceled flights: 44.44444444444444%
+Denver	->	Lihue	maxDelay: 18.0		percentage of late + canceled flights: 100.0%
+Burbank	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Atlanta	->	Aspen	maxDelay: 46.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Peoria	maxDelay: 137.0		percentage of late + canceled flights: 50.0%
+Oakland	->	Kona	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas/Fort Worth	->	Chicago	maxDelay: 144.0		percentage of late + canceled flights: 53.73134328358209%
+Las Vegas	->	Boise	maxDelay: 20.0		percentage of late + canceled flights: 83.33333333333334%
+Detroit	->	Oklahoma City	maxDelay: 41.0		percentage of late + canceled flights: 66.66666666666666%
+Boston	->	Nashville	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Kansas City	->	Seattle	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Miami	->	Chicago	maxDelay: 240.0		percentage of late + canceled flights: 54.54545454545454%
+Miami	->	Greensboro/High Point	maxDelay: 21.0		percentage of late + canceled flights: 66.66666666666666%
+Bismarck/Mandan	->	Dallas/Fort Worth	maxDelay: 14.0		percentage of late + canceled flights: 66.66666666666666%
+Houston	->	Columbia	maxDelay: 11.0		percentage of late + canceled flights: 33.33333333333333%
+Los Angeles	->	Dallas/Fort Worth	maxDelay: 190.0		percentage of late + canceled flights: 35.9375%
+San Francisco	->	Chicago	maxDelay: 186.0		percentage of late + canceled flights: 52.72727272727272%
+Philadelphia	->	Chicago	maxDelay: 53.0		percentage of late + canceled flights: 23.076923076923077%
+Philadelphia	->	Minneapolis	maxDelay: 80.0		percentage of late + canceled flights: 36.84210526315789%
+Sacramento	->	Seattle	maxDelay: 79.0		percentage of late + canceled flights: 40.0%
+Dallas/Fort Worth	->	Springfield	maxDelay: 99.0		percentage of late + canceled flights: 43.47826086956522%
+Kona	->	San Francisco	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Oklahoma City	->	Dallas	maxDelay: 33.0		percentage of late + canceled flights: 40.0%
+Fort Lauderdale	->	Buffalo	maxDelay: 36.0		percentage of late + canceled flights: 33.33333333333333%
+Las Vegas	->	Louisville	maxDelay: 17.0		percentage of late + canceled flights: 50.0%
+Fresno	->	Los Angeles	maxDelay: 46.0		percentage of late + canceled flights: 54.166666666666664%
+Houston	->	Washington	maxDelay: 30.0		percentage of late + canceled flights: 23.52941176470588%
+Portland	->	San Jose	maxDelay: 187.0		percentage of late + canceled flights: 47.61904761904761%
+Dayton	->	Detroit	maxDelay: 18.0		percentage of late + canceled flights: 66.66666666666666%
+Denver	->	Tulsa	maxDelay: 89.0		percentage of late + canceled flights: 38.88888888888889%
+Atlanta	->	Montrose/Delta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Hartford	->	Baltimore	maxDelay: 119.0		percentage of late + canceled flights: 38.88888888888889%
+Dallas	->	Midland/Odessa	maxDelay: 43.0		percentage of late + canceled flights: 20.0%
+Atlanta	->	Bozeman	maxDelay: 12.0		percentage of late + canceled flights: 100.0%
+Newark	->	Dallas/Fort Worth	maxDelay: 1125.0		percentage of late + canceled flights: 42.30769230769231%
+Fort Myers	->	Dallas/Fort Worth	maxDelay: 120.0		percentage of late + canceled flights: 50.0%
+Houston	->	Ontario	maxDelay: 27.0		percentage of late + canceled flights: 66.66666666666666%
+Fort Lauderdale	->	Hartford	maxDelay: 41.0		percentage of late + canceled flights: 40.0%
+Rock Springs	->	Denver	maxDelay: 420.0		percentage of late + canceled flights: 50.0%
+Providence	->	Orlando	maxDelay: 42.0		percentage of late + canceled flights: 27.27272727272727%
+Fort Lauderdale	->	Providence	maxDelay: 22.0		percentage of late + canceled flights: 50.0%
+Casper	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fresno	->	Seattle	maxDelay: 45.0		percentage of late + canceled flights: 28.57142857142857%
+Santa Ana	->	Houston	maxDelay: 58.0		percentage of late + canceled flights: 100.0%
+Grand Junction	->	Dallas/Fort Worth	maxDelay: 26.0		percentage of late + canceled flights: 50.0%
+Boston	->	Detroit	maxDelay: 161.0		percentage of late + canceled flights: 14.285714285714285%
+San Francisco	->	Washington	maxDelay: 138.0		percentage of late + canceled flights: 63.63636363636363%
+Cleveland	->	Chicago	maxDelay: 79.0		percentage of late + canceled flights: 33.33333333333333%
+Houston	->	Kansas City	maxDelay: 11.0		percentage of late + canceled flights: 20.0%
+Twin Falls	->	Salt Lake City	maxDelay: 10.0		percentage of late + canceled flights: 33.33333333333333%
+Albuquerque	->	Denver	maxDelay: 15.0		percentage of late + canceled flights: 33.33333333333333%
+Boise	->	Houston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Ontario	->	Oakland	maxDelay: 36.0		percentage of late + canceled flights: 20.0%
+Atlanta	->	Washington	maxDelay: 71.0		percentage of late + canceled flights: 60.0%
+St. Louis	->	Orlando	maxDelay: 12.0		percentage of late + canceled flights: 6.666666666666667%
+Orlando	->	San Juan	maxDelay: 198.0		percentage of late + canceled flights: 51.61290322580645%
+Moline	->	Denver	maxDelay: 4.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Washington	maxDelay: 170.0		percentage of late + canceled flights: 66.66666666666666%
+Grand Rapids	->	Dallas/Fort Worth	maxDelay: 52.0		percentage of late + canceled flights: 58.333333333333336%
+Philadelphia	->	Seattle	maxDelay: 15.0		percentage of late + canceled flights: 66.66666666666666%
+Minneapolis	->	Rochester	maxDelay: 179.0		percentage of late + canceled flights: 66.66666666666666%
+Austin	->	Seattle	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Atlanta	->	Albuquerque	maxDelay: 126.0		percentage of late + canceled flights: 50.0%
+San Jose	->	Chicago	maxDelay: 61.0		percentage of late + canceled flights: 75.0%
+Elmira/Corning	->	Atlanta	maxDelay: 10.0		percentage of late + canceled flights: 100.0%
+Ontario	->	Portland	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	Aguadilla	maxDelay: 5.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	Buffalo	maxDelay: 86.0		percentage of late + canceled flights: 50.0%
+Santa Barbara	->	Phoenix	maxDelay: 4.0		percentage of late + canceled flights: 22.22222222222222%
+Cleveland	->	Detroit	maxDelay: 4.0		percentage of late + canceled flights: 14.285714285714285%
+Las Vegas	->	Sacramento	maxDelay: 48.0		percentage of late + canceled flights: 25.0%
+Seattle	->	Tampa	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Baltimore	->	Houston	maxDelay: 67.0		percentage of late + canceled flights: 44.44444444444444%
+Minneapolis	->	Madison	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Seattle	->	Boston	maxDelay: 58.0		percentage of late + canceled flights: 40.0%
+Dallas/Fort Worth	->	Sacramento	maxDelay: 46.0		percentage of late + canceled flights: 9.090909090909092%
+Orlando	->	Salt Lake City	maxDelay: 10.0		percentage of late + canceled flights: 20.0%
+Dallas/Fort Worth	->	Palm Springs	maxDelay: 60.0		percentage of late + canceled flights: 60.0%
+Trenton	->	Detroit	maxDelay: 190.0		percentage of late + canceled flights: 100.0%
+Fort Lauderdale	->	New York	maxDelay: 191.0		percentage of late + canceled flights: 40.42553191489361%
+Greensboro/High Point	->	Detroit	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Los Angeles	->	Lihue	maxDelay: 189.0		percentage of late + canceled flights: 44.44444444444444%
+Newark	->	Houston	maxDelay: 35.0		percentage of late + canceled flights: 40.0%
+Denver	->	San Francisco	maxDelay: 96.0		percentage of late + canceled flights: 37.5%
+Grand Junction	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Dallas/Fort Worth	->	Columbia	maxDelay: 48.0		percentage of late + canceled flights: 20.0%
+Portland	->	Charlotte	maxDelay: 2.0		percentage of late + canceled flights: 25.0%
+Atlanta	->	Sarasota/Bradenton	maxDelay: 33.0		percentage of late + canceled flights: 25.0%
+San Francisco	->	Minneapolis	maxDelay: 55.0		percentage of late + canceled flights: 25.0%
+Greer	->	Chicago	maxDelay: 21.0		percentage of late + canceled flights: 66.66666666666666%
+Detroit	->	Indianapolis	maxDelay: 86.0		percentage of late + canceled flights: 50.0%
+Jackson	->	Los Angeles	maxDelay: 154.0		percentage of late + canceled flights: 75.0%
+Sacramento	->	Long Beach	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Cincinnati	->	Newark	maxDelay: 167.0		percentage of late + canceled flights: 27.27272727272727%
+Denver	->	Shreveport	maxDelay: 58.0		percentage of late + canceled flights: 66.66666666666666%
+San Francisco	->	Santa Barbara	maxDelay: 152.0		percentage of late + canceled flights: 50.0%
+Montrose/Delta	->	San Francisco	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Tulsa	maxDelay: 40.0		percentage of late + canceled flights: 42.857142857142854%
+Corpus Christi	->	Houston	maxDelay: 39.0		percentage of late + canceled flights: 30.0%
+Minneapolis	->	Phoenix	maxDelay: 123.0		percentage of late + canceled flights: 17.77777777777778%
+New Orleans	->	Chicago	maxDelay: 49.0		percentage of late + canceled flights: 18.75%
+San Diego	->	Detroit	maxDelay: 10.0		percentage of late + canceled flights: 33.33333333333333%
+Latrobe	->	Orlando	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Minneapolis	->	Fargo	maxDelay: 40.0		percentage of late + canceled flights: 40.0%
+Springfield	->	Denver	maxDelay: 65.0		percentage of late + canceled flights: 66.66666666666666%
+Seattle	->	Sacramento	maxDelay: 46.0		percentage of late + canceled flights: 43.47826086956522%
+Miami	->	Washington	maxDelay: 44.0		percentage of late + canceled flights: 42.857142857142854%
+Cedar Rapids/Iowa City	->	Atlanta	maxDelay: 138.0		percentage of late + canceled flights: 60.0%
+Denver	->	Gillette	maxDelay: 56.0		percentage of late + canceled flights: 66.66666666666666%
+San Juan	->	Hartford	maxDelay: 108.0		percentage of late + canceled flights: 75.0%
+Jamestown	->	Devils Lake	maxDelay: 114.0		percentage of late + canceled flights: 50.0%
+Melbourne	->	Atlanta	maxDelay: 319.0		percentage of late + canceled flights: 25.0%
+Sioux Falls	->	Denver	maxDelay: 159.0		percentage of late + canceled flights: 42.857142857142854%
+Burbank	->	Las Vegas	maxDelay: 147.0		percentage of late + canceled flights: 40.74074074074074%
+Dallas	->	San Francisco	maxDelay: 48.0		percentage of late + canceled flights: 7.142857142857142%
+Miami	->	San Diego	maxDelay: 14.0		percentage of late + canceled flights: 66.66666666666666%
+Lincoln	->	Minneapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Los Angeles	->	Chicago	maxDelay: 49.0		percentage of late + canceled flights: 53.333333333333336%
+Houston	->	Pensacola	maxDelay: 17.0		percentage of late + canceled flights: 100.0%
+Detroit	->	Denver	maxDelay: 75.0		percentage of late + canceled flights: 44.0%
+San Luis Obispo	->	San Francisco	maxDelay: 96.0		percentage of late + canceled flights: 31.25%
+Tulsa	->	Denver	maxDelay: 71.0		percentage of late + canceled flights: 46.666666666666664%
+Indianapolis	->	Dallas/Fort Worth	maxDelay: 37.0		percentage of late + canceled flights: 28.57142857142857%
+Indianapolis	->	Los Angeles	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	Montrose/Delta	maxDelay: 38.0		percentage of late + canceled flights: 28.57142857142857%
+International Falls	->	Minneapolis	maxDelay: 149.0		percentage of late + canceled flights: 100.0%
+Palm Springs	->	Denver	maxDelay: 144.0		percentage of late + canceled flights: 58.333333333333336%
+Reno	->	San Francisco	maxDelay: 133.0		percentage of late + canceled flights: 47.05882352941176%
+Boston	->	New York	maxDelay: 109.0		percentage of late + canceled flights: 41.509433962264154%
+Boston	->	Newark	maxDelay: 127.0		percentage of late + canceled flights: 43.47826086956522%
+Killeen	->	Dallas/Fort Worth	maxDelay: 53.0		percentage of late + canceled flights: 32.142857142857146%
+Charlotte	->	Syracuse	maxDelay: 7.0		percentage of late + canceled flights: 66.66666666666666%
+Dallas/Fort Worth	->	Monroe	maxDelay: 115.0		percentage of late + canceled flights: 77.77777777777779%
+Las Vegas	->	Bellingham	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Cody	->	Denver	maxDelay: 11.0		percentage of late + canceled flights: 50.0%
+Memphis	->	Newark	maxDelay: 557.0		percentage of late + canceled flights: 25.0%
+Charlotte	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+San Antonio	->	Newark	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Salt Lake City	->	Spokane	maxDelay: 9.0		percentage of late + canceled flights: 14.285714285714285%
+Sacramento	->	Kahului	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Jacksonville	->	Fort Lauderdale	maxDelay: 45.0		percentage of late + canceled flights: 16.666666666666664%
+Cincinnati	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Salt Lake City	->	Oklahoma City	maxDelay: 1.0		percentage of late + canceled flights: 33.33333333333333%
+Reno	->	Denver	maxDelay: 73.0		percentage of late + canceled flights: 41.66666666666667%
+Atlanta	->	Grand Rapids	maxDelay: 33.0		percentage of late + canceled flights: 35.714285714285715%
+Louisville	->	Denver	maxDelay: 35.0		percentage of late + canceled flights: 28.57142857142857%
+Jacksonville	->	Washington	maxDelay: 68.0		percentage of late + canceled flights: 16.666666666666664%
+Detroit	->	Erie	maxDelay: 5.0		percentage of late + canceled flights: 28.57142857142857%
+Portland	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fort Lauderdale	->	Baltimore	maxDelay: 161.0		percentage of late + canceled flights: 36.11111111111111%
+Salt Lake City	->	Nashville	maxDelay: 45.0		percentage of late + canceled flights: 33.33333333333333%
+Dallas/Fort Worth	->	Jackson	maxDelay: 28.0		percentage of late + canceled flights: 75.0%
+Orlando	->	Detroit	maxDelay: 96.0		percentage of late + canceled flights: 18.51851851851852%
+Cleveland	->	St. Louis	maxDelay: 25.0		percentage of late + canceled flights: 40.0%
+Columbus	->	Dallas/Fort Worth	maxDelay: 92.0		percentage of late + canceled flights: 27.27272727272727%
+Houston	->	Tucson	maxDelay: 76.0		percentage of late + canceled flights: 61.53846153846154%
+Dallas/Fort Worth	->	Rapid City	maxDelay: 108.0		percentage of late + canceled flights: 33.33333333333333%
+Fort Myers	->	Chicago	maxDelay: 362.0		percentage of late + canceled flights: 35.714285714285715%
+Fort Lauderdale	->	Phoenix	maxDelay: 21.0		percentage of late + canceled flights: 25.0%
+Palm Springs	->	Dallas/Fort Worth	maxDelay: 51.0		percentage of late + canceled flights: 71.42857142857143%
+Birmingham	->	Tampa	maxDelay: 5.0		percentage of late + canceled flights: 16.666666666666664%
+Chicago	->	Atlanta	maxDelay: 277.0		percentage of late + canceled flights: 36.95652173913043%
+New York	->	Tampa	maxDelay: 113.0		percentage of late + canceled flights: 40.0%
+San Francisco	->	New York	maxDelay: 157.0		percentage of late + canceled flights: 42.857142857142854%
+Chicago	->	Harrisburg	maxDelay: 124.0		percentage of late + canceled flights: 50.0%
+Toledo	->	Chicago	maxDelay: 138.0		percentage of late + canceled flights: 50.0%
+Cedar Rapids/Iowa City	->	Dallas/Fort Worth	maxDelay: 374.0		percentage of late + canceled flights: 46.15384615384615%
+Cincinnati	->	San Francisco	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Boston	->	St. Louis	maxDelay: 33.0		percentage of late + canceled flights: 66.66666666666666%
+Washington	->	Hartford	maxDelay: 34.0		percentage of late + canceled flights: 16.666666666666664%
+Honolulu	->	Salt Lake City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Atlanta	->	Hartford	maxDelay: 61.0		percentage of late + canceled flights: 25.0%
+Orlando	->	Cleveland	maxDelay: 141.0		percentage of late + canceled flights: 62.5%
+Salt Lake City	->	Great Falls	maxDelay: 12.0		percentage of late + canceled flights: 50.0%
+Oakland	->	Denver	maxDelay: 84.0		percentage of late + canceled flights: 69.23076923076923%
+Grand Rapids	->	Minneapolis	maxDelay: 21.0		percentage of late + canceled flights: 20.0%
+Des Moines	->	Houston	maxDelay: 23.0		percentage of late + canceled flights: 33.33333333333333%
+Richmond	->	Newark	maxDelay: 16.0		percentage of late + canceled flights: 33.33333333333333%
+Akron	->	New York	maxDelay: 9.0		percentage of late + canceled flights: 40.0%
+Washington	->	New Orleans	maxDelay: 7.0		percentage of late + canceled flights: 60.0%
+Chicago	->	San Antonio	maxDelay: 88.0		percentage of late + canceled flights: 40.0%
+Houston	->	Pittsburgh	maxDelay: 12.0		percentage of late + canceled flights: 33.33333333333333%
+Washington	->	Charleston	maxDelay: 18.0		percentage of late + canceled flights: 40.0%
+Columbus	->	Tampa	maxDelay: 4.0		percentage of late + canceled flights: 20.0%
+Fort Myers	->	St. Louis	maxDelay: 54.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Salt Lake City	maxDelay: 167.0		percentage of late + canceled flights: 54.166666666666664%
+Charleston	->	Chicago	maxDelay: 1.0		percentage of late + canceled flights: 25.0%
+Los Angeles	->	Hilo	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Washington	->	Los Angeles	maxDelay: 217.0		percentage of late + canceled flights: 18.181818181818183%
+Denver	->	Cedar Rapids/Iowa City	maxDelay: 109.0		percentage of late + canceled flights: 80.0%
+Chicago	->	Austin	maxDelay: 198.0		percentage of late + canceled flights: 58.333333333333336%
+Allentown/Bethlehem/Easton	->	Detroit	maxDelay: 17.0		percentage of late + canceled flights: 62.5%
+Boston	->	Portland	maxDelay: 25.0		percentage of late + canceled flights: 50.0%
+Dallas/Fort Worth	->	Lubbock	maxDelay: 81.0		percentage of late + canceled flights: 76.92307692307693%
+Fort Myers	->	Milwaukee	maxDelay: 21.0		percentage of late + canceled flights: 33.33333333333333%
+Albuquerque	->	Chicago	maxDelay: 50.0		percentage of late + canceled flights: 33.33333333333333%
+Los Angeles	->	Fresno	maxDelay: 77.0		percentage of late + canceled flights: 42.857142857142854%
+Cleveland	->	Nashville	maxDelay: 23.0		percentage of late + canceled flights: 100.0%
+Peoria	->	Dallas/Fort Worth	maxDelay: 54.0		percentage of late + canceled flights: 62.5%
+Washington	->	Denver	maxDelay: 134.0		percentage of late + canceled flights: 34.285714285714285%
+Fort Lauderdale	->	Denver	maxDelay: 14.0		percentage of late + canceled flights: 28.57142857142857%
+Nashville	->	Fort Myers	maxDelay: 30.0		percentage of late + canceled flights: 50.0%
+Milwaukee	->	Chicago	maxDelay: 262.0		percentage of late + canceled flights: 45.45454545454545%
+Devils Lake	->	Denver	maxDelay: 59.0		percentage of late + canceled flights: 33.33333333333333%
+Dallas/Fort Worth	->	Des Moines	maxDelay: 167.0		percentage of late + canceled flights: 50.0%
+Juneau	->	Ketchikan	maxDelay: 34.0		percentage of late + canceled flights: 25.0%
+New York	->	Fayetteville	maxDelay: 6.0		percentage of late + canceled flights: 25.0%
+New York	->	Indianapolis	maxDelay: 4.0		percentage of late + canceled flights: 66.66666666666666%
+Fairbanks	->	Anchorage	maxDelay: 69.0		percentage of late + canceled flights: 20.0%
+Denver	->	Dickinson	maxDelay: 175.0		percentage of late + canceled flights: 60.0%
+Dallas/Fort Worth	->	Ontario	maxDelay: 33.0		percentage of late + canceled flights: 16.666666666666664%
+Fort Lauderdale	->	Cincinnati	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Cincinnati	->	Nashville	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Newark	->	Pittsburgh	maxDelay: 5.0		percentage of late + canceled flights: 50.0%
+Kansas City	->	Washington	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fort Lauderdale	->	Tampa	maxDelay: 29.0		percentage of late + canceled flights: 13.043478260869565%
+Lansing	->	Chicago	maxDelay: 30.0		percentage of late + canceled flights: 50.0%
+Orlando	->	Dallas/Fort Worth	maxDelay: 731.0		percentage of late + canceled flights: 35.714285714285715%
+Baltimore	->	Charlotte	maxDelay: 66.0		percentage of late + canceled flights: 27.027027027027028%
+Fort Myers	->	Hartford	maxDelay: 26.0		percentage of late + canceled flights: 66.66666666666666%
+Atlanta	->	Columbus	maxDelay: 63.0		percentage of late + canceled flights: 50.0%
+Houston	->	Santa Ana	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+St. Louis	->	Dallas/Fort Worth	maxDelay: 39.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Knoxville	maxDelay: 117.0		percentage of late + canceled flights: 52.94117647058824%
+Nashville	->	Phoenix	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Charleston	->	Miami	maxDelay: 18.0		percentage of late + canceled flights: 16.666666666666664%
+Chicago	->	Norfolk	maxDelay: 166.0		percentage of late + canceled flights: 71.42857142857143%
+Fort Myers	->	Indianapolis	maxDelay: 147.0		percentage of late + canceled flights: 46.666666666666664%
+Lexington	->	Dallas/Fort Worth	maxDelay: 64.0		percentage of late + canceled flights: 11.11111111111111%
+Minneapolis	->	Sioux Falls	maxDelay: 110.0		percentage of late + canceled flights: 21.428571428571427%
+Tampa	->	Kansas City	maxDelay: 7.0		percentage of late + canceled flights: 50.0%
+Denver	->	Bend/Redmond	maxDelay: 131.0		percentage of late + canceled flights: 66.66666666666666%
+Juneau	->	Sitka	maxDelay: 81.0		percentage of late + canceled flights: 50.0%
+Atlanta	->	Bristol/Johnson City/Kingsport	maxDelay: 78.0		percentage of late + canceled flights: 25.0%
+San Francisco	->	Las Vegas	maxDelay: 227.0		percentage of late + canceled flights: 34.92063492063492%
+White Plains	->	Atlanta	maxDelay: 44.0		percentage of late + canceled flights: 40.0%
+Newark	->	Rochester	maxDelay: 5.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Louisville	maxDelay: 46.0		percentage of late + canceled flights: 57.14285714285714%
+Austin	->	Philadelphia	maxDelay: 8.0		percentage of late + canceled flights: 50.0%
+Las Vegas	->	Des Moines	maxDelay: 59.0		percentage of late + canceled flights: 66.66666666666666%
+Fort Lauderdale	->	Islip	maxDelay: 38.0		percentage of late + canceled flights: 37.5%
+Albuquerque	->	Minneapolis	maxDelay: 24.0		percentage of late + canceled flights: 100.0%
+Phoenix	->	Tulsa	maxDelay: 88.0		percentage of late + canceled flights: 75.0%
+Atlanta	->	Honolulu	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Providence	->	Baltimore	maxDelay: 115.0		percentage of late + canceled flights: 28.57142857142857%
+Baltimore	->	Chicago	maxDelay: 59.0		percentage of late + canceled flights: 18.75%
+Orlando	->	Boston	maxDelay: 230.0		percentage of late + canceled flights: 42.857142857142854%
+Chicago	->	Bismarck/Mandan	maxDelay: 2.0		percentage of late + canceled flights: 25.0%
+Birmingham	->	Atlanta	maxDelay: 9.0		percentage of late + canceled flights: 16.666666666666664%
+Kansas City	->	Chicago	maxDelay: 193.0		percentage of late + canceled flights: 45.0%
+Tucson	->	Phoenix	maxDelay: 105.0		percentage of late + canceled flights: 33.33333333333333%
+Boston	->	Miami	maxDelay: 69.0		percentage of late + canceled flights: 45.45454545454545%
+Houston	->	Salt Lake City	maxDelay: 29.0		percentage of late + canceled flights: 20.0%
+Columbus	->	Denver	maxDelay: 116.0		percentage of late + canceled flights: 36.36363636363637%
+New Orleans	->	Minneapolis	maxDelay: 1.0		percentage of late + canceled flights: 20.0%
+Salt Lake City	->	Madison	maxDelay: 13.0		percentage of late + canceled flights: 50.0%
+Las Vegas	->	Buffalo	maxDelay: 22.0		percentage of late + canceled flights: 50.0%
+Las Vegas	->	Seattle	maxDelay: 156.0		percentage of late + canceled flights: 40.476190476190474%
+Washington	->	Rochester	maxDelay: 72.0		percentage of late + canceled flights: 57.14285714285714%
+Baltimore	->	San Juan	maxDelay: 5.0		percentage of late + canceled flights: 33.33333333333333%
+Hattiesburg/Laurel	->	Dallas/Fort Worth	maxDelay: 2.0		percentage of late + canceled flights: 50.0%
+Sault Ste. Marie	->	Detroit	maxDelay: 60.0		percentage of late + canceled flights: 50.0%
+Fort Myers	->	Cleveland	maxDelay: 7.0		percentage of late + canceled flights: 50.0%
+Juneau	->	Anchorage	maxDelay: 24.0		percentage of late + canceled flights: 14.285714285714285%
+Atlanta	->	New Bern/Morehead/Beaufort	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Raleigh/Durham	maxDelay: 95.0		percentage of late + canceled flights: 50.0%
+West Palm Beach/Palm Beach	->	Newark	maxDelay: 153.0		percentage of late + canceled flights: 42.30769230769231%
+San Diego	->	Dallas	maxDelay: 9.0		percentage of late + canceled flights: 50.0%
+Phoenix	->	Philadelphia	maxDelay: 96.0		percentage of late + canceled flights: 55.00000000000001%
+Cleveland	->	Phoenix	maxDelay: 32.0		percentage of late + canceled flights: 33.33333333333333%
+Fayetteville	->	Houston	maxDelay: 128.0		percentage of late + canceled flights: 44.44444444444444%
+Lake Charles	->	Houston	maxDelay: 3.0		percentage of late + canceled flights: 12.5%
+Cleveland	->	Las Vegas	maxDelay: 29.0		percentage of late + canceled flights: 50.0%
+Boise	->	Los Angeles	maxDelay: 79.0		percentage of late + canceled flights: 42.857142857142854%
+New Orleans	->	Baltimore	maxDelay: 234.0		percentage of late + canceled flights: 30.0%
+Boston	->	Minneapolis	maxDelay: 67.0		percentage of late + canceled flights: 26.666666666666668%
+Dallas/Fort Worth	->	Fresno	maxDelay: 74.0		percentage of late + canceled flights: 40.0%
+Charleston	->	Atlanta	maxDelay: 29.0		percentage of late + canceled flights: 33.33333333333333%
+Boston	->	Jacksonville	maxDelay: 76.0		percentage of late + canceled flights: 25.0%
+Minneapolis	->	Grand Rapids	maxDelay: 66.0		percentage of late + canceled flights: 25.0%
+Albuquerque	->	San Diego	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Seattle	->	Detroit	maxDelay: 15.0		percentage of late + canceled flights: 35.714285714285715%
+Santa Ana	->	Phoenix	maxDelay: 146.0		percentage of late + canceled flights: 41.02564102564102%
+Little Rock	->	Baltimore	maxDelay: 3.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Peoria	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Sacramento	->	Santa Ana	maxDelay: 14.0		percentage of late + canceled flights: 40.0%
+Houston	->	Norfolk	maxDelay: 15.0		percentage of late + canceled flights: 100.0%
+Phoenix	->	Pittsburgh	maxDelay: 23.0		percentage of late + canceled flights: 57.14285714285714%
+San Diego	->	Kansas City	maxDelay: 16.0		percentage of late + canceled flights: 66.66666666666666%
+Los Angeles	->	Nashville	maxDelay: 77.0		percentage of late + canceled flights: 58.82352941176471%
+Washington	->	Savannah	maxDelay: 201.0		percentage of late + canceled flights: 60.0%
+Newburgh/Poughkeepsie	->	Fort Lauderdale	maxDelay: 24.0		percentage of late + canceled flights: 33.33333333333333%
+Fort Myers	->	Nashville	maxDelay: 3.0		percentage of late + canceled flights: 100.0%
+Tucson	->	Seattle	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Washington	->	Norfolk	maxDelay: 148.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Birmingham	maxDelay: 14.0		percentage of late + canceled flights: 28.57142857142857%
+Aguadilla	->	Orlando	maxDelay: 8.0		percentage of late + canceled flights: 25.0%
+Providence	->	Chicago	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Austin	->	Harlingen/San Benito	maxDelay: 2.0		percentage of late + canceled flights: 33.33333333333333%
+Oakland	->	Boise	maxDelay: 101.0		percentage of late + canceled flights: 66.66666666666666%
+Houston	->	Lafayette	maxDelay: 92.0		percentage of late + canceled flights: 30.434782608695656%
+Seattle	->	Kansas City	maxDelay: 1.0		percentage of late + canceled flights: 20.0%
+Pensacola	->	Nashville	maxDelay: 12.0		percentage of late + canceled flights: 50.0%
+St. Louis	->	Nashville	maxDelay: 37.0		percentage of late + canceled flights: 50.0%
+Portland	->	Chicago	maxDelay: 48.0		percentage of late + canceled flights: 15.384615384615385%
+Akron	->	Atlanta	maxDelay: 126.0		percentage of late + canceled flights: 30.434782608695656%
+Denver	->	Seattle	maxDelay: 80.0		percentage of late + canceled flights: 50.0%
+Phoenix	->	St. Louis	maxDelay: 174.0		percentage of late + canceled flights: 47.368421052631575%
+Los Angeles	->	Cleveland	maxDelay: 3.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Pittsburgh	maxDelay: 38.0		percentage of late + canceled flights: 23.076923076923077%
+Petersburg	->	Juneau	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Birmingham	maxDelay: 31.0		percentage of late + canceled flights: 33.33333333333333%
+Dallas	->	San Antonio	maxDelay: 77.0		percentage of late + canceled flights: 50.0%
+Orlando	->	Buffalo	maxDelay: 10.0		percentage of late + canceled flights: 40.0%
+Salt Lake City	->	Palm Springs	maxDelay: 170.0		percentage of late + canceled flights: 50.0%
+Helena	->	Denver	maxDelay: 4.0		percentage of late + canceled flights: 33.33333333333333%
+Baltimore	->	Dallas	maxDelay: 65.0		percentage of late + canceled flights: 25.0%
+Bellingham	->	Las Vegas	maxDelay: 5.0		percentage of late + canceled flights: 100.0%
+Houston	->	Orlando	maxDelay: 62.0		percentage of late + canceled flights: 60.0%
+Dallas/Fort Worth	->	Fargo	maxDelay: 13.0		percentage of late + canceled flights: 33.33333333333333%
+Denver	->	Houston	maxDelay: 29.0		percentage of late + canceled flights: 37.5%
+Cincinnati	->	Fort Lauderdale	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Houston	->	San Diego	maxDelay: 25.0		percentage of late + canceled flights: 29.411764705882355%
+Juneau	->	Seattle	maxDelay: 6.0		percentage of late + canceled flights: 33.33333333333333%
+Atlanta	->	Trenton	maxDelay: 24.0		percentage of late + canceled flights: 75.0%
+Atlanta	->	Minneapolis	maxDelay: 119.0		percentage of late + canceled flights: 40.909090909090914%
+Los Angeles	->	San Francisco	maxDelay: 189.0		percentage of late + canceled flights: 34.54545454545455%
+Miami	->	Phoenix	maxDelay: 24.0		percentage of late + canceled flights: 14.285714285714285%
+Jackson	->	San Francisco	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Fort Lauderdale	->	Detroit	maxDelay: 58.0		percentage of late + canceled flights: 25.0%
+Phoenix	->	San Luis Obispo	maxDelay: 5.0		percentage of late + canceled flights: 25.0%
+Detroit	->	Pellston	maxDelay: 5.0		percentage of late + canceled flights: 20.0%
+Midland/Odessa	->	Houston	maxDelay: 119.0		percentage of late + canceled flights: 9.090909090909092%
+Milwaukee	->	Seattle	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Honolulu	maxDelay: 5.0		percentage of late + canceled flights: 33.33333333333333%
+Atlanta	->	Oklahoma City	maxDelay: 17.0		percentage of late + canceled flights: 15.789473684210526%
+Tampa	->	Rochester	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Oklahoma City	->	Chicago	maxDelay: 30.0		percentage of late + canceled flights: 28.57142857142857%
+San Jose	->	New York	maxDelay: 3.0		percentage of late + canceled flights: 50.0%
+Louisville	->	Phoenix	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+New York	->	San Jose	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Abilene	->	Dallas/Fort Worth	maxDelay: 106.0		percentage of late + canceled flights: 41.66666666666667%
+Los Angeles	->	Pittsburgh	maxDelay: 12.0		percentage of late + canceled flights: 50.0%
+West Palm Beach/Palm Beach	->	White Plains	maxDelay: 45.0		percentage of late + canceled flights: 30.76923076923077%
+South Bend	->	Newark	maxDelay: 5.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	Norfolk	maxDelay: 136.0		percentage of late + canceled flights: 80.0%
+Memphis	->	Minneapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Oklahoma City	maxDelay: 126.0		percentage of late + canceled flights: 30.76923076923077%
+Houston	->	Gulfport/Biloxi	maxDelay: 113.0		percentage of late + canceled flights: 25.0%
+Baton Rouge	->	Atlanta	maxDelay: 178.0		percentage of late + canceled flights: 39.130434782608695%
+Los Angeles	->	Indianapolis	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Chicago	->	Salt Lake City	maxDelay: 46.0		percentage of late + canceled flights: 57.14285714285714%
+Ontario	->	Chicago	maxDelay: 107.0		percentage of late + canceled flights: 100.0%
+Seattle	->	Denver	maxDelay: 72.0		percentage of late + canceled flights: 54.761904761904766%
+Phoenix	->	Tampa	maxDelay: 20.0		percentage of late + canceled flights: 54.54545454545454%
+Indianapolis	->	Tampa	maxDelay: 21.0		percentage of late + canceled flights: 37.5%
+Detroit	->	Columbus	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Aberdeen	->	Minneapolis	maxDelay: 9.0		percentage of late + canceled flights: 16.666666666666664%
+Dallas/Fort Worth	->	Hartford	maxDelay: 28.0		percentage of late + canceled flights: 83.33333333333334%
+Miami	->	Detroit	maxDelay: 49.0		percentage of late + canceled flights: 38.46153846153847%
+Austin	->	Long Beach	maxDelay: 102.0		percentage of late + canceled flights: 40.0%
+Nashville	->	Charlotte	maxDelay: 35.0		percentage of late + canceled flights: 55.55555555555556%
+St. Louis	->	Oklahoma City	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Great Falls	->	Salt Lake City	maxDelay: 50.0		percentage of late + canceled flights: 87.5%
+Barrow	->	Deadhorse	maxDelay: 12.0		percentage of late + canceled flights: 20.0%
+Chicago	->	Charlotte	maxDelay: 160.0		percentage of late + canceled flights: 35.41666666666667%
+San Francisco	->	Portland	maxDelay: 56.0		percentage of late + canceled flights: 35.294117647058826%
+Washington	->	Cleveland	maxDelay: 132.0		percentage of late + canceled flights: 62.5%
+Dallas/Fort Worth	->	Honolulu	maxDelay: 99.0		percentage of late + canceled flights: 66.66666666666666%
+Charlotte	->	Baltimore	maxDelay: 70.0		percentage of late + canceled flights: 36.666666666666664%
+New Orleans	->	Chicago	maxDelay: 41.0		percentage of late + canceled flights: 30.0%
+Boston	->	San Jose	maxDelay: 14.0		percentage of late + canceled flights: 100.0%
+Raleigh/Durham	->	Fort Lauderdale	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+South Bend	->	Detroit	maxDelay: 138.0		percentage of late + canceled flights: 20.0%
+New York	->	Greensboro/High Point	maxDelay: 307.0		percentage of late + canceled flights: 41.17647058823529%
+Kansas City	->	Oakland	maxDelay: 1.0		percentage of late + canceled flights: 100.0%
+Yakutat	->	Cordova	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Boston	->	Seattle	maxDelay: 67.0		percentage of late + canceled flights: 38.46153846153847%
+Huntsville	->	Dallas/Fort Worth	maxDelay: 38.0		percentage of late + canceled flights: 71.42857142857143%
+Chicago	->	Los Angeles	maxDelay: 93.0		percentage of late + canceled flights: 46.15384615384615%
+Boston	->	Salt Lake City	maxDelay: 12.0		percentage of late + canceled flights: 50.0%
+San Juan	->	Detroit	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Denver	->	Tampa	maxDelay: 50.0		percentage of late + canceled flights: 50.0%
+St. Louis	->	Grand Rapids	maxDelay: 113.0		percentage of late + canceled flights: 50.0%
+Madison	->	Denver	maxDelay: 90.0		percentage of late + canceled flights: 28.57142857142857%
+San Francisco	->	San Luis Obispo	maxDelay: 74.0		percentage of late + canceled flights: 37.5%
+Cleveland	->	Fort Lauderdale	maxDelay: 15.0		percentage of late + canceled flights: 33.33333333333333%
+Hartford	->	Detroit	maxDelay: 15.0		percentage of late + canceled flights: 15.384615384615385%
+Palm Springs	->	Minneapolis	maxDelay: 11.0		percentage of late + canceled flights: 33.33333333333333%
+Appleton	->	Chicago	maxDelay: 116.0		percentage of late + canceled flights: 76.92307692307693%
+Tampa	->	Dallas	maxDelay: 28.0		percentage of late + canceled flights: 37.5%
+Marquette	->	Chicago	maxDelay: 44.0		percentage of late + canceled flights: 100.0%
+Beaumont/Port Arthur	->	Dallas/Fort Worth	maxDelay: 53.0		percentage of late + canceled flights: 33.33333333333333%
+Lubbock	->	Houston	maxDelay: 169.0		percentage of late + canceled flights: 54.54545454545454%
+Crescent City	->	San Francisco	maxDelay: 74.0		percentage of late + canceled flights: 33.33333333333333%
+Chicago	->	Houston	maxDelay: 284.0		percentage of late + canceled flights: 60.0%
+Phoenix	->	Dallas	maxDelay: 51.0		percentage of late + canceled flights: 84.61538461538461%
+Baltimore	->	Greer	maxDelay: 42.0		percentage of late + canceled flights: 42.857142857142854%
+Fort Myers	->	Charlotte	maxDelay: 21.0		percentage of late + canceled flights: 28.57142857142857%
+Los Angeles	->	Raleigh/Durham	maxDelay: 37.0		percentage of late + canceled flights: 57.14285714285714%
+Williston	->	Houston	maxDelay: 34.0		percentage of late + canceled flights: 33.33333333333333%
+Phoenix	->	Detroit	maxDelay: 104.0		percentage of late + canceled flights: 23.809523809523807%
+Honolulu	->	New York	maxDelay: 22.0		percentage of late + canceled flights: 25.0%
+Detroit	->	San Francisco	maxDelay: 61.0		percentage of late + canceled flights: 36.36363636363637%
+Phoenix	->	Miami	maxDelay: 237.0		percentage of late + canceled flights: 71.42857142857143%
+Washington	->	Charlotte Amalie	maxDelay: 1.0		percentage of late + canceled flights: 33.33333333333333%
+Dallas/Fort Worth	->	Salt Lake City	maxDelay: 28.0		percentage of late + canceled flights: 34.61538461538461%
+Seattle	->	New Orleans	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Orlando	->	Los Angeles	maxDelay: 300.0		percentage of late + canceled flights: 37.5%
+San Angelo	->	Dallas/Fort Worth	maxDelay: 76.0		percentage of late + canceled flights: 46.666666666666664%
+West Palm Beach/Palm Beach	->	Hartford	maxDelay: 73.0		percentage of late + canceled flights: 75.0%
+Sacramento	->	San Diego	maxDelay: 72.0		percentage of late + canceled flights: 24.0%
+Philadelphia	->	Fort Lauderdale	maxDelay: 131.0		percentage of late + canceled flights: 22.22222222222222%
+Charlotte	->	Pittsburgh	maxDelay: 89.0		percentage of late + canceled flights: 38.70967741935484%
+Dallas/Fort Worth	->	Bloomington/Normal	maxDelay: 33.0		percentage of late + canceled flights: 42.857142857142854%
+New York	->	Charlotte Amalie	maxDelay: 167.0		percentage of late + canceled flights: 20.0%
+Lake Charles	->	Dallas/Fort Worth	maxDelay: 34.0		percentage of late + canceled flights: 83.33333333333334%
+Newark	->	Omaha	maxDelay: 33.0		percentage of late + canceled flights: 20.0%
+Lafayette	->	Dallas/Fort Worth	maxDelay: 23.0		percentage of late + canceled flights: 56.25%
+Greer	->	Houston	maxDelay: 3.0		percentage of late + canceled flights: 66.66666666666666%
+Charlotte	->	Houston	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Evansville	->	Dallas/Fort Worth	maxDelay: 204.0		percentage of late + canceled flights: 50.0%
+Minneapolis	->	Charlotte	maxDelay: 170.0		percentage of late + canceled flights: 29.166666666666668%
+Miami	->	Atlanta	maxDelay: 158.0		percentage of late + canceled flights: 52.0%
+Raleigh/Durham	->	Philadelphia	maxDelay: 10.0		percentage of late + canceled flights: 14.285714285714285%
+New York	->	Milwaukee	maxDelay: 30.0		percentage of late + canceled flights: 35.714285714285715%
+Atlanta	->	St. Louis	maxDelay: 74.0		percentage of late + canceled flights: 35.714285714285715%
+Philadelphia	->	Chicago	maxDelay: 77.0		percentage of late + canceled flights: 44.827586206896555%
+Orlando	->	Charlotte	maxDelay: 11.0		percentage of late + canceled flights: 16.0%
+New Orleans	->	Houston	maxDelay: 50.0		percentage of late + canceled flights: 10.0%
+Louisville	->	Baltimore	maxDelay: 53.0		percentage of late + canceled flights: 22.22222222222222%
+Las Vegas	->	Minneapolis	maxDelay: 83.0		percentage of late + canceled flights: 28.57142857142857%
+Dallas/Fort Worth	->	Fort Wayne	maxDelay: 71.0		percentage of late + canceled flights: 50.0%
+Milwaukee	->	Tampa	maxDelay: 56.0		percentage of late + canceled flights: 75.0%
+Dallas/Fort Worth	->	Shreveport	maxDelay: 63.0		percentage of late + canceled flights: 33.33333333333333%
+Orlando	->	New Orleans	maxDelay: 57.0		percentage of late + canceled flights: 55.55555555555556%
+Charlotte	->	Austin	maxDelay: 4.0		percentage of late + canceled flights: 66.66666666666666%
+Tampa	->	Milwaukee	maxDelay: 51.0		percentage of late + canceled flights: 50.0%
+Dallas/Fort Worth	->	Kansas City	maxDelay: 92.0		percentage of late + canceled flights: 54.54545454545454%
+Atlanta	->	Pensacola	maxDelay: 27.0		percentage of late + canceled flights: 18.75%
+Newark	->	Providence	maxDelay: 70.0		percentage of late + canceled flights: 28.57142857142857%
+Washington	->	Dallas	maxDelay: 98.0		percentage of late + canceled flights: 20.689655172413794%
+Burbank	->	Portland	maxDelay: 9.0		percentage of late + canceled flights: 25.0%
+Los Angeles	->	Minneapolis	maxDelay: 60.0		percentage of late + canceled flights: 38.095238095238095%
+Latrobe	->	Fort Myers	maxDelay: 10.0		percentage of late + canceled flights: 100.0%
+Phoenix	->	Montrose/Delta	maxDelay: 24.0		percentage of late + canceled flights: 100.0%
+Minneapolis	->	Baltimore	maxDelay: 36.0		percentage of late + canceled flights: 20.0%
+Chicago	->	Springfield	maxDelay: 200.0		percentage of late + canceled flights: 37.5%
+Newark	->	Madison	maxDelay: 11.0		percentage of late + canceled flights: 50.0%
+San Antonio	->	Detroit	maxDelay: 22.0		percentage of late + canceled flights: 75.0%
+Omaha	->	Atlanta	maxDelay: 8.0		percentage of late + canceled flights: 33.33333333333333%
+Waco	->	Dallas/Fort Worth	maxDelay: 70.0		percentage of late + canceled flights: 42.857142857142854%
+Kansas City	->	Indianapolis	maxDelay: 109.0		percentage of late + canceled flights: 50.0%
+Grand Rapids	->	Newark	maxDelay: 22.0		percentage of late + canceled flights: 20.0%
+Hayden	->	Dallas/Fort Worth	maxDelay: 45.0		percentage of late + canceled flights: 40.0%
+Reno	->	Los Angeles	maxDelay: 97.0		percentage of late + canceled flights: 23.076923076923077%
+Trenton	->	Chicago	maxDelay: 11.0		percentage of late + canceled flights: 50.0%
+Chicago	->	Seattle	maxDelay: 169.0		percentage of late + canceled flights: 33.33333333333333%
+Cedar Rapids/Iowa City	->	Denver	maxDelay: 284.0		percentage of late + canceled flights: 57.14285714285714%
+Providence	->	Chicago	maxDelay: 33.0		percentage of late + canceled flights: 28.57142857142857%
+Las Vegas	->	El Paso	maxDelay: 5.0		percentage of late + canceled flights: 75.0%
+Dayton	->	Atlanta	maxDelay: 9.0		percentage of late + canceled flights: 16.666666666666664%
+San Jose	->	Portland	maxDelay: 185.0		percentage of late + canceled flights: 33.33333333333333%
+Williston	->	Denver	maxDelay: 29.0		percentage of late + canceled flights: 25.0%
+Atlanta	->	Birmingham	maxDelay: 154.0		percentage of late + canceled flights: 35.0%
+Seattle	->	San Jose	maxDelay: 206.0		percentage of late + canceled flights: 37.83783783783784%
+Salt Lake City	->	Fresno	maxDelay: 68.0		percentage of late + canceled flights: 40.0%
+Atlanta	->	Newark	maxDelay: 151.0		percentage of late + canceled flights: 31.666666666666664%
+Indianapolis	->	Minneapolis	maxDelay: 8.0		percentage of late + canceled flights: 11.11111111111111%
+New Bern/Morehead/Beaufort	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Detroit	->	Orlando	maxDelay: 44.0		percentage of late + canceled flights: 27.27272727272727%
+Boston	->	Savannah	maxDelay: 25.0		percentage of late + canceled flights: 33.33333333333333%
+Pittsburgh	->	Los Angeles	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Detroit	->	Dayton	maxDelay: 32.0		percentage of late + canceled flights: 100.0%
+Wichita	->	Minneapolis	maxDelay: 15.0		percentage of late + canceled flights: 40.0%
+Santa Ana	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Sarasota/Bradenton	->	Atlanta	maxDelay: 120.0		percentage of late + canceled flights: 14.285714285714285%
+Bloomington/Normal	->	Orlando	maxDelay: 7.0		percentage of late + canceled flights: 100.0%
+Dallas	->	Atlanta	maxDelay: 99.0		percentage of late + canceled flights: 38.88888888888889%
+Chicago	->	Raleigh/Durham	maxDelay: 149.0		percentage of late + canceled flights: 53.84615384615385%
+Meridian	->	Hattiesburg/Laurel	maxDelay: 14.0		percentage of late + canceled flights: 20.0%
+Juneau	->	Yakutat	maxDelay: 41.0		percentage of late + canceled flights: 28.57142857142857%
+Salt Lake City	->	Philadelphia	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Atlanta	->	Charleston	maxDelay: 39.0		percentage of late + canceled flights: 45.0%
+Washington	->	Seattle	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Philadelphia	->	Charlotte Amalie	maxDelay: 117.0		percentage of late + canceled flights: 75.0%
+Savannah	->	New York	maxDelay: 53.0		percentage of late + canceled flights: 33.33333333333333%
+Fort Wayne	->	Chicago	maxDelay: 199.0		percentage of late + canceled flights: 42.857142857142854%
+Sun Valley/Hailey/Ketchum	->	San Francisco	maxDelay: 46.0		percentage of late + canceled flights: 100.0%
+St. Louis	->	Fort Lauderdale	maxDelay: 7.0		percentage of late + canceled flights: 40.0%
+Baltimore	->	Orlando	maxDelay: 96.0		percentage of late + canceled flights: 39.285714285714285%
+Minneapolis	->	Cincinnati	maxDelay: 4.0		percentage of late + canceled flights: 25.0%
+Chicago	->	Charlottesville	maxDelay: 173.0		percentage of late + canceled flights: 66.66666666666666%
+Aspen	->	Atlanta	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Washington	->	Columbia	maxDelay: 119.0		percentage of late + canceled flights: 57.14285714285714%
+Denver	->	Harrisburg	maxDelay: 4.0		percentage of late + canceled flights: 100.0%
+Newark	->	Salt Lake City	maxDelay: 103.0		percentage of late + canceled flights: 33.33333333333333%
+Nashville	->	Houston	maxDelay: 124.0		percentage of late + canceled flights: 40.0%
+Ontario	->	Sacramento	maxDelay: 118.0		percentage of late + canceled flights: 50.0%
+Boston	->	Cleveland	maxDelay: 19.0		percentage of late + canceled flights: 50.0%
+Trenton	->	Raleigh/Durham	maxDelay: 71.0		percentage of late + canceled flights: 50.0%
+Dallas	->	Baltimore	maxDelay: 108.0		percentage of late + canceled flights: 30.0%
+Cleveland	->	Milwaukee	maxDelay: 31.0		percentage of late + canceled flights: 57.14285714285714%
+Atlanta	->	Miami	maxDelay: 33.0		percentage of late + canceled flights: 18.91891891891892%
+Jackson	->	Seattle	maxDelay: 0.0		percentage of late + canceled flights: 0.0%
+Charlotte	->	Houston	maxDelay: 90.0		percentage of late + canceled flights: 45.714285714285715%
+Denver	->	Boise	maxDelay: 91.0		percentage of late + canceled flights: 52.38095238095239%
+Helena	->	Salt Lake City	maxDelay: 33.0		percentage of late + canceled flights: 30.0%
+Kalamazoo	->	Detroit	maxDelay: 63.0		percentage of late + canceled flights: 57.14285714285714%
