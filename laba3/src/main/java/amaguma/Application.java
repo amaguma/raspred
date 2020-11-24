@@ -83,13 +83,13 @@ public class Application {
                         }
                         countFlights++;
                     }
-                    String output = "maxDelay: " + maxDelay + "\n" + "late and canceled flights: " + getPersentage(delayedFlights + cancelledFlights, countFlights) + "%";
+                    String output = "maxDelay: " + maxDelay + "\t\tpercentage of late + canceled flights: " + getPersentage(delayedFlights + cancelledFlights, countFlights) + "%";
                     return output;
                 })
                 .map(item -> {
                     String departureAirportName = broadcast.value().get(item._1._1);
                     String destinationAirportName = broadcast.value().get(item._1._2);
-                    String output = departureAirportName + "\t" + "->" + "\t" + destinationAirportName + "\t" + "->" + "\t" + item._2;
+                    String output = departureAirportName + "\t->\t" + destinationAirportName + "\t" + item._2;
                     return output;
                 })
                 .saveAsTextFile(RESULT_PATH);
