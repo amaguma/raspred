@@ -31,6 +31,8 @@ public class StorageActor extends AbstractActor {
                 testAnswers.add(testResult);
             }
             return new Result(packageId, testAnswers);
+        } else {
+            return new Result("No such package", testAnswers);
         }
     }
 
@@ -38,7 +40,7 @@ public class StorageActor extends AbstractActor {
         return ReceiveBuilder
                 .create()
                 .match(TestData.class, test -> this.putTest(test))
-                .match(String.class, id -> )
+                .match(String.class, id -> sender().tell(makeResult(id), self()))
                 .build();
     }
 }
