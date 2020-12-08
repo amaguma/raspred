@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7ad45c-2e1d-4f55-82b3-709f7ee4f9bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab4/RouterActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab4/RouterActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab4/AkkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab4/AkkaApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab4/AkkaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="357">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#233#234#0" expanded="true" />
@@ -261,12 +261,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607440452082</updated>
-      <workItem from="1607440461832" duration="13822000" />
+      <workItem from="1607440461832" duration="14084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13822000" />
+    <option name="totallyTimeSpent" value="14084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="790" y="0" width="753" height="830" extended-state="0" />
@@ -446,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab4/AkkaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
