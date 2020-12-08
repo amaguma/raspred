@@ -21,6 +21,9 @@ public class TestPackage implements Serializable {
                         @JsonProperty(JS_SCRIPT) String code,
                         @JsonProperty(FUNCTION_NAME) String functionName,
                         @JsonProperty(TESTS) List<TestData> tests) {
-        
+        this.packageId = packageId;
+        this.code = code;
+        this.functionName = functionName;
+        this.tests = tests;
     }
 }
