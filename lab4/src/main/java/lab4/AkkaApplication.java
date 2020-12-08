@@ -58,6 +58,6 @@ public class AkkaApplication extends AllDirectives {
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance.createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> bindong = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
 
-        String startMessage = String.format()
+        System.out.println("Server start at http://");
     }
 }
