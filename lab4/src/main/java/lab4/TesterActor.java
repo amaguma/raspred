@@ -22,6 +22,6 @@ public class TesterActor extends AbstractActor {
         ScriptEngine engine = new ScriptEngineManager().getEngineByName(JS_VERSION);
         engine.eval(testData.getParentPackage().getCode());
         Invocable invocable = (Invocable) engine;
-        return invocable.invokeFunction(testData.getParentPackage().getFunctionName(), testData.getParams().toString());
+        return invocable.invokeFunction(testData.getParentPackage().getFunctionName(), testData.getParams().toString();
     }
 }
