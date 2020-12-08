@@ -8,6 +8,10 @@ import java.time.Duration;
 import java.util.Collections;
 
 public class RouterActor extends AbstractActor {
+
+    private static final int WORKERS_COUNT = 5;
+    private static final int RETRIES_COUNT = 5;
+
     private ActorRef storageActor;
     private SupervisorStrategy strategy;
     private ActorRef testerActor;
