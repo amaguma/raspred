@@ -26,4 +26,20 @@ public class TestPackage implements Serializable {
         this.functionName = functionName;
         this.tests = tests;
     }
+
+    public  String getPackageId() {
+        return this.packageId;
+    }
+
+    public String getCode() {
+        return this.code;
+    }
+
+    public String getFunctionName() {
+        return this.functionName;
+    }
+
+    public List<TestData> getTests() {
+        return this.tests;
+    }
 }
