@@ -2,6 +2,7 @@ package lab4;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
+import akka.actor.Props;
 import akka.http.javadsl.server.AllDirectives;
 
 public class AkkaApplication extends AllDirectives {
@@ -12,6 +13,7 @@ public class AkkaApplication extends AllDirectives {
     }
 
     public static void main(String[] args) throws  Exception {
-        ActorSystem system = ActorSystem.create("")
+        ActorSystem system = ActorSystem.create("AkkaApplication");
+        ActorRef actorRouter = system.actorOf(Props.create(RouterActor.class, system), "actorRouter");
     }
 }
