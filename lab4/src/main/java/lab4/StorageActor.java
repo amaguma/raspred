@@ -25,6 +25,7 @@ public class StorageActor extends AbstractActor {
         return ReceiveBuilder
                 .create()
                 .match(TestData.class, test -> this.putTest(test))
-                .match(String.class, id -> sender().tell())
+                .match(String.class, id -> )
+                .build();
     }
 }
