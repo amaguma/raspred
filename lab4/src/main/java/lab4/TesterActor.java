@@ -8,6 +8,9 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
 public class TesterActor extends AbstractActor {
+
+    private static final String JS_VERSION = "nashorn";
+
     private ActorRef storageActor;
 
     public TesterActor(ActorRef storageActor) {
@@ -15,6 +18,6 @@ public class TesterActor extends AbstractActor {
     }
 
     private String runTest(TestData testData) throws ScriptException, NoSuchMethodException {
-        ScriptEngine engine = new ScriptEngineManager().getEngineByName()
+        ScriptEngine engine = new ScriptEngineManager().getEngineByName(JS_VERSION);
     }
 }
