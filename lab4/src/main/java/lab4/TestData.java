@@ -15,6 +15,7 @@ public class TestData implements Serializable {
     private String actualResult;
     private String expectedResult;
     private Object[] params;
+    private TestPackage parentPackage;
 
     @JsonCreator
     public TestData(@JsonProperty(TEST_NAME) String testName,
@@ -23,6 +24,10 @@ public class TestData implements Serializable {
         this.testName = testName;
         this.expectedResult = expectedResult;
         this.params = params;
+    }
+
+    public void setParentPackage(TestPackage parentPackage) {
+        this.parentPackage = parentPackage;
     }
 
     public void setActualResult(String actualResult) {
