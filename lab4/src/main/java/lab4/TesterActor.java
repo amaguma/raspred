@@ -2,6 +2,7 @@ package lab4;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
+import akka.japi.pf.ReceiveBuilder;
 
 import javax.script.Invocable;
 import javax.script.ScriptEngine;
@@ -36,5 +37,11 @@ public class TesterActor extends AbstractActor {
         return testData;
     }
 
-    
+    @Override
+    public Receive createReceive() {
+        return ReceiveBuilder
+                .create()
+                .match(TestData.class, msg -> storageActor.tell(checkRes(msg), ActorRef.noSender()))
+                .build();
+    }
 }
