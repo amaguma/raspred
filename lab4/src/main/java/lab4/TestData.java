@@ -25,6 +25,25 @@ public class TestData implements Serializable {
         this.params = params;
     }
 
+    public void setActualResult(String actualResult) {
+        this.actualResult = actualResult;
+    }
+
+    public String getActualResult() {
+        return this.actualResult;
+    }
+
+    public String getTestName() {
+        return this.testName;
+    }
+
+    public String getExpectedResult() {
+        return this.expectedResult;
+    }
+
+    public Object[] getParams() {
+        return this.params;
+    }
 }
 
 

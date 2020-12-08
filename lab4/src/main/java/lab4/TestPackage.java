@@ -1,4 +1,14 @@
 package lab4;
 
-public class TestPackage {
+import java.io.Serializable;
+import java.util.List;
+
+public class TestPackage implements Serializable {
+
+    private String packageId;
+    private String functionName;
+    private String jsScript;
+    private List<TestData> tests;
+
+    public TestPackage
 }
