@@ -18,8 +18,8 @@ public class RouterActor extends AbstractActor {
 
     RouterActor(ActorSystem system) {
         this.storageActor = system.actorOf(Props.create(StorageActor.class), "StorageActor");
-        this.strategy = new OneForOneStrategy(5, Duration.ofMinutes(1), Collections.singletonList(Exception.class));
-        this.testerActor = system.actorOf(new RoundRobinPool(5).withSupervisorStrategy(strategy).props(Props.create(TesterActor.class, storageActor)));
+        this.strategy = new OneForOneStrategy(RETRIES_COUNT, Duration.ofMinutes(1), Collections.singletonList(Exception.class));
+        this.testerActor = system.actorOf(new RoundRobinPool(WORKERS_COUNT).withSupervisorStrategy(strategy).props(Props.create(TesterActor.class, storageActor)));
     }
 
     private void runTests(TestPackage testPackage) {
