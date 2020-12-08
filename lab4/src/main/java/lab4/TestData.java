@@ -30,6 +30,10 @@ public class TestData implements Serializable {
         this.parentPackage = parentPackage;
     }
 
+    public TestPackage getParentPackage() {
+        return this.parentPackage;
+    }
+
     public void setActualResult(String actualResult) {
         this.actualResult = actualResult;
     }
