@@ -30,7 +30,7 @@ public class StorageActor extends AbstractActor {
                 TestResult testResult = new TestResult(expectedResult, actualResult, actualResult.equals(expectedResult));
                 testAnswers.add(testResult);
             }
-            
+            return new Result(packageId, testAnswers);
         }
     }
 
