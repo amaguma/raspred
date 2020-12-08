@@ -33,7 +33,7 @@ public class AkkaApplication extends AllDirectives {
                 get(() ->
                         pathPrefix("getPackage", () ->
                                 path(segment(), (String id) -> {
-                                            Future<Object> result = Patterns.ask(actorRouter, id, Constans.timeOut);
+                                            Future<Object> result = Patterns.ask(actorRouter, id, 3000);
                                             return completeOKWithFuture(result, Jackson.marshaller());
                                         }
                                 ))),
@@ -56,10 +56,11 @@ public class AkkaApplication extends AllDirectives {
         AkkaApplication instance = new AkkaApplication(actorRouter);
 
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance.createRoute().flow(system, materializer);
-        final CompletionStage<ServerBinding> bindong = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
+        final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
 
         System.out.println("Server start at http://localhost:8080/\nPress RETURN to sop...");
         System.in.read();
-        
+        binding.thenCompose(ServerBinding::unbind)
+                .thenAccept(unbound -> system.terminate());
     }
 }
