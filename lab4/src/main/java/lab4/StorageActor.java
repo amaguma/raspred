@@ -1,6 +1,7 @@
 package lab4;
 
 import akka.actor.AbstractActor;
+import akka.japi.pf.ReceiveBuilder;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,5 +19,12 @@ public class StorageActor extends AbstractActor {
             tests.add(testData);
             this.store.put(packageId, tests);
         }
+    }
+
+    @Override Receive createReceive() {
+        return ReceiveBuilder
+                .create()
+                .match(TestData.class, test -> this.putTest(test))
+                .match(String.class, id -> sender().tell())
     }
 }
