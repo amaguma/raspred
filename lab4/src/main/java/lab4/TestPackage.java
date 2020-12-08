@@ -13,10 +13,10 @@ public class TestPackage implements Serializable {
     private final String TESTS = "tests";
 
     private String packageId;
-    private String functionName;
     private String code;
+    private String functionName;
     private List<TestData> tests;
 
     public TestPackage (@JsonProperty(PACKAGE_ID) String packageId,
-                        @JsonProperty)
+                        @JsonProperty(JS_SCRIPT) )
 }
