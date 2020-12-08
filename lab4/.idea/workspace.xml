@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab4/StorageActor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -38,6 +38,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lab4/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab4/TestResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -116,12 +128,13 @@
         <option value="$PROJECT_DIR$/src/main/java/lab4/OutputRes.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab4/StorageActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab4/TestResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab4/Result.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="931" />
-    <option name="width" value="897" />
+    <option name="x" value="1145" />
+    <option name="width" value="783" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -203,15 +216,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607440452082</updated>
-      <workItem from="1607440461832" duration="10177000" />
+      <workItem from="1607440461832" duration="10615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10177000" />
+    <option name="totallyTimeSpent" value="10615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="745" y="0" width="717" height="830" extended-state="0" />
+    <frame x="916" y="0" width="626" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -219,7 +232,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13850836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42226148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -304,20 +317,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab4/TestResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab4/StorageActor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab4/StorageActor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab4/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab4/TestResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
