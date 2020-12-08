@@ -8,11 +8,13 @@ import java.util.List;
 public class TestPackage implements Serializable {
 
     private final String PACKAGE_ID = "packageId";
-    private final String 
+    private final String FUNCTION_NAME = "functionName";
+    private final String JS_SCRIPT = "jsScript";
+    private final String TESTS = "tests";
 
     private String packageId;
     private String functionName;
-    private String jsScript;
+    private String code;
     private List<TestData> tests;
 
     public TestPackage (@JsonProperty())
