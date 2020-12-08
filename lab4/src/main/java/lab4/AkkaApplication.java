@@ -5,12 +5,11 @@ import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
 import akka.http.javadsl.Http;
+import akka.http.javadsl.model.HttpRequest;
+import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.AllDirectives;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
-
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 
 public class AkkaApplication extends AllDirectives {
     private ActorRef actorRouter;
@@ -18,6 +17,8 @@ public class AkkaApplication extends AllDirectives {
     private AkkaApplication(ActorRef actorRouter) {
         this.actorRouter = actorRouter;
     }
+
+    
 
     public static void main(String[] args) throws  Exception {
         ActorSystem system = ActorSystem.create("AkkaApplication");
@@ -28,6 +29,7 @@ public class AkkaApplication extends AllDirectives {
 
         AkkaApplication instance = new AkkaApplication(actorRouter);
 
-        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance
+        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow =
+                instance.createRoute().flow(system, materializer);
     }
 }
