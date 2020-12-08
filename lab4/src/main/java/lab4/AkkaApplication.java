@@ -59,5 +59,7 @@ public class AkkaApplication extends AllDirectives {
         final CompletionStage<ServerBinding> bindong = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
 
         System.out.println("Server start at http://localhost:8080/\nPress RETURN to sop...");
+        System.in.read();
+        
     }
 }
