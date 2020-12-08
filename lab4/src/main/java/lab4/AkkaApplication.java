@@ -15,5 +15,7 @@ public class AkkaApplication extends AllDirectives {
     public static void main(String[] args) throws  Exception {
         ActorSystem system = ActorSystem.create("AkkaApplication");
         ActorRef actorRouter = system.actorOf(Props.create(RouterActor.class, system), "actorRouter");
+
+        
     }
 }
