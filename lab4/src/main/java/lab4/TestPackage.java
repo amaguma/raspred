@@ -17,5 +17,6 @@ public class TestPackage implements Serializable {
     private String code;
     private List<TestData> tests;
 
-    public TestPackage (@JsonProperty())
+    public TestPackage (@JsonProperty(PACKAGE_ID) String packageId,
+                        @JsonProperty)
 }
