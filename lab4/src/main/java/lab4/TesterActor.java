@@ -25,5 +25,16 @@ public class TesterActor extends AbstractActor {
         return invocable.invokeFunction(testData.getParentPackage().getFunctionName(), testData.getParams()).toString();
     }
 
+    private TestData checkRes(TestData testData) {
+        try {
+            String getResult = runTest(testData);
+            testData.setActualResult(getResult);
+        } catch (Exception exception) {
+            String error = exception.toString();
+            testData.setActualResult(error);
+        }
+        return testData;
+    }
+
     
 }
