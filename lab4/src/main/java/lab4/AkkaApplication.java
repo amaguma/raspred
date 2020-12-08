@@ -58,7 +58,7 @@ public class AkkaApplication extends AllDirectives {
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance.createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
 
-        System.out.println("Server start at http://localhost:8080/\nPress RETURN to sop...");
+        System.out.println("Server start at http://localhost:8080/\nPress RETURN to stop...");
         System.in.read();
         binding.thenCompose(ServerBinding::unbind)
                 .thenAccept(unbound -> system.terminate());
