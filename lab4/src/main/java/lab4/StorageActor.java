@@ -22,7 +22,14 @@ public class StorageActor extends AbstractActor {
     }
 
     private Result makeResult(String packageId) {
-        ArrayList<TestResult>
+        ArrayList<TestResult> testAnswers = new ArrayList<>();
+        if (this.store.containsKey(packageId)){
+            for (TestData test : this.store.get(packageId)) {
+                String actualResult = test.getActualResult();
+                String expectedResult = test.getExpectedResult();
+                TestResult testResult = new TestResult()
+            }
+        }
     }
 
     @Override Receive createReceive() {
