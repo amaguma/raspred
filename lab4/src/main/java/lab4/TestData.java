@@ -7,7 +7,9 @@ import java.io.Serializable;
 
 public class TestData implements Serializable {
 
-    
+    private final String TEST_NAME = "testName";
+    private final String EXPECTED_RES = "expectedResult";
+    private final String PARAMS = "params";
 
     private String testName;
     private String actualResult;
