@@ -17,9 +17,9 @@ public class TestData implements Serializable {
     private Object[] params;
 
     @JsonCreator
-    public TestData(@JsonProperty("testName") String testName,
-                    @JsonProperty("expectedResult") String expectedResult,
-                    @JsonProperty("params") Object[] params) {
+    public TestData(@JsonProperty(TEST_NAME) String testName,
+                    @JsonProperty(EXPECTED_RES) String expectedResult,
+                    @JsonProperty(PARAMS) Object[] params) {
         this.testName = testName;
         this.expectedResult = expectedResult;
         this.params = params;
