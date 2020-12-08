@@ -21,6 +21,10 @@ public class StorageActor extends AbstractActor {
         }
     }
 
+    private Result makeResult(String packageId) {
+        ArrayList<TestResult>
+    }
+
     @Override Receive createReceive() {
         return ReceiveBuilder
                 .create()
