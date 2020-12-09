@@ -14,8 +14,9 @@ public class Result implements Serializable {
     private String packageId;
     private List<TestResult> tests;
 
-    public Result(String packageId,
-                  List<TestResult> tests) {
+    @JsonCreator
+    public Result(@JsonProperty(PACKAGE_ID) String packageId,
+                  @JsonProperty(TESTS) List<TestResult> tests) {
         this.packageId = packageId;
         this.tests = tests;
     }
