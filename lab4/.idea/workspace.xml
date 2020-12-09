@@ -40,7 +40,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab4/AkkaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
+            <state relative-caret-position="749">
               <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -274,15 +274,15 @@
       <updated>1607440452082</updated>
       <workItem from="1607440461832" duration="16883000" />
       <workItem from="1607470124012" duration="573000" />
-      <workItem from="1607531051633" duration="5349000" />
+      <workItem from="1607531051633" duration="5608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22805000" />
+    <option name="totallyTimeSpent" value="23064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14630872" />
@@ -444,7 +444,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab4/AkkaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
+        <state relative-caret-position="749">
           <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
