@@ -30,13 +30,17 @@ public class AkkaApplication extends AllDirectives {
 
     private Route createRoute(){
         return concat(
-                get(() ->
-                        pathPrefix("getPackage", () ->
-                                path(segment(), (String id) -> {
-                                            Future<Object> result = Patterns.ask(actorRouter, id, 3000);
-                                            return completeOKWithFuture(result, Jackson.marshaller());
-                                        }
-                                ))),
+//                get(() ->
+//                        pathPrefix("getPackage", () ->
+//                                path(segment(), (String id) -> {
+//                                            Future<Object> result = Patterns.ask(actorRouter, id, 3000);
+//                                            return completeOKWithFuture(result, Jackson.marshaller());
+//                                        }
+//                                ))),
+                get(() -> parameter("packageId", id -> {
+                    Future<Object> result = Patterns.ask(actorRouter, id, 3000);
+                    return completeOKWithFuture(result, Jackson.marshaller());
+                })),
                 post(() -> entity(
                         Jackson.unmarshaller(TestPackage.class), testPackage -> {
                             actorRouter.tell(testPackage, ActorRef.noSender());
