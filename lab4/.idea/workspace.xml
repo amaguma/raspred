@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f7ad45c-2e1d-4f55-82b3-709f7ee4f9bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab4/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab4/Result.java" afterDir="false" />
-    </list>
+    <list default="true" id="2f7ad45c-2e1d-4f55-82b3-709f7ee4f9bb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab4/StorageActor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="459">
+              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab4/Result.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
@@ -159,9 +157,9 @@
         <option value="$PROJECT_DIR$/src/main/java/lab4/TestResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab4/RouterActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab4/TesterActor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lab4/StorageActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab4/AkkaApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab4/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab4/StorageActor.java" />
       </list>
     </option>
   </component>
@@ -288,18 +286,18 @@
       <updated>1607440452082</updated>
       <workItem from="1607440461832" duration="16883000" />
       <workItem from="1607470124012" duration="573000" />
-      <workItem from="1607531051633" duration="6528000" />
+      <workItem from="1607531051633" duration="6784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23984000" />
+    <option name="totallyTimeSpent" value="24240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14563759" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14563759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -308,7 +306,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,16 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab4/StorageActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -460,6 +448,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab4/StorageActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
