@@ -22,12 +22,7 @@ import java.util.concurrent.CompletionStage;
 import static akka.http.javadsl.server.PathMatchers.segment;
 
 public class AkkaApplication extends AllDirectives {
-    private ActorRef actorRouter;
-
-    private AkkaApplication(ActorRef actorRouter) {
-        this.actorRouter = actorRouter;
-    }
-
+    
     private Route createRoute(){
         return concat(
 //                get(() ->
