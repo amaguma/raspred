@@ -53,9 +53,9 @@ public class AkkaApplication extends AllDirectives {
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
-        AkkaApplication instance = new AkkaApplication();
+        final AkkaApplication instance = new AkkaApplication();
 
-        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance.createRoute().flow(system, materializer);
+        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance.createRoute(system, actorRouter).flow(system, materializer);
         System.out.println("dobralsya3");
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
         System.out.println("dobralsya1");
