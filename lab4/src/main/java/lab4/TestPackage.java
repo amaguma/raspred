@@ -1,5 +1,6 @@
 package lab4;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.io.Serializable;
@@ -17,6 +18,7 @@ public class TestPackage implements Serializable {
     private String functionName;
     private List<TestData> tests;
 
+    @JsonCreator
     public TestPackage (@JsonProperty(PACKAGE_ID) String packageId,
                         @JsonProperty(JS_SCRIPT) String code,
                         @JsonProperty(FUNCTION_NAME) String functionName,
