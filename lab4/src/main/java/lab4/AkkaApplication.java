@@ -19,19 +19,11 @@ import scala.concurrent.Future;
 
 import java.util.concurrent.CompletionStage;
 
-import static akka.http.javadsl.server.PathMatchers.segment;
 
 public class AkkaApplication extends AllDirectives {
 
     private Route createRoute(ActorSystem system, ActorRef actorRouter){
         return concat(
-//                get(() ->
-//                        pathPrefix("getPackage", () ->
-//                                path(segment(), (String id) -> {
-//                                            Future<Object> result = Patterns.ask(actorRouter, id, 3000);
-//                                            return completeOKWithFuture(result, Jackson.marshaller());
-//                                        }
-//                                ))),
                 get(() -> parameter("packageId", id -> {
                     Future<Object> result = Patterns.ask(actorRouter, id, 3000);
                     System.out.println("dobralsya");
