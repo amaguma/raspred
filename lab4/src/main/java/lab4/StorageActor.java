@@ -14,7 +14,9 @@ public class StorageActor extends AbstractActor {
         String packageId = testData.getParentPackage().getPackageId();
         if (this.store.containsKey(packageId)) {
             this.store.get(packageId).add(testData);
+            System.out.println("kek1");
         } else {
+            System.out.println("kek2");
             ArrayList<TestData> tests = new ArrayList<>();
             tests.add(testData);
             this.store.put(packageId, tests);
