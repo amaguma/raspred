@@ -39,6 +39,7 @@ public class AkkaApplication extends AllDirectives {
 //                                ))),
                 get(() -> parameter("packageId", id -> {
                     Future<Object> result = Patterns.ask(actorRouter, id, 3000);
+                    System.out.println("dobralsya");
                     return completeOKWithFuture(result, Jackson.marshaller());
                 })),
                 post(() -> entity(
