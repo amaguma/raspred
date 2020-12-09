@@ -22,8 +22,8 @@ import java.util.concurrent.CompletionStage;
 import static akka.http.javadsl.server.PathMatchers.segment;
 
 public class AkkaApplication extends AllDirectives {
-    
-    private Route createRoute(){
+
+    private Route createRoute(ActorSystem system, ActorRef actorRouter){
         return concat(
 //                get(() ->
 //                        pathPrefix("getPackage", () ->
@@ -53,7 +53,7 @@ public class AkkaApplication extends AllDirectives {
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
-        AkkaApplication instance = new AkkaApplication(actorRouter);
+        AkkaApplication instance = new AkkaApplication();
 
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance.createRoute().flow(system, materializer);
         System.out.println("dobralsya3");
