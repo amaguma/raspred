@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f7ad45c-2e1d-4f55-82b3-709f7ee4f9bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab4/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab4/Result.java" afterDir="false" />
-    </list>
+    <list default="true" id="2f7ad45c-2e1d-4f55-82b3-709f7ee4f9bb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+            <state relative-caret-position="1071">
+              <caret line="63" lean-forward="true" selection-end-line="86" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -74,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab4/Result.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -278,15 +276,16 @@
       <workItem from="1607440461832" duration="16883000" />
       <workItem from="1607470124012" duration="573000" />
       <workItem from="1607531051633" duration="8396000" />
-      <workItem from="1607715901433" duration="3161000" />
+      <workItem from="1607715901433" duration="3462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29013000" />
+    <option name="totallyTimeSpent" value="29314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -368,13 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab4/AkkaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -452,6 +444,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" lean-forward="true" selection-end-line="86" selection-end-column="10" />
         </state>
       </provider>
     </entry>
