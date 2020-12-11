@@ -30,7 +30,7 @@ public class StorageActor extends AbstractActor {
                 String actualResult = test.getActualResult();
                 String expectedResult = test.getExpectedResult();
                 if (actualResult.equals(expectedResult)) {
-                    
+
                 }
                 TestResult testResult = new TestResult(expectedResult, actualResult, actualResult.equals(expectedResult));
                 testAnswers.add(testResult);
