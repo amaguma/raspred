@@ -8,6 +8,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class StorageActor extends AbstractActor {
+
+    private static final String FAIL_RESULT = "fail";
+    private static final String SUCCESS_RESULT = "success";
     private Map<String, ArrayList<TestData>> store = new HashMap<>();
 
     private void putTest(TestData testData) {
@@ -28,9 +31,9 @@ public class StorageActor extends AbstractActor {
                 String actualResult = test.getActualResult();
                 String expectedResult = test.getExpectedResult();
                 if (actualResult.equals(expectedResult)) {
-                    resultTests.put(test.getTestName(), "success");
+                    resultTests.put(test.getTestName(), SUCCESS_RESULT);
                 } else {
-                    resultTests.put(test.getTestName(), "FAIL");
+                    resultTests.put(test.getTestName(), FAIL_RESULT);
                 }
             }
         }

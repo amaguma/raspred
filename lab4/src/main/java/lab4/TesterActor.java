@@ -30,7 +30,7 @@ public class TesterActor extends AbstractActor {
         try {
             String getResult = runTest(testData);
             testData.setActualResult(getResult);
-            System.out.println("Real Result:" + getResult);
+            System.out.println("Real Result: " + getResult);
         } catch (Exception exception) {
             String error = exception.toString();
             testData.setActualResult(error);
