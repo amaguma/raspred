@@ -25,6 +25,7 @@ public class StorageActor extends AbstractActor {
 
     private ArrayList makeResult(String packageId) {
         ArrayList<TestResult> testAnswers = new ArrayList<>();
+        
         if (this.store.containsKey(packageId)) {
             for (TestData test : this.store.get(packageId)) {
                 String actualResult = test.getActualResult();
@@ -32,7 +33,7 @@ public class StorageActor extends AbstractActor {
                 TestResult testResult = new TestResult(expectedResult, actualResult, actualResult.equals(expectedResult));
                 testAnswers.add(testResult);
                 System.out.println(test.getTestName() + "\t" + actualResult.equals(expectedResult));
-                
+
             }
             //return new Result(packageId, testAnswers);
             // } else {
