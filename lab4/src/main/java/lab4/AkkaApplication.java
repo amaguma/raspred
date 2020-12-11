@@ -26,7 +26,6 @@ public class AkkaApplication extends AllDirectives {
         return concat(
                 get(() -> parameter("packageId", id -> {
                     Future<Object> result = Patterns.ask(actorRouter, id, 3000);
-                    System.out.println("dobralsya");
                     return completeOKWithFuture(result, Jackson.marshaller());
                 })),
                 post(() -> entity(
@@ -48,9 +47,9 @@ public class AkkaApplication extends AllDirectives {
         final AkkaApplication instance = new AkkaApplication();
 
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance.createRoute(system, actorRouter).flow(system, materializer);
-        System.out.println("dobralsya3");
+
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
-        System.out.println("dobralsya1");
+    
 
         System.out.println("Server start at http://localhost:8080/\nPress RETURN to stop...");
         System.in.read();
