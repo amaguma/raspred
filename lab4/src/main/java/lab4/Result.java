@@ -22,6 +22,6 @@ public class Result implements Serializable {
     }
 
     public String toJSON() {
-        
+
     }
 }
