@@ -23,25 +23,17 @@ public class StorageActor extends AbstractActor {
         }
     }
 
-    private Map<String, Boolean> makeResult(String packageId) {
-        ArrayList<TestResult> testAnswers = new ArrayList<>();
-        Map<String, Boolean> result = new HashMap<>();
+    private Result makeResult(String packageId) {
+        Map<String, Boolean> resultTests = new HashMap<>();
         if (this.store.containsKey(packageId)) {
             for (TestData test : this.store.get(packageId)) {
                 String actualResult = test.getActualResult();
                 String expectedResult = test.getExpectedResult();
-                TestResult testResult = new TestResult(expectedResult, actualResult, actualResult.equals(expectedResult));
-                testAnswers.add(testResult);
-                System.out.println(test.getTestName() + "\t" + actualResult.equals(expectedResult));
-                result.put(test.getTestName(), actualResult.equals(expectedResult));
+                resultTests.put(test.getTestName(), actualResult.equals(expectedResult));
             }
-            //return new Result(packageId, testAnswers);
-            // } else {
-            //    return new Result("No such package", testAnswers);
-            //}
         }
-        System.out.println(result);
-        return result;
+        System.out.println(resultTests);
+        return new Result(packageId, resultTests);
     }
 
     @Override
