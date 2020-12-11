@@ -23,7 +23,7 @@ public class StorageActor extends AbstractActor {
         }
     }
 
-    private Result makeResult(String packageId) {
+    private Map<String, Boolean> makeResult(String packageId) {
         Map<String, Boolean> resultTests = new HashMap<>();
         if (this.store.containsKey(packageId)) {
             for (TestData test : this.store.get(packageId)) {
@@ -33,7 +33,7 @@ public class StorageActor extends AbstractActor {
             }
         }
         System.out.println(resultTests);
-        return new Result(packageId, resultTests);
+        return resultTests;
     }
 
     @Override
