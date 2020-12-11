@@ -21,12 +21,15 @@ public class StorageActor extends AbstractActor {
         }
     }
 
-    private Map<String, Boolean> makeResult(String packageId) {
-        Map<String, Boolean> resultTests = new HashMap<>();
+    private Map<String, String> makeResult(String packageId) {
+        Map<String, String> resultTests = new HashMap<>();
         if (this.store.containsKey(packageId)) {
             for (TestData test : this.store.get(packageId)) {
                 String actualResult = test.getActualResult();
                 String expectedResult = test.getExpectedResult();
+                if (actualResult.equals(expectedResult)) {
+                    resultTests.put(test.getTestName(), "secces");
+                }
                 resultTests.put(test.getTestName(), actualResult.equals(expectedResult));
             }
         }
