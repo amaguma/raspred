@@ -8,10 +8,10 @@ import java.util.List;
 
 public class TestPackage implements Serializable {
 
-    private final String PACKAGE_ID = "packageId";
-    private final String FUNCTION_NAME = "functionName";
-    private final String JS_SCRIPT = "jsScript";
-    private final String TESTS = "tests";
+    private static final String PACKAGE_ID = "packageId";
+    private static final String FUNCTION_NAME = "functionName";
+    private static final String JS_SCRIPT = "jsScript";
+    private static final String TESTS = "tests";
 
     private String packageId;
     private String code;
