@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.util.Map;
 
 public class Result implements Serializable {
-    
+
     private String packageId;
     private Map<String, Boolean> tests;
 
