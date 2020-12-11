@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.Map;
 
 public class Result implements Serializable {
 
@@ -13,9 +12,11 @@ public class Result implements Serializable {
     private final String TESTS = "tests";
 
     private String packageId;
-    private Map<String, String> tests;
+    private List<TestResult> tests;
 
-    public Result(String packageId, Map<String, String> tests) {
+    @JsonCreator
+    public Result(@JsonProperty(PACKAGE_ID) String packageId,
+                  @JsonProperty(TESTS) List<TestResult> tests) {
         this.packageId = packageId;
         this.tests = tests;
     }
