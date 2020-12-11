@@ -28,7 +28,7 @@ public class StorageActor extends AbstractActor {
                 String actualResult = test.getActualResult();
                 String expectedResult = test.getExpectedResult();
                 if (actualResult.equals(expectedResult)) {
-                    resultTests.put(test.getTestName(), "secces");
+                    resultTests.put(test.getTestName(), "succes");
                 }
                 resultTests.put(test.getTestName(), actualResult.equals(expectedResult));
             }
