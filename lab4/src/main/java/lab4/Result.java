@@ -20,8 +20,4 @@ public class Result implements Serializable {
         this.packageId = packageId;
         this.tests = tests;
     }
-
-    public String toJSON() {
-
-    }
 }
