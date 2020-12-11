@@ -23,7 +23,7 @@ public class StorageActor extends AbstractActor {
         }
     }
 
-    private Result makeResult(String packageId) {
+    private ArrayList makeResult(String packageId) {
         ArrayList<TestResult> testAnswers = new ArrayList<>();
         if (this.store.containsKey(packageId)){
             for (TestData test : this.store.get(packageId)) {
@@ -33,10 +33,11 @@ public class StorageActor extends AbstractActor {
                 testAnswers.add(testResult);
                 System.out.println(actualResult + "\t" + expectedResult);
             }
-            return new Result(packageId, testAnswers);
-        } else {
-            return new Result("No such package", testAnswers);
-        }
+            //return new Result(packageId, testAnswers);
+       // } else {
+        //    return new Result("No such package", testAnswers);
+        //}
+            return testAnswers;
     }
 
     @Override
