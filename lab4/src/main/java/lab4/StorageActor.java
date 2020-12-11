@@ -29,6 +29,9 @@ public class StorageActor extends AbstractActor {
             for (TestData test : this.store.get(packageId)) {
                 String actualResult = test.getActualResult();
                 String expectedResult = test.getExpectedResult();
+                if (actualResult.equals(expectedResult)) {
+
+                }
                 TestResult testResult = new TestResult(expectedResult, actualResult, actualResult.equals(expectedResult));
                 testAnswers.add(testResult);
                 System.out.println(actualResult + "\t" + expectedResult);
