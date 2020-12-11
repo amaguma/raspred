@@ -22,10 +22,14 @@ import java.util.concurrent.CompletionStage;
 
 public class AkkaApplication extends AllDirectives {
 
+    private static final String HOST = "localhost";
+    private static final int PORT = 8080;
+    private static final int TIME_OUT = 3000;
+
     private Route createRoute(ActorSystem system, ActorRef actorRouter){
         return concat(
                 get(() -> parameter("packageId", id -> {
-                    Future<Object> result = Patterns.ask(actorRouter, id, 3000);
+                    Future<Object> result = Patterns.ask(actorRouter, id, TIME_OUT);
                     return completeOKWithFuture(result, Jackson.marshaller());
                 })),
                 post(() -> entity(
@@ -48,7 +52,7 @@ public class AkkaApplication extends AllDirectives {
 
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = instance.createRoute(system, actorRouter).flow(system, materializer);
 
-        final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow, ConnectHttp.toHost("localhost", 8080), materializer);
+        final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow, ConnectHttp.toHost(HOST, PORT), materializer);
 
 
         System.out.println("Server start at http://localhost:8080/\nPress RETURN to stop...");
