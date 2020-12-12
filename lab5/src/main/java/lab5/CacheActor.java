@@ -1,6 +1,7 @@
 package lab5;
 
 import akka.actor.AbstractActor;
+import akka.actor.ActorRef;
 import akka.japi.pf.ReceiveBuilder;
 
 import java.util.HashMap;
@@ -13,6 +14,9 @@ public class CacheActor extends AbstractActor {
     public Receive createReceive() {
         return receiveBuilder()
                 .match(String.class, message ->
-                        getSender().tell(cache.getOrDefault(message, -1)))
+                        getSender().tell(cache.getOrDefault(message, -1), ActorRef.noSender()))
+                .match(UrlTest.class, message ->
+                        cache.putIfAbsent(message.getUrl(), message.getTime()))
+                .build();
     }
 }
