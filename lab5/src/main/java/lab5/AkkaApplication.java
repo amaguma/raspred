@@ -3,6 +3,7 @@ package lab5;
 import akka.NotUsed;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
+import akka.http.javadsl.model.HttpEntities;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.model.Query;
@@ -53,6 +54,10 @@ public class AkkaApplication {
                                     .run(materializer)
                                     .thenApply(sum -> new Pair<>(pair.first(), sum / pair.second()));
                         }))
+                .map((Pair<String, Integer> p) -> {
+                    cache.tell(p, ActorRef.noSender());
+                    return HttpResponse.create().withEntity(HttpEntities.create(p.second().toString()));
+                });
 
     }
 }
