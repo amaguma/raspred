@@ -12,6 +12,7 @@ import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;
 
 
@@ -31,7 +32,9 @@ public class AkkaApplication {
                                 return CompletableFuture.completedFuture(new Pair<>(pair.first(), (int)res));
                             }
                             Flow<Pair<String, Integer>, Integer, NotUsed> flow = Flow.<Pair<String, Integer>>create()
-                                    .mapConcat()
+                                    .mapConcat(p -> {
+                                        new ArrayList<>()
+                                    })
                         }))
     }
 }
