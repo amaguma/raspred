@@ -11,7 +11,7 @@ import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
-
+import java.time.Duration;
 
 
 public class AkkaApplication {
@@ -24,6 +24,6 @@ public class AkkaApplication {
                     int count = Integer.parseInt(query.get("count").get());
                     return new Pair<>(url, count);
                 })
-                .mapAsync(1, (pair) -> Patterns.ask(cache, pair.))
+                .mapAsync(1, (pair) -> Patterns.ask(cache, pair.first(), Duration.ofSeconds(5)))
     }
 }
