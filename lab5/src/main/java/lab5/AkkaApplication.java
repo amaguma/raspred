@@ -18,7 +18,7 @@ import akka.stream.javadsl.Flow;
 import akka.stream.javadsl.Keep;
 import akka.stream.javadsl.Sink;
 import akka.stream.javadsl.Source;
-import org.asynchttpclient.AsyncHttpClient;
+
 
 import java.io.IOException;
 import java.time.Duration;
@@ -28,6 +28,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 
 import static org.asynchttpclient.Dsl.asyncHttpClient;
+
 
 
 public class AkkaApplication {
@@ -81,6 +82,13 @@ public class AkkaApplication {
         System.out.println("Server start at http://localhost:8080/\nPress RETURN to stop...");
         System.in.read();
         binding.thenCompose(ServerBinding::unbind)
-                .thenAccept(unbound ->)
+                .thenAccept(unbound -> {
+                    system.terminate();
+                    try {
+                        asyncHttpClient().close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                });
     }
 }
