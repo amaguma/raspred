@@ -10,6 +10,8 @@ import akka.japi.Pair;
 import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
+import akka.stream.javadsl.Keep;
+import akka.stream.javadsl.Sink;
 import akka.stream.javadsl.Source;
 
 import java.time.Duration;
@@ -47,8 +49,11 @@ public class AkkaApplication {
                                     });
                             return Source.single(pair)
                                     .via(flow)
-                                    .toMat()
+                                    .toMat(Sink.fold(0, Integer::sum), Keep.right())
+                                    .run(materializer)
+                                    .thenApply(sum -> new Pair<>(pair.first(), sum / pair.second()));
 
                         }))
+
     }
 }
