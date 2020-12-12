@@ -36,7 +36,9 @@ public class AkkaApplication {
                                     .mapConcat(p ->
                                         new ArrayList<>(Collections.nCopies(p.second(), p.first()))
                                     )
-                                    .mapAsync(pair.second())
+                                    .mapAsync(pair.second(), url - > {
+                                        
+                                    })
                         }))
     }
 }
