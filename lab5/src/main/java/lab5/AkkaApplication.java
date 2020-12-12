@@ -78,6 +78,6 @@ public class AkkaApplication {
         final Flow<HttpRequest, HttpResponse, NotUsed> flow = createFlow(system, cache, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(flow, ConnectHttp.toHost("localhost", 8080), materializer);
 
-        System.out.println();
+        System.out.println("Server start at http://localhost:8080/\nPress RETURN to stop...");
     }
 }
