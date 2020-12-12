@@ -9,5 +9,11 @@ public class UrlTest {
         this.time = time;
     }
 
-    
+    public String getUrl() {
+        return this.url;
+    }
+
+    public Integer getTime() {
+        return this.time;
+    }
 }
