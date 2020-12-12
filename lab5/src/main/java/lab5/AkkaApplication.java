@@ -4,6 +4,7 @@ import akka.NotUsed;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
+import akka.http.javadsl.Http;
 import akka.http.javadsl.model.HttpEntities;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
@@ -15,6 +16,7 @@ import akka.stream.javadsl.Flow;
 import akka.stream.javadsl.Keep;
 import akka.stream.javadsl.Sink;
 import akka.stream.javadsl.Source;
+import org.asynchttpclient.AsyncHttpClient;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -67,6 +69,9 @@ public class AkkaApplication {
         ActorSystem system = ActorSystem.create("Akka-lab5");
         ActorRef cache = system.actorOf(Props.create(CacheActor.class));
 
-        
+        final Http http = Http.get(system);
+        final ActorMaterializer materializer = ActorMaterializer.create(system);
+
+        final Flow<HttpRequest, HttpResponse, NotUsed> flow = new AsyncHttpClient(system).cre
     }
 }
