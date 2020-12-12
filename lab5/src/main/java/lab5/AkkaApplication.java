@@ -12,6 +12,7 @@ import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
 import java.time.Duration;
+import java.util.concurrent.CompletableFuture;
 
 
 public class AkkaApplication {
@@ -24,10 +25,12 @@ public class AkkaApplication {
                     int count = Integer.parseInt(query.get("count").get());
                     return new Pair<>(url, count);
                 })
-                .mapAsync(1, (pair) -> Patterns.ask(cache, pair.first(), Duration.ofSeconds(5)).thenCompose(res -> {
-                    if (res >= 0) {
-
-                    }
-                }))
+                .mapAsync(1, (pair) ->
+                        Patterns.ask(cache, pair.first(), Duration.ofSeconds(5)).thenCompose(res -> {
+                            if ((int)res >= 0) {
+                                return CompletableFuture.completedFuture(new Pair<>(pair.first(), (int)res));
+                            }
+                            
+                        }))
     }
 }
