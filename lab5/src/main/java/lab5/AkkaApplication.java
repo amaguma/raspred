@@ -33,6 +33,8 @@ import static org.asynchttpclient.Dsl.asyncHttpClient;
 
 public class AkkaApplication {
 
+    
+
     public static Flow<HttpRequest, HttpResponse, NotUsed> createFlow(ActorSystem system, ActorRef cache, ActorMaterializer materializer) {
         return Flow.of(HttpRequest.class)
                 .map(req -> {
