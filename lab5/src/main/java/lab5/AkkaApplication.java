@@ -10,6 +10,7 @@ import akka.japi.Pair;
 import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
+import akka.stream.javadsl.Source;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -44,7 +45,10 @@ public class AkkaApplication {
                                         long endTime = System.currentTimeMillis();
                                         return CompletableFuture.completedFuture(endTime - startTime);
                                     });
-                            
+                            return Source.single(pair)
+                                    .via(flow)
+                                    .toMat()
+
                         }))
     }
 }
