@@ -66,5 +66,7 @@ public class AkkaApplication {
     public static void main(String[] args) throws IOException {
         ActorSystem system = ActorSystem.create("Akka-lab5");
         ActorRef cache = system.actorOf(Props.create(CacheActor.class));
+
+        
     }
 }
