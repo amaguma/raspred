@@ -3,6 +3,7 @@ package lab5;
 import akka.NotUsed;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
+import akka.actor.Props;
 import akka.http.javadsl.model.HttpEntities;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
@@ -15,6 +16,7 @@ import akka.stream.javadsl.Keep;
 import akka.stream.javadsl.Sink;
 import akka.stream.javadsl.Source;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -46,11 +48,11 @@ public class AkkaApplication {
                                         long startTime = System.currentTimeMillis();
                                         asyncHttpClient().prepareGet(url).execute();
                                         long endTime = System.currentTimeMillis();
-                                        return CompletableFuture.completedFuture(endTime - startTime);
+                                        return CompletableFuture.completedFuture((int)(endTime - startTime));
                                     });
                             return Source.single(pair)
                                     .via(flow)
-                                    .toMat(Sink.fold(0, Long::sum), Keep.right())
+                                    .toMat(Sink.fold(0, Integer::sum), Keep.right())
                                     .run(materializer)
                                     .thenApply(sum -> new Pair<>(pair.first(), sum / pair.second()));
                         }))
@@ -59,5 +61,10 @@ public class AkkaApplication {
                     return HttpResponse.create().withEntity(HttpEntities.create(p.second().toString()));
                 });
 
+    }
+
+    public static void main(String[] args) throws IOException {
+        ActorSystem system = ActorSystem.create("Akka-lab5");
+        ActorRef cache = system.actorOf(Props.create(CacheActor.class));
     }
 }
