@@ -16,6 +16,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.concurrent.CompletableFuture;
 
+import static org.asynchttpclient.Dsl.asyncHttpClient;
+
 
 public class AkkaApplication {
 
@@ -37,8 +39,12 @@ public class AkkaApplication {
                                         new ArrayList<>(Collections.nCopies(p.second(), p.first()))
                                     )
                                     .mapAsync(pair.second(), url -> {
-
-                                    })
+                                        long startTime = System.currentTimeMillis();
+                                        asyncHttpClient().prepareGet(url).execute();
+                                        long endTime = System.currentTimeMillis();
+                                        return CompletableFuture.completedFuture(endTime - startTime);
+                                    });
+                            
                         }))
     }
 }
