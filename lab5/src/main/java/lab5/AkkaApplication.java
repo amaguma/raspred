@@ -53,7 +53,6 @@ public class AkkaApplication {
                                     .run(materializer)
                                     .thenApply(sum -> new Pair<>(pair.first(), sum / pair.second()));
                         }))
-                .map()
 
     }
 }
