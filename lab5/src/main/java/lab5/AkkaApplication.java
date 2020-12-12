@@ -72,6 +72,6 @@ public class AkkaApplication {
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
-        final Flow<HttpRequest, HttpResponse, NotUsed> flow = new AsyncHttpClient(system).cre
+        final Flow<HttpRequest, HttpResponse, NotUsed> flow = new AsyncHttpClient(system).createFlow(system, cache, materializer);
     }
 }
