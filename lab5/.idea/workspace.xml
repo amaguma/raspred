@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52235e6f-45f0-4aca-bc6f-9d452a92dae6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab5/AkkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab5/AkkaApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="52235e6f-45f0-4aca-bc6f-9d452a92dae6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab5/AkkaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="32" column="117" selection-start-line="32" selection-start-column="117" selection-end-line="32" selection-end-column="117" />
+            <state relative-caret-position="568">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1346#1369#0" expanded="true" />
@@ -167,12 +165,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607789641239</updated>
-      <workItem from="1607789645550" duration="4301000" />
+      <workItem from="1607789645550" duration="4555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4301000" />
+    <option name="totallyTimeSpent" value="4555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="814" height="830" extended-state="0" />
@@ -241,8 +239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab5/AkkaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="32" column="117" selection-start-line="32" selection-start-column="117" selection-end-line="32" selection-end-column="117" />
+        <state relative-caret-position="568">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1346#1369#0" expanded="true" />
