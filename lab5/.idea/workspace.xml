@@ -54,10 +54,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab5/AkkaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="-367">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1346#1369#0" expanded="true" />
               </folding>
             </state>
@@ -167,16 +166,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607789641239</updated>
-      <workItem from="1607789645550" duration="5395000" />
+      <workItem from="1607789645550" duration="5797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5395000" />
+    <option name="totallyTimeSpent" value="5797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -241,10 +239,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab5/AkkaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="-367">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1346#1369#0" expanded="true" />
           </folding>
         </state>
