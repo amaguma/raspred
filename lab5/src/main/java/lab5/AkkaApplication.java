@@ -19,7 +19,7 @@ public class AkkaApplication {
                     Query query = req.getUri().query();
                     String url = query.get("testUrl").get();
                     int count = Integer.parseInt(query.get("count").get());
-                    return new Pair<>
+                    return new Pair<>(url, count);
                 })
     }
 }
