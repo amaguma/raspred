@@ -13,6 +13,7 @@ import akka.stream.javadsl.Flow;
 
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.concurrent.CompletableFuture;
 
 
@@ -32,9 +33,9 @@ public class AkkaApplication {
                                 return CompletableFuture.completedFuture(new Pair<>(pair.first(), (int)res));
                             }
                             Flow<Pair<String, Integer>, Integer, NotUsed> flow = Flow.<Pair<String, Integer>>create()
-                                    .mapConcat(p -> {
-                                        new ArrayList<>()
-                                    })
+                                    .mapConcat(p ->
+                                        new ArrayList<>(Collections.nCopies(p.second(), p.first()))
+                                    )
                         }))
     }
 }
