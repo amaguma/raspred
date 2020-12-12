@@ -1,5 +1,5 @@
 package lab5;
 
 public class UrlTest {
-    private 
+    private final Integer ti
 }
