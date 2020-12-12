@@ -81,6 +81,6 @@ public class AkkaApplication {
         System.out.println("Server start at http://localhost:8080/\nPress RETURN to stop...");
         System.in.read();
         binding.thenCompose(ServerBinding::unbind)
-                .thenAccept()
+                .thenAccept(unb)
     }
 }
