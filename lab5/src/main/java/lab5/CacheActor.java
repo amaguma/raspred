@@ -13,6 +13,6 @@ public class CacheActor extends AbstractActor {
     public Receive createReceive() {
         return receiveBuilder()
                 .match(String.class, message ->
-                        getSender().tell())
+                        getSender().tell(cache.getOrDefault(message, -1)))
     }
 }
