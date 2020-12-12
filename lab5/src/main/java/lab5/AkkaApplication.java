@@ -16,7 +16,8 @@ public class AkkaApplication {
         return Flow.of(HttpRequest.class)
                 .map(req -> {
                     Query query = req.getUri().query();
-                    String url = query.get("testUrl");
+                    String url = query.get("testUrl").get();
+                    
                 })
     }
 }
