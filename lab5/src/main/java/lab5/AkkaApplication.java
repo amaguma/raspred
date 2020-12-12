@@ -7,8 +7,11 @@ import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.model.Query;
 import akka.japi.Pair;
+import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
+
+
 
 
 public class AkkaApplication {
@@ -21,6 +24,6 @@ public class AkkaApplication {
                     int count = Integer.parseInt(query.get("count").get());
                     return new Pair<>(url, count);
                 })
-                .mapAsync()
+                .mapAsync(1, (pair) -> Patterns.ask(cache, pair.))
     }
 }
