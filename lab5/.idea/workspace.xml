@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52235e6f-45f0-4aca-bc6f-9d452a92dae6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab5/AkkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab5/AkkaApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="52235e6f-45f0-4aca-bc6f-9d452a92dae6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,12 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607789641239</updated>
-      <workItem from="1607789645550" duration="2860000" />
+      <workItem from="1607789645550" duration="3452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2860000" />
+    <option name="totallyTimeSpent" value="3452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="797" height="830" extended-state="0" />
