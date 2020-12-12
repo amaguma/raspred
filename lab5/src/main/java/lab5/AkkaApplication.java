@@ -24,6 +24,10 @@ public class AkkaApplication {
                     int count = Integer.parseInt(query.get("count").get());
                     return new Pair<>(url, count);
                 })
-                .mapAsync(1, (pair) -> Patterns.ask(cache, pair.first(), Duration.ofSeconds(5)))
+                .mapAsync(1, (pair) -> Patterns.ask(cache, pair.first(), Duration.ofSeconds(5)).thenCompose(res -> {
+                    if (res >= 0) {
+
+                    }
+                }))
     }
 }
