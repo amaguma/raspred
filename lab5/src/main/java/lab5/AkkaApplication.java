@@ -52,9 +52,8 @@ public class AkkaApplication {
                                     .toMat(Sink.fold(0, Integer::sum), Keep.right())
                                     .run(materializer)
                                     .thenApply(sum -> new Pair<>(pair.first(), sum / pair.second()));
-                            
-
                         }))
+                .map()
 
     }
 }
