@@ -38,11 +38,11 @@ public class AkkaApplication {
                             if ((int)res >= 0) {
                                 return CompletableFuture.completedFuture(new Pair<>(pair.first(), (int)res));
                             }
-                            Flow<Pair<String, Integer>, Integer, NotUsed> flow = Flow.<Pair<String, Integer>>create()
+                            Flow<Pair<String, Integer>, Long, NotUsed> flow = Flow.<Pair<String, Integer>>create()
                                     .mapConcat(p ->
                                         new ArrayList<>(Collections.nCopies(p.second(), p.first()))
                                     )
-                                    .mapAsync(pair.second(), url -> {
+                                    .mapAsync(pair.second(), (String url) -> {
                                         long startTime = System.currentTimeMillis();
                                         asyncHttpClient().prepareGet(url).execute();
                                         long endTime = System.currentTimeMillis();
@@ -50,7 +50,7 @@ public class AkkaApplication {
                                     });
                             return Source.single(pair)
                                     .via(flow)
-                                    .toMat(Sink.fold(0, Integer::sum), Keep.right())
+                                    .toMat(Sink.fold(0, Long::sum), Keep.right())
                                     .run(materializer)
                                     .thenApply(sum -> new Pair<>(pair.first(), sum / pair.second()));
                         }))
