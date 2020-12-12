@@ -8,5 +8,5 @@ import akka.stream.javadsl.Flow;
 
 public class AkkaApplication {
 
-    public static Flow<HttpRequest, HttpResponse, NotUsed> create
+    public static Flow<HttpRequest, HttpResponse, NotUsed> createFlow()
 }
