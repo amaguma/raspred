@@ -31,6 +31,7 @@ public class AkkaApplication {
                                 return CompletableFuture.completedFuture(new Pair<>(pair.first(), (int)res));
                             }
                             Flow<Pair<String, Integer>, Integer, NotUsed> flow = Flow.<Pair<String, Integer>>create()
+                                    .mapConcat()
                         }))
     }
 }
