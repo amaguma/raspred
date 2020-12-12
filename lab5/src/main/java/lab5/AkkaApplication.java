@@ -42,7 +42,7 @@ public class AkkaApplication {
                                     .mapConcat(p ->
                                         new ArrayList<>(Collections.nCopies(p.second(), p.first()))
                                     )
-                                    .mapAsync(pair.second(), (String url) -> {
+                                    .mapAsync(pair.second(), url -> {
                                         long startTime = System.currentTimeMillis();
                                         asyncHttpClient().prepareGet(url).execute();
                                         long endTime = System.currentTimeMillis();
