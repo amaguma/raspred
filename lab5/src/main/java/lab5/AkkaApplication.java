@@ -5,10 +5,18 @@ import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
+import akka.http.javadsl.model.Query;
+import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
 
 public class AkkaApplication {
 
-    public static Flow<HttpRequest, HttpResponse, NotUsed> createFlow(ActorSystem system, ActorRef cache, )
+    public static Flow<HttpRequest, HttpResponse, NotUsed> createFlow(ActorSystem system, ActorRef cache, ActorMaterializer materializer) {
+        return Flow.of(HttpRequest.class)
+                .map(req -> {
+                    Query query = req.getUri().query();
+                    String url = query.get("testUrl");
+                })
+    }
 }
