@@ -33,7 +33,8 @@ import static org.asynchttpclient.Dsl.asyncHttpClient;
 
 public class AkkaApplication {
 
-    
+    private final static String HOST = "localhost";
+    private final static Integer PORT = 8080;
 
     public static Flow<HttpRequest, HttpResponse, NotUsed> createFlow(ActorSystem system, ActorRef cache, ActorMaterializer materializer) {
         return Flow.of(HttpRequest.class)
@@ -79,7 +80,7 @@ public class AkkaApplication {
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
         final Flow<HttpRequest, HttpResponse, NotUsed> flow = createFlow(system, cache, materializer);
-        final CompletionStage<ServerBinding> binding = http.bindAndHandle(flow, ConnectHttp.toHost("localhost", 8080), materializer);
+        final CompletionStage<ServerBinding> binding = http.bindAndHandle(flow, ConnectHttp.toHost(HOST, PORT), materializer);
 
         System.out.println("Server start at http://localhost:8080/\nPress RETURN to stop...");
         System.in.read();
