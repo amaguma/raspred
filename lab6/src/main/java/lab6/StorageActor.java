@@ -19,4 +19,12 @@ public class StorageActor extends AbstractActor {
     public static Props props() {
         return Props.create(StorageActor.class);
     }
+
+    @Override
+    public Receive createReceive() {
+        return receiveBuilder()
+                .match(ServerMsg.class, )
+                .match()
+                .build()
+    }
 }
