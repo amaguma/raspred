@@ -24,7 +24,7 @@ public class StorageActor extends AbstractActor {
     public Receive createReceive() {
         return receiveBuilder()
                 .match(ServerMsg.class, serverMsg -> this.storage = serverMsg.getServers())
-                .match()
+                .match(RandomServerMsg.class, msg -> )
                 .build()
     }
 }
