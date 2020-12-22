@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2994a02c-8e0b-4b58-a1df-0dbd5d8c0c19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab6/StorageActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab6/StorageActor.java" afterDir="false" />
-    </list>
+    <list default="true" id="2994a02c-8e0b-4b58-a1df-0dbd5d8c0c19" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,12 +138,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608652445157</updated>
-      <workItem from="1608652449580" duration="806000" />
+      <workItem from="1608652449580" duration="1064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="806000" />
+    <option name="totallyTimeSpent" value="1064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="781" height="830" extended-state="0" />
