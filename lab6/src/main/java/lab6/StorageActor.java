@@ -23,7 +23,7 @@ public class StorageActor extends AbstractActor {
     @Override
     public Receive createReceive() {
         return receiveBuilder()
-                .match(ServerMsg.class, )
+                .match(ServerMsg.class, serverMsg -> this.storage = )
                 .match()
                 .build()
     }
