@@ -10,7 +10,9 @@ import akka.http.javadsl.server.AllDirectives;
 import akka.http.javadsl.server.Route;
 import akka.japi.Pair;
 import akka.pattern.Patterns;
+import org.apache.zookeeper.KeeperException;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.concurrent.CompletionStage;
 
@@ -47,5 +49,7 @@ public class App extends AllDirectives {
                 ));
     }
 
-    
+    public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
+        
+    }
 }
