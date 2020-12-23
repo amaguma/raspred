@@ -17,7 +17,6 @@ import akka.japi.Pair;
 import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
-import org.apache.zookeeper.KeeperException;
 
 import java.time.Duration;
 import java.util.concurrent.CompletionStage;
@@ -26,7 +25,7 @@ public class App extends AllDirectives {
     private static final String HOST = "localhost";
     private static final int PORT = 8080;
     private static final String URL = "url";
-    private static final String COINT = "count";
+    private static final String COUNT = "count";
 
     private static Http http;
     private ActorRef storeActor;
@@ -39,14 +38,14 @@ public class App extends AllDirectives {
     private String createUrl(String serverUrl, String url, int count) {
         return Uri.create(serverUrl).query(Query.create(new Pair[] {
                 Pair.create(URL, url),
-                Pair.create(COINT, String.valueOf(count - 1))
+                Pair.create(COUNT, String.valueOf(count - 1))
         })).toString();
     }
 
     public Route createRoute() {
         return route(get(() ->
                     parameter(URL, url ->
-                            parameter(COINT, count -> {
+                            parameter(COUNT, count -> {
                                 if (Integer.parseInt(count) == 0) {
                                     return completeWithFuture(fetch(url));
                                 } else {

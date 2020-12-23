@@ -49,7 +49,7 @@ public class Zoo {
         }
     }
 
-    public void initZoo() {
+    private void initZoo() {
        try {
            this.zooKeeper.create(PATH + this.port,
                    String.valueOf(this.port).getBytes(),
