@@ -5,6 +5,7 @@ import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo implements Watcher {
@@ -29,6 +30,10 @@ public class Zoo implements Watcher {
                 sendServers();
             }
         });
+        List<String> servers = new ArrayList<>();
+        for (String s : serversName) {
+            byte[] port = zooKeeper.getData("/servers/" + s, false, null);
+        }
         this.storeActor.tell(new ServerMsg(servers), ActorRef.noSender());
     }
 }
