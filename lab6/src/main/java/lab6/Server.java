@@ -13,6 +13,14 @@ public class Server implements Watcher {
     private int port;
 
     public Server(ActorRef storeActor, int port) throws KeeperException, InterruptedException {
-        List<String> servers = 
+        this.storeActor = storeActor;
+        this.port = port;
+        this.zooKeeper = new ZooKeeper(
+                "127.0.0.1:2181",
+                5000,
+                null);
+
     }
+
+    
 }
