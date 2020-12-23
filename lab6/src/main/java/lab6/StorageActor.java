@@ -26,5 +26,5 @@ public class StorageActor extends AbstractActor {
                 .match(ServerMsg.class, serverMsg -> this.storage = serverMsg.getServers())
                 .match(String.class, msg -> sender().tell(storage.get(random.nextInt(storage.size())), self()))
                 .build();
-    }
+    } 
 }
