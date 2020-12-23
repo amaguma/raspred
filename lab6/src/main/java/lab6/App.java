@@ -1,4 +1,7 @@
 package lab6;
 
-public class App {
+import akka.http.javadsl.server.AllDirectives;
+
+public class App extends AllDirectives {
+    
 }
