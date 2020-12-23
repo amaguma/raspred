@@ -61,6 +61,6 @@ public class App extends AllDirectives {
         Zoo zoo = new Zoo(storageActor, 8080);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
         final App server = new App();
-        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = server.createRoute();
+        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = server.createRoute().flow();
     }
 }
