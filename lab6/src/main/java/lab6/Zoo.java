@@ -38,10 +38,6 @@ public class Zoo implements Watcher {
     }
 
     public void initZoo() {
-        try {
-            
-        } catch () {
-
-        }
+        this.zooKeeper.create()
     }
 }
