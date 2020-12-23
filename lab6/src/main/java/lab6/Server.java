@@ -6,5 +6,8 @@ import org.apache.zookeeper.ZooKeeper;
 
 public class Server implements Watcher {
     private ZooKeeper zooKeeper;
-    private ActorRef storeActor
+    private ActorRef storeActor;
+    private int port;
+
+    public Server()
 }
