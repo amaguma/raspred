@@ -23,7 +23,11 @@ public class App extends AllDirectives {
         return route(get(() ->
                     parameter("url", url ->
                             parameter("count", count -> {
-                                if ()
+                                if (Integer.parseInt(count) == 0) {
+                                    return completeWithFuture(fetch(url));
+                                } else {
+                                    return completeWithFuture()
+                                }
                             }))
                 ))
     }
