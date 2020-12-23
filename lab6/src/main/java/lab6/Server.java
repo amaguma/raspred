@@ -22,5 +22,5 @@ public class Server implements Watcher {
 
     }
 
-
+    public void sendServers() 
 }
