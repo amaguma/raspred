@@ -2,6 +2,7 @@ package lab6;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
+import akka.actor.Props;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
@@ -52,6 +53,7 @@ public class App extends AllDirectives {
 
     public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
         final ActorSystem system = ActorSystem.create("routes");
+        ActorRef storageActor = system.actorOf(Props.create(StorageActor.class));
         
     }
 }
