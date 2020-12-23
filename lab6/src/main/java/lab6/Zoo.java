@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
-    private ZooKeeper zooKeeper;
-    private ActorRef storeActor;
+    private static ZooKeeper zooKeeper;
+    private static ActorRef storeActor;
     private int port;
 
     public Zoo(ActorRef storeActor, int port) {
@@ -24,11 +24,10 @@ public class Zoo {
         }
         this.storeActor = storeActor;
         this.port = port;
-        sendServers();
         initZoo();
     }
 
-    public void sendServers() {
+    public static Watcher watcher = watchedEvent ->  {
         try {
             List<String> serversName = zooKeeper.getChildren("/servers", watchedEvent -> {
                 if (watchedEvent.getType() == Watcher.Event.EventType.NodeChildrenChanged) {
@@ -40,7 +39,7 @@ public class Zoo {
             for (String s : serversName) {
                 byte[] port = zooKeeper.getData("/servers/" + s, false, null);
             }
-            this.storeActor.tell(new ServerMsg(servers), ActorRef.noSender());
+            storeActor.tell(new ServerMsg(servers), ActorRef.noSender());
         } catch (KeeperException | InterruptedException e) {
             e.printStackTrace();
         }
