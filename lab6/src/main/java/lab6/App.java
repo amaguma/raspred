@@ -27,7 +27,7 @@ public class App extends AllDirectives {
                                 if (Integer.parseInt(count) == 0) {
                                     return completeWithFuture(fetch(url));
                                 } else {
-                                    return completeWithFuture(Patterns.ask(this.storeActor, new ))
+                                    return completeWithFuture(Patterns.ask(this.storeActor, new RandomServerMsg(), ))
                                 }
                             }))
                 ))
