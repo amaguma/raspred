@@ -16,10 +16,6 @@ public class StorageActor extends AbstractActor {
         this.random = new Random();
     }
 
-    public static Props props() {
-        return Props.create(StorageActor.class);
-    }
-
     @Override
     public Receive createReceive() {
         return receiveBuilder()
