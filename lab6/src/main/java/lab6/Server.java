@@ -24,6 +24,7 @@ public class Server implements Watcher {
 
     public void sendServers() throws KeeperException, InterruptedException {
         List<String> servers = zooKeeper.getChildren("/servers", this);
+        this.storeActor.tell();
 
     }
 }
