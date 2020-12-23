@@ -70,6 +70,10 @@ public class App extends AllDirectives {
                 materializer
         );
         System.out.println("Server online at http://localhost:8080/\nPress RETURN to stop...");
-        System.in.read();
+        try {
+            System.in.read();
+        } catch (Exception e) {
+            
+        }
     }
 }
