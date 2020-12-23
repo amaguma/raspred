@@ -10,7 +10,9 @@ import java.util.List;
 public class Zoo {
     private static final int TIMEOUT = 5000;
     private static final String CONNECTING_STRING = "127.0.0.1:2181";
-
+    private static final String SERVERS = "/servers";
+    private static final String SERVERS_ROOT = "/servers/";
+    private static final String PATH = "/servers/localhost:";
 
     private  ZooKeeper zooKeeper;
     private  ActorRef storeActor;
@@ -30,7 +32,7 @@ public class Zoo {
 
     private void sendServers() {
         try {
-            List<String> serversName = zooKeeper.getChildren("/servers", watchedEvent -> {
+            List<String> serversName = zooKeeper.getChildren(SERVERS, watchedEvent -> {
                 if (watchedEvent.getType() == Watcher.Event.EventType.NodeChildrenChanged) {
                     sendServers();
                 }
@@ -38,7 +40,7 @@ public class Zoo {
 
             List<String> servers = new ArrayList<>();
             for (String s : serversName) {
-                byte[] port = this.zooKeeper.getData("/servers/" + s, false, null);
+                byte[] port = this.zooKeeper.getData(SERVERS_ROOT + s, false, null);
                 servers.add(new String(port));
             }
             this.storeActor.tell(new ServerMsg(servers), ActorRef.noSender());
@@ -49,7 +51,7 @@ public class Zoo {
 
     public void initZoo() {
        try {
-           this.zooKeeper.create("/servers/localhost:" + this.port,
+           this.zooKeeper.create(PATH + this.port,
                    String.valueOf(this.port).getBytes(),
                    ZooDefs.Ids.OPEN_ACL_UNSAFE,
                    CreateMode.EPHEMERAL

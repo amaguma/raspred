@@ -24,9 +24,13 @@ import java.time.Duration;
 import java.util.concurrent.CompletionStage;
 
 public class App extends AllDirectives {
+    private static final String HOST = "localhost";
+    private static final int PORT = 8080;
+    private static final String URL = "url";
+    private static final String COINT = "count";
+
     private static Http http;
     private ActorRef storeActor;
-    private int port;
 
 
     private static CompletionStage<HttpResponse> fetch(String url) {
@@ -35,15 +39,15 @@ public class App extends AllDirectives {
 
     private String createUrl(String serverUrl, String url, int count) {
         return Uri.create(serverUrl).query(Query.create(new Pair[] {
-                Pair.create("url", url),
-                Pair.create("count", String.valueOf(count - 1))
+                Pair.create(URL, url),
+                Pair.create(COINT, String.valueOf(count - 1))
         })).toString();
     }
 
     public Route createRoute() {
         return route(get(() ->
-                    parameter("url", url ->
-                            parameter("count", count -> {
+                    parameter(URL, url ->
+                            parameter(COINT, count -> {
                                 if (Integer.parseInt(count) == 0) {
                                     return completeWithFuture(fetch(url));
                                 } else {
@@ -56,17 +60,17 @@ public class App extends AllDirectives {
                 ));
     }
 
-    public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
+    public static void main(String[] args) {
         final ActorSystem system = ActorSystem.create("routes");
         ActorRef storageActor = system.actorOf(Props.create(StorageActor.class));
         final Http http = Http.get(system);
-        Zoo zoo = new Zoo(storageActor, 8080);
+        Zoo zoo = new Zoo(storageActor, PORT);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
         final App server = new App();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = server.createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
-                ConnectHttp.toHost("localhost", 8080),
+                ConnectHttp.toHost(HOST, PORT),
                 materializer
         );
         System.out.println("Server online at http://localhost:8080/\nPress RETURN to stop...");
