@@ -20,6 +20,11 @@ public class App extends AllDirectives {
     }
 
     public Route createRoute() {
-        return 
+        return route(get(() ->
+                    parameter("url", url ->
+                            parameter("count", count -> {
+                                if ()
+                            }))
+                ))
     }
 }
