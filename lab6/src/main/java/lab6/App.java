@@ -69,6 +69,6 @@ public class App extends AllDirectives {
                 ConnectHttp.toHost("localhost", 8080),
                 materializer
         );
-        System.out.println("Server online at http:");
+        System.out.println("Server online at http://localhost:8080/\n");
     }
 }
