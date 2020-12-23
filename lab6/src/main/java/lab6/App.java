@@ -1,5 +1,6 @@
 package lab6;
 
+import akka.NotUsed;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
@@ -12,6 +13,8 @@ import akka.http.javadsl.server.AllDirectives;
 import akka.http.javadsl.server.Route;
 import akka.japi.Pair;
 import akka.pattern.Patterns;
+import akka.stream.ActorMaterializer;
+import akka.stream.javadsl.Flow;
 import org.apache.zookeeper.KeeperException;
 
 import java.io.IOException;
@@ -54,7 +57,10 @@ public class App extends AllDirectives {
     public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
         final ActorSystem system = ActorSystem.create("routes");
         ActorRef storageActor = system.actorOf(Props.create(StorageActor.class));
+        final Http http = Http.get(system);
         Zoo zoo = new Zoo(storageActor, 8080);
-        
+        final ActorMaterializer materializer = ActorMaterializer.create(system);
+        final App app = new App();
+        final Flow<HttpRequest, HttpResponse, NotUsed> 
     }
 }
