@@ -8,6 +8,7 @@ import akka.http.javadsl.server.AllDirectives;
 import akka.http.javadsl.server.Route;
 import akka.pattern.Patterns;
 
+import java.time.Duration;
 import java.util.concurrent.CompletionStage;
 
 public class App extends AllDirectives {
@@ -27,7 +28,10 @@ public class App extends AllDirectives {
                                 if (Integer.parseInt(count) == 0) {
                                     return completeWithFuture(fetch(url));
                                 } else {
-                                    return completeWithFuture(Patterns.ask(this.storeActor, new RandomServerMsg(), ))
+                                    return completeWithFuture(Patterns.ask(this.storeActor, new RandomServerMsg(), Duration.ofSeconds(5))
+                                        .thenApply()
+                                    )
+
                                 }
                             }))
                 ))
