@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Zoo {
     private static final int TIMEOUT = 5000;
-    private static final String 
+    private static final String CONNECTING_STRING = "127.0.0.1:2181";
 
 
     private  ZooKeeper zooKeeper;
@@ -18,11 +18,7 @@ public class Zoo {
 
     public Zoo(ActorRef storeActor, int port) {
         try {
-            this.zooKeeper = new ZooKeeper(
-                    "127.0.0.1:2181",
-                    TIMEOUT,
-                    null
-            );
+            this.zooKeeper = new ZooKeeper(CONNECTING_STRING, TIMEOUT, null);
         } catch (IOException e) {
             e.printStackTrace();
         }
