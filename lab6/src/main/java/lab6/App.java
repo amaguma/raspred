@@ -21,6 +21,8 @@ public class App extends AllDirectives {
         return http.singleRequest(HttpRequest.create(url));
     }
 
+    private static createUrl
+
     public Route createRoute() {
         return route(get(() ->
                     parameter("url", url ->
