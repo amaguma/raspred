@@ -1,4 +1,10 @@
 package lab6;
 
-public class Server {
+import akka.actor.ActorRef;
+import org.apache.zookeeper.Watcher;
+import org.apache.zookeeper.ZooKeeper;
+
+public class Server implements Watcher {
+    private ZooKeeper zooKeeper;
+    private ActorRef storeActor
 }
