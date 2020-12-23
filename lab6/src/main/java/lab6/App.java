@@ -19,7 +19,6 @@ import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 import org.apache.zookeeper.KeeperException;
 
-import java.io.IOException;
 import java.time.Duration;
 import java.util.concurrent.CompletionStage;
 
