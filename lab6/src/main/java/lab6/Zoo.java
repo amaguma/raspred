@@ -41,6 +41,14 @@ public class Zoo implements Watcher {
                 ZooDefs.Ids.OPEN_ACL_UNSAFE,
                 CreateMode.EPHEMERAL
                 );
-        this.storeActor.tell();
+    }
+
+    @Override
+    public void process(WatchedEvent watchedEvent) {
+        try {
+            sendServers();
+        } catch (KeeperException | InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
