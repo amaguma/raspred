@@ -6,6 +6,7 @@ import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.AllDirectives;
 import akka.http.javadsl.server.Route;
+import akka.pattern.Patterns;
 
 import java.util.concurrent.CompletionStage;
 
@@ -26,7 +27,7 @@ public class App extends AllDirectives {
                                 if (Integer.parseInt(count) == 0) {
                                     return completeWithFuture(fetch(url));
                                 } else {
-                                    return completeWithFuture()
+                                    return completeWithFuture(Patterns.ask(this.storeActor, new ))
                                 }
                             }))
                 ))
