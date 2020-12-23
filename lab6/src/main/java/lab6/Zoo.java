@@ -7,12 +7,12 @@ import org.apache.zookeeper.ZooKeeper;
 
 import java.util.List;
 
-public class Server implements Watcher {
+public class Zoo implements Watcher {
     private ZooKeeper zooKeeper;
     private ActorRef storeActor;
     private int port;
 
-    public Server(ActorRef storeActor, int port) throws KeeperException, InterruptedException {
+    public Zoo(ActorRef storeActor, int port) throws KeeperException, InterruptedException {
         this.storeActor = storeActor;
         this.port = port;
         this.zooKeeper = new ZooKeeper(
