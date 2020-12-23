@@ -66,7 +66,9 @@ public class App extends AllDirectives {
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = server.createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
-                ConnectHttp.toHost("")
-        )
+                ConnectHttp.toHost("localhost", 8080),
+                materializer
+        );
+        System.out.println("Server online at http:");
     }
 }
