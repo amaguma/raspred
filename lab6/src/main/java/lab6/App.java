@@ -73,7 +73,8 @@ public class App extends AllDirectives {
         try {
             System.in.read();
         } catch (Exception e) {
-            
+            e.printStackTrace();
         }
+        binding
     }
 }
