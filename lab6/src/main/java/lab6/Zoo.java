@@ -36,4 +36,12 @@ public class Zoo implements Watcher {
         }
         this.storeActor.tell(new ServerMsg(servers), ActorRef.noSender());
     }
+
+    public void initZoo() {
+        try {
+            
+        } catch () {
+
+        }
+    }
 }
