@@ -22,5 +22,7 @@ public class Server implements Watcher {
 
     }
 
-    public void sendServers() 
+    public void sendServers() throws KeeperException, InterruptedException {
+        List<String> servers
+    }
 }
