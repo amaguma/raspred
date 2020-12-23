@@ -1,9 +1,7 @@
 package lab6;
 
 import akka.actor.ActorRef;
-import org.apache.zookeeper.KeeperException;
-import org.apache.zookeeper.Watcher;
-import org.apache.zookeeper.ZooKeeper;
+import org.apache.zookeeper.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +36,11 @@ public class Zoo implements Watcher {
     }
 
     public void initZoo() {
-        this.zooKeeper.create("/servers/localhost:" + this.port)
+        this.zooKeeper.create("/servers/localhost:" + this.port,
+                String.valueOf(this.port).getBytes(),
+                ZooDefs.Ids.OPEN_ACL_UNSAFE,
+                CreateMode.EPHEMERAL
+                );
+        this.storeActor.tell();
     }
 }
