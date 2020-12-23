@@ -54,6 +54,6 @@ public class App extends AllDirectives {
     public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
         final ActorSystem system = ActorSystem.create("routes");
         ActorRef storageActor = system.actorOf(Props.create(StorageActor.class));
-
+        Zoo zoo = new Zoo(storageActor, )
     }
 }
