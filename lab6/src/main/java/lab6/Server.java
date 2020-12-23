@@ -18,13 +18,13 @@ public class Server implements Watcher {
         this.zooKeeper = new ZooKeeper(
                 "127.0.0.1:2181",
                 5000,
-                null);
-
+                null
+        );
+        sendServers();
     }
 
     public void sendServers() throws KeeperException, InterruptedException {
         List<String> servers = zooKeeper.getChildren("/servers", this);
         this.storeActor.tell(new ServerMsg(servers), ActorRef.noSender());
-
     }
 }
