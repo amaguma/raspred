@@ -12,5 +12,9 @@ public class App extends AllDirectives {
     private ActorRef storeActor;
     private int port;
 
-    private static CompletionStage<HttpResponse> fetch()
+    
+
+    private static CompletionStage<HttpResponse> fetch(String url) {
+        return
+    }
 }
