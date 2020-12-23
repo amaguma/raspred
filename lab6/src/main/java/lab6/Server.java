@@ -9,5 +9,5 @@ public class Server implements Watcher {
     private ActorRef storeActor;
     private int port;
 
-    public Server()
+    public Server(ActorRef storeActor) 
 }
