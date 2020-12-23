@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
+    private static final int TIMEOUT = 5000;
+
+
     private  ZooKeeper zooKeeper;
     private  ActorRef storeActor;
     private int port;
@@ -16,7 +19,7 @@ public class Zoo {
         try {
             this.zooKeeper = new ZooKeeper(
                     "127.0.0.1:2181",
-                    5000,
+                    TIMEOUT,
                     null
             );
         } catch (IOException e) {
