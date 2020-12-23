@@ -1,7 +1,7 @@
 package lab6;
 
 import akka.actor.AbstractActor;
-import akka.actor.Props;
+
 
 import java.util.ArrayList;
 import java.util.List;

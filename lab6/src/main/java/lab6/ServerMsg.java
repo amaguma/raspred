@@ -1,6 +1,6 @@
 package lab6;
 
-import java.io.Serializable;
+
 import java.util.List;
 
 public class ServerMsg {

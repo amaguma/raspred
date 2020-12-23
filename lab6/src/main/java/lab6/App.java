@@ -75,6 +75,7 @@ public class App extends AllDirectives {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        binding
+        binding.thenCompose(ServerBinding::unbind)
+                .thenAccept(unbound -> system.terminate());
     }
 }
