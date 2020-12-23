@@ -24,7 +24,9 @@ public class Zoo implements Watcher {
     }
 
     public void sendServers() throws KeeperException, InterruptedException {
-        List<String> serversName = zooKeeper.getChildren("/servers", this);
+        List<String> serversName = zooKeeper.getChildren("/servers", watchedEvent -> {
+            if (watchedEvent.getType() == Event.EventType.NodeChildrenChanged)
+        });
         this.storeActor.tell(new ServerMsg(servers), ActorRef.noSender());
     }
 }
