@@ -38,6 +38,6 @@ public class Zoo implements Watcher {
     }
 
     public void initZoo() {
-        this.zooKeeper.create()
+        this.zooKeeper.create("/servers/localhost:" + this.port)
     }
 }
