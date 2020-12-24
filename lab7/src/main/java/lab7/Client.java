@@ -13,5 +13,12 @@ public class Client {
         socket.connect("tcp://localhost:5556");
 
         Scanner in = new Scanner(System.in);
+        while (true) {
+            String command = in.nextLine();
+
+            if (command.equals("")) {
+                break;
+            }
+        }
     }
 }
