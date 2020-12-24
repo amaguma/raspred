@@ -90,7 +90,7 @@ public class Proxy {
                 if (msg.size() == 1) {
                     ZFrame frame = msg.getFirst();
                     String heartbeat = new String(frame.getData(), ZMQ.CHARSET);
-                    String[] heatbeats =
+                    String[] heatbeatArg = heartbeat.split(" ");
                 }
 
             }
