@@ -25,6 +25,6 @@ public class Tools {
     public static final int HEARTBEAT_LENGTH = 1;
 
     public static String[] splitStr(String command) {
-        return command.split(" ");
+        return command.split(DELIMITER);
     }
 }
