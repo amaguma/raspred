@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45520e9d-17c5-4ecf-aad5-87a8be27bbe6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab7/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab7/Proxy.java" afterDir="false" />
-    </list>
+    <list default="true" id="45520e9d-17c5-4ecf-aad5-87a8be27bbe6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,12 +190,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608826152852</updated>
-      <workItem from="1608826157355" duration="10816000" />
+      <workItem from="1608826157355" duration="11155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10816000" />
+    <option name="totallyTimeSpent" value="11155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="781" height="830" extended-state="0" />
