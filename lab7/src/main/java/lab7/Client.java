@@ -16,6 +16,8 @@ public class Client {
     private static final int INDEX_REQ = 0;
     private static final int INDEX_KEY = 1;
     private static final int INDEX_VALUE = 2;
+    private static final String WRONG_COMMAND = "Wrong command";
+    private static final String EMPTY_MSG = "Empty message";
 
     public static void main(String[] args) {
         ZContext context = new ZContext();
@@ -46,7 +48,7 @@ public class Client {
                 String response = sendAndReceive(socket, str);
                 System.out.println(response);
             } else {
-                System.out.println("Unexpected command");
+                System.out.println(WRONG_COMMAND);
             }
         }
         context.destroySocket(socket);
@@ -58,7 +60,7 @@ public class Client {
         frame.send(socket, 0);
         ZMsg msg = ZMsg.recvMsg(socket);
         if (msg == null) {
-            return "Empty message";
+            return EMPTY_MSG;
         } else {
             return new String(msg.getFirst().getData(), ZMQ.CHARSET);
         }
