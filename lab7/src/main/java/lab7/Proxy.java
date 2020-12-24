@@ -78,7 +78,9 @@ public class Proxy {
                         response = "No storages responsible for key";
                     }
                     ZMsg respMsg = new ZMsg();
-
+                    respMsg.add(new ZFrame(response));
+                    respMsg.wrap(msg.getFirst());
+                    respMsg.send(frontend);
                 }
             }
         }
