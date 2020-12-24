@@ -95,8 +95,14 @@ public class Proxy {
                     if (heatbeatArg.length == 3 && heatbeatArg[0].equals("INIT")) {
                         int min = Integer.parseInt(heatbeatArg[1]);
                         int max = Integer.parseInt(heatbeatArg[2]);
-                        
-                    }
+                        configs.add(new Config(
+                           idFrame,
+                           id,
+                           System.currentTimeMillis(),
+                           min,
+                           max
+                        ));
+                    } else if ()
                 }
 
             }
