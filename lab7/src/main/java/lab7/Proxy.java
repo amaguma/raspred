@@ -17,5 +17,12 @@ public class Proxy {
         frontend.bind("tcp://localhost:5556");
         backend = context.createSocket(SocketType.ROUTER);
         backend.bind("tcp://localhost:5555");
+
+        configs = new ArrayList<>();
+        System.out.println("Proxy");
+
+        ZMQ.Poller items = context.createPoller(2);
+        items.register(frontend, ZMQ.Poller.POLLIN);
+        items.register(backend, ZMQ.Poller.POLLIN);
     }
 }
