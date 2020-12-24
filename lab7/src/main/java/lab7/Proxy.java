@@ -16,6 +16,8 @@ public class Proxy {
     private static final int INDEX_KEY = 1;
     private static final int INDEX_MIN = 1;
     private static final int INDEX_MAX = 2;
+    private static final int GET_REQ_LENGTH = 2;
+    private static final int SET_REQ_LENGTH = 3;
 
     private static ArrayList<Config> configs;
     private static ZMQ.Socket frontend;
@@ -70,7 +72,7 @@ public class Proxy {
                 String command = new String(frame.getData(), ZMQ.CHARSET);
                 String[] commands = command.split(DELIMITER);
 
-                if (commands.length == 2 && commands[INDEX_REQ].equals(GET_REQ)) {
+                if (commands.length == GET_REQ_LENGTH && commands[INDEX_REQ].equals(GET_REQ)) {
                     int key = Integer.parseInt(commands[INDEX_KEY]);
                     boolean get = sendGetMsg(key, msg);
                     if (!get) {
@@ -78,7 +80,7 @@ public class Proxy {
                         msg.send(frontend);
                     }
                 }
-                if (commands.length == 3 && commands[INDEX_REQ].equals(SET_REQ)) {
+                if (commands.length == SET_REQ_LENGTH && commands[INDEX_REQ].equals(SET_REQ)) {
                     int key = Integer.parseInt(commands[INDEX_KEY]);
 
                     int count = sendSetMsg(key, msg);
