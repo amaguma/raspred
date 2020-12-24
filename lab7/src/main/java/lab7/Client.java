@@ -22,22 +22,15 @@ public class Client {
 
             if (commands.length == 2 && commands[0].equals("GET")) {
                 int key = Integer.parseInt(commands[1]);
-
-                ZFrame frame = new ZFrame(String.format("GET %d", key));
-                frame.send(socket, 0);
-                ZMsg msg = ZMsg.recvMsg(socket);
-                String response;
-                if (msg == null) {
-                    response = "Empty message";
-                } else {
-                    response = new String(msg.getFirst().getData(), ZMQ.CHARSET);
-                }
+                
+                String response = sendAndReceive(socket, String.format("GET %d", key));
                 System.out.println(response);
             } else if (commands.length == 3 && commands[0].equals("SET")) {
                 int key = Integer.parseInt(commands[1]);
                 int value = Integer.parseInt(commands[2]);
 
                 String response = sendAndReceive(socket, String.format("SET %d %d", key, value));
+                System.out.println(response);
             } else {
                 System.out.println("Unexpected command");
             }
