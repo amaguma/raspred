@@ -36,6 +36,16 @@ public class Storage {
                 if (msg.size() == 3) {
                     ZFrame frame = msg.getFirst();
                     String command = new String(frame.getData(), ZMQ.CHARSET);
+
+                    String[] commands = command.split(" ");
+
+                    for (String s : commands) {
+                        System.out.println(s);
+                    }
+
+                    if (comands.length == 2 && comands[0].equals("GET")) {
+                        int key = Integer.parseInt(commands[1]);
+                    }
                 }
             }
         }
