@@ -12,7 +12,8 @@ public class Storage {
 
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.DEALER);
-
+        
         ZFrame init = new ZFrame(String.format("INIT %d %d", min, max));
+        init.send(socket, 0);
     }
 }
