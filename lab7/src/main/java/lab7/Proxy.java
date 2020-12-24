@@ -1,8 +1,6 @@
 package lab7;
 
-import org.zeromq.SocketType;
-import org.zeromq.ZContext;
-import org.zeromq.ZMQ;
+import org.zeromq.*;
 
 import java.util.ArrayList;
 
@@ -31,7 +29,8 @@ public class Proxy {
             }
 
             if (items.pollin(0)) {
-                
+                ZMsg msg = ZMsg.recvMsg(frontend);
+                ZFrame frame = msg.getLast();
             }
         }
     }
