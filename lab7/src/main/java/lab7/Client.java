@@ -5,10 +5,14 @@ import org.zeromq.*;
 import java.util.Scanner;
 
 public class Client {
+
+    private static final String SOCKET_ADDRESS = "tcp://localhost:5556"
+    private static final String DELIMITER = " ";
+
     public static void main(String[] args) {
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.REQ);
-        socket.connect("tcp://localhost:5556");
+        socket.connect(SOCKET_ADDRESS);
 
         Scanner in = new Scanner(System.in);
         while (true) {
@@ -18,7 +22,7 @@ public class Client {
                 break;
             }
 
-            String[] commands = command.split(" ");
+            String[] commands = command.split(DELIMITER);
 
             if (commands.length == 2 && commands[0].equals("GET")) {
                 int key = Integer.parseInt(commands[1]);
