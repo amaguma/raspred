@@ -9,6 +9,17 @@ public class Proxy {
     private static ZMQ.Socket frontend;
     private static ZMQ.Socket backend;
 
+    public static boolean sendGetMsg(int key, ZMsg msg) {
+        for (Config config : configs) {
+            if (config.getMin() <= key && key <= config.getMax()) {
+                config.getAddress().send(backend, ZFrame.REUSE + ZFrame.MORE);
+                msg.send(backend, false);
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         ZContext context = new ZContext();
         frontend = context.createSocket(SocketType.ROUTER);
@@ -33,7 +44,11 @@ public class Proxy {
                 ZFrame frame = msg.getLast();
 
                 String command = new String(frame.getData(), ZMQ.CHARSET);
-                String[] commands = command.split(" ")
+                String[] commands = command.split(" ");
+
+                if (commands.length == 2 && commands[0].equals("GET"));
+                int key = Integer.parseInt(commands[1]);
+
             }
         }
     }
