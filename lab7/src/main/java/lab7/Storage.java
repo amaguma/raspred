@@ -9,6 +9,11 @@ public class Storage {
 
     private static final String SOCKET_ADDRESS = "tcp://localhost:5555";
     private static final int TIMEOUT = 2000;
+    private static final String GET = "GET";
+    private static final String SET = "SET";
+    private static final int INDEX_KEY = 1;
+    private static final int INDEX_VALUE = 2;
+
     public static void main(String[] args) {
 
         int min = Integer.parseInt(args[0]);
@@ -47,9 +52,9 @@ public class Storage {
                         System.out.println(s);
                     }
 
-                    if (commands.length == 2 && commands[0].equals("GET")) {
+                    if (commands.length == 2 && commands[0].equals(GET)) {
                         int key = Integer.parseInt(commands[1]);
-                        System.out.println("GET " + key);
+                        System.out.println(GET + " " + key);
 
                         String response = "Wrong key";
 
@@ -60,10 +65,10 @@ public class Storage {
                         msg.getLast().reset(response);
                         msg.send(socket);
                     }
-                    if (commands.length == 3 && commands[0].equals("SET")) {
+                    if (commands.length == 3 && commands[0].equals(SET)) {
                         int key = Integer.parseInt(commands[1]);
                         int value = Integer.parseInt(commands[2]);
-                        System.out.println("SET " + key + " " + value);
+                        System.out.println(SET + " " + key + " " + value);
                         storage.put(key, value);
                         msg.destroy();
                     }
