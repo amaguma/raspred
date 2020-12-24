@@ -6,21 +6,6 @@ import java.util.ArrayList;
 
 public class Proxy {
 
-    private static final String FRONTEND_SOCKET_ADDRESS = "tcp://localhost:5556";
-    private static final String BACKEND_SOCKET_ADDRESS = "tcp://localhost:5555";
-    private static final int TIMEOUT = 2000;
-    private static final String DELIMITER = " ";
-    private static final String GET_REQ = "GET";
-    private static final String SET_REQ = "SET";
-    private static final int INDEX_REQ = 0;
-    private static final int INDEX_KEY = 1;
-    private static final int INDEX_MIN = 1;
-    private static final int INDEX_MAX = 2;
-    private static final int GET_REQ_LENGTH = 2;
-    private static final int SET_REQ_LENGTH = 3;
-    private static final int INIT_LENGTH = 3;
-    private static final int HEARTBEAT_LENGTH = 1;
-
     private static ArrayList<Config> configs;
     private static ZMQ.Socket frontend;
     private static ZMQ.Socket backend;
@@ -51,9 +36,9 @@ public class Proxy {
     public static void main(String[] args) {
         ZContext context = new ZContext();
         frontend = context.createSocket(SocketType.ROUTER);
-        frontend.bind(FRONTEND_SOCKET_ADDRESS);
+        frontend.bind(Tools.FRONTEND_SOCKET_ADDRESS);
         backend = context.createSocket(SocketType.ROUTER);
-        backend.bind(BACKEND_SOCKET_ADDRESS);
+        backend.bind(Tools.BACKEND_SOCKET_ADDRESS);
 
         configs = new ArrayList<>();
         System.out.println("Proxy");
@@ -63,7 +48,7 @@ public class Proxy {
         items.register(backend, ZMQ.Poller.POLLIN);
 
         while (!Thread.currentThread().isInterrupted()) {
-            if (items.poll(TIMEOUT) == -1) {
+            if (items.poll(Tools.TIMEOUT) == -1) {
                 break;
             }
 
@@ -72,18 +57,18 @@ public class Proxy {
                 ZFrame frame = msg.getLast();
 
                 String command = new String(frame.getData(), ZMQ.CHARSET);
-                String[] commands = command.split(DELIMITER);
+                String[] commands = command.split(Tools.DELIMITER);
 
-                if (commands.length == GET_REQ_LENGTH && commands[INDEX_REQ].equals(GET_REQ)) {
-                    int key = Integer.parseInt(commands[INDEX_KEY]);
+                if (commands.length == Tools.GET_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.GET_REQ)) {
+                    int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
                     boolean get = sendGetMsg(key, msg);
                     if (!get) {
                         msg.getLast().reset("Wrong key");
                         msg.send(frontend);
                     }
                 }
-                if (commands.length == SET_REQ_LENGTH && commands[INDEX_REQ].equals(SET_REQ)) {
-                    int key = Integer.parseInt(commands[INDEX_KEY]);
+                if (commands.length == Tools.PUT_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.PUT_REQ)) {
+                    int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
 
                     int count = sendSetMsg(key, msg);
                     String response;
