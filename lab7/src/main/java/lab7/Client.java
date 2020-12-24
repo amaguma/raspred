@@ -1,9 +1,6 @@
 package lab7;
 
-import org.zeromq.SocketType;
-import org.zeromq.ZContext;
-import org.zeromq.ZFrame;
-import org.zeromq.ZMQ;
+import org.zeromq.*;
 
 import java.util.Scanner;
 
@@ -26,9 +23,8 @@ public class Client {
             if (commands.length == 2 && commands[0].equals("GET")) {
                 int key = Integer.parseInt(commands[1]);
 
-                String response;
                 ZFrame frame = new ZFrame(String.format("GET %d", key));
-                
+                ZMsg msg = ZMsg.recvMsg(socket);
             }
         }
     }
