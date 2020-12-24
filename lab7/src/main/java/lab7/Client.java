@@ -25,6 +25,13 @@ public class Client {
 
                 ZFrame frame = new ZFrame(String.format("GET %d", key));
                 ZMsg msg = ZMsg.recvMsg(socket);
+                String response;
+                if (msg == null) {
+                    response = "Empty message";
+                } else {
+                    response = new String(msg.getFirst().getData(), ZMQ.CHARSET);
+                }
+                System.out.println(response);
             }
         }
     }
