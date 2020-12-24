@@ -37,7 +37,8 @@ public class Client {
                 int key = Integer.parseInt(commands[1]);
                 int value = Integer.parseInt(commands[2]);
 
-                
+                ZFrame frame = new ZFrame(String.format("SET %d %d", key, value));
+                frame.send(socket, 0);
             }
         }
     }
