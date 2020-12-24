@@ -10,12 +10,12 @@ public class Storage {
     private static final String SOCKET_ADDRESS = "tcp://localhost:5555";
     private static final int TIMEOUT = 2000;
     private static final String GET_REQ = "GET";
-    private static final String SET_REQ = "SET";
+    private static final String PUT_REQ = "PUT";
     private static final int INDEX_REQ = 0;
     private static final int INDEX_KEY = 1;
     private static final int INDEX_VALUE = 2;
     private static final int GET_REQ_LENGTH = 2;
-    private static final int SET_REQ_LENGTH = 3;
+    private static final int PUT_REQ_LENGTH = 3;
     private static final int INDEX_MIN = 0;
     private static final int INDEX_MAX = 1;
     private static final int MESSAGE_SIZE = 3;
@@ -72,10 +72,10 @@ public class Storage {
                         msg.getLast().reset(response);
                         msg.send(socket);
                     }
-                    if (commands.length == SET_REQ_LENGTH && commands[INDEX_REQ].equals(SET_REQ)) {
+                    if (commands.length == PUT_REQ_LENGTH && commands[INDEX_REQ].equals(PUT_REQ)) {
                         int key = Integer.parseInt(commands[INDEX_KEY]);
                         int value = Integer.parseInt(commands[INDEX_VALUE]);
-                        System.out.println(SET_REQ + " " + key + " " + value);
+                        System.out.println(PUT_REQ + " " + key + " " + value);
                         storage.put(key, value);
                         msg.destroy();
                     }
