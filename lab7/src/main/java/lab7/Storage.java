@@ -34,7 +34,7 @@ public class Storage {
                     break;
                 }
                 if (msg.size() == 3) {
-                    ZFrame frame = msg.getFirst();
+                    ZFrame frame = msg.getLast();
                     String command = new String(frame.getData(), ZMQ.CHARSET);
 
                     String[] commands = command.split(" ");
@@ -43,9 +43,20 @@ public class Storage {
                         System.out.println(s);
                     }
 
-                    if (comands.length == 2 && comands[0].equals("GET")) {
+                    if (commands.length == 2 && commands[0].equals("GET")) {
                         int key = Integer.parseInt(commands[1]);
+                        System.out.println("GET " + key);
+
+                        String response = "Wrong key";
+
+                        if (storage.containsKey(key)) {
+                            int value = storage.get(key);
+                            response = Integer.toString(value);
+                        }
+                        msg.getLast().reset(response);
+                        msg.send(socket);
                     }
+                    if 
                 }
             }
         }
