@@ -23,6 +23,8 @@ public class Tools {
     public static final String BACKEND_SOCKET_ADDRESS = "tcp://localhost:5555";
     public static final int INIT_LENGTH = 3;
     public static final int HEARTBEAT_LENGTH = 1;
+    public static final int MIN_THRESHOLD_INDEX = 1;
+    public static final int MAX_THRESHOLD_INDEX = 2;
 
     public static String[] splitStr(String command) {
         return command.split(DELIMITER);
