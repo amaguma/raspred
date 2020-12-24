@@ -14,6 +14,8 @@ public class Storage {
     private static final int INDEX_REQ = 0;
     private static final int INDEX_KEY = 1;
     private static final int INDEX_VALUE = 2;
+    private static final int GET_REQ_LENGTH = 2;
+    private static final int SET_REQ_LENGTH = 3;
     
 
     public static void main(String[] args) {
@@ -54,7 +56,7 @@ public class Storage {
                         System.out.println(s);
                     }
 
-                    if (commands.length == 2 && commands[INDEX_REQ].equals(GET)) {
+                    if (commands.length == GET_REQ_LENGTH && commands[INDEX_REQ].equals(GET)) {
                         int key = Integer.parseInt(commands[INDEX_KEY]);
                         System.out.println(GET + " " + key);
 
@@ -67,7 +69,7 @@ public class Storage {
                         msg.getLast().reset(response);
                         msg.send(socket);
                     }
-                    if (commands.length == 3 && commands[INDEX_REQ].equals(SET)) {
+                    if (commands.length == SET_REQ_LENGTH && commands[INDEX_REQ].equals(SET)) {
                         int key = Integer.parseInt(commands[INDEX_KEY]);
                         int value = Integer.parseInt(commands[INDEX_VALUE]);
                         System.out.println(SET + " " + key + " " + value);
