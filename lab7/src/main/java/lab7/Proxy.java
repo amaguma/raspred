@@ -94,8 +94,8 @@ public class Proxy {
                     String[] heartbeatArg = Tools.splitStr(heartbeat);
 
                     if (heartbeatArg.length == Tools.INIT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("INIT")) {
-                        int min = Integer.parseInt(heartbeatArg[Tools.INDEX_MIN]);
-                        int max = Integer.parseInt(heartbeatArg[Tools.INDEX_MAX]);
+                        int min = Integer.parseInt(heartbeatArg[Tools.MIN_THRESHOLD_INDEX]);
+                        int max = Integer.parseInt(heartbeatArg[Tools.MAX_THRESHOLD_INDEX]);
                         configs.add(new Config(
                            idFrame,
                            id,
