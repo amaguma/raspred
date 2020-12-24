@@ -54,4 +54,15 @@ public class Client {
         context.destroySocket(socket);
         context.destroy();
     }
+
+    public static String sendAndReceive(ZMQ.Socket socket, String str) {
+        ZFrame frame = new ZFrame(str);
+        frame.send(socket, 0);
+        ZMsg msg = ZMsg.recvMsg(socket);
+        if (msg == null) {
+            return "Empty message";
+        } else {
+            return new String(msg.getFirst().getData(), ZMQ.CHARSET);
+        }
+    }
 }
