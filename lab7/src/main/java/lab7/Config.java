@@ -56,4 +56,8 @@ public class Config {
     public int getMax() {
         return this.max;
     }
+
+    public boolean isNotAlive() {
+        return this.time + 4000 < System.currentTimeMillis();
+    }
 }
