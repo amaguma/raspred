@@ -16,12 +16,15 @@ public class Storage {
     private static final int INDEX_VALUE = 2;
     private static final int GET_REQ_LENGTH = 2;
     private static final int SET_REQ_LENGTH = 3;
-    
+    private static final int INDEX_MIN = 0;
+    private static final int INDEX_MAX = 1;
+    private static final int MESSAGE_SIZE = 3;
+    private static final String DELLIMTR = " ";
 
     public static void main(String[] args) {
 
-        int min = Integer.parseInt(args[0]);
-        int max = Integer.parseInt(args[1]);
+        int min = Integer.parseInt(args[INDEX_MIN]);
+        int max = Integer.parseInt(args[INDEX_MAX]);
 
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.DEALER);
@@ -46,7 +49,7 @@ public class Storage {
                 if (msg == null) {
                     break;
                 }
-                if (msg.size() == 3) {
+                if (msg.size() == MESSAGE_SIZE) {
                     ZFrame frame = msg.getLast();
                     String command = new String(frame.getData(), ZMQ.CHARSET);
 
