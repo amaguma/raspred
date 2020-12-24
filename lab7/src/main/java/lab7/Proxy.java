@@ -8,6 +8,9 @@ public class Proxy {
 
     private static final String FRONTEND_SOCKET_ADDRESS = "tcp://localhost:5556";
     private static final String BACKEND_SOCKET_ADDRESS = "tcp://localhost:5555";
+    private static final int TIMEOUT = 2000;
+    private static final String DELIMITER = " ";
+    private static final String GET_REQ = "GET";
 
     private static ArrayList<Config> configs;
     private static ZMQ.Socket frontend;
@@ -51,7 +54,7 @@ public class Proxy {
         items.register(backend, ZMQ.Poller.POLLIN);
 
         while (!Thread.currentThread().isInterrupted()) {
-            if (items.poll(2000) == -1) {
+            if (items.poll(TIMEOUT) == -1) {
                 break;
             }
 
@@ -60,9 +63,9 @@ public class Proxy {
                 ZFrame frame = msg.getLast();
 
                 String command = new String(frame.getData(), ZMQ.CHARSET);
-                String[] commands = command.split(" ");
+                String[] commands = command.split(DELIMITER);
 
-                if (commands.length == 2 && commands[0].equals("GET")) {
+                if (commands.length == 2 && commands[0].equals(GET_REQ)) {
                     int key = Integer.parseInt(commands[1]);
                     boolean get = sendGetMsg(key, msg);
                     if (!get) {
@@ -94,11 +97,11 @@ public class Proxy {
                 if (msg.size() == 1) {
                     ZFrame frame = msg.getFirst();
                     String heartbeat = new String(frame.getData(), ZMQ.CHARSET);
-                    String[] heatbeatArg = heartbeat.split(" ");
+                    String[] heartbeatArg = heartbeat.split(DELIMITER);
 
-                    if (heatbeatArg.length == 3 && heatbeatArg[0].equals("INIT")) {
-                        int min = Integer.parseInt(heatbeatArg[1]);
-                        int max = Integer.parseInt(heatbeatArg[2]);
+                    if (heartbeatArg.length == 3 && heartbeatArg[0].equals("INIT")) {
+                        int min = Integer.parseInt(heartbeatArg[1]);
+                        int max = Integer.parseInt(heartbeatArg[2]);
                         configs.add(new Config(
                            idFrame,
                            id,
@@ -106,7 +109,7 @@ public class Proxy {
                            min,
                            max
                         ));
-                    } else if (heatbeatArg.length == 1 && heatbeatArg[0].equals("HB")) {
+                    } else if (heartbeatArg.length == 1 && heartbeatArg[0].equals("HB")) {
                         setHeartbeat(id);
                     }
                 } else {
