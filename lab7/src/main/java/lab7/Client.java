@@ -22,14 +22,16 @@ public class Client {
 
             if (commands.length == 2 && commands[0].equals("GET")) {
                 int key = Integer.parseInt(commands[1]);
-                
-                String response = sendAndReceive(socket, String.format("GET %d", key));
+
+                String str = String.format("GET %d", key);
+                String response = sendAndReceive(socket, str);
                 System.out.println(response);
             } else if (commands.length == 3 && commands[0].equals("SET")) {
                 int key = Integer.parseInt(commands[1]);
                 int value = Integer.parseInt(commands[2]);
 
-                String response = sendAndReceive(socket, String.format("SET %d %d", key, value));
+                String str = String.format("SET %d %d", key, value);
+                String response = sendAndReceive(socket, str);
                 System.out.println(response);
             } else {
                 System.out.println("Unexpected command");
