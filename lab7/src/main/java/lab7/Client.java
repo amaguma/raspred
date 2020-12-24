@@ -24,6 +24,7 @@ public class Client {
                 int key = Integer.parseInt(commands[1]);
 
                 ZFrame frame = new ZFrame(String.format("GET %d", key));
+                frame.send(socket, 0);
                 ZMsg msg = ZMsg.recvMsg(socket);
                 String response;
                 if (msg == null) {
@@ -35,6 +36,8 @@ public class Client {
             } else if (commands.length == 3 && commands[0].equals("SET")) {
                 int key = Integer.parseInt(commands[1]);
                 int value = Integer.parseInt(commands[2]);
+
+                
             }
         }
     }
