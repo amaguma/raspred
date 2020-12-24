@@ -11,8 +11,10 @@ public class Storage {
     private static final int TIMEOUT = 2000;
     private static final String GET = "GET";
     private static final String SET = "SET";
+    private static final int INDEX_REQ = 0;
     private static final int INDEX_KEY = 1;
     private static final int INDEX_VALUE = 2;
+    
 
     public static void main(String[] args) {
 
@@ -52,8 +54,8 @@ public class Storage {
                         System.out.println(s);
                     }
 
-                    if (commands.length == 2 && commands[0].equals(GET)) {
-                        int key = Integer.parseInt(commands[1]);
+                    if (commands.length == 2 && commands[INDEX_REQ].equals(GET)) {
+                        int key = Integer.parseInt(commands[INDEX_KEY]);
                         System.out.println(GET + " " + key);
 
                         String response = "Wrong key";
@@ -65,9 +67,9 @@ public class Storage {
                         msg.getLast().reset(response);
                         msg.send(socket);
                     }
-                    if (commands.length == 3 && commands[0].equals(SET)) {
-                        int key = Integer.parseInt(commands[1]);
-                        int value = Integer.parseInt(commands[2]);
+                    if (commands.length == 3 && commands[INDEX_REQ].equals(SET)) {
+                        int key = Integer.parseInt(commands[INDEX_KEY]);
+                        int value = Integer.parseInt(commands[INDEX_VALUE]);
                         System.out.println(SET + " " + key + " " + value);
                         storage.put(key, value);
                         msg.destroy();
