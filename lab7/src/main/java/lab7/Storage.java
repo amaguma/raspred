@@ -5,6 +5,9 @@ import org.zeromq.ZContext;
 import org.zeromq.ZFrame;
 import org.zeromq.ZMQ;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Storage {
     public static void main(String[] args) {
         int min = Integer.parseInt(args[0]);
@@ -19,5 +22,9 @@ public class Storage {
 
         ZMQ.Poller poller = context.createPoller(1);
         poller.register(socket, ZMQ.Poller.POLLIN);
+
+        Map<Integer, Integer> storage = new HashMap<>();
+
+        long time = System.currentTimeMillis() + 2000;
     }
 }
