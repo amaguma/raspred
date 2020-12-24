@@ -46,7 +46,12 @@ public class Client {
                 } else {
                     response = new String(msg.getFirst().getData(), ZMQ.CHARSET);
                 }
+                System.out.println(response);
+            } else {
+                System.out.println("Unexpected command");
             }
         }
+        context.destroySocket(socket);
+        context.destroy();
     }
 }
