@@ -19,7 +19,7 @@ public class Storage {
     private static final int INDEX_MIN = 0;
     private static final int INDEX_MAX = 1;
     private static final int MESSAGE_SIZE = 3;
-    private static final String DELLIMTR = " ";
+    private static final String DELIMTER = " ";
 
     public static void main(String[] args) {
 
@@ -53,7 +53,7 @@ public class Storage {
                     ZFrame frame = msg.getLast();
                     String command = new String(frame.getData(), ZMQ.CHARSET);
 
-                    String[] commands = command.split(" ");
+                    String[] commands = command.split(DELIMTER);
 
                     for (String s : commands) {
                         System.out.println(s);
