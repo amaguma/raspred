@@ -19,6 +19,10 @@ public class Client {
             if (command.equals("")) {
                 break;
             }
+
+            String[] commands = command.split(" ");
+
+
         }
     }
 }
