@@ -5,6 +5,10 @@ import org.zeromq.*;
 import java.util.ArrayList;
 
 public class Proxy {
+
+    private static final String FRONTEND_SOCKET_ADDRESS = "tcp://localhost:5556";
+    private static final String BACKEND_SOCKET_ADDRESS = "tcp://localhost:5555";
+
     private static ArrayList<Config> configs;
     private static ZMQ.Socket frontend;
     private static ZMQ.Socket backend;
@@ -35,9 +39,9 @@ public class Proxy {
     public static void main(String[] args) {
         ZContext context = new ZContext();
         frontend = context.createSocket(SocketType.ROUTER);
-        frontend.bind("tcp://localhost:5556");
+        frontend.bind(FRONTEND_SOCKET_ADDRESS);
         backend = context.createSocket(SocketType.ROUTER);
-        backend.bind("tcp://localhost:5555");
+        backend.bind(BACKEND_SOCKET_ADDRESS);
 
         configs = new ArrayList<>();
         System.out.println("Proxy");
