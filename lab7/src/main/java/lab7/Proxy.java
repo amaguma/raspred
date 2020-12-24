@@ -103,12 +103,23 @@ public class Proxy {
                            max
                         ));
                     } else if (heatbeatArg.length == 1 && heatbeatArg[0].equals("HB")) {
-
+                        setHeartbeat(id);
                     }
+                } else {
+                    msg.send(frontend);
                 }
+            }
 
+            for (Config config : configs) {
+                if (config.isNotAlive()) {
+                    configs.remove(config);
+                    break;
+                }
             }
         }
+        context.destroySocket(frontend);
+        context.destroySocket(backend);
+        context.destroy();
     }
 
     public static void setHeartbeat(String id) {
