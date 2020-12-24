@@ -93,6 +93,8 @@ public class Proxy {
                     String[] heatbeatArg = heartbeat.split(" ");
 
                     if (heatbeatArg.length == 3 && heatbeatArg[0].equals("INIT")) {
+                        int min = Integer.parseInt(heatbeatArg[1]);
+                        int max = Integer.parseInt(heatbeatArg[2]);
                         
                     }
                 }
