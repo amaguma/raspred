@@ -70,6 +70,7 @@ public class Storage {
                 time = System.currentTimeMillis() + 2000;
             }
         }
-        
+        context.destroySocket(socket);
+        context.destroy();
     }
 }
