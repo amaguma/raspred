@@ -82,6 +82,8 @@ public class Proxy {
                     respMsg.wrap(msg.getFirst());
                     respMsg.send(frontend);
                 }
+            } else if (items.pollin(1)) {
+                
             }
         }
     }
