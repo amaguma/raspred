@@ -6,49 +6,37 @@ import java.util.Scanner;
 
 public class Client {
 
-    private static final String SOCKET_ADDRESS = "tcp://localhost:5556";
-    private static final String DELIMITER = " ";
-    private static final String EMPTY_COMMAND = "";
-    private static final String GET_REQ = "GET";
-    private static final String PUT_REQ = "PUT";
-    private static final int GET_REQ_LENGTH = 2;
-    private static final int PUT_REQ_LENGTH = 3;
-    private static final int INDEX_REQ = 0;
-    private static final int INDEX_KEY = 1;
-    private static final int INDEX_VALUE = 2;
-    private static final String WRONG_COMMAND = "Wrong command";
-    private static final String EMPTY_MSG = "Empty message";
 
     public static void main(String[] args) {
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.REQ);
-        socket.connect(SOCKET_ADDRESS);
+        socket.connect(Tools.FRONTEND_SOCKET_ADDRESS);
 
         Scanner in = new Scanner(System.in);
         while (true) {
             String command = in.nextLine();
 
-            if (command.equals(EMPTY_COMMAND)) {
+            if (command.equals(Tools.EMPTY_COMMAND)) {
                 break;
             }
 
-            String[] commands = command.split(DELIMITER);
+            String[] commands = command.split(Tools.DELIMITER);
 
-            if (commands.length == GET_REQ_LENGTH && commands[INDEX_REQ].equals(GET_REQ)) {
-                int key = Integer.parseInt(commands[INDEX_KEY]);
+            if (commands.length == Tools.GET_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.GET_REQ)) {
+                int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
 
-                String str = String.format(GET_REQ + " %d", key);
+                String str = String.format(Tools.GET_REQ + " %d", key);
                 String response = sendAndReceive(socket, str);
                 System.out.println(response);
-            } else if (commands.length == PUT_REQ_LENGTH && commands[INDEX_REQ].equals(PUT_REQ)) {
-                int key = Integer.parseInt(commands[INDEX_KEY]);
-                int value = Integer.parseInt(commands[INDEX_VALUE]);
+            } else if (commands.length == Tools.PUT_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.PUT_REQ)) {
+                int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
+                int value = Integer.parseInt(commands[Tools.INDEX_VALUE]);
 
-                String str = String.format(PUT_REQ + " %d %d", key, value);
+                String str = String.format(Tools.PUT_REQ + " %d %d", key, value);
                 String response = sendAndReceive(socket, str);
                 System.out.println(response);
             } else {
-                System.out.println(WRONG_COMMAND);
+                System.out.println(Tools.WRONG_COMMAND);
             }
         }
         context.destroySocket(socket);
