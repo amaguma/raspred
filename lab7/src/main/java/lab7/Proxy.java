@@ -18,6 +18,8 @@ public class Proxy {
     private static final int INDEX_MAX = 2;
     private static final int GET_REQ_LENGTH = 2;
     private static final int SET_REQ_LENGTH = 3;
+    private static final int INIT_LENGTH = 3;
+    private static final int HEARTBEAT_LENGTH = 1;
 
     private static ArrayList<Config> configs;
     private static ZMQ.Socket frontend;
@@ -106,7 +108,7 @@ public class Proxy {
                     String heartbeat = new String(frame.getData(), ZMQ.CHARSET);
                     String[] heartbeatArg = heartbeat.split(DELIMITER);
 
-                    if (heartbeatArg.length == 3 && heartbeatArg[INDEX_REQ].equals("INIT")) {
+                    if (heartbeatArg.length == INIT_LENGTH && heartbeatArg[INDEX_REQ].equals("INIT")) {
                         int min = Integer.parseInt(heartbeatArg[INDEX_MIN]);
                         int max = Integer.parseInt(heartbeatArg[INDEX_MAX]);
                         configs.add(new Config(
@@ -116,7 +118,7 @@ public class Proxy {
                            min,
                            max
                         ));
-                    } else if (heartbeatArg.length == 1 && heartbeatArg[INDEX_REQ].equals("HB")) {
+                    } else if (heartbeatArg.length == HEARTBEAT_LENGTH && heartbeatArg[INDEX_REQ].equals("HB")) {
                         setHeartbeat(id);
                     }
                 } else {
