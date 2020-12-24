@@ -1,9 +1,6 @@
 package lab7;
 
-import org.zeromq.SocketType;
-import org.zeromq.ZContext;
-import org.zeromq.ZFrame;
-import org.zeromq.ZMQ;
+import org.zeromq.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -30,6 +27,15 @@ public class Storage {
         while (!Thread.currentThread().isInterrupted()) {
             if (poller.poll(2000) == -1) {
                 break;
+            }
+            if (poller.pollin(0)) {
+                ZMsg msg = ZMsg.recvMsg(socket);
+                if (msg == null) {
+                    break;
+                }
+                if (msg.size() == 3) {
+                    
+                }
             }
         }
     }
