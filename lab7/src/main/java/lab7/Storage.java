@@ -65,7 +65,11 @@ public class Storage {
                     }
                 }
             }
-            
+            if (System.currentTimeMillis() >= time) {
+                System.out.println("RELOAD");
+                time = System.currentTimeMillis() + 2000;
+            }
         }
+        
     }
 }
