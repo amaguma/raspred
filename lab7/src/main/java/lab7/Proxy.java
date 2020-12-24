@@ -70,6 +70,15 @@ public class Proxy {
                     int key = Integer.parseInt(commands[1]);
 
                     int count = sendSetMsg(key, msg);
+                    String response;
+
+                    if (count > 0) {
+                        response = "Set in " + count + " storages";
+                    } else {
+                        response = "No storages responsible for key";
+                    }
+                    ZMsg respMsg = new ZMsg();
+
                 }
             }
         }
