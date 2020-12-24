@@ -57,7 +57,7 @@ public class Proxy {
                 ZFrame frame = msg.getLast();
 
                 String command = new String(frame.getData(), ZMQ.CHARSET);
-                String[] commands = command.split(Tools.DELIMITER);
+                String[] commands = Tools.splitStr(command);
 
                 if (commands.length == Tools.GET_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.GET_REQ)) {
                     int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
@@ -91,7 +91,7 @@ public class Proxy {
                 if (msg.size() == 1) {
                     ZFrame frame = msg.getFirst();
                     String heartbeat = new String(frame.getData(), ZMQ.CHARSET);
-                    String[] heartbeatArg = heartbeat.split(Tools.DELIMITER);
+                    String[] heartbeatArg = Tools.splitStr(heartbeat);
 
                     if (heartbeatArg.length == Tools.INIT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("INIT")) {
                         int min = Integer.parseInt(heartbeatArg[Tools.INDEX_MIN]);
