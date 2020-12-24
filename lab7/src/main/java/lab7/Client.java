@@ -32,6 +32,9 @@ public class Client {
                     response = new String(msg.getFirst().getData(), ZMQ.CHARSET);
                 }
                 System.out.println(response);
+            } else if (commands.length == 3 && commands[0].equals("SET")) {
+                int key = Integer.parseInt(commands[1]);
+                int value = Integer.parseInt(commands[2]);
             }
         }
     }
