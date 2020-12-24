@@ -87,8 +87,12 @@ public class Proxy {
 
                 ZFrame idFrame = msg.unwrap();
                 String id = new String(idFrame.getData());
+                if (msg.size() == 1) {
+                    ZFrame frame = msg.getFirst();
+                    String heartbeat = new String(frame.getData(), ZMQ.CHARSET);
+                    String[] heatbeats =
+                }
 
-                
             }
         }
     }
