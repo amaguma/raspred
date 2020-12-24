@@ -102,9 +102,20 @@ public class Proxy {
                            min,
                            max
                         ));
-                    } else if ()
+                    } else if (heatbeatArg.length == 1 && heatbeatArg[0].equals("HB")) {
+
+                    }
                 }
 
+            }
+        }
+    }
+
+    public static void setHeartbeat(String id) {
+        for (Config config : configs) {
+            if (config.getId().equals(id)) {
+                config.setTime(System.currentTimeMillis());
+                break;
             }
         }
     }
