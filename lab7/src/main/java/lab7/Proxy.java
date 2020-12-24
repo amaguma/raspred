@@ -86,11 +86,15 @@ public class Proxy {
                 ZMsg msg = ZMsg.recvMsg(backend);
 
                 ZFrame idFrame = msg.unwrap();
-                String id = new String(idFrame.getData());
+                String id = new String(idFrame.getData(), ZMQ.CHARSET);
                 if (msg.size() == 1) {
                     ZFrame frame = msg.getFirst();
                     String heartbeat = new String(frame.getData(), ZMQ.CHARSET);
                     String[] heatbeatArg = heartbeat.split(" ");
+
+                    if (heatbeatArg.length == 3 && heatbeatArg[0].equals("INIT")) {
+                        
+                    }
                 }
 
             }
