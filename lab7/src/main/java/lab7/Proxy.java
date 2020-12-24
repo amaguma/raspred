@@ -85,7 +85,7 @@ public class Proxy {
             } else if (items.pollin(1)) {
                 ZMsg msg = ZMsg.recvMsg(backend);
 
-                ZFrame idFrame =
+                ZFrame idFrame = 
             }
         }
     }
