@@ -6,8 +6,10 @@ import java.util.Scanner;
 
 public class Client {
 
-    private static final String SOCKET_ADDRESS = "tcp://localhost:5556"
+    private static final String SOCKET_ADDRESS = "tcp://localhost:5556";
     private static final String DELIMITER = " ";
+    private static final String EMPTY_COMMAND = "";
+    private static final String GET_REQ = "GET";
 
     public static void main(String[] args) {
         ZContext context = new ZContext();
@@ -18,13 +20,13 @@ public class Client {
         while (true) {
             String command = in.nextLine();
 
-            if (command.equals("")) {
+            if (command.equals(EMPTY_COMMAND)) {
                 break;
             }
 
             String[] commands = command.split(DELIMITER);
 
-            if (commands.length == 2 && commands[0].equals("GET")) {
+            if (commands.length == 2 && commands[0].equals(GET_REQ)) {
                 int key = Integer.parseInt(commands[1]);
 
                 String str = String.format("GET %d", key);
