@@ -38,15 +38,7 @@ public class Client {
                 int value = Integer.parseInt(commands[2]);
 
                 ZFrame frame = new ZFrame(String.format("SET %d %d", key, value));
-                frame.send(socket, 0);
-                ZMsg msg = ZMsg.recvMsg(socket);
-                String response;
-                if (msg == null) {
-                    response = "Empty message";
-                } else {
-                    response = new String(msg.getFirst().getData(), ZMQ.CHARSET);
-                }
-                System.out.println(response);
+                
             } else {
                 System.out.println("Unexpected command");
             }
