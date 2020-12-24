@@ -48,7 +48,7 @@ public class Storage {
 
                     if (commands.length == Tools.GET_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.GET_REQ)) {
                         int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
-                        System.out.println(GET_REQ + " " + key);
+                        System.out.println(Tools.GET_REQ + " " + key);
 
                         String response = "Wrong key";
 
@@ -59,10 +59,10 @@ public class Storage {
                         msg.getLast().reset(response);
                         msg.send(socket);
                     }
-                    if (commands.length == PUT_REQ_LENGTH && commands[INDEX_REQ].equals(PUT_REQ)) {
-                        int key = Integer.parseInt(commands[INDEX_KEY]);
-                        int value = Integer.parseInt(commands[INDEX_VALUE]);
-                        System.out.println(PUT_REQ + " " + key + " " + value);
+                    if (commands.length == Tools.PUT_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.PUT_REQ)) {
+                        int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
+                        int value = Integer.parseInt(commands[Tools.INDEX_VALUE]);
+                        System.out.println(Tools.PUT_REQ + " " + key + " " + value);
                         storage.put(key, value);
                         msg.destroy();
                     }
@@ -70,7 +70,7 @@ public class Storage {
             }
             if (System.currentTimeMillis() >= time) {
                 System.out.println("RELOAD");
-                time = System.currentTimeMillis() + TIMEOUT;
+                time = System.currentTimeMillis() + Tools.TIMEOUT;
             }
         }
         context.destroySocket(socket);
