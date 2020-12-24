@@ -9,8 +9,8 @@ public class Storage {
 
     private static final String SOCKET_ADDRESS = "tcp://localhost:5555";
     private static final int TIMEOUT = 2000;
-    private static final String GET = "GET";
-    private static final String SET = "SET";
+    private static final String GET_REQ = "GET";
+    private static final String SET_REQ = "SET";
     private static final int INDEX_REQ = 0;
     private static final int INDEX_KEY = 1;
     private static final int INDEX_VALUE = 2;
@@ -59,9 +59,9 @@ public class Storage {
                         System.out.println(s);
                     }
 
-                    if (commands.length == GET_REQ_LENGTH && commands[INDEX_REQ].equals(GET)) {
+                    if (commands.length == GET_REQ_LENGTH && commands[INDEX_REQ].equals(GET_REQ)) {
                         int key = Integer.parseInt(commands[INDEX_KEY]);
-                        System.out.println(GET + " " + key);
+                        System.out.println(GET_REQ + " " + key);
 
                         String response = "Wrong key";
 
@@ -72,10 +72,10 @@ public class Storage {
                         msg.getLast().reset(response);
                         msg.send(socket);
                     }
-                    if (commands.length == SET_REQ_LENGTH && commands[INDEX_REQ].equals(SET)) {
+                    if (commands.length == SET_REQ_LENGTH && commands[INDEX_REQ].equals(SET_REQ)) {
                         int key = Integer.parseInt(commands[INDEX_KEY]);
                         int value = Integer.parseInt(commands[INDEX_VALUE]);
-                        System.out.println(SET + " " + key + " " + value);
+                        System.out.println(SET_REQ + " " + key + " " + value);
                         storage.put(key, value);
                         msg.destroy();
                     }
