@@ -22,7 +22,9 @@ public class Client {
 
             String[] commands = command.split(" ");
 
-
+            if (commands.length == 2 && commands[0].equals("GET")) {
+                
+            }
         }
     }
 }
