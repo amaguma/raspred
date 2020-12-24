@@ -10,7 +10,7 @@ public class Storage {
 
     public static void main(String[] args) {
 
-        int min = Integer.parseInt(args[INDEX_MIN]);
+        int min = Integer.parseInt(args[Tools.INDEX_MIN]);
         int max = Integer.parseInt(args[INDEX_MAX]);
 
         ZContext context = new ZContext();
