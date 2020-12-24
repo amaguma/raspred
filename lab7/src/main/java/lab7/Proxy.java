@@ -46,9 +46,14 @@ public class Proxy {
                 String command = new String(frame.getData(), ZMQ.CHARSET);
                 String[] commands = command.split(" ");
 
-                if (commands.length == 2 && commands[0].equals("GET"));
-                int key = Integer.parseInt(commands[1]);
-
+                if (commands.length == 2 && commands[0].equals("GET")) {
+                    int key = Integer.parseInt(commands[1]);
+                    boolean get = sendGetMsg(key, msg);
+                    if (!get) {
+                        msg.getLast().reset("Wrong key");
+                        msg.send(frontend);
+                    }
+                }
             }
         }
     }
