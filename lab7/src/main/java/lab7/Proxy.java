@@ -20,6 +20,18 @@ public class Proxy {
         return false;
     }
 
+    public static int sendSetMsg(int key, ZMsg msg) {
+        int count = 0;
+        for (Config config : configs) {
+            if (config.getMin() <= key && key <= config.getMax()) {
+                config.getAddress().send(backend, ZFrame.REUSE + ZFrame.MORE);
+                msg.send(backend, false);
+                count++;
+            }
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         ZContext context = new ZContext();
         frontend = context.createSocket(SocketType.ROUTER);
@@ -55,7 +67,9 @@ public class Proxy {
                     }
                 }
                 if (commands.length == 3 && commands[0].equals("SET")) {
+                    int key = Integer.parseInt(commands[1]);
 
+                    int count = sendSetMsg(key, msg);
                 }
             }
         }
