@@ -54,6 +54,9 @@ public class Proxy {
                         msg.send(frontend);
                     }
                 }
+                if (commands.length == 3 && commands[0].equals("SET")) {
+
+                }
             }
         }
     }
