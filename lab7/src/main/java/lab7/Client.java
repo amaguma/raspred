@@ -48,7 +48,7 @@ public class Client {
         frame.send(socket, 0);
         ZMsg msg = ZMsg.recvMsg(socket);
         if (msg == null) {
-            return EMPTY_MSG;
+            return Tools.EMPTY_MSG;
         } else {
             return new String(msg.getFirst().getData(), ZMQ.CHARSET);
         }
