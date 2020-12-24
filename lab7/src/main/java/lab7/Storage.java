@@ -40,7 +40,7 @@ public class Storage {
                     ZFrame frame = msg.getLast();
                     String command = new String(frame.getData(), ZMQ.CHARSET);
 
-                    String[] commands = command.split(Tools.DELIMITER);
+                    String[] commands = Tools.splitStr(command);
 
                     for (String s : commands) {
                         System.out.println(s);
