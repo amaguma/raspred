@@ -20,7 +20,7 @@ public class Client {
                 break;
             }
 
-            String[] commands = command.split(Tools.DELIMITER);
+            String[] commands = Tools.splitStr(command);
 
             if (commands.length == Tools.GET_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.GET_REQ)) {
                 int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
