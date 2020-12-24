@@ -34,7 +34,8 @@ public class Storage {
                     break;
                 }
                 if (msg.size() == 3) {
-                    
+                    ZFrame frame = msg.getFirst();
+                    String command = new String(frame.getData(), ZMQ.CHARSET);
                 }
             }
         }
