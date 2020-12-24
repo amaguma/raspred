@@ -31,6 +31,9 @@ public class Proxy {
             if (items.pollin(0)) {
                 ZMsg msg = ZMsg.recvMsg(frontend);
                 ZFrame frame = msg.getLast();
+
+                String command = new String(frame.getData(), ZMQ.CHARSET);
+                String[] commands = command.split(" ")
             }
         }
     }
