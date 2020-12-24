@@ -24,5 +24,15 @@ public class Proxy {
         ZMQ.Poller items = context.createPoller(2);
         items.register(frontend, ZMQ.Poller.POLLIN);
         items.register(backend, ZMQ.Poller.POLLIN);
+
+        while (!Thread.currentThread().isInterrupted()) {
+            if (items.poll(2000) == -1) {
+                break;
+            }
+
+            if (items.pollin(0)) {
+                
+            }
+        }
     }
 }
