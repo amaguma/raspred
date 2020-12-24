@@ -7,6 +7,9 @@ import java.util.Map;
 
 public class Storage {
     public static void main(String[] args) {
+
+        private static final String SOCKET_ADDRESS = "tcp://localhost:5555";
+
         int min = Integer.parseInt(args[0]);
         int max = Integer.parseInt(args[1]);
 
