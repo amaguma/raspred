@@ -56,9 +56,16 @@ public class Storage {
                         msg.getLast().reset(response);
                         msg.send(socket);
                     }
-                    if 
+                    if (commands.length == 3 && commands[0].equals("SET")) {
+                        int key = Integer.parseInt(commands[1]);
+                        int value = Integer.parseInt(commands[2]);
+                        System.out.println("SET " + key + " " + value);
+                        storage.put(key, value);
+                        msg.destroy();
+                    }
                 }
             }
+            
         }
     }
 }
