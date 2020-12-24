@@ -26,5 +26,11 @@ public class Storage {
         Map<Integer, Integer> storage = new HashMap<>();
 
         long time = System.currentTimeMillis() + 2000;
+
+        while (!Thread.currentThread().isInterrupted()) {
+            if (poller.poll(2000) == -1) {
+                break;
+            }
+        }
     }
 }
