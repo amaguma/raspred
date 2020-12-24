@@ -6,16 +6,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Storage {
-    public static void main(String[] args) {
 
-        private static final String SOCKET_ADDRESS = "tcp://localhost:5555";
+    private static final String SOCKET_ADDRESS = "tcp://localhost:5555";
+    private static final int TIMEOUT = 2000;
+    public static void main(String[] args) {
 
         int min = Integer.parseInt(args[0]);
         int max = Integer.parseInt(args[1]);
 
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.DEALER);
-        socket.connect("tcp://localhost:5555");
+        socket.connect(SOCKET_ADDRESS);
         ZFrame init = new ZFrame(String.format("INIT %d %d", min, max));
         init.send(socket, 0);
         System.out.println("Storage");
@@ -25,10 +26,10 @@ public class Storage {
 
         Map<Integer, Integer> storage = new HashMap<>();
 
-        long time = System.currentTimeMillis() + 2000;
+        long time = System.currentTimeMillis() + TIMEOUT;
 
         while (!Thread.currentThread().isInterrupted()) {
-            if (poller.poll(2000) == -1) {
+            if (poller.poll(TIMEOUT) == -1) {
                 break;
             }
             if (poller.pollin(0)) {
@@ -70,7 +71,7 @@ public class Storage {
             }
             if (System.currentTimeMillis() >= time) {
                 System.out.println("RELOAD");
-                time = System.currentTimeMillis() + 2000;
+                time = System.currentTimeMillis() + TIMEOUT;
             }
         }
         context.destroySocket(socket);
