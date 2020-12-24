@@ -10,9 +10,9 @@ public class Client {
     private static final String DELIMITER = " ";
     private static final String EMPTY_COMMAND = "";
     private static final String GET_REQ = "GET";
-    private static final String SET_REQ = "SET";
+    private static final String PUT_REQ = "PUT";
     private static final int GET_REQ_LENGTH = 2;
-    private static final int SET_REQ_LENGTH = 3;
+    private static final int PUT_REQ_LENGTH = 3;
     private static final int INDEX_REQ = 0;
     private static final int INDEX_KEY = 1;
     private static final int INDEX_VALUE = 2;
@@ -40,11 +40,11 @@ public class Client {
                 String str = String.format(GET_REQ + " %d", key);
                 String response = sendAndReceive(socket, str);
                 System.out.println(response);
-            } else if (commands.length == SET_REQ_LENGTH && commands[INDEX_REQ].equals(SET_REQ)) {
+            } else if (commands.length == PUT_REQ_LENGTH && commands[INDEX_REQ].equals(PUT_REQ)) {
                 int key = Integer.parseInt(commands[INDEX_KEY]);
                 int value = Integer.parseInt(commands[INDEX_VALUE]);
 
-                String str = String.format(SET_REQ + " %d %d", key, value);
+                String str = String.format(PUT_REQ + " %d %d", key, value);
                 String response = sendAndReceive(socket, str);
                 System.out.println(response);
             } else {
