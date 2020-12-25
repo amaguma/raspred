@@ -17,6 +17,7 @@ public class Client {
             String command = in.nextLine();
 
             if (command.equals(Tools.EMPTY_COMMAND)) {
+                System.out.println("error");
                 break;
             }
 
