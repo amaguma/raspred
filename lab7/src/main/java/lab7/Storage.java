@@ -14,7 +14,9 @@ public class Storage {
 //        int min = Integer.parseInt(args[Tools.INDEX_MIN]);
 //        int max = Integer.parseInt(args[Tools.INDEX_MAX]);
 
-        Scanner 
+        Scanner in = new Scanner(System.in);
+        int min = in.nextInt();
+        int max = in.nextInt();
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.DEALER);
         socket.connect(Tools.BACKEND_SOCKET_ADDRESS);
