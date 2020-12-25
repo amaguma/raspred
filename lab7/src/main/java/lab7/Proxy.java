@@ -111,12 +111,12 @@ public class Proxy {
                 }
             }
 
-//            for (Config config : configs) {
-//                if (config.isNotAlive()) {
-//                    configs.remove(config);
-//                    break;
-//                }
-//            }
+            for (Config config : configs) {
+                if (config.isNotAlive()) {
+                    configs.remove(config);
+                    break;
+                }
+            }
         }
         context.destroySocket(frontend);
         context.destroySocket(backend);

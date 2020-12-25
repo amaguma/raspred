@@ -72,6 +72,8 @@ public class Storage {
             if (System.currentTimeMillis() >= time) {
                 System.out.println("RELOAD");
                 time = System.currentTimeMillis() + Tools.TIMEOUT;
+                ZFrame frame = new ZFrame("HB");
+                frame.send(socket, 0);
             }
         }
         context.destroySocket(socket);
