@@ -26,9 +26,9 @@ public class Tools {
     public static final int MIN_THRESHOLD_INDEX = 1;
     public static final int MAX_THRESHOLD_INDEX = 2;
 
-    private static final String CLIENT_MSG = "Client";
-    private static final String PROXY_MSG = "Proxy";
-    private static final String STORAGE_MSG = "Storage";
+    public static final String CLIENT_MSG = "Client";
+    public static final String PROXY_MSG = "Proxy";
+    public static final String STORAGE_MSG = "Storage";
 
     public static String[] splitStr(String command) {
         return command.split(DELIMITER);

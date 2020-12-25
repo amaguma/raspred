@@ -10,7 +10,7 @@ public class Storage {
 
 
     public static void main(String[] args) {
-        System.out.println(Tools.S);
+        System.out.println(Tools.STORAGE_MSG);
 //        int min = Integer.parseInt(args[Tools.INDEX_MIN]);
 //        int max = Integer.parseInt(args[Tools.INDEX_MAX]);
 
@@ -49,7 +49,7 @@ public class Storage {
 
                     if (commands.length == Tools.GET_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.GET_REQ)) {
                         int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
-                        System.out.println(Tools.GET_REQ + " " + key);
+                        System.out.println(Tools.GET_REQ + Tools.DELIMITER + key);
 
                         String response = "Wrong key";
 
@@ -63,7 +63,7 @@ public class Storage {
                     if (commands.length == Tools.PUT_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.PUT_REQ)) {
                         int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
                         int value = Integer.parseInt(commands[Tools.INDEX_VALUE]);
-                        System.out.println(Tools.PUT_REQ + " " + key + " " + value);
+                        System.out.println(Tools.PUT_REQ + Tools.DELIMITER + key + Tools.DELIMITER + value);
                         storage.put(key, value);
                         msg.destroy();
                     }
