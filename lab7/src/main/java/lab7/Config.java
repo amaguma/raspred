@@ -4,8 +4,6 @@ import org.zeromq.ZFrame;
 
 public class Config {
 
-    private static final long TIMEOUT = 4000;
-
     private ZFrame address;
     private String id;
     private long time;
@@ -61,6 +59,6 @@ public class Config {
     }
 
     public boolean isNotAlive() {
-        return this.time + TIMEOUT < System.currentTimeMillis();
+        return this.time + 2 * Tools.TIMEOUT < System.currentTimeMillis();
     }
 }
