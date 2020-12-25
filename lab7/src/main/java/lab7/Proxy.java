@@ -110,13 +110,7 @@ public class Proxy {
                     msg.send(frontend);
                 }
             }
-
-            for (Config config : configs) {
-                if (config.isNotAlive()) {
-                    configs.remove(config);
-                    break;
-                }
-            }
+            delConfigs();
         }
         context.destroySocket(frontend);
         context.destroySocket(backend);
@@ -127,6 +121,15 @@ public class Proxy {
         for (Config config : configs) {
             if (config.getId().equals(id)) {
                 config.setTime(System.currentTimeMillis());
+                break;
+            }
+        }
+    }
+
+    public static void delConfigs() {
+        for (Config config : configs) {
+            if (config.isNotAlive()) {
+                configs.remove(config);
                 break;
             }
         }
