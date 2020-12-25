@@ -2,7 +2,7 @@ package lab7;
 
 public class Tools {
 
-    public static final int TIMEOUT = 7000;
+    public static final int TIMEOUT = 2000;
     public static final String GET_REQ = "GET";
     public static final String PUT_REQ = "PUT";
     public static final int INDEX_REQ = 0;

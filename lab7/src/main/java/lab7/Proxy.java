@@ -24,9 +24,6 @@ public class Proxy {
     public static int sendSetMsg(int key, ZMsg msg) {
         int count = 0;
         for (Config config : configs) {
-            System.out.println("min: " + config.getMin());
-            System.out.println("max: " + config.getMax());
-            System.out.println("key: " + key);
             if (config.getMin() <= key && key <= config.getMax()) {
                 config.getAddress().send(backend, ZFrame.REUSE + ZFrame.MORE);
                 msg.send(backend, false);
