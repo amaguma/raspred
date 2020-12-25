@@ -70,7 +70,6 @@ public class Storage {
                 }
             }
             if (System.currentTimeMillis() >= time) {
-                System.out.println("RELOAD");
                 time = System.currentTimeMillis() + Tools.TIMEOUT;
                 ZFrame frame = new ZFrame(Tools.TIME);
                 frame.send(socket, 0);
