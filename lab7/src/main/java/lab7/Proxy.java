@@ -99,8 +99,6 @@ public class Proxy {
                         System.out.println("INIT POPAL SUDA1");
                         int min = Integer.parseInt(heartbeatArg[Tools.MIN_THRESHOLD_INDEX]);
                         int max = Integer.parseInt(heartbeatArg[Tools.MAX_THRESHOLD_INDEX]);
-                        System.out.println(min);
-                        System.out.println(max);
                         configs.add(new Config(
                            idFrame,
                            id,
@@ -108,7 +106,6 @@ public class Proxy {
                            min,
                            max
                         ));
-                        System.out.println(configs);
                     } else if (heartbeatArg.length == Tools.HEARTBEAT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("HB")) {
                         setHeartbeat(id);
                     }
