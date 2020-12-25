@@ -4,6 +4,7 @@ import org.zeromq.*;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Storage {
 
@@ -13,7 +14,7 @@ public class Storage {
 //        int min = Integer.parseInt(args[Tools.INDEX_MIN]);
 //        int max = Integer.parseInt(args[Tools.INDEX_MAX]);
 
-        
+        Scanner 
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.DEALER);
         socket.connect(Tools.BACKEND_SOCKET_ADDRESS);
