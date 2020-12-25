@@ -111,7 +111,7 @@ public class Proxy {
                     String heartbeat = new String(frame.getData(), ZMQ.CHARSET);
                     String[] heartbeatArg = Tools.splitStr(heartbeat);
 
-                    if (heartbeatArg.length == Tools.INIT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("INIT")) {
+                    if (heartbeatArg.length == Tools.INIT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals(Tools.NOTIFY)) {
                         int min = Integer.parseInt(heartbeatArg[Tools.MIN_THRESHOLD_INDEX]);
                         int max = Integer.parseInt(heartbeatArg[Tools.MAX_THRESHOLD_INDEX]);
                         configs.add(new Config(
@@ -121,7 +121,7 @@ public class Proxy {
                            min,
                            max
                         ));
-                    } else if (heartbeatArg.length == Tools.HEARTBEAT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("HB")) {
+                    } else if (heartbeatArg.length == Tools.HEARTBEAT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals(Tools.TIME)) {
                         setHeartbeat(id);
                     }
                 } else {

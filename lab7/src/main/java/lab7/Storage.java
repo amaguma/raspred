@@ -20,7 +20,7 @@ public class Storage {
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.DEALER);
         socket.connect(Tools.BACKEND_SOCKET_ADDRESS);
-        ZFrame init = new ZFrame(String.format("INIT %d %d", min, max));
+        ZFrame init = new ZFrame(String.format("%s %d %d", Tools.NOTIFY, min, max));
         init.send(socket, 0);
 
         ZMQ.Poller poller = context.createPoller(1);
@@ -72,7 +72,7 @@ public class Storage {
             if (System.currentTimeMillis() >= time) {
                 System.out.println("RELOAD");
                 time = System.currentTimeMillis() + Tools.TIMEOUT;
-                ZFrame frame = new ZFrame("HB");
+                ZFrame frame = new ZFrame(Tools.TIME);
                 frame.send(socket, 0);
             }
         }
