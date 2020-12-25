@@ -105,7 +105,7 @@ public class Proxy {
                            min,
                            max
                         ));
-                    } else if (heartbeatArg.length == Tools.HEARTBEAT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("HB")) {
+                    } else if (heartbeatArg.length == Tools.HEARTBEAT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("RELOAD")) {
                         setHeartbeat(id);
                     }
                 } else {
