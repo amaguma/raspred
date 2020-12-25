@@ -77,6 +77,10 @@ public class Proxy {
                 String command = new String(frame.getData(), ZMQ.CHARSET);
                 String[] commands = Tools.splitStr(command);
 
+                for (String s : commands) {
+                    System.out.println(s);
+                }
+
                 if (commands.length == Tools.GET_REQ_LENGTH && commands[Tools.INDEX_REQ].equals(Tools.GET_REQ)) {
                     int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
                     boolean get = sendGetMsg(key, msg);
