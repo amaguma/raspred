@@ -96,7 +96,6 @@ public class Proxy {
                     String[] heartbeatArg = Tools.splitStr(heartbeat);
 
                     if (heartbeatArg.length == Tools.INIT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("INIT")) {
-                        System.out.println("INIT POPAL SUDA1");
                         int min = Integer.parseInt(heartbeatArg[Tools.MIN_THRESHOLD_INDEX]);
                         int max = Integer.parseInt(heartbeatArg[Tools.MAX_THRESHOLD_INDEX]);
                         configs.add(new Config(
