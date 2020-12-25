@@ -133,6 +133,7 @@ public class Proxy {
                 }
             }
             delConfigs();
+            System.out.println("size: " + configs.size());
         }
         context.destroySocket(frontend);
         context.destroySocket(backend);
