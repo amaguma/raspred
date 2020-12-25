@@ -10,7 +10,7 @@ public class Storage {
 
 
     public static void main(String[] args) {
-        System.out.println("Storage");
+        System.out.println(Tools.S);
 //        int min = Integer.parseInt(args[Tools.INDEX_MIN]);
 //        int max = Integer.parseInt(args[Tools.INDEX_MAX]);
 
