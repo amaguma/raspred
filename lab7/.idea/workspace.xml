@@ -199,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Storage">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab7.Client" />
       <module name="lab7" />
@@ -241,9 +241,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Storage" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Proxy" />
-        <item itemvalue="Application.Storage" />
       </list>
     </recent_temporary>
   </component>
