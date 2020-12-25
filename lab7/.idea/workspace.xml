@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab7/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1054">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="499">
+              <caret line="109" column="39" lean-forward="true" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Proxy">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab7.Client" />
       <module name="lab7" />
@@ -242,9 +242,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Proxy" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Storage" />
+        <item itemvalue="Application.Proxy" />
       </list>
     </recent_temporary>
   </component>
@@ -259,12 +259,12 @@
       <option name="presentableId" value="Default" />
       <updated>1608826152852</updated>
       <workItem from="1608826157355" duration="16980000" />
-      <workItem from="1608907749950" duration="5772000" />
+      <workItem from="1608907749950" duration="6017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22752000" />
+    <option name="totallyTimeSpent" value="22997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -303,6 +303,42 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lab7/Proxy.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lab7/Proxy.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lab7/Proxy.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lab7/Proxy.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lab7/Proxy.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/lab7/Config.java">
@@ -348,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab7/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1054">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="499">
+          <caret line="109" column="39" lean-forward="true" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
