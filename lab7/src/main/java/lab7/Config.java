@@ -4,7 +4,7 @@ import org.zeromq.ZFrame;
 
 public class Config {
 
-    private static final long TIMEOUT = 4000;
+    private static final long TIMEOUT = 10000;
 
     private ZFrame address;
     private String id;
