@@ -10,7 +10,7 @@ public class Storage {
 
 
     public static void main(String[] args) {
-
+        System.out.println("Storage");
 //        int min = Integer.parseInt(args[Tools.INDEX_MIN]);
 //        int max = Integer.parseInt(args[Tools.INDEX_MAX]);
 
@@ -22,8 +22,7 @@ public class Storage {
         socket.connect(Tools.BACKEND_SOCKET_ADDRESS);
         ZFrame init = new ZFrame(String.format("INIT %d %d", min, max));
         init.send(socket, 0);
-        System.out.println("Storage");
-
+        
         ZMQ.Poller poller = context.createPoller(1);
         poller.register(socket, ZMQ.Poller.POLLIN);
 
