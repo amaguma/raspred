@@ -59,7 +59,7 @@ public class Proxy {
         backend.bind(Tools.BACKEND_SOCKET_ADDRESS);
 
         configs = new ArrayList<>();
-        System.out.println("Proxy");
+        System.out.println(Tools.PROXY_MSG);
 
         ZMQ.Poller items = context.createPoller(2);
         items.register(frontend, ZMQ.Poller.POLLIN);
