@@ -103,7 +103,7 @@ public class Proxy {
                            min,
                            max
                         ));
-                    } else if (heartbeatArg.length == Tools.HEARTBEAT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("RELOAD")) {
+                    } else if (heartbeatArg.length == Tools.HEARTBEAT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("HB")) {
                         setHeartbeat(id);
                     }
                 } else {
@@ -111,12 +111,12 @@ public class Proxy {
                 }
             }
 
-//            for (Config config : configs) {
-//                if (config.isNotAlive()) {
-//                    configs.remove(config);
-//                    break;
-//                }
-//            }
+            for (Config config : configs) {
+                if (config.isNotAlive()) {
+                    configs.remove(config);
+                    break;
+                }
+            }
         }
         context.destroySocket(frontend);
         context.destroySocket(backend);
