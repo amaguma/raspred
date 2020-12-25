@@ -22,7 +22,7 @@ public class Storage {
         socket.connect(Tools.BACKEND_SOCKET_ADDRESS);
         ZFrame init = new ZFrame(String.format("INIT %d %d", min, max));
         init.send(socket, 0);
-        
+
         ZMQ.Poller poller = context.createPoller(1);
         poller.register(socket, ZMQ.Poller.POLLIN);
 
