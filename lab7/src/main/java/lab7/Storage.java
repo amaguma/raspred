@@ -51,7 +51,7 @@ public class Storage {
                         int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
                         System.out.println(Tools.GET_REQ + Tools.DELIMITER + key);
 
-                        String response = "Wrong key";
+                        String response = Tools.WRONG_KEY;
 
                         if (storage.containsKey(key)) {
                             int value = storage.get(key);

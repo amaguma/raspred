@@ -81,7 +81,7 @@ public class Proxy {
                     int key = Integer.parseInt(commands[Tools.INDEX_KEY]);
                     boolean get = sendGetMsg(key, msg);
                     if (!get) {
-                        msg.getLast().reset("Wrong key");
+                        msg.getLast().reset(Tools.WRONG_KEY);
                         msg.send(frontend);
                     }
                 }
