@@ -24,6 +24,8 @@ public class Proxy {
     public static int sendSetMsg(int key, ZMsg msg) {
         int count = 0;
         for (Config config : configs) {
+            System.out.println(config.getMin());
+            System.out.println(config.getMax());
             if (config.getMin() <= key && key <= config.getMax()) {
                 config.getAddress().send(backend, ZFrame.REUSE + ZFrame.MORE);
                 msg.send(backend, false);
@@ -94,6 +96,7 @@ public class Proxy {
                     String[] heartbeatArg = Tools.splitStr(heartbeat);
 
                     if (heartbeatArg.length == Tools.INIT_LENGTH && heartbeatArg[Tools.INDEX_REQ].equals("INIT")) {
+                        System.out.println("INIT POPAL SUDA1");
                         int min = Integer.parseInt(heartbeatArg[Tools.MIN_THRESHOLD_INDEX]);
                         int max = Integer.parseInt(heartbeatArg[Tools.MAX_THRESHOLD_INDEX]);
                         configs.add(new Config(
