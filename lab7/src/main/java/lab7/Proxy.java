@@ -96,9 +96,9 @@ public class Proxy {
                     String response;
 
                     if (count > 0) {
-                        response = "Set in " + count + " storages";
+                        response = "Set in " + count + " storage";
                     } else {
-                        response = "No storages responsible for key";
+                        response = "No storage responsible for key";
                     }
                     ZMsg respMsg = new ZMsg();
                     respMsg.add(new ZFrame(response));
@@ -133,7 +133,6 @@ public class Proxy {
                 }
             }
             delConfigs();
-            System.out.println("size: " + configs.size());
         }
         context.destroySocket(frontend);
         context.destroySocket(backend);

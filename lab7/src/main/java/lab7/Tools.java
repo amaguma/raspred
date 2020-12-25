@@ -29,7 +29,7 @@ public class Tools {
     public static final String CLIENT_MSG = "Client";
     public static final String PROXY_MSG = "Proxy";
     public static final String STORAGE_MSG = "Storage";
-    public static final String WRONG_KEY = "Wrong_key";
+    public static final String WRONG_KEY = "Wrong key";
     public static final String ERROR = "error";
     public static final String NOTIFY = "Notify";
     public static final String TIME = "TIME";
