@@ -33,6 +33,24 @@ public class Proxy {
         return count;
     }
 
+    public static void setHeartbeat(String id) {
+        for (Config config : configs) {
+            if (config.getId().equals(id)) {
+                config.setTime(System.currentTimeMillis());
+                break;
+            }
+        }
+    }
+
+    public static void delConfigs() {
+        for (Config config : configs) {
+            if (config.isNotAlive()) {
+                configs.remove(config);
+                break;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         ZContext context = new ZContext();
         frontend = context.createSocket(SocketType.ROUTER);
@@ -115,23 +133,5 @@ public class Proxy {
         context.destroySocket(frontend);
         context.destroySocket(backend);
         context.destroy();
-    }
-
-    public static void setHeartbeat(String id) {
-        for (Config config : configs) {
-            if (config.getId().equals(id)) {
-                config.setTime(System.currentTimeMillis());
-                break;
-            }
-        }
-    }
-
-    public static void delConfigs() {
-        for (Config config : configs) {
-            if (config.isNotAlive()) {
-                configs.remove(config);
-                break;
-            }
-        }
     }
 }
